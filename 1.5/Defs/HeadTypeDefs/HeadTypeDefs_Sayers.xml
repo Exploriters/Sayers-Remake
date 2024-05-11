@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <HeadTypeDef ParentName="AverageBase">
+        <gender>None</gender>
+        <defName>Sayers_Prototype_Head1</defName>
+        <graphicPath>Things/Pawn/Sayers/Prototype/Heads/Sayers_Prototype_Head1</graphicPath>
+    </HeadTypeDef>
+</Defs>

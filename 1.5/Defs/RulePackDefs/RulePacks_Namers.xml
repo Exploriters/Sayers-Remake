@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <RulePackDef>
+    <defName>NamerPersonSayers</defName>
+    <include>
+      <li>TribalWordUtility</li>
+    </include>
+    <rulePack>
+      <rulesStrings>
+        <li>r_name->[Color][Animal]赛尔斯</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>NamerFactionSayers</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_name->赛尔斯</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>NamerSettlementSayers</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_name->赛尔斯群体</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+</Defs>
