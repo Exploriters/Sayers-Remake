@@ -176,6 +176,12 @@
             <manhunterOnTameFailChance>0.02</manhunterOnTameFailChance>
         </race>
         <alienRace>
+            <graphicPaths>
+                <!--<head>Things/Pawn/Sayers/Heads/</head>-->
+                <body>Things/Pawn/Sayers/Prototype/Bodies/</body>
+                <!--<skeleton>Things/Pawn/Sayers/Bodies/Dessicated/Dessicated_SayersBody</skeleton>-->
+                <!--<skull>Things/Pawn/Sayers/Heads/Skull/Sayers_Head1_Skull</skull>-->
+            </graphicPaths>
             <generalSettings>
                 <maleGenderProbability>0.5</maleGenderProbability>
                 <!--<growthAges>
@@ -357,7 +363,7 @@
                         <li>Sayers_Prototype_Head1</li>
                     </headTypes>
                     <bodyTypes Inherit="False">
-                        <li>Thin</li>
+                        <li>Sayers_Prototype_Body</li>
                     </bodyTypes>
                     <!--<oldHairAgeRange>999.0~999.0</oldHairAgeRange>-->
                     <!-- BODY ADDONS -->
@@ -365,9 +371,22 @@
                         <li>
                             <path>Things/Pawn/Sayers/Prototype/Flowers/InEye/Sayers_Prototype_EyeFlower</path>
                             <conditions>
-                                <bodyPart>BorneyeFlowers</bodyPart>
-                                <bodyPartLabel>眼生花</bodyPartLabel>
+                                <BodyPart>
+                                    <bodyPartLabel>眼生花</bodyPartLabel>
+                                </BodyPart>
                             </conditions>
+                            <colorChannel>hair</colorChannel>
+                            <inFrontOfBody>true</inFrontOfBody>
+                            <alignWithHead>true</alignWithHead>
+                        </li>
+                        <li>
+                            <path>Things/Pawn/Sayers/Prototype/Flowers/OnNeck/Sayers_Prototype_ThroatFlower</path>
+                            <conditions>
+                                <BodyPart>
+                                    <bodyPartLabel>喉生花</bodyPartLabel>
+                                </BodyPart>
+                            </conditions>
+                            <layerInvert>false</layerInvert>
                             <colorChannel>hair</colorChannel>
                             <inFrontOfBody>true</inFrontOfBody>
                             <alignWithHead>true</alignWithHead>
@@ -375,8 +394,9 @@
                         <li>
                             <path>Things/Pawn/Sayers/Prototype/Ears/Sayers_Prototype_DLear1</path>
                             <conditions>
-                                <bodyPart>SayersEar</bodyPart>
-                                <bodyPartLabel>左下耳</bodyPartLabel>
+                                <BodyPart>
+                                    <bodyPartLabel>左下耳</bodyPartLabel>
+                                </BodyPart>
                             </conditions>
                             <colorChannel>skin</colorChannel>
                             <inFrontOfBody>true</inFrontOfBody>
@@ -385,8 +405,9 @@
                         <li>
                             <path>Things/Pawn/Sayers/Prototype/Ears/Sayers_Prototype_DRear1</path>
                             <conditions>
-                                <bodyPart>SayersEar</bodyPart>
-                                <bodyPartLabel>右下耳</bodyPartLabel>
+                                <BodyPart>
+                                    <bodyPartLabel>右下耳</bodyPartLabel>
+                                </BodyPart>
                             </conditions>
                             <colorChannel>skin</colorChannel>
                             <inFrontOfBody>true</inFrontOfBody>
@@ -395,8 +416,9 @@
                         <li>
                             <path>Things/Pawn/Sayers/Prototype/Ears/Sayers_Prototype_ULear1</path>
                             <conditions>
-                                <bodyPart>SayersEar</bodyPart>
-                                <bodyPartLabel>左上耳</bodyPartLabel>
+                                <BodyPart>
+                                    <bodyPartLabel>左上耳</bodyPartLabel>
+                                </BodyPart>
                             </conditions>
                             <colorChannel>skin</colorChannel>
                             <inFrontOfBody>true</inFrontOfBody>
@@ -405,8 +427,9 @@
                         <li>
                             <path>Things/Pawn/Sayers/Prototype/Ears/Sayers_Prototype_URear1</path>
                             <conditions>
-                                <bodyPart>SayersEar</bodyPart>
-                                <bodyPartLabel>右上耳</bodyPartLabel>
+                                <BodyPart>
+                                    <bodyPartLabel>右上耳</bodyPartLabel>
+                                </BodyPart>
                             </conditions>
                             <colorChannel>skin</colorChannel>
                             <inFrontOfBody>true</inFrontOfBody>
@@ -415,7 +438,7 @@
                     </bodyAddons>
                 </alienPartGenerator>
                 <!-- BIOTECH -->
-                <raceGenes>
+                <!--<raceGenes>
                     <li>
                         <defName>Sayers_Fur_Brown</defName>               
                     </li>
@@ -470,7 +493,7 @@
                     <li>
                         <defName>Sayers_Flower_DarkBlue</defName>
                     </li>
-                </raceGenes>
+                </raceGenes>-->
                 <!--<growthFactorByAge>
                     <points>
                         <li>(0,0.5)</li>
@@ -482,6 +505,7 @@
             </generalSettings>
             <raceRestriction>
                 <onlyUseRaceRestrictedApparel>true</onlyUseRaceRestrictedApparel>
+                <onlyUseRaceRestrictedWeapons>true</onlyUseRaceRestrictedWeapons>
                 <!-- BIOTECH -->
                 <geneList>
                     <li>Sayers_Fur_Brown</li>
@@ -548,7 +572,7 @@
                 <canReproduce>false</canReproduce>
             </raceRestriction>
             <thoughtSettings>
-                <cannotReceiveThoughts>
+                <!--<cannotReceiveThoughts>
                     <li>RebuffedMyRomanceAttemptMood</li>
                     <li>FailedRomanceAttemptOnMeLowOpinionMood</li>
                     <li>Expectations</li>
@@ -629,7 +653,8 @@
                     <li>WearingColor_Favorite</li>
                     <li>DefeatedMechCluster</li>
                     <li>DeniedJoining</li>
-                </cannotReceiveThoughts>
+                </cannotReceiveThoughts>-->
+                <cannotReceiveThoughtsAtAll>true</cannotReceiveThoughtsAtAll>
             </thoughtSettings>
             <relationSettings>
                 <relationChanceModifierLover>0</relationChanceModifierLover>
@@ -641,6 +666,26 @@
                 <relationChanceModifierChild>0</relationChanceModifierChild>
                 <relationChanceModifierSibling>0</relationChanceModifierSibling>
             </relationSettings>
+            <styleSettings>
+                <li>
+                    <key>HairDef</key>
+                    <value>
+                        <hasStyle>false</hasStyle>
+                    </value>
+                </li>
+                <li>
+                    <key>BeardDef</key>
+                    <value>
+                        <hasStyle>false</hasStyle>
+                    </value>
+                </li>
+                <li>
+                    <key>TattooDef</key>
+                    <value>
+                        <hasStyle>false</hasStyle>
+                    </value>
+                </li>
+            </styleSettings>
         </alienRace>
     </AlienRace.ThingDef_AlienRace>
 </Defs>

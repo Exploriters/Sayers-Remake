@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
     <!-- FUR COLORS -->
-    <GeneDef ParentName="GeneSkinColorMelanin" Name="SayersGeneFurColorOverride" Abstract="True">
+    <GeneDef ParentName="GeneSkinColorOverride" Name="SayersGeneFurColorOverride" Abstract="True">
         <iconPath>UI/Icons/Genes/Gene_FurColorOverride</iconPath>
     </GeneDef>
 
