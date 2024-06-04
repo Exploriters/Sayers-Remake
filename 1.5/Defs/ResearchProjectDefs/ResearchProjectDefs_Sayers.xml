@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<ResearchProjectDef Name="SayersTechBase" Abstract="True">
+		<tab>ResearchTabs_Sayers</tab>
+		<description>TODO。</description>
+		<baseCost>100</baseCost>
+		<techLevel>Neolithic</techLevel>
+		<prerequisites></prerequisites>
+		<hiddenPrerequisites></hiddenPrerequisites>
+		<researchViewX>0.0</researchViewX>
+		<researchViewY>0.0</researchViewY>
+	</ResearchProjectDef>
+	<!-- 列1 0.0 -->
+	<ResearchProjectDef>
+		<defName>SayersTech_RootProject</defName>
+		<label>赛尔斯科技树(WIP)</label>
+		<tab>ResearchTabs_Sayers</tab>
+		<description>允许进一步研究赛尔斯相关科技。\n\n&lt;color=#b06868&gt;&lt;b&gt;勿视、勿言、勿触\n不闻、不思、不念\n广识招灾、无知是福。&lt;/b&gt;&lt;/color&gt;\n\n未完成，请勿研究。</description>
+		<baseCost>999999999</baseCost>
+		<techLevel>Neolithic</techLevel>
+		<prerequisites></prerequisites>
+		<hiddenPrerequisites></hiddenPrerequisites>
+		<researchViewY>0.7</researchViewY>
+		<researchViewX>0.0</researchViewX>
+	</ResearchProjectDef>
+</Defs>

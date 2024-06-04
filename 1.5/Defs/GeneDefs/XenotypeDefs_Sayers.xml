@@ -4,9 +4,10 @@
         <defName>Sayers_Prototype</defName>
         <label>原型体</label>
         <description>最早被成功制造出来的赛尔斯个体，作为之后诞生的赛尔斯分化的原型。</description>
-        <iconPath>UI/Icons/Xenotypes/Baseliner</iconPath>
+        <iconPath>UI/Icons/Xenotypes/Sayers/Prototype</iconPath>
+		<inheritable>true</inheritable>
         <genes>
-            <li>WoundHealing_Fast</li>
+            <!--<li>WoundHealing_Fast</li>
             <li>Immunity_Strong</li>
             <li>ToxicEnvironmentResistance_Total</li>
             <li>Sterile</li>
@@ -26,7 +27,7 @@
             <li>MeleeDamage_Strong</li>
             <li>Libido_Low</li>
             <li>Hair_BaldOnly</li>
-            <li>Beard_NoBeardOnly</li>
+            <li>Beard_NoBeardOnly</li>-->
         </genes>
     </XenotypeDef>
 </Defs>

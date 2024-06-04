@@ -30,6 +30,14 @@
             <li>ClassicStart</li>
             <li>ClassicStartTechprints</li>
         </startingTechprintsResearchTags>
+        <allowedCultures>
+            <li>Astropolitan</li>
+        </allowedCultures>
+        <apparelStuffFilter>
+            <thingDefs>
+                <li>Synthread</li>
+            </thingDefs>
+        </apparelStuffFilter>
         <allowedMemes>	  
         <!-- Supremacy -->
             <li MayRequire="Ludeon.RimWorld.Ideology">Loyalist</li>

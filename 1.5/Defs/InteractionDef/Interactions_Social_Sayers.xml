@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<InteractionDef>
+		<defName>Chitchat_Sayers</defName>
+		<label>闲聊</label>
+		<workerClass>SayersRemake.InteractionWorker_Chitchat_Sayers</workerClass>
+		<symbol>Things/Mote/SpeechSymbols/Chitchat</symbol>
+		<initiatorThought>Chitchat</initiatorThought>
+		<initiatorXpGainSkill>Social</initiatorXpGainSkill>
+		<initiatorXpGainAmount>4</initiatorXpGainAmount>
+		<recipientThought>Chitchat</recipientThought>
+		<logRulesInitiator>
+			<rulesStrings>
+				<li>r_logentry->[INITIATOR_nameDef][attitude][actiontype]。</li>
+				
+				<li>subject(INITIATOR_cubeInterest==false)->[TalkTopicLight]</li>
+				<li>subject(INITIATOR_cubeInterest==true)->[TalkTopicCube]</li>
+				
+				<li>attitude->友善地</li>
+				<li>attitude->玩笑般地</li>
+				<li>attitude->不经意地</li>
+				<li>attitude->幽默地</li>
+				<li>attitude->夸张地</li>
+				
+				<li>actiontype->用[sayersContactBodypart][sayersContactAction][RECIPIENT_nameDef]的[recipientContactBodypart]</li>
+				<li>actiontype->用[sayersActionBodypart]向[RECIPIENT_nameDef][showingtype]</li>
+				<li>actiontype->向[RECIPIENT_nameDef][callingtype]</li>
+				
+				<li>sayersContactBodypart->皮毛</li>
+				<li>sayersContactBodypart->尾巴</li>
+				<li>sayersContactBodypart->触手</li>
+				<li>sayersContactBodypart->脸颊</li>
+				
+				<li>sayersContactAction->摩挲了一下</li>
+				<li>sayersContactAction->蹭过</li>
+				<li>sayersContactAction->拂过</li>
+				<li>sayersContactAction->轻贴</li>
+				
+				<li>recipientContactBodypart->侧腹</li>
+				<li>recipientContactBodypart->腹部</li>
+				<li>recipientContactBodypart->腿</li>
+				<li>recipientContactBodypart->脚踝</li>
+				
+				<li>sayersActionBodypart->空闲的触手</li>
+				<li>sayersActionBodypart->爪子在地上刻画以</li>
+				<li>sayersActionBodypart->有节奏的鸣叫以</li>
+				
+				<li>showingtype->展现关于[subject]的故事</li>
+				<li>showingtype->比划关于[subject]的事</li>
+				<li>showingtype->分享关于[subject]的事</li>
+				
+				<li>callingtype->发出鸣叫声</li>
+				<li>callingtype->轻声嚎叫</li>
+				<li>callingtype->发出呼噜声</li>
+				<li>callingtype->发出叫声</li>
+				<li>callingtype->有节奏地叫个不停</li>
+			</rulesStrings>
+			<include>
+				<li MayRequire="Ludeon.RimWorld.Anomaly">TalkTopicsCube</li>
+			</include>
+		</logRulesInitiator>
+	</InteractionDef>
+</Defs>

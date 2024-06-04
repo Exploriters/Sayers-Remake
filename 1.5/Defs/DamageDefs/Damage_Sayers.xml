@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <DamageDef>
+        <defName>Sayers_Injection</defName>
+        <label>毒素注射</label>
+        <workerClass>DamageWorker_AddInjury</workerClass>
+        <externalViolence>true</externalViolence>
+        <deathMessage>{0}因植物毒素积累而去世</deathMessage>
+        <hediff>Sayers_Injection</hediff>
+        <hediffSkin>Sayers_Injection</hediffSkin>
+        <hediffSolid>Sayers_Injection</hediffSolid>
+        <impactSoundType>Slice</impactSoundType>
+        <armorCategory>Sharp</armorCategory>
+        <stabChanceOfForcedInternal>0.6</stabChanceOfForcedInternal>
+        <overkillPctToDestroyPart>0.4~1.0</overkillPctToDestroyPart>
+        <harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
+    </DamageDef>
+
+    <ToolCapacityDef>
+        <defName>Sayers_Injection</defName>
+        <label>注射</label>
+    </ToolCapacityDef>
+
+    <ManeuverDef>
+        <defName>Sayers_Injection</defName>
+        <requiredCapacity>Sayers_Injection</requiredCapacity>
+        <verb>
+            <verbClass>Verb_MeleeAttackDamage</verbClass>
+            <meleeDamageDef>Sayers_Injection</meleeDamageDef>
+        </verb>
+        <logEntryDef>MeleeAttack</logEntryDef>
+        <combatLogRulesHit>Maneuver_Smash_MeleeHit</combatLogRulesHit>
+        <combatLogRulesDeflect>Maneuver_Smash_MeleeDeflect</combatLogRulesDeflect>
+        <combatLogRulesMiss>Maneuver_Smash_MeleeMiss</combatLogRulesMiss>
+        <combatLogRulesDodge>Maneuver_Smash_MeleeDodge</combatLogRulesDodge>
+    </ManeuverDef>
+</Defs>

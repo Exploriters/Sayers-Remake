@@ -6,24 +6,86 @@
         <description>可以确定的有两件事：第一，赛尔斯确实属于哺乳动物。第二，赛尔斯身上的花与叶片确实是植物组织。赛尔斯是一种以哺乳动物为主体、并伴以植物寄生所结合出来的异常生物。祂们保留着原始的动物叫声，似乎没有类似于人类的语言能力，并在多种方面呈现出原始动物的天性。但，多种迹象表明这并不能意味着祂们智力低下，祂们会使用工具、穿着装备甚至从事研究，并能够学习与理解语言和指令。而对于交流，祂们则使用不同语调的鸣叫和各种肢体语言来表达祂们的情绪和想法，在必要时甚至会使用文字交流。
         \n赛尔斯显然不是自然进化出来的物种，祂们身上到处是实验痕迹，不仅在基因上高度不稳定，其植物部分的植入也显得有些粗暴，直接导致了祂们将面对部分视力丢失和温度敏感，需要更小心的去照料自己的植物部分，避免其凋亡致自身器官衰竭。祂们被粗暴地剥夺了前肢后由植物质的触手取代，这也许逼迫了它们不得不去学习如何只用后肢去行走，被迫去面对失去了前肢之后变得更加困难的部分工作。
         \n\n即使拥有高度的智慧，且不论年龄，但赛尔斯似乎仍像是幼兽，走失后迷茫的找寻自己归属于何方又能将何处称家。这种高度集体性的小生物在被弃后往往踏上一条不可能的归乡路。</description>
-        <statBases>
-            <MarketValue>5150</MarketValue>
+		<statBases>
+			<!-- ====CORE==== -->
+			<!-- base -->
+			<Mass>30</Mass>
+			<Flammability>1.0</Flammability>
+			<!-- general -->
+			<MarketValue>700</MarketValue>
             <MoveSpeed>13.8</MoveSpeed>
+			<CrawlSpeed>4.6</CrawlSpeed>
+			<MentalBreakThreshold>0.01</MentalBreakThreshold>
+			<ToxicResistance>1.0</ToxicResistance>
+			<GlobalLearningFactor>2.0</GlobalLearningFactor>
+			<BedHungerRateFactor>0.5</BedHungerRateFactor>
+			<EatingSpeed>3</EatingSpeed>
+			<ImmunityGainSpeed>1.2</ImmunityGainSpeed>
+			<InjuryHealingFactor>1.1</InjuryHealingFactor>
+			<MeatAmount>0.75</MeatAmount>
+			<LeatherAmount>0.8</LeatherAmount>
+			<ForagedNutritionPerDay>1.25</ForagedNutritionPerDay>
+			<LifespanFactor>0.5</LifespanFactor>
+			<MeditationFocusGain>1.0</MeditationFocusGain>
+			<ToxicEnvironmentResistance>1.0</ToxicEnvironmentResistance>
+			<RestFallRateFactor>0.25</RestFallRateFactor>
+			<JoyFallRateFactor>0.1</JoyFallRateFactor>
             <ComfyTemperatureMin>0</ComfyTemperatureMin>
-            <ComfyTemperatureMax>15</ComfyTemperatureMax>
+            <ComfyTemperatureMax>15.0</ComfyTemperatureMax>
             <MaxHitPoints>150</MaxHitPoints>
-            <EatingSpeed>3</EatingSpeed>
-            <!--== Attributes ==-->
-            <MedicalOperationSpeed>2</MedicalOperationSpeed>
-            <MedicalTendSpeed>2</MedicalTendSpeed>
-            <HuntingStealth>2.5</HuntingStealth>
-            <PlantWorkSpeed>1.5</PlantWorkSpeed>
-            <PlantHarvestYield>1.25</PlantHarvestYield>
-            <MiningSpeed>0.5</MiningSpeed>
-            <DeepDrillingSpeed>0.7</DeepDrillingSpeed>
-            <SmoothingSpeed>0.5</SmoothingSpeed>
-            <TameAnimalChance>2</TameAnimalChance>
-        </statBases>
+			<!-- combat -->
+			<MeleeHitChance>1.1</MeleeHitChance>
+			<MeleeDodgeChance>1.25</MeleeDodgeChance>
+			<MeleeDamageFactor>1.5</MeleeDamageFactor>
+			<!-- social -->
+			<NegotiationAbility>0.7</NegotiationAbility>
+			<PawnBeauty>1.0</PawnBeauty>
+			<TameAnimalChance>2.0</TameAnimalChance>
+			<TrainAnimalChance>1.5</TrainAnimalChance>
+			<BondAnimalChanceFactor>2.0</BondAnimalChanceFactor>
+			<!-- workGeneral -->
+			<MiningSpeed>0.5</MiningSpeed>
+			<DeepDrillingSpeed>0.9</DeepDrillingSpeed>
+			<SmoothingSpeed>0.25</SmoothingSpeed>
+			<ResearchSpeed>2</ResearchSpeed>
+			<AnimalGatherSpeed>1.1</AnimalGatherSpeed>
+			<PlantWorkSpeed>1.25</PlantWorkSpeed>
+			<PlantHarvestYield>1.5</PlantHarvestYield>
+			<HuntingStealth>2</HuntingStealth>
+			<ConstructSuccessChance>1.1</ConstructSuccessChance>
+			<FixBrokenDownBuildingSuccessChance>1.1</FixBrokenDownBuildingSuccessChance>
+			<ReadingSpeed>1.5</ReadingSpeed>
+			<!-- workMedical -->
+			<MedicalTendSpeed>2.0</MedicalTendSpeed>
+			<MedicalTendQuality>1.25</MedicalTendQuality>
+			<MedicalOperationSpeed>1.5</MedicalOperationSpeed>
+			<MedicalSurgerySuccessChance>1.25</MedicalSurgerySuccessChance>
+			<!-- workRecipes -->
+			<SmeltingSpeed>0.8</SmeltingSpeed>
+			<DrugSynthesisSpeed>1.1</DrugSynthesisSpeed>
+			<FoodPoisonChance>1.25</FoodPoisonChance>
+			<DrugCookingSpeed>1.1</DrugCookingSpeed>
+			<ButcheryFleshSpeed>1.5</ButcheryFleshSpeed>
+			<ButcheryMechanoidSpeed>1.25</ButcheryMechanoidSpeed>
+			<!-- ====BIOTECH==== -->
+			<!-- general -->
+			<Fertility>0</Fertility>
+			<RawNutritionFactor>1.5</RawNutritionFactor>
+			<CancerRate>0.5</CancerRate>
+			<GrowthVatOccupantSpeed>1.5</GrowthVatOccupantSpeed>
+			<!-- workGeneral -->
+			<WorkSpeedGlobalOffsetMech>0.1</WorkSpeedGlobalOffsetMech>
+			<!-- ====ANOMALY==== -->
+			<EntityStudyRate>1.5</EntityStudyRate>
+			<StudyEfficiency>1.5</StudyEfficiency>
+		</statBases>
+		<tradeTags>
+			<li>ExDisableThoughtWorkerPreceptHasUncovered</li>
+			<li>ExDisableDailySkillTrainLimit</li>
+			<li>ExDisableSkillsDegrees</li>
+			<li>ExDisableFoodPoisoning</li>
+			<!--<li>ExAutoApparelWhiteList</li>-->
+		</tradeTags>
         <tools Inherit="False">
             <li>
                 <label>触手</label>
@@ -65,7 +127,7 @@
                 <li>Blunt</li>
                 </capacities>
                 <power>16.4</power>
-                <cooldownTime>1</cooldownTime>
+                <cooldownTime>0.6</cooldownTime>
                 <linkedBodyPartsGroup>TentacleRight2</linkedBodyPartsGroup>
                 <surpriseAttack>
                 <extraMeleeDamages>
@@ -115,10 +177,10 @@
                 <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
                 <chanceFactor>0.2</chanceFactor>
             </li>
-            <!--<li>
+            <li>
                 <label>触手注射头</label>
                 <capacities>
-                <li>Injection</li>
+                <li>Sayers_Injection</li>
                 </capacities>
                 <power>24.6</power>
                 <cooldownTime>0.8</cooldownTime>
@@ -128,7 +190,7 @@
             <li>
                 <label>触手注射头</label>
                 <capacities>
-                <li>Injection</li>
+                <li>Sayers_Injection</li>
                 </capacities>
                 <power>24.6</power>
                 <cooldownTime>0.8</cooldownTime>
@@ -138,7 +200,7 @@
             <li>
                 <label>触手注射头</label>
                 <capacities>
-                <li>Injection</li>
+                <li>Sayers_Injection</li>
                 </capacities>
                 <power>24.6</power>
                 <cooldownTime>0.8</cooldownTime>
@@ -148,25 +210,25 @@
             <li>
                 <label>触手注射头</label>
                 <capacities>
-                <li>Injection</li>
+                <li>Sayers_Injection</li>
                 </capacities>
                 <power>24.6</power>
                 <cooldownTime>0.8</cooldownTime>
                 <linkedBodyPartsGroup>TentacleRight1</linkedBodyPartsGroup>
                 <chanceFactor>0.6</chanceFactor>
-            </li>-->
+            </li>
         </tools>
         <race>
-            <thinkTreeMain>Humanlike</thinkTreeMain>
+            <thinkTreeMain>ThinkTree_Sayers</thinkTreeMain>
             <thinkTreeConstant>HumanlikeConstant</thinkTreeConstant>
             <intelligence>Humanlike</intelligence>
             <makesFootprints>false</makesFootprints>
             <hasGenders>false</hasGenders>
-            <lifeExpectancy>80</lifeExpectancy>
+            <lifeExpectancy>40</lifeExpectancy>
             <leatherDef>Leather_Fox</leatherDef>
             <nameCategory>HumanStandard</nameCategory>
             <body>Body_Sayers</body>
-            <baseBodySize>1</baseBodySize>
+            <baseBodySize>0.8</baseBodySize>
             <baseHealthScale>1</baseHealthScale>
             <predator>false</predator>
             <foodType>OmnivoreHuman, CarnivoreAnimal, OmnivoreAnimal</foodType>
@@ -174,11 +236,86 @@
             <meatMarketValue>0.8</meatMarketValue>
             <manhunterOnDamageChance>0.20</manhunterOnDamageChance>
             <manhunterOnTameFailChance>0.02</manhunterOnTameFailChance>
+            <canBecomeShambler>false</canBecomeShambler>
+            <hasUnnaturalCorpse>false</hasUnnaturalCorpse>
+            <nuzzleMtbHours>6</nuzzleMtbHours>
+            <lifeStageAges Inherit="False">
+                <li>
+                    <def>SayersKit</def>
+                    <minAge>0</minAge>
+                    <soundWounded>Pawn_Cat_Injured</soundWounded>
+                    <soundDeath>Pawn_Cat_Death</soundDeath>
+                    <soundCall>Pawn_Cat_Call</soundCall>
+                    <soundAngry>Pawn_Cat_Angry</soundAngry>
+                </li>
+                <li>
+                    <def>SayersAdult</def>
+                    <minAge>1</minAge>
+                    <soundWounded>Pawn_Cat_Injured</soundWounded>
+                    <soundDeath>Pawn_Cat_Death</soundDeath>
+                    <soundCall>Pawn_Cat_Call</soundCall>
+                    <soundAngry>Pawn_Cat_Angry</soundAngry>
+                </li>
+            </lifeStageAges>
+                <lifeStageWorkSettings MayRequire="Ludeon.RimWorld.Biotech" Inherit="False">
+                <Firefighter>1</Firefighter>
+                <Patient>0</Patient>
+                <Doctor>1</Doctor>
+                <PatientBedRest>0</PatientBedRest>
+                <Childcare MayRequire="Ludeon.RimWorld.Biotech">0</Childcare>
+                <BasicWorker>1</BasicWorker>
+                <Warden>1</Warden>
+                <Handling>1</Handling>
+                <Cooking>1</Cooking>
+                <Hunting>1</Hunting>
+                <Construction>1</Construction>
+                <Growing>1</Growing>
+                <Mining>1</Mining>
+                <PlantCutting>1</PlantCutting>
+                <Smithing>1</Smithing>
+                <Tailoring>1</Tailoring>
+                <Art>1</Art>
+                <Crafting>1</Crafting>
+                <Hauling>1</Hauling>
+                <Cleaning>1</Cleaning>
+                <Research>1</Research>
+                <DarkStudy MayRequire="Ludeon.RimWorld.Anomaly">1</DarkStudy>
+            </lifeStageWorkSettings>
         </race>
         <alienRace>
             <graphicPaths>
-                <!--<head>Things/Pawn/Sayers/Heads/</head>-->
-                <body>Things/Pawn/Sayers/Prototype/Bodies/</body>
+                <head>
+                    <path>Things/Pawn/Sayers/Prototype/Heads/Sayers_Prototype_Head</path>
+                    <extendedGraphics>
+                        <HeadType For="Sayers_Prototype_Head">
+                            <path>Things/Pawn/Sayers/Prototype/Heads/Sayers_Prototype_Head</path>
+                            <extendedGraphics>
+                                <Gene For="Sayers_Albinism_Head_None">Things/Pawn/Sayers/Prototype/Heads/GeneDiff/Sayers_Prototype_Head_AlbinismNONE</Gene>
+                                <Gene For="Sayers_Albinism_Head_Siamese">Things/Pawn/Sayers/Prototype/Heads/GeneDiff/Sayers_Prototype_Head_AlbinismSIAMESE</Gene>
+                                <Gene For="Sayers_Albinism_Head_Dress">Things/Pawn/Sayers/Prototype/Heads/Sayers_Prototype_Head</Gene>
+                            </extendedGraphics>
+                        </HeadType>
+                    </extendedGraphics>
+                </head>
+                <body>
+                    <path>Things/Pawn/Sayers/Prototype/Bodies/Naked_Sayers_Prototype_Body</path>
+                    <extendedGraphics>
+                        <bodyType For="Sayers_Prototype_Body">
+                            <path>Things/Pawn/Sayers/Prototype/Bodies/Naked_Sayers_Prototype_Body</path>
+                            <extendedGraphics>
+                                <Gene For="Sayers_Albinism_None">Things/Pawn/Sayers/Prototype/Bodies/GeneDiff/Naked_Sayers_Prototype_Body_AlbinismNONE</Gene>
+                                <Gene For="Sayers_Albinism_Dress">Things/Pawn/Sayers/Prototype/Bodies/Naked_Sayers_Prototype_Body</Gene>
+                            </extendedGraphics>
+                        </bodyType>
+                    </extendedGraphics>
+                </body>
+                <apparel>
+                    <fallbacks>
+                        <li>
+                            <wornGraphicPath>Things/Pawn/Sayers/Public/NoTexture</wornGraphicPath>
+                        </li>
+                    </fallbacks>
+                </apparel>
                 <!--<skeleton>Things/Pawn/Sayers/Bodies/Dessicated/Dessicated_SayersBody</skeleton>-->
                 <!--<skull>Things/Pawn/Sayers/Heads/Skull/Sayers_Head1_Skull</skull>-->
             </graphicPaths>
@@ -197,7 +334,7 @@
                 </forcedRaceTraitEntries>
                 <immuneToAge>true</immuneToAge>
                 <maxDamageForSocialfight>1</maxDamageForSocialfight>
-                <minAgeForAdulthood>10</minAgeForAdulthood>
+                <minAgeForAdulthood>1</minAgeForAdulthood>
                 <allowHumanBios>true</allowHumanBios>
                 <humanRecipeImport>true</humanRecipeImport>
                 <abilities>
@@ -306,61 +443,29 @@
                                 </options>
                             </second>
                         </li>
+                        <!-- HAIR IS SAME WITH SKIN -->
                         <li>
-                            <name>hair</name>
+                            <name>pattern</name>
                             <first Class="ColorGenerator_Options">
                                 <options>
-                                    <!--Brown-->
                                     <li>
                                         <weight>5</weight>
-                                        <only>RGBA(0.455,0.384,0.337,1)</only>
-                                    </li>
-                                    <!--Cyan-->
-                                    <li>
-                                        <weight>5</weight>
-                                        <only>RGBA(0.302,0.612,0.463,1)</only>
-                                    </li>
-                                    <!--Light purple-->
-                                    <li>
-                                        <weight>5</weight>
-                                        <only>RGBA(0.741,0.686,0.769,1)</only>
-                                    </li>
-                                    <!--Dark red-->
-                                    <li>
-                                        <weight>5</weight>
-                                        <only>RGBA(0.384,0.027,0.027,1)</only>
-                                    </li>
-                                    <!--Beige-->
-                                    <li>
-                                        <weight>5</weight>
-                                        <only>RGBA(0.871,0.847,0.792,1)</only>
-                                    </li>
-                                    <!--Black-->
-                                    <li>
-                                        <weight>5</weight>
-                                        <only>RGBA(0.196,0.196,0.196,1)</only>
-                                    </li>
-                                    <!--Gray Blue-->
-                                    <li>
-                                        <weight>5</weight>
-                                        <only>RGBA(0.420,0.494,0.533,1)</only>
-                                    </li>
-                                    <!--Gray-->
-                                    <li>
-                                        <weight>5</weight>
-                                        <only>RGBA(0.392,0.392,0.392,1)</only>
-                                    </li>
-                                    <!--Dark Blue(玄青)-->
-                                    <li>
-                                        <weight>5</weight>
-                                        <only>RGBA(0.145,0.149,0.188,1)</only>
+                                        <only>RGBA(0,0,0,0.5)</only>
                                     </li>
                                 </options>
                             </first>
+                            <second Class="ColorGenerator_Options">
+                                <options>
+                                    <li>
+                                        <weight>5</weight>
+                                        <only>RGBA(0,0,0,0.5)</only>
+                                    </li>
+                                </options>
+                            </second>
                         </li>
                     </colorChannels>
                     <headTypes Inherit="False">
-                        <li>Sayers_Prototype_Head1</li>
+                        <li>Sayers_Prototype_Head</li>
                     </headTypes>
                     <bodyTypes Inherit="False">
                         <li>Sayers_Prototype_Body</li>
@@ -375,9 +480,18 @@
                                     <bodyPartLabel>眼生花</bodyPartLabel>
                                 </BodyPart>
                             </conditions>
-                            <colorChannel>hair</colorChannel>
+							<offsets>
+								<south>
+									<layerOffset>-0.24</layerOffset>
+								</south>
+								<east>
+									<layerOffset>-0.24</layerOffset>
+								</east>
+							</offsets>
+                            <colorChannel>favorite</colorChannel>
                             <inFrontOfBody>true</inFrontOfBody>
                             <alignWithHead>true</alignWithHead>
+							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
                         </li>
                         <li>
                             <path>Things/Pawn/Sayers/Prototype/Flowers/OnNeck/Sayers_Prototype_ThroatFlower</path>
@@ -386,10 +500,19 @@
                                     <bodyPartLabel>喉生花</bodyPartLabel>
                                 </BodyPart>
                             </conditions>
+							<offsets>
+								<south>
+									<layerOffset>-0.24</layerOffset>
+								</south>
+								<east>
+									<layerOffset>-0.24</layerOffset>
+								</east>
+							</offsets>
                             <layerInvert>false</layerInvert>
-                            <colorChannel>hair</colorChannel>
+                            <colorChannel>favorite</colorChannel>
                             <inFrontOfBody>true</inFrontOfBody>
                             <alignWithHead>true</alignWithHead>
+							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
                         </li>
                         <li>
                             <path>Things/Pawn/Sayers/Prototype/Ears/Sayers_Prototype_DLear1</path>
@@ -398,9 +521,21 @@
                                     <bodyPartLabel>左下耳</bodyPartLabel>
                                 </BodyPart>
                             </conditions>
+                            <offsets>
+                                <south>
+                                    <layerOffset>-0.275</layerOffset>
+                                </south>
+                                <north>
+                                    <layerOffset>-0.275</layerOffset>
+                                </north>
+                                <east>
+                                    <layerOffset>-0.275</layerOffset>
+                                </east>
+                            </offsets>
                             <colorChannel>skin</colorChannel>
                             <inFrontOfBody>true</inFrontOfBody>
                             <alignWithHead>true</alignWithHead>
+							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
                         </li>
                         <li>
                             <path>Things/Pawn/Sayers/Prototype/Ears/Sayers_Prototype_DRear1</path>
@@ -409,9 +544,21 @@
                                     <bodyPartLabel>右下耳</bodyPartLabel>
                                 </BodyPart>
                             </conditions>
+                            <offsets>
+                                <south>
+                                    <layerOffset>-0.275</layerOffset>
+                                </south>
+                                <north>
+                                    <layerOffset>-0.275</layerOffset>
+                                </north>
+                                <east>
+                                    <layerOffset>-0.275</layerOffset>
+                                </east>
+                            </offsets>
                             <colorChannel>skin</colorChannel>
                             <inFrontOfBody>true</inFrontOfBody>
                             <alignWithHead>true</alignWithHead>
+							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
                         </li>
                         <li>
                             <path>Things/Pawn/Sayers/Prototype/Ears/Sayers_Prototype_ULear1</path>
@@ -420,9 +567,21 @@
                                     <bodyPartLabel>左上耳</bodyPartLabel>
                                 </BodyPart>
                             </conditions>
+                            <offsets>
+                                <south>
+                                    <layerOffset>-0.275</layerOffset>
+                                </south>
+                                <north>
+                                    <layerOffset>-0.275</layerOffset>
+                                </north>
+                                <east>
+                                    <layerOffset>-0.275</layerOffset>
+                                </east>
+                            </offsets>
                             <colorChannel>skin</colorChannel>
                             <inFrontOfBody>true</inFrontOfBody>
                             <alignWithHead>true</alignWithHead>
+							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
                         </li>
                         <li>
                             <path>Things/Pawn/Sayers/Prototype/Ears/Sayers_Prototype_URear1</path>
@@ -431,69 +590,305 @@
                                     <bodyPartLabel>右上耳</bodyPartLabel>
                                 </BodyPart>
                             </conditions>
+                            <offsets>
+                                <south>
+                                    <layerOffset>-0.275</layerOffset>
+                                </south>
+                                <north>
+                                    <layerOffset>-0.275</layerOffset>
+                                </north>
+                                <east>
+                                    <layerOffset>-0.275</layerOffset>
+                                </east>
+                            </offsets>
                             <colorChannel>skin</colorChannel>
                             <inFrontOfBody>true</inFrontOfBody>
+                            <alignWithHead>true</alignWithHead>
+							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+                        </li>
+                        <li>
+                            <path>Things/Pawn/Sayers/Prototype/Tentacles/Sayers_Prototype_LLtentacles</path>
+                            <conditions>
+                                <BodyPart>
+                                    <bodyPartLabel>最左触手</bodyPartLabel>
+                                </BodyPart>
+                                <Posture>
+                                    <drawnStanding>true</drawnStanding>
+                                    <drawnLaying>true</drawnLaying>
+                                    <drawnInBed>false</drawnInBed>
+                                </Posture>
+                            </conditions>
+                            <offsets>
+                                <south>
+									<layerOffset>-0.241</layerOffset>
+                                    <bodyTypes>
+                                        <Sayers_Prototype_Body>(0, -0.13)</Sayers_Prototype_Body>
+                                    </bodyTypes>
+                                </south>
+                                <north>
+									<layerOffset>-0.241</layerOffset>
+                                    <bodyTypes>
+                                        <Sayers_Prototype_Body>(0, -0.1)</Sayers_Prototype_Body>
+                                    </bodyTypes>
+                                </north>
+                                <east>
+									<layerOffset>-0.241</layerOffset>
+                                    <bodyTypes>
+                                        <Sayers_Prototype_Body>(0, -0.13)</Sayers_Prototype_Body>
+                                    </bodyTypes>
+                                </east>
+                            </offsets>
+                            <colorChannel>favorite</colorChannel>
+                            <inFrontOfBody>true</inFrontOfBody>
+							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+                        </li>
+                        <li>
+                            <path>Things/Pawn/Sayers/Prototype/Tentacles/Sayers_Prototype_LMtentacles</path>
+                            <conditions>
+                                <BodyPart>
+                                    <bodyPartLabel>左中触手</bodyPartLabel>
+                                </BodyPart>
+                                <Posture>
+                                    <drawnStanding>true</drawnStanding>
+                                    <drawnLaying>true</drawnLaying>
+                                    <drawnInBed>false</drawnInBed>
+                                </Posture>
+                            </conditions>
+                            <offsets>
+                                <south>
+									<layerOffset>-0.241</layerOffset>
+                                    <bodyTypes>
+                                        <Sayers_Prototype_Body>(0, -0.13)</Sayers_Prototype_Body>
+                                    </bodyTypes>
+                                </south>
+                                <north>
+									<layerOffset>-0.241</layerOffset>
+                                    <bodyTypes>
+                                        <Sayers_Prototype_Body>(0, -0.1)</Sayers_Prototype_Body>
+                                    </bodyTypes>
+                                </north>
+                                <east>
+									<layerOffset>-0.241</layerOffset>
+                                    <bodyTypes>
+                                        <Sayers_Prototype_Body>(0, -0.13)</Sayers_Prototype_Body>
+                                    </bodyTypes>
+                                </east>
+                            </offsets>
+                            <colorChannel>favorite</colorChannel>
+                            <inFrontOfBody>true</inFrontOfBody>
+							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+                        </li>
+                        <li>
+                            <path>Things/Pawn/Sayers/Prototype/Tentacles/Sayers_Prototype_RMtentacles</path>
+                            <conditions>
+                                <BodyPart>
+                                    <bodyPartLabel>右中触手</bodyPartLabel>
+                                </BodyPart>
+                                <Posture>
+                                    <drawnStanding>true</drawnStanding>
+                                    <drawnLaying>true</drawnLaying>
+                                    <drawnInBed>false</drawnInBed>
+                                </Posture>
+                            </conditions>
+                            <offsets>
+                                <south>
+									<layerOffset>-0.241</layerOffset>
+                                    <bodyTypes>
+                                        <Sayers_Prototype_Body>(0, -0.13)</Sayers_Prototype_Body>
+                                    </bodyTypes>
+                                </south>
+                                <north>
+									<layerOffset>-0.241</layerOffset>
+                                    <bodyTypes>
+                                        <Sayers_Prototype_Body>(0, -0.1)</Sayers_Prototype_Body>
+                                    </bodyTypes>
+                                </north>
+                                <east>
+									<layerOffset>-0.241</layerOffset>
+                                    <bodyTypes>
+                                        <Sayers_Prototype_Body>(0, -0.13)</Sayers_Prototype_Body>
+                                    </bodyTypes>
+                                </east>
+                            </offsets>
+                            <colorChannel>favorite</colorChannel>
+                            <inFrontOfBody>true</inFrontOfBody>
+							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+                        </li>
+                        <li>
+                            <path>Things/Pawn/Sayers/Prototype/Tentacles/Sayers_Prototype_RRtentacles</path>
+                            <conditions>
+                                <BodyPart>
+                                    <bodyPartLabel>最右触手</bodyPartLabel>
+                                </BodyPart>
+                                <Posture>
+                                    <drawnStanding>true</drawnStanding>
+                                    <drawnLaying>true</drawnLaying>
+                                    <drawnInBed>false</drawnInBed>
+                                </Posture>
+                            </conditions>
+                            <offsets>
+                                <south>
+									<layerOffset>-0.241</layerOffset>
+                                    <bodyTypes>
+                                        <Sayers_Prototype_Body>(0, -0.13)</Sayers_Prototype_Body>
+                                    </bodyTypes>
+                                </south>
+                                <north>
+									<layerOffset>-0.241</layerOffset>
+                                    <bodyTypes>
+                                        <Sayers_Prototype_Body>(0, -0.1)</Sayers_Prototype_Body>
+                                    </bodyTypes>
+                                </north>
+                                <east>
+									<layerOffset>-0.241</layerOffset>
+                                    <bodyTypes>
+                                        <Sayers_Prototype_Body>(0, -0.13)</Sayers_Prototype_Body>
+                                    </bodyTypes>
+                                </east>
+                            </offsets>
+                            <colorChannel>favorite</colorChannel>
+                            <inFrontOfBody>true</inFrontOfBody>
+							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+                        </li>
+                        <li>
+                            <path>Things/Pawn/Sayers/Prototype/Tails/Sayers_Prototype_TailFur</path>
+                            <conditions>
+                                <BodyPart>
+                                    <bodyPartLabel>尾部覆毛</bodyPartLabel>
+                                </BodyPart>
+                                <Posture>
+                                    <drawnStanding>true</drawnStanding>
+                                    <drawnLaying>true</drawnLaying>
+                                    <drawnInBed>false</drawnInBed>
+                                </Posture>
+                            </conditions>
+                            <offsets>
+                                <south>
+                                    <bodyTypes>
+                                        <Sayers_Prototype_Body>(0, 0.45)</Sayers_Prototype_Body>
+                                    </bodyTypes>
+                                </south>
+                                <north>
+                                    <bodyTypes>
+                                        <Sayers_Prototype_Body>(0, 0.45)</Sayers_Prototype_Body>
+                                    </bodyTypes>
+                                </north>
+                                <east>
+                                    <bodyTypes>
+                                        <Sayers_Prototype_Body>(-0.16, 0.2)</Sayers_Prototype_Body>
+                                    </bodyTypes>
+                                </east>
+                            </offsets>
+                            <colorChannel>favorite</colorChannel>
+                            <defaultOffset>Tail</defaultOffset>
+							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+                        </li>
+                        <li>
+                            <path>Things/Pawn/Sayers/Prototype/Tails/Sayers_Prototype_TailBone</path>
+                            <conditions>
+                                <BodyPart>
+                                    <bodyPartLabel>尾内骨骼</bodyPartLabel>
+                                </BodyPart>
+                                <Posture>
+                                    <drawnStanding>true</drawnStanding>
+                                    <drawnLaying>true</drawnLaying>
+                                    <drawnInBed>false</drawnInBed>
+                                </Posture>
+                            </conditions>
+                            <offsets>
+                                <south>
+                                    <bodyTypes>
+                                        <Sayers_Prototype_Body>(0, 0.45)</Sayers_Prototype_Body>
+                                    </bodyTypes>
+                                </south>
+                                <north>
+									<layerOffset>-0.2</layerOffset>
+                                    <bodyTypes>
+                                        <Sayers_Prototype_Body>(0, 0.45)</Sayers_Prototype_Body>
+                                    </bodyTypes>
+                                </north>
+                                <east>
+									<layerOffset>0.2</layerOffset>
+                                    <bodyTypes>
+                                        <Sayers_Prototype_Body>(-0.16, 0.2)</Sayers_Prototype_Body>
+                                    </bodyTypes>
+                                </east>
+                            </offsets>
+                            <colorChannel>skin</colorChannel>
+                            <defaultOffset>Tail</defaultOffset>
+							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+                        </li>
+                        <li>
+                            <path>Things/Pawn/Sayers/Prototype/Bodies/Pattern/Naked_Sayers_Prototype_Body_patternTABBY</path>
+                            <conditions>
+                                <BodyPart>
+                                    <bodyPart>Torso</bodyPart>
+                                </BodyPart>
+                            </conditions>
+                            <offsets>
+                                <south>
+                                    <layerOffset>-0.21</layerOffset>
+                                </south>
+                                <north>
+                                    <layerOffset>-0.21</layerOffset>
+                                </north>
+                                <east>
+                                    <layerOffset>-0.21</layerOffset>
+                                </east>
+                            </offsets>
+                            <layerInvert>false</layerInvert>
+                            <colorChannel>pattern</colorChannel>
+                            <inFrontOfBody>true</inFrontOfBody>
+							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+                        </li>
+                        <li>
+                            <path>Things/Pawn/Sayers/Prototype/Heads/Pattern/Sayers_Prototype_Head_patternTABBY</path>
+                            <extendedGraphics>
+                                <HeadType For="Sayers_Prototype_Head">
+                                    <path>Things/Pawn/Sayers/Prototype/Heads/Pattern/Sayers_Prototype_Head_patternTABBY</path>
+                                    <extendedGraphics>
+                                        <Gene For="Sayers_Pattern_Tabby">Things/Pawn/Sayers/Prototype/Heads/Pattern/Sayers_Prototype_Head_patternTABBY</Gene>
+                                        <Gene For="Sayers_Pattern_None">Things/Pawn/Sayers/Public/NoTexture</Gene>
+                                    </extendedGraphics>
+                                </HeadType>
+                            </extendedGraphics>
+                            <conditions>
+                                <BodyPart>
+                                    <bodyPart>Head</bodyPart>
+                                </BodyPart>
+                            </conditions>
+                            <offsets>
+                                <south>
+                                    <layerOffset>-0.275</layerOffset>
+                                </south>
+                                <north>
+                                    <layerOffset>-0.275</layerOffset>
+                                </north>
+                                <east>
+                                    <layerOffset>-0.275</layerOffset>
+                                </east>
+                            </offsets>
+                            <layerInvert>false</layerInvert>
+                            <colorChannel>pattern</colorChannel>
+                            <inFrontOfBody>true</inFrontOfBody>
+							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
                             <alignWithHead>true</alignWithHead>
                         </li>
                     </bodyAddons>
                 </alienPartGenerator>
                 <!-- BIOTECH -->
-                <!--<raceGenes>
-                    <li>
-                        <defName>Sayers_Fur_Brown</defName>               
-                    </li>
-                    <li>
-                        <defName>Sayers_Fur_Cyan</defName>                     
-                    </li>
-                    <li>
-                        <defName>Sayers_Fur_PalePurple</defName>                      
-                    </li>
-                    <li>
-                        <defName>Sayers_Fur_DarkRed</defName>                       
-                    </li>
-                    <li>
-                        <defName>Sayers_Fur_Beige</defName>                       
-                    </li>
-                    <li>
-                        <defName>Sayers_Fur_Black</defName>                        
-                    </li>
-                    <li>
-                        <defName>Sayers_Fur_GrayBlue</defName>                        
-                    </li>
-                    <li>
-                        <defName>Sayers_Fur_Gray</defName> 
-                    </li>
-                    <li>
-                        <defName>Sayers_Fur_DarkBlue</defName>
-                    </li>
-                    <li>
-                        <defName>Sayers_Flower_Brown</defName>               
-                    </li>
-                    <li>
-                        <defName>Sayers_Flower_Cyan</defName>                     
-                    </li>
-                    <li>
-                        <defName>Sayers_Flower_PalePurple</defName>                      
-                    </li>
-                    <li>
-                        <defName>Sayers_Flower_DarkRed</defName>                       
-                    </li>
-                    <li>
-                        <defName>Sayers_Flower_Beige</defName>                       
-                    </li>
-                    <li>
-                        <defName>Sayers_Flower_Black</defName>                        
-                    </li>
-                    <li>
-                        <defName>Sayers_Flower_GrayBlue</defName>                        
-                    </li>
-                    <li>
-                        <defName>Sayers_Flower_Gray</defName> 
-                    </li>
-                    <li>
-                        <defName>Sayers_Flower_DarkBlue</defName>
-                    </li>
-                </raceGenes>-->
+                <raceGenes>
+                    <!-- HEAD ALBINISM -->
+                    <li>Sayers_Albinism_Head_None</li>
+                    <li>Sayers_Albinism_Head_Dress</li>
+                    <li>Sayers_Albinism_Head_Siamese</li>
+                    <!-- BODY ALBINISM -->
+                    <li>Sayers_Albinism_None</li>
+                    <li>Sayers_Albinism_Dress</li>
+                    <!-- PATTERN -->
+                    <li>Sayers_Pattern_None</li>
+                    <li>Sayers_Pattern_Tabby</li>
+                </raceGenes>
                 <!--<growthFactorByAge>
                     <points>
                         <li>(0,0.5)</li>
@@ -504,28 +899,14 @@
                 </growthFactorByAge>-->
             </generalSettings>
             <raceRestriction>
-                <onlyUseRaceRestrictedApparel>true</onlyUseRaceRestrictedApparel>
+                <!--<onlyUseRaceRestrictedApparel>true</onlyUseRaceRestrictedApparel>-->
                 <onlyUseRaceRestrictedWeapons>true</onlyUseRaceRestrictedWeapons>
                 <!-- BIOTECH -->
                 <geneList>
-                    <li>Sayers_Fur_Brown</li>
-                    <li>Sayers_Fur_Cyan</li>
-                    <li>Sayers_Fur_PalePurple</li>
-                    <li>Sayers_Fur_DarkRed</li>
-                    <li>Sayers_Fur_Beige</li>
-                    <li>Sayers_Fur_Black</li>
-                    <li>Sayers_Fur_GrayBlue</li>
-                    <li>Sayers_Fur_Gray</li>
-                    <li>Sayers_Fur_DarkBlue</li>
-                    <li>Sayers_Flower_Brown</li>
-                    <li>Sayers_Flower_Cyan</li>
-                    <li>Sayers_Flower_PalePurple</li>
-                    <li>Sayers_Flower_DarkRed</li>
-                    <li>Sayers_Flower_Beige</li>
-                    <li>Sayers_Flower_Black</li>
-                    <li>Sayers_Flower_GrayBlue</li>
-                    <li>Sayers_Flower_Gray</li>
-                    <li>Sayers_Flower_DarkBlue</li>
+                    <li>Sayers_Albinism_None</li>
+                    <li>Sayers_Albinism_Dress</li>
+                    <li>Sayers_Pattern_None</li>
+                    <li>Sayers_Pattern_Tabby</li>
                 </geneList>
                 <blackGeneList>
                     <li>Skin_Melanin1</li>
@@ -556,10 +937,10 @@
                     <li>Hair_LightOrange</li>
                     <li>Hair_BrightRed</li>
                 </blackGeneList>
-                <blackGeneTags>
+                <!--<blackGeneTags>
                     <li>SkinColorOverride</li>
-                    <!--<li>SkinColor</li>-->
-                </blackGeneTags>
+                    <li>SkinColor</li>
+                </blackGeneTags>-->
                 <blackEndoCategories>
                     <li>Hands</li>
                     <li>Ears</li>
@@ -572,88 +953,102 @@
                 <canReproduce>false</canReproduce>
             </raceRestriction>
             <thoughtSettings>
-                <!--<cannotReceiveThoughts>
-                    <li>RebuffedMyRomanceAttemptMood</li>
-                    <li>FailedRomanceAttemptOnMeLowOpinionMood</li>
-                    <li>Expectations</li>
-                    <li>AteRawFood</li>
-                    <li>AteKibble</li>
-                    <li>AteCorpse</li>
-                    <li>AteHumanlikeMeatDirect</li>
-                    <li>AteHumanlikeMeatDirectCannibal</li>
-                    <li>AteHumanlikeMeatAsIngredient</li>
-                    <li>AteHumanlikeMeatAsIngredientCannibal</li>
-                    <li>AteInsectMeatDirect</li>
-                    <li>AteRottenFood</li>
-                    <li>SleptInBedroom</li>
-                    <li>SleptInBarracks</li>
-                    <li>NeedJoy</li>
-                    <li>NeedComfort</li>
-                    <li>NeedBeauty</li>
-                    <li>NeedRoomSize</li>
-                    <li>NeedOutdoors</li>
-                    <li>BondedAnimalDied</li>
-                    <li>EnvironmentDark</li>
-                    <li>ApparelDamaged</li>
-                    <li>WrongApparelGender</li>
-                    <li>DeadMansApparel</li>
-                    <li>HumanLeatherApparelSad</li>
-                    <li>AteWithoutTable</li>
-                    <li>SleepDisturbed</li>
-                    <li>SleptOutside</li>
-                    <li>SleptOnGround</li>
-                    <li>SoakingWet</li>
-                    <li>KnowPrisonerDiedInnocent</li>
-                    <li>KnowColonistExecuted</li>
-                    <li>KnowGuestExecuted</li>
-                    <li>MyAuntDied</li>
-                    <li>MyUncleDied</li>
-                    <li>MyGrandparentDied</li>
-                    <li>MyKinDied</li>
-                    <li>KnowPrisonerSold</li>
-                    <li>ReleasedHealthyPrisoner</li>
-                    <li>KnowGuestOrganHarvested</li>
-                    <li>KnowColonistOrganHarvested</li>
-                    <li>ButcheredHumanlikeCorpse</li>
-                    <li>KnowButcheredHumanlikeCorpse</li>
-                    <li>ObservedLayingCorpse</li>
-                    <li>ObservedLayingRottingCorpse</li>
-                    <li>WitnessedDeathAlly</li>
-                    <li>WitnessedDeathNonAlly</li>
-                    <li>WitnessedDeathFamily</li>
-                    <li>ColonistBanished</li>
-                    <li>ColonistBanishedToDie</li>
-                    <li>PrisonerBanishedToDie</li>
-                    <li>FailedToRescueRelative</li>
-                    <li>ButcheredHumanlikeCorpseOpinion</li>
-                    <li>AteRawHumanlikeMeat</li>
-                    <li>SoldPrisoner</li>
-                    <li>ExecutedPrisoner</li>
-                    <li>KilledColonist</li>
-                    <li>SharedBed</li>
-                    <li>ColonistLeftUnburied</li>
-                    <li>TerribleBestowingCeremony</li>
-                    <li>UnimpressiveBestowingCeremony</li>
-                    <li>AteFoodInappropriateForTitle</li>
-                    <li>DecreeFailed</li>
-                    <li>DecreeMet</li>
-                    <li>Disinherited</li>
-                    <li>DecreeUnmet</li>
-                    <li>ReignedInThroneroom</li>
-                    <li>LostTitle</li>
-                    <li>TitleApparelRequirementNotMet</li>
-                    <li>TitleApparelMinQualityNotMet</li>
-                    <li>TitleThroneroomRequirementsNotMet</li>
-                    <li>TitleNoThroneRoom</li>
-                    <li>TitleNoPersonalBedroom</li>
-                    <li>ObservedGibbetCage</li>
-                    <li>ObservedSkullspike</li>
-                    <li>FailedConvertAbilityRecipient</li>
-                    <li>FailedConvertIdeoAttemptResentment</li>
-                    <li>WearingColor_Favorite</li>
-                    <li>DefeatedMechCluster</li>
-                    <li>DeniedJoining</li>
-                </cannotReceiveThoughts>-->
+                <replacerList>
+                    <li>
+                        <original>BondedAnimalDied</original>
+                        <replacer>BondedAnimalDied_Sayers</replacer> 
+                    </li>
+                    <li>
+                        <original>PawnWithGoodOpinionDied</original>
+                        <replacer>PawnWithGoodOpinionDied_Sayers</replacer> 
+                    </li>
+                    <li>
+                        <original>PawnWithBadOpinionDied</original>
+                        <replacer>PawnWithBadOpinionDied_Sayers</replacer> 
+                    </li>
+                    <li>
+                        <original>AteCorpse</original>
+                        <replacer>AteCorpse_Sayers</replacer> 
+                    </li>
+                    <li>
+                        <original>AteHumanlikeMeatDirect</original>
+                        <replacer>AteHumanlikeMeatDirect_Sayers</replacer> 
+                    </li>
+                    <li>
+                        <original>AteHumanlikeMeatDirectCannibal</original>
+                        <replacer>AteHumanlikeMeatDirectCannibal_Sayers</replacer> 
+                    </li>
+                    <li>
+                        <original>AteHumanlikeMeatAsIngredient</original>
+                        <replacer>AteHumanlikeMeatAsIngredient_Sayers</replacer> 
+                    </li>
+                    <li>
+                        <original>AteHumanlikeMeatAsIngredientCannibal</original>
+                        <replacer>AteHumanlikeMeatAsIngredientCannibal_Sayers</replacer> 
+                    </li>
+                    <li>
+                        <original>AteInsectMeatDirect</original>
+                        <replacer>AteInsectMeatDirect_Sayers</replacer> 
+                    </li>
+                    <li>
+                        <original>AteInsectMeatAsIngredient</original>
+                        <replacer>AteInsectMeatAsIngredient_Sayers</replacer> 
+                    </li>
+                    <li>
+                        <original>AteRottenFood</original>
+                        <replacer>AteRottenFood_Sayers</replacer> 
+                    </li>
+                </replacerList>
+				<restrictedThoughts>
+					<li>Expectations_Sayers</li>
+					<li>AlwaysNegative_Sayers</li>
+					<li>AlwaysPositive_Sayers</li>
+					<li>Lonely_Sayers</li>
+				</restrictedThoughts>
+                <canStillReceiveThoughts>
+					<!-- ==== SPECIAL ====-->
+					<li>AlwaysNegative_Sayers</li>
+					<li>AlwaysPositive_Sayers</li>
+					<li>Lonely_Sayers</li>
+					<!-- ==== PERSONAL ==== -->
+					<!-- MEMORIES -->
+                    <li>BondedAnimalDied_Sayers</li>
+                    <li>PawnWithGoodOpinionDied_Sayers</li>
+                    <li>PawnWithBadOpinionDied_Sayers</li>
+                    <li>AteCorpse_Sayers</li>
+                    <li>AteHumanlikeMeatDirect_Sayers</li>
+                    <li>AteHumanlikeMeatDirectCannibal_Sayers</li>
+                    <li>AteHumanlikeMeatAsIngredient_Sayers</li>
+                    <li>AteHumanlikeMeatAsIngredientCannibal_Sayers</li>
+                    <li>AteInsectMeatDirect_Sayers</li>
+                    <li>AteInsectMeatAsIngredient_Sayers</li>
+                    <li>AteRottenFood_Sayers</li>
+					<!-- SITUATION -->
+                    <li>Expectations_Sayers</li>
+					<!-- ==== SOCIAL ==== -->
+					<!-- MEMORIES -->
+					<!-- core -->
+					<li>Chitchat</li>
+					<li>DeepTalk</li>
+					<li>Slighted</li>
+					<li>Insulted</li>
+					<li>HarmedMe</li>
+					<li>RescuedMe</li>
+					<li>RecruitedMe</li>
+					<li>CrashedTogether</li>
+					<li>KilledMyFriend</li>
+					<li>KilledMyRival</li>
+					<li>KilledMyLover</li>
+					<li>KilledMyFiance</li>
+					<li>KilledMySpouse</li>
+					<li>KilledMyBondedAnimal</li>
+					<!-- anomaly -->
+					<li>DrainedMySkills</li>
+					<li>UsedMeForPsychicRitual</li>
+					<!-- SITUATION -->
+					<!-- anomaly -->
+					<li>Joyous</li>
+                </canStillReceiveThoughts>
                 <cannotReceiveThoughtsAtAll>true</cannotReceiveThoughtsAtAll>
             </thoughtSettings>
             <relationSettings>

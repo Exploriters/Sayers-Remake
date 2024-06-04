@@ -1,0 +1,6 @@
+F:\Steam\steamapps\common\RimWorld\Mods\Sayers-Remake\1.5\Assemblies\SayersRemake.dll
+F:\Steam\steamapps\common\RimWorld\Mods\Sayers-Remake\1.5\Assemblies\SayersRemake.pdb
+F:\Steam\steamapps\common\RimWorld\Mods\Sayers-Remake\Source\SayersRemake\SayersRemake\obj\Debug\SayersRemake.csproj.AssemblyReference.cache
+F:\Steam\steamapps\common\RimWorld\Mods\Sayers-Remake\Source\SayersRemake\SayersRemake\obj\Debug\SayersRemake.csproj.CoreCompileInputs.cache
+F:\Steam\steamapps\common\RimWorld\Mods\Sayers-Remake\Source\SayersRemake\SayersRemake\obj\Debug\SayersRemake.dll
+F:\Steam\steamapps\common\RimWorld\Mods\Sayers-Remake\Source\SayersRemake\SayersRemake\obj\Debug\SayersRemake.pdb
