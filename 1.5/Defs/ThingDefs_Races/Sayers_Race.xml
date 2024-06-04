@@ -488,7 +488,7 @@
 									<layerOffset>-0.24</layerOffset>
 								</east>
 							</offsets>
-                            <colorChannel>favorite</colorChannel>
+                            <colorChannel>hair</colorChannel>
                             <inFrontOfBody>true</inFrontOfBody>
                             <alignWithHead>true</alignWithHead>
 							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
@@ -509,7 +509,7 @@
 								</east>
 							</offsets>
                             <layerInvert>false</layerInvert>
-                            <colorChannel>favorite</colorChannel>
+                            <colorChannel>hair</colorChannel>
                             <inFrontOfBody>true</inFrontOfBody>
                             <alignWithHead>true</alignWithHead>
 							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
@@ -638,7 +638,7 @@
                                     </bodyTypes>
                                 </east>
                             </offsets>
-                            <colorChannel>favorite</colorChannel>
+                            <colorChannel>hair</colorChannel>
                             <inFrontOfBody>true</inFrontOfBody>
 							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
                         </li>
@@ -674,7 +674,7 @@
                                     </bodyTypes>
                                 </east>
                             </offsets>
-                            <colorChannel>favorite</colorChannel>
+                            <colorChannel>hair</colorChannel>
                             <inFrontOfBody>true</inFrontOfBody>
 							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
                         </li>
@@ -710,7 +710,7 @@
                                     </bodyTypes>
                                 </east>
                             </offsets>
-                            <colorChannel>favorite</colorChannel>
+                            <colorChannel>hair</colorChannel>
                             <inFrontOfBody>true</inFrontOfBody>
 							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
                         </li>
@@ -746,7 +746,7 @@
                                     </bodyTypes>
                                 </east>
                             </offsets>
-                            <colorChannel>favorite</colorChannel>
+                            <colorChannel>hair</colorChannel>
                             <inFrontOfBody>true</inFrontOfBody>
 							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
                         </li>
@@ -779,7 +779,7 @@
                                     </bodyTypes>
                                 </east>
                             </offsets>
-                            <colorChannel>favorite</colorChannel>
+                            <colorChannel>hair</colorChannel>
                             <defaultOffset>Tail</defaultOffset>
 							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
                         </li>
