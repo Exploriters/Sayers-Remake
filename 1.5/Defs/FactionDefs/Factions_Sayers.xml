@@ -16,7 +16,6 @@
         <isPlayer>true</isPlayer>
         <factionIconPath>World/WorldObjects/Expanding/Town</factionIconPath>
         <techLevel>Industrial</techLevel>
-        <allowedCultures><li>Astropolitan</li></allowedCultures>
         <backstoryFilters>
             <li>
                 <categories>
