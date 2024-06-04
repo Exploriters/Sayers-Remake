@@ -16,6 +16,7 @@
         <isPlayer>true</isPlayer>
         <factionIconPath>World/WorldObjects/Expanding/Town</factionIconPath>
         <techLevel>Industrial</techLevel>
+        <allowedCultures><li>Astropolitan</li></allowedCultures>
         <backstoryFilters>
             <li>
                 <categories>
@@ -33,13 +34,11 @@
         <allowedCultures>
             <li>Astropolitan</li>
         </allowedCultures>
-        <apparelStuffFilter>
-            <thingDefs>
-                <li>Synthread</li>
-            </thingDefs>
-        </apparelStuffFilter>
-        <allowedMemes>	  
-        <!-- Supremacy -->
+        <allowedMemes>
+            <!-- Structure -->
+            <li MayRequire="Ludeon.RimWorld.Ideology">Structure_Animist</li>
+
+            <!-- Supremacy -->
             <li MayRequire="Ludeon.RimWorld.Ideology">Loyalist</li>
             <li MayRequire="Ludeon.RimWorld.Ideology">Guilty</li>
             
