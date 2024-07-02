@@ -69,8 +69,9 @@
     <Folder Include="Properties\" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ColorGenerators.cs" />
     <Compile Include="Patches_PawnApparelPredicate.cs" />
-    <Compile Include="InteractionWorker_Chitchat_Sayers.cs" />
+    <Compile Include="InteractionWorker_Sayers.cs" />
     <Compile Include="JobGiver_Nuzzle_Humanoid.cs" />
     <Compile Include="PatchesUtility.cs" />
     <Compile Include="Patches_Misc.cs" />
@@ -78,6 +79,7 @@
     <Compile Include="SayersRemakeBase.cs" />
     <Compile Include="SayersRemakeDefof.cs" />
     <Compile Include="ThoughtWorker_Sayers.cs" />
+    <Compile Include="CompAssignableToPawn_Bed.cs" />
     <Compile Include="_AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

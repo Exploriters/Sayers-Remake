@@ -185,6 +185,7 @@
         <exclusionTags>
             <li>Sayers_Albinism_Head</li>
         </exclusionTags>
+		<canGenerateInGeneSet>false</canGenerateInGeneSet>
         <displayCategory>SayersAlbinism_Head</displayCategory>
         <randomChosen>true</randomChosen>
         <iconColor>(0.75, 0.75, 0.75)</iconColor>
@@ -227,6 +228,7 @@
         <exclusionTags>
             <li>Sayers_Albinism_Body</li>
         </exclusionTags>
+		<canGenerateInGeneSet>false</canGenerateInGeneSet>
         <displayCategory>SayersAlbinism_Body</displayCategory>
         <randomChosen>true</randomChosen>
         <iconColor>(0.75, 0.75, 0.75)</iconColor>
@@ -260,6 +262,7 @@
         <exclusionTags>
             <li>Sayers_Pattern</li>
         </exclusionTags>
+		<canGenerateInGeneSet>false</canGenerateInGeneSet>
         <randomChosen>true</randomChosen>
         <displayCategory>SayersPattern</displayCategory>
         <iconColor>(0.75, 0.75, 0.75)</iconColor>

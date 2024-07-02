@@ -333,169 +333,29 @@
                 </li>
                 </forcedRaceTraitEntries>
                 <immuneToAge>true</immuneToAge>
+				<!--<validBeds>
+					<li>Sayers_SleepingSpot</li>
+					<li>Sayers_NestBed</li>
+				</validBeds>-->
                 <maxDamageForSocialfight>1</maxDamageForSocialfight>
-                <minAgeForAdulthood>1</minAgeForAdulthood>
+                <minAgeForAdulthood>999</minAgeForAdulthood>
                 <allowHumanBios>true</allowHumanBios>
                 <humanRecipeImport>true</humanRecipeImport>
                 <abilities>
                     <li>AcidSpray</li>
                 </abilities>
                 <alienPartGenerator>
-                    <colorChannels>
+                    <colorChannels Inherit="False">
                         <li>
                             <name>skin</name>
-                            <first Class="ColorGenerator_Options">
-                                <options>
-                                    <!--Brown-->
-                                    <li>
-                                        <weight>5</weight>
-                                        <only>RGBA(0.455,0.384,0.337,1)</only>
-                                    </li>
-                                    <!--Cyan-->
-                                    <li>
-                                        <weight>5</weight>
-                                        <only>RGBA(0.302,0.612,0.463,1)</only>
-                                    </li>
-                                    <!--Light purple-->
-                                    <li>
-                                        <weight>5</weight>
-                                        <only>RGBA(0.741,0.686,0.769,1)</only>
-                                    </li>
-                                    <!--Dark red-->
-                                    <li>
-                                        <weight>5</weight>
-                                        <only>RGBA(0.384,0.027,0.027,1)</only>
-                                    </li>
-                                    <!--Beige-->
-                                    <li>
-                                        <weight>5</weight>
-                                        <only>RGBA(0.871,0.847,0.792,1)</only>
-                                    </li>
-                                    <!--Black-->
-                                    <li>
-                                        <weight>5</weight>
-                                        <only>RGBA(0.196,0.196,0.196,1)</only>
-                                    </li>
-                                    <!--Gray Blue-->
-                                    <li>
-                                        <weight>5</weight>
-                                        <only>RGBA(0.420,0.494,0.533,1)</only>
-                                    </li>
-                                    <!--Gray-->
-                                    <li>
-                                        <weight>5</weight>
-                                        <only>RGBA(0.392,0.392,0.392,1)</only>
-                                    </li>
-                                    <!--Dark Blue(玄青)-->
-                                    <li>
-                                        <weight>5</weight>
-                                        <only>RGBA(0.145,0.149,0.188,1)</only>
-                                    </li>
-                                </options>
-                            </first>
-                            <second Class="ColorGenerator_Options">
-                                <options>
-                                    <!--Brown-->
-                                    <li>
-                                        <weight>5</weight>
-                                        <only>RGBA(0.455,0.384,0.337,1)</only>
-                                    </li>
-                                    <!--Cyan-->
-                                    <li>
-                                        <weight>5</weight>
-                                        <only>RGBA(0.302,0.612,0.463,1)</only>
-                                    </li>
-                                    <!--Light purple-->
-                                    <li>
-                                        <weight>5</weight>
-                                        <only>RGBA(0.741,0.686,0.769,1)</only>
-                                    </li>
-                                    <!--Dark red-->
-                                    <li>
-                                        <weight>5</weight>
-                                        <only>RGBA(0.384,0.027,0.027,1)</only>
-                                    </li>
-                                    <!--Beige-->
-                                    <li>
-                                        <weight>5</weight>
-                                        <only>RGBA(0.871,0.847,0.792,1)</only>
-                                    </li>
-                                    <!--Black-->
-                                    <li>
-                                        <weight>5</weight>
-                                        <only>RGBA(0.196,0.196,0.196,1)</only>
-                                    </li>
-                                    <!--Gray Blue-->
-                                    <li>
-                                        <weight>5</weight>
-                                        <only>RGBA(0.420,0.494,0.533,1)</only>
-                                    </li>
-                                    <!--Gray-->
-                                    <li>
-                                        <weight>5</weight>
-                                        <only>RGBA(0.392,0.392,0.392,1)</only>
-                                    </li>
-                                    <!--Dark Blue(玄青)-->
-                                    <li>
-                                        <weight>5</weight>
-                                        <only>RGBA(0.145,0.149,0.188,1)</only>
-                                    </li>
-                                </options>
-                            </second>
+                            <first Class="SayersRemake.ColorGenerator_SayersFur"/>
+                            <second Class="SayersRemake.ColorGenerator_SayersFur"/>
                         </li>
-                        <li>
+						<li>
                             <name>hair</name>
-                            <first Class="ColorGenerator_Options">
-                                <options>
-                                    <!--Brown-->
-                                    <li>
-                                        <weight>5</weight>
-                                        <only>RGBA(0.455,0.384,0.337,1)</only>
-                                    </li>
-                                    <!--Cyan-->
-                                    <li>
-                                        <weight>5</weight>
-                                        <only>RGBA(0.302,0.612,0.463,1)</only>
-                                    </li>
-                                    <!--Light purple-->
-                                    <li>
-                                        <weight>5</weight>
-                                        <only>RGBA(0.741,0.686,0.769,1)</only>
-                                    </li>
-                                    <!--Dark red-->
-                                    <li>
-                                        <weight>5</weight>
-                                        <only>RGBA(0.384,0.027,0.027,1)</only>
-                                    </li>
-                                    <!--Beige-->
-                                    <li>
-                                        <weight>5</weight>
-                                        <only>RGBA(0.871,0.847,0.792,1)</only>
-                                    </li>
-                                    <!--Black-->
-                                    <li>
-                                        <weight>5</weight>
-                                        <only>RGBA(0.196,0.196,0.196,1)</only>
-                                    </li>
-                                    <!--Gray Blue-->
-                                    <li>
-                                        <weight>5</weight>
-                                        <only>RGBA(0.420,0.494,0.533,1)</only>
-                                    </li>
-                                    <!--Gray-->
-                                    <li>
-                                        <weight>5</weight>
-                                        <only>RGBA(0.392,0.392,0.392,1)</only>
-                                    </li>
-                                    <!--Dark Blue(玄青)-->
-                                    <li>
-                                        <weight>5</weight>
-                                        <only>RGBA(0.145,0.149,0.188,1)</only>
-                                    </li>
-                                </options>
-                            </first>
+                            <first Class="SayersRemake.ColorGenerator_SayersFlower"/>
+                            <second Class="SayersRemake.ColorGenerator_SayersFlower"/>
                         </li>
-                        <!-- HAIR IS SAME WITH SKIN -->
                         <li>
                             <name>pattern</name>
                             <first Class="ColorGenerator_Options">
@@ -522,6 +382,7 @@
                     <bodyTypes Inherit="False">
                         <li>Sayers_Prototype_Body</li>
                     </bodyTypes>
+					<oldHairAgeRange>999999.0~999999.0</oldHairAgeRange>
                     <!--<oldHairAgeRange>999.0~999.0</oldHairAgeRange>-->
                     <!-- BODY ADDONS -->
                     <bodyAddons>
@@ -544,6 +405,7 @@
                             <inFrontOfBody>true</inFrontOfBody>
                             <alignWithHead>true</alignWithHead>
 							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+                            <allowColorOverride>true</allowColorOverride>
                         </li>
                         <li>
                             <path>Things/Pawn/Sayers/Prototype/Flowers/OnNeck/Sayers_Prototype_ThroatFlower</path>
@@ -565,6 +427,7 @@
                             <inFrontOfBody>true</inFrontOfBody>
                             <alignWithHead>true</alignWithHead>
 							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+                            <allowColorOverride>true</allowColorOverride>
                         </li>
                         <li>
                             <path>Things/Pawn/Sayers/Prototype/Ears/Sayers_Prototype_DLear1</path>
@@ -575,19 +438,20 @@
                             </conditions>
                             <offsets>
                                 <south>
-                                    <layerOffset>-0.275</layerOffset>
+                                    <layerOffset>-0.3</layerOffset>
                                 </south>
                                 <north>
-                                    <layerOffset>-0.275</layerOffset>
+                                    <layerOffset>-0.35</layerOffset>
                                 </north>
                                 <east>
-                                    <layerOffset>-0.275</layerOffset>
+                                    <layerOffset>-0.276</layerOffset>
                                 </east>
                             </offsets>
                             <colorChannel>skin</colorChannel>
                             <inFrontOfBody>true</inFrontOfBody>
                             <alignWithHead>true</alignWithHead>
 							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+                            <allowColorOverride>true</allowColorOverride>
                         </li>
                         <li>
                             <path>Things/Pawn/Sayers/Prototype/Ears/Sayers_Prototype_DRear1</path>
@@ -611,6 +475,7 @@
                             <inFrontOfBody>true</inFrontOfBody>
                             <alignWithHead>true</alignWithHead>
 							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+                            <allowColorOverride>true</allowColorOverride>
                         </li>
                         <li>
                             <path>Things/Pawn/Sayers/Prototype/Ears/Sayers_Prototype_ULear1</path>
@@ -634,6 +499,7 @@
                             <inFrontOfBody>true</inFrontOfBody>
                             <alignWithHead>true</alignWithHead>
 							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+                            <allowColorOverride>true</allowColorOverride>
                         </li>
                         <li>
                             <path>Things/Pawn/Sayers/Prototype/Ears/Sayers_Prototype_URear1</path>
@@ -657,6 +523,7 @@
                             <inFrontOfBody>true</inFrontOfBody>
                             <alignWithHead>true</alignWithHead>
 							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+                            <allowColorOverride>true</allowColorOverride>
                         </li>
                         <li>
                             <path>Things/Pawn/Sayers/Prototype/Tentacles/Sayers_Prototype_LLtentacles</path>
@@ -693,6 +560,7 @@
                             <colorChannel>hair</colorChannel>
                             <inFrontOfBody>true</inFrontOfBody>
 							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+                            <allowColorOverride>true</allowColorOverride>
                         </li>
                         <li>
                             <path>Things/Pawn/Sayers/Prototype/Tentacles/Sayers_Prototype_LMtentacles</path>
@@ -729,6 +597,7 @@
                             <colorChannel>hair</colorChannel>
                             <inFrontOfBody>true</inFrontOfBody>
 							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+                            <allowColorOverride>true</allowColorOverride>
                         </li>
                         <li>
                             <path>Things/Pawn/Sayers/Prototype/Tentacles/Sayers_Prototype_RMtentacles</path>
@@ -765,6 +634,7 @@
                             <colorChannel>hair</colorChannel>
                             <inFrontOfBody>true</inFrontOfBody>
 							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+                            <allowColorOverride>true</allowColorOverride>
                         </li>
                         <li>
                             <path>Things/Pawn/Sayers/Prototype/Tentacles/Sayers_Prototype_RRtentacles</path>
@@ -801,6 +671,7 @@
                             <colorChannel>hair</colorChannel>
                             <inFrontOfBody>true</inFrontOfBody>
 							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+                            <allowColorOverride>true</allowColorOverride>
                         </li>
                         <li>
                             <path>Things/Pawn/Sayers/Prototype/Tails/Sayers_Prototype_TailFur</path>
@@ -834,6 +705,7 @@
                             <colorChannel>hair</colorChannel>
                             <defaultOffset>Tail</defaultOffset>
 							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+                            <allowColorOverride>true</allowColorOverride>
                         </li>
                         <li>
                             <path>Things/Pawn/Sayers/Prototype/Tails/Sayers_Prototype_TailBone</path>
@@ -869,6 +741,7 @@
                             <colorChannel>skin</colorChannel>
                             <defaultOffset>Tail</defaultOffset>
 							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+                            <allowColorOverride>true</allowColorOverride>
                         </li>
                         <li>
                             <path>Things/Pawn/Sayers/Prototype/Bodies/Pattern/Naked_Sayers_Prototype_Body_patternTABBY</path>
@@ -951,48 +824,27 @@
                 </growthFactorByAge>-->
             </generalSettings>
             <raceRestriction>
+				<researchList>
+					<li>
+						<projects>
+							<li>SayersTech_RootProject</li>
+							<li>SayersTech_FleshDissection</li>
+							<li>SayersTech_PlantNerve</li>
+						</projects>
+					</li>
+				</researchList>
+				<buildingList>
+					<li>Sayers_SleepingSpot</li>
+					<li>Sayers_NestBed</li>
+				</buildingList>
                 <!--<onlyUseRaceRestrictedApparel>true</onlyUseRaceRestrictedApparel>-->
                 <onlyUseRaceRestrictedWeapons>true</onlyUseRaceRestrictedWeapons>
                 <!-- BIOTECH -->
-                <geneList>
-                    <li>Sayers_Albinism_None</li>
-                    <li>Sayers_Albinism_Dress</li>
-                    <li>Sayers_Pattern_None</li>
-                    <li>Sayers_Pattern_Tabby</li>
-                </geneList>
-                <blackGeneList>
-                    <li>Skin_Melanin1</li>
-                    <li>Skin_Melanin2</li>
-                    <li>Skin_Melanin3</li>
-                    <li>Skin_Melanin4</li>
-                    <li>Skin_Melanin5</li>
-                    <li>Skin_Melanin6</li>
-                    <li>Skin_Melanin7</li>
-                    <li>Skin_Melanin8</li>
-                    <li>Skin_Melanin9</li>
-                    <li>Hair_SnowWhite</li>
-                    <li>Hair_InkBlack</li>
-                    <li>Hair_Gray</li>
-                    <li>Hair_DarkBlack</li>
-                    <li>Hair_MidBlack</li>
-                    <li>Hair_DarkReddish</li>
-                    <li>Hair_DarkSaturatedReddish</li>
-                    <li>Hair_DarkBrown</li>
-                    <li>Hair_ReddishBrown</li>
-                    <li>Hair_SandyBlonde</li>
-                    <li>Hair_Blonde</li>
-                    <li>Hair_Pink</li>
-                    <li>Hair_LightPurple</li>
-                    <li>Hair_LightBlue</li>
-                    <li>Hair_LightTeal</li>
-                    <li>Hair_LightGreen</li>
-                    <li>Hair_LightOrange</li>
-                    <li>Hair_BrightRed</li>
-                </blackGeneList>
-                <!--<blackGeneTags>
+                <blackGeneTags>
                     <li>SkinColorOverride</li>
                     <li>SkinColor</li>
-                </blackGeneTags>-->
+                    <li>HairColor</li>
+                </blackGeneTags>
                 <blackEndoCategories>
                     <li>Hands</li>
                     <li>Ears</li>

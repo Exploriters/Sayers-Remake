@@ -26,6 +26,10 @@ namespace SayersRemake
 		{
 			if (p != otherPawn && p.def == AlienSayersDef && otherPawn.def != AlienSayersDef)
 			{
+				if (LovePartnerRelationUtility.LovePartnerRelationExists(p, otherPawn))
+                {
+					return false;
+                }
 				return true;
 			}
 			else

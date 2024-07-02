@@ -2,9 +2,9 @@
 <Defs>
 	<InteractionDef>
 		<defName>Chitchat_Sayers</defName>
-		<label>闲聊</label>
+		<label>接触</label>
 		<workerClass>SayersRemake.InteractionWorker_Chitchat_Sayers</workerClass>
-		<symbol>Things/Mote/SpeechSymbols/Chitchat</symbol>
+		<symbol>Things/Mote/SpeechSymbols/Nuzzle</symbol>
 		<initiatorThought>Chitchat</initiatorThought>
 		<initiatorXpGainSkill>Social</initiatorXpGainSkill>
 		<initiatorXpGainAmount>4</initiatorXpGainAmount>
@@ -60,4 +60,215 @@
 			</include>
 		</logRulesInitiator>
 	</InteractionDef>
+	
+	<InteractionDef>
+		<defName>DeepTalk_Sayers</defName>
+		<label>深度接触</label>
+		<workerClass>SayersRemake.InteractionWorker_DeepTalk_Sayers</workerClass>
+		<symbol>Things/Mote/SpeechSymbols/Nuzzle</symbol>
+		<initiatorThought>DeepTalk</initiatorThought>
+		<initiatorXpGainSkill>Social</initiatorXpGainSkill>
+		<initiatorXpGainAmount>10</initiatorXpGainAmount>
+		<recipientThought>DeepTalk</recipientThought>
+		<logRulesInitiator>
+			<rulesStrings>
+				<li>r_logentry->[INITIATOR_nameDef][action]</li>
+				
+				<li>action->[actionEmotion]依靠着[RECIPIENT_nameDef]的[bodyPart]。</li>
+				<li>action->[actionEmotion]向[RECIPIENT_nameDef]发出[actionEmotionAddtional][soundType]。</li>
+				<li>action->[actionEmotion]用它的[writePart][writeAction]，[showType]。</li>
+				<li>action->[actionEmotion]凑近[RECIPIENT_nameDef]，并用[writePart][writeAction]，[ciriousType]。</li>
+				
+				<li>writePart->触手</li>
+				<li>writePart->爪子</li>
+				<li>writePart->尾巴</li>
+				
+				<li>writeAction->[placeType]描绘着关于[subject]的事情</li>
+				<li>writeAction->[placeType]比划着</li>
+				<li>writeAction->[placeType]刻画着</li>
+				<li>writeAction->[placeType]模仿着情景</li>
+				
+				<li>placeType->在地上</li>
+				<li>placeType->在[RECIPIENT_nameDef]的附近</li>
+				<li>placeType->在[RECIPIENT_nameDef]的面前</li>
+				<li>placeType-></li>
+				
+				<li>showType->以向[RECIPIENT_nameDef]展示关于[subject]的事情</li>
+				<li>showType->以向[RECIPIENT_nameDef]描绘[subject]</li>
+				<li>showType->以向[RECIPIENT_nameDef]讲述关于[subject]的事</li>
+				<li>showType->以试图让[RECIPIENT_nameDef]理解关于[subject]的事情</li>
+				
+				<li>ciriousType->以试图让[RECIPIENT_nameDef]理解关于[subject]的事情，它想[ciriousTypeAddtional]</li>
+				<li>ciriousType->以试图告诉[RECIPIENT_nameDef]它希望就[subject]的事情[ciriousTypeAddtional]</li>
+				<li>ciriousType->以试图让[RECIPIENT_nameDef]就[subject]的话题告诉它更多</li>
+				<li>ciriousType->以试图与[RECIPIENT_nameDef]交换关于[subject]的想法</li>
+				
+				<li>ciriousTypeAddtional->知道更多</li>
+				<li>ciriousTypeAddtional->了解更深</li>
+				<li>ciriousTypeAddtional->进一步交流</li>
+				<li>ciriousTypeAddtional->好奇更多</li>
+				
+				<li>soundType->呼噜声</li>
+				<li>soundType->低鸣声</li>
+				<li>soundType->嚎叫声</li>
+				<li>soundType->嗅探声</li>
+				
+				<li>actionEmotion->支持地</li>
+				<li>actionEmotion->依赖地</li>
+				<li>actionEmotion->亲昵地</li>
+				<li>actionEmotion->热情地</li>
+				<li>actionEmotion->幽怨地</li>
+				<li>actionEmotion->亲切地</li>
+				<li>actionEmotion->迟疑地</li>
+				<li>actionEmotion->悄悄地</li>
+				<li>actionEmotion->安静地</li>
+				<li>actionEmotion->乖巧地</li>
+				
+				<li>actionEmotionAddtional->轻快的</li>
+				<li>actionEmotionAddtional->低沉的</li>
+				<li>actionEmotionAddtional->迟疑的</li>
+				<li>actionEmotionAddtional->热切的</li>
+				<li>actionEmotionAddtional->亲切的</li>
+				<li>actionEmotionAddtional->柔和的</li>
+				<li>actionEmotionAddtional->激动的</li>
+				<li>actionEmotionAddtional->幽怨的</li>
+				<li>actionEmotionAddtional->有节奏的</li>
+				<li>actionEmotionAddtional->惬意的</li>
+				
+				<li>bodyPart->脸颊</li>
+				<li>bodyPart->脖子</li>
+				<li>bodyPart->侧腹</li>
+				<li>bodyPart->膝盖</li>
+				<li>bodyPart->小腿</li>
+				<li>bodyPart->脚踝</li>
+			</rulesStrings>
+			<include>
+				<li MayRequire="Ludeon.RimWorld.Anomaly">TalkTopicsCube</li>
+			</include>
+		</logRulesInitiator>
+	</InteractionDef>
+  
+  <!--<InteractionDef>
+    <defName>Slight</defName>
+    <label>slight</label>
+    <workerClass>InteractionWorker_Slight</workerClass>
+    <symbol>Things/Mote/SpeechSymbols/Slight</symbol>
+    <socialFightBaseChance>0.005</socialFightBaseChance>
+    <recipientThought>Slighted</recipientThought>
+    <logRulesInitiator>
+      <rulesStrings>
+        <li>r_logentry->[INITIATOR_nameDef] [madefunof] [target]'s [characteristic].</li>
+
+        <li>characteristic(INITIATOR_cubeInterest==false)->[PersonalCharacteristic]</li>
+        <li>characteristic(INITIATOR_cubeInterest==true)->[PersonalCharacteristicCube]</li>
+
+        <li>target(p=4)->[RECIPIENT_nameDef]</li>
+        <li>target->[RECIPIENT_nameDef]'s [PersonFamily]</li>
+
+        <li>madefunof->made fun of</li>
+        <li>madefunof->disrespected</li>
+        <li>madefunof->subtly scorned</li>
+        <li>madefunof->subtly shamed</li>
+        <li>madefunof->spoke badly of</li>
+        <li>madefunof->spoke negatively of</li>
+        <li>madefunof->laughed at</li>
+        <li>madefunof->sniggered at</li>
+        <li>madefunof->implied negative things about</li>
+        <li>madefunof->belittled</li>
+        <li>madefunof->made a contemptuous remark about</li>
+        <li>madefunof->offered a backhanded compliment about</li>
+      </rulesStrings>
+      <include>
+        <li MayRequire="Ludeon.RimWorld.Anomaly">PersonalCharacteristicsCube</li>
+      </include>
+    </logRulesInitiator>
+  </InteractionDef>
+  
+  <InteractionDef>
+    <defName>Insult</defName>
+    <label>insult</label>
+    <workerClass>InteractionWorker_Insult</workerClass>
+    <symbol>Things/Mote/SpeechSymbols/Insult</symbol>
+    <socialFightBaseChance>0.04</socialFightBaseChance>
+    <recipientThought>Insulted</recipientThought>
+    <logRulesInitiator>
+      <rulesStrings>
+        <li>r_logentry(p=3)->[INITIATOR_nameDef] [insulted] [target]'s [characteristic].</li>
+        <li>r_logentry->[INITIATOR_nameDef] compared [target] to [insultcomparison].</li>
+        <li>r_logentry->[INITIATOR_nameDef] called [target] [insultcomparison].</li>
+
+        <li>r_logentry(INITIATOR_cubeInterest==false,RECIPIENT_cubeInterest==true)->[INITIATOR_nameDef] called [target] a false idol worshipper.</li>
+        <li>r_logentry(INITIATOR_cubeInterest==false,RECIPIENT_cubeInterest==true)->[INITIATOR_nameDef] implied that [target] had been driven insane by the golden cube.</li>
+        <li>r_logentry(INITIATOR_cubeInterest==false,RECIPIENT_cubeInterest==true)->[INITIATOR_nameDef] [insulted] the golden cube.</li>
+        
+        <li>characteristic(INITIATOR_cubeInterest==false)->[PersonalCharacteristic]</li>
+        <li>characteristic(INITIATOR_cubeInterest==true)->[PersonalCharacteristicCube]</li>
+        
+        <li>target(p=4)->[RECIPIENT_nameDef]</li>
+        <li>target->[RECIPIENT_nameDef]'s [PersonFamily]</li>
+
+        <li>insulted(p=3)->insulted</li>
+        <li>insulted->openly insulted</li>
+        <li>insulted->loudly insulted</li>
+        <li>insulted->flagrantly insulted</li>
+        <li>insulted->directly insulted</li>
+        <li>insulted->viciously insulted</li>
+        <li>insulted->flagrantly disrespected</li>
+        <li>insulted->slandered</li>
+        <li>insulted->hurled invective about</li>
+        <li>insulted->derided</li>
+
+        <li>insultcomparison(INITIATOR_cubeInterest==false,p=2)->a [Animal]</li>
+        <li>insultcomparison(INITIATOR_cubeInterest==false)->a [Enemy]</li>
+        <li>insultcomparison(INITIATOR_cubeInterest==true)->a sphere</li> 
+        <li>insultcomparison(INITIATOR_cubeInterest==true)->something totally pointless</li>
+        <li>insultcomparison(INITIATOR_cubeInterest==true)->a non-cubic platonic object</li> 
+      </rulesStrings>
+      <include>
+        <li MayRequire="Ludeon.RimWorld.Anomaly">PersonalCharacteristicsCube</li>
+      </include>
+    </logRulesInitiator>
+  </InteractionDef>
+
+  <RulePackDef>
+    <defName>Sentence_SocialFightStarted</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>sent->This drove [RECIPIENT_nameDef] into a rage and [RECIPIENT_pronoun] began a fight!</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+  
+  <InteractionDef>
+    <defName>KindWords</defName>
+    <label>kind words</label>
+    <workerClass>InteractionWorker_KindWords</workerClass>
+    <symbol>Things/Mote/SpeechSymbols/KindWords</symbol>
+    <recipientThought>KindWords</recipientThought>
+    <logRulesInitiator>
+      <rulesStrings>
+        <li>r_logentry->[INITIATOR_nameDef] [complimented] [RECIPIENT_nameDef]'s [characteristic].</li>
+
+        <li>characteristic(INITIATOR_cubeInterest==false)->[PersonalCharacteristic]</li>
+        <li>characteristic(INITIATOR_cubeInterest==true)->[PersonalCharacteristicCube]</li>
+
+        <li>complimented(p=3)->complimented</li>
+        <li>complimented->praised</li>
+        <li>complimented->commended</li>
+        <li>complimented->lauded</li>
+        <li>complimented->applauded</li>
+        <li>complimented->celebrated</li>
+        <li>complimented->saluted</li>
+        <li>complimented->spoke kindly of</li>
+        <li>complimented->expressed good things about</li>
+        <li>complimented->offered kinds words about</li>
+        <li>complimented->verbally appreciated</li>
+        <li>complimented->expressed appreciation for</li>
+        <li>complimented->said good things about</li>
+      </rulesStrings>
+      <include>
+        <li MayRequire="Ludeon.RimWorld.Anomaly">PersonalCharacteristicsCube</li>
+      </include>
+    </logRulesInitiator>
+  </InteractionDef>-->
 </Defs>

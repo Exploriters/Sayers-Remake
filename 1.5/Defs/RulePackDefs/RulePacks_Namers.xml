@@ -1,6 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
   <RulePackDef>
     <defName>NamerPersonSayers</defName>
     <include>
@@ -9,6 +8,187 @@
     <rulePack>
       <rulesStrings>
         <li>r_name->[Color][Animal]赛尔斯</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+  
+  <RulePackDef>
+	<defName>SayersFirstName</defName>
+	<rulePack>
+		<rulesStrings>
+			<li>name->ID[6digits]</li>
+		</rulesStrings>
+		<rulesRaw>
+			<li Class="Rule_Number">
+				<keyword>6digits</keyword>
+				<range>0~999999</range>
+			</li>
+		</rulesRaw>
+	</rulePack>
+  </RulePackDef>
+  
+  <RulePackDef>
+	<defName>SayersNickName</defName>
+	<rulePack>
+      <rulesStrings>
+		<!-- 植物 -->
+        <li>nickname->赤杨</li>
+		<li>nickname->白蜡树</li>
+		<li>nickname->苹果</li>
+		<li>nickname->杨树</li>
+		<li>nickname->月桂</li>
+		<li>nickname->榉木</li>
+		<li>nickname->桦树</li>
+		<li>nickname->风铃草</li>
+		<li>nickname->蔷薇</li>
+		<li>nickname->樱桃</li>
+		<li>nickname->板栗</li>
+		<li>nickname->肉桂</li>
+		<li>nickname->苜蓿</li>
+		<li>nickname->蔓越莓</li>
+		<li>nickname->雏菊</li>
+		<li>nickname->蒲公英</li>
+		<li>nickname->檀木</li>
+		<li>nickname->接骨木</li>
+		<li>nickname->茴香</li>
+		<li>nickname->亚麻</li>
+		<li>nickname->金雀花</li>
+		<li>nickname->榛子</li>
+		<li>nickname->石楠</li>
+		<li>nickname->山胡桃</li>
+		<li>nickname->冬青</li>
+		<li>nickname->常春藤</li>
+		<li>nickname->薰衣草</li>
+		<li>nickname->金盏花</li>
+		<li>nickname->锦葵</li>
+		<li>nickname->枫</li>
+		<li>nickname->薄荷</li>
+		<li>nickname->桃金娘</li>
+		<li>nickname->荨麻</li>
+		<li>nickname->橡木</li>
+		<li>nickname->橄榄</li>
+		<li>nickname->芹</li>
+		<li>nickname->梨子</li>
+		<li>nickname->梅</li>
+		<li>nickname->罂粟</li>
+		<li>nickname->报春花</li>
+		<li>nickname->花楸</li>
+		<li>nickname->鼠尾草</li>
+		<li>nickname->李</li>
+		<li>nickname->酸模</li>
+		<li>nickname->艾菊</li>
+		<li>nickname->蓟</li>
+		<li>nickname->海石竹</li>
+		<li>nickname->紫罗兰</li>
+		<li>nickname->柳</li>
+		<li>nickname->蓍草</li>
+		<li>nickname->韭葱</li>
+		<li>nickname->燕麦</li>
+		<li>nickname->百合</li>
+		<li>nickname->芦苇</li>
+		<li>nickname->黑麦</li>
+		<li>nickname->灯芯草</li>
+		<li>nickname->莎草</li>
+		<li>nickname->郁金香</li>
+		<li>nickname->杉木</li>
+		<li>nickname->柏木</li>
+		<li>nickname->冷杉</li>
+		<li>nickname->杜松</li>
+		<li>nickname->落叶松</li>
+		<li>nickname->松木</li>
+		<li>nickname->紫杉</li>
+		<li>nickname->碗蕨</li>
+		<li>nickname->蕨</li>
+		<li>nickname->苔藓</li>
+		<li>nickname->地衣</li>
+		<li>nickname->昙花</li>
+		<li>nickname->双生花</li>
+		<li>nickname->勿忘我</li>
+		<li>nickname->毛地黄</li>
+		<li>nickname->水芹</li>
+		<li>nickname->琉璃苣</li>
+		<li>nickname->颠茄</li>
+		<li>nickname->叶</li>
+		<li>nickname->花瓣</li>
+		<li>nickname->藤蔓</li>
+		<li>nickname->茎</li>
+		<li>nickname->秆</li>
+		<li>nickname->橡实</li>
+		<li>nickname->莓果</li>
+		<li>nickname->黑莓</li>
+		<li>nickname->刺球果</li>
+		<li>nickname->松果</li>
+		<li>nickname->坚果</li>
+		<li>nickname->豆荚</li>
+		<li>nickname->种子</li>
+		<li>nickname->穗</li>
+		<li>nickname->枝</li>
+		<li>nickname->灌木</li>
+		<li>nickname->野草</li>
+		<li>nickname->草</li>
+		<li>nickname->干草</li>
+		<li>nickname->圆木</li>
+		<li>nickname->根须</li>
+		<li>nickname->树</li>
+		<li>nickname->微枝</li>
+		<li>nickname->木</li>
+		<li>nickname->兰花</li>
+		<li>nickname->铃兰</li>
+		<li>nickname->梧桐</li>
+		<li>nickname->棕榈</li>
+		<li>nickname->银杏</li>
+		<li>nickname->桃</li>
+		<li>nickname->橘</li>
+		<li>nickname->葡萄</li>
+		<li>nickname->竹</li>
+		<li>nickname->甘蔗</li>
+		<li>nickname->糯米</li>
+		<li>nickname->小麦</li>
+		<li>nickname->土豆</li>
+		<li>nickname->水稻</li>
+		<li>nickname->药草</li>
+		<li>nickname->草莓</li>
+		<li>nickname->蘑菇</li>
+		<!-- 器官&部位 -->
+		<li>nickname->眼</li>
+		<li>nickname->舌</li>
+		<li>nickname->耳朵</li>
+		<li>nickname->犬齿</li>
+		<li>nickname->皮肤</li>
+		<li>nickname->绒毛</li>
+		<li>nickname->纤维</li>
+		<li>nickname->神经</li>
+		<li>nickname->血肉</li>
+		<li>nickname->颅骨</li>
+		<li>nickname->脊椎</li>
+		<li>nickname->肋骨</li>
+		<li>nickname->尾骨</li>
+		<li>nickname->脑</li>
+		<li>nickname->咽喉</li>
+		<li>nickname->气管</li>
+		<li>nickname->心脏</li>
+		<li>nickname->胃</li>
+		<li>nickname->肾脏</li>
+		<li>nickname->肺</li>
+		<li>nickname->肠</li>
+		<li>nickname->脾</li>
+		<li>nickname->血</li>
+		<li>nickname->血管</li>
+		<li>nickname->指甲</li>
+		<li>nickname->肿瘤</li>
+		<li>nickname->肉垫</li>
+		<li>nickname->骨刺</li>
+		<li>nickname->组织</li>
+		<li>nickname->器官</li>
+		<li>nickname->脂肪</li>
+		<li>nickname->软骨</li>
+		<li>nickname->内脏</li>
+		<li>nickname->斑纹</li>
+		<li>nickname->皮毛</li>
+		<li>nickname->白斑</li>
+		<li>nickname->虎斑</li>
+		<li>nickname->玳瑁</li>
+		<li>nickname->补丁</li>
       </rulesStrings>
     </rulePack>
   </RulePackDef>

@@ -33,10 +33,10 @@
         <label>成体</label>
         <workerClass MayRequire="Ludeon.RimWorld.Biotech">LifeStageWorker_HumanlikeAdult</workerClass>
         <visible>false</visible>
-        <bodyDrawOffset>(0, 0, -0.1)</bodyDrawOffset>
+        <bodyDrawOffset>(0, 0, -0.05)</bodyDrawOffset>
         <reproductive>true</reproductive>
         <sittingOffset>0.18</sittingOffset>
-		<headSizeFactor>0.5</headSizeFactor>
+		<headSizeFactor>0.6</headSizeFactor>
 		<bodyWidth>0.8</bodyWidth>
         <silhouetteGraphicData>
             <texPath>Things/Pawn/Humanlike/Silhouettes/Silhouette_HumanAdult</texPath>

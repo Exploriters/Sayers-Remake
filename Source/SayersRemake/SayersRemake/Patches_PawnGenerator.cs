@@ -1,6 +1,7 @@
 ﻿using System;
 using RimWorld;
 using Verse;
+using Verse.Grammar;
 using static SayersRemake.SayersRemakeBase;
 using System.Collections.Generic;
 using System.Linq;
@@ -34,8 +35,16 @@ namespace SayersRemake
 			if (pawn.Name is NameTriple name)
 			{
 				//__result.Name = new NameTriple(name.Last, name.Last, null);
-				string nameFirst = PawnNameDatabaseShuffled.BankOf(PawnNameCategory.HumanStandard).GetName(PawnNameSlot.First, Rand.Bool ? Gender.Female : Gender.Male);
-				pawn.Name = new NameTriple(nameFirst, nameFirst, "Sayers");
+				//string nameFirst = PawnNameDatabaseShuffled.BankOf(PawnNameCategory.HumanStandard).GetName(PawnNameSlot.First, Rand.Bool ? Gender.Female : Gender.Male);
+
+				GrammarRequest firstNameRequest = default(GrammarRequest);
+				firstNameRequest.Includes.Add(RulePack_SayersFirstName);
+				string nameFirst = GrammarResolver.Resolve("name", firstNameRequest);
+
+				GrammarRequest nickNameRequest = default(GrammarRequest);
+				nickNameRequest.Includes.Add(RulePack_SayersNickName);
+				string nameNick = GrammarResolver.Resolve("nickname", nickNameRequest);
+				pawn.Name = new NameTriple(nameFirst, nameNick, "Sayers");
 			}
 
 			return true;

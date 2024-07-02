@@ -58,5 +58,7 @@ namespace SayersRemake
 		public static readonly Harmony harmonyInstance = new Harmony(id: "Explorite.rimworld.mod.HarmonyPatches");
 		public static readonly ThingDef AlienSayersDef = GetModDef<ThingDef>(InstelledMods.Sayers, "Alien_Sayers");
 		public static readonly BodyDef SayersBodyDef = GetModDef<BodyDef>(InstelledMods.Sayers, "Body_Sayers");
+		public static readonly RulePackDef RulePack_SayersNickName = GetModDef<RulePackDef>(InstelledMods.Sayers, "SayersNickName");
+		public static readonly RulePackDef RulePack_SayersFirstName = GetModDef<RulePackDef>(InstelledMods.Sayers, "SayersFirstName");
 	};
 }

@@ -36,5 +36,17 @@ namespace SayersRemake
 				return min;
 			return value;
 		}
+		/**
+		* <summary>
+		 * 随机范围浮点数。
+		 * </summary>
+		 * <param name = "min" > 最小值。</param>
+		 * <param name = "max" > 最大值。</param>
+		 * <returns>随机数结果。</returns>
+		 */
+		public static float RandomFloatRange(float min, float max)
+		{
+			return Rand.Value * (max - min) + min;
+		}
 	};
 }

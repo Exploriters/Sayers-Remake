@@ -4,9 +4,16 @@
         <defName>SayersMember</defName>
         <label>赛尔斯</label>
         <race>Alien_Sayers</race>
+		<!--<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>SayersBackstory</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>-->
         <xenotypeSet>
             <xenotypeChances>
-                <Sayers_Prototype>999</Sayers_Prototype>
+                <Sayers_Prototype>99999</Sayers_Prototype>
             </xenotypeChances>
         </xenotypeSet>
         <useFactionXenotypes>false</useFactionXenotypes>
