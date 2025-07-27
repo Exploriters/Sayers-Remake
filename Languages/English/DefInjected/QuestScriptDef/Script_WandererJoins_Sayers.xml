@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- ZH:
+    <li>questDescription-></li>
+  -->
+  <WandererJoins_Sayers.questDescriptionRules.rulesStrings>
+    <li>questDescription-></li>
+  </WandererJoins_Sayers.questDescriptionRules.rulesStrings>
+  <!-- ZH:
+    <li>questName->加入请求：赛尔斯</li>
+  -->
+  <WandererJoins_Sayers.questNameRules.rulesStrings>
+    <li>questName->Join request: Sayers</li>
+  </WandererJoins_Sayers.questNameRules.rulesStrings>
+  
+</LanguageData>

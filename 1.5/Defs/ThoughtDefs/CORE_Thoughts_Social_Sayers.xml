@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <!-- Killed my X -->
+  
+  <ThoughtDef>
+    <defName>KilledMyFriend_Sayers</defName>
+    <thoughtClass>Thought_MemorySocial</thoughtClass>
+    <durationDays>60</durationDays>
+    <stackLimit>300</stackLimit>
+    <stackLimitForSameOtherPawn>10</stackLimitForSameOtherPawn>
+    <stages>
+      <li>
+        <label>杀了我的朋友</label>
+        <baseOpinionOffset>-70</baseOpinionOffset>
+      </li>
+    </stages>
+  </ThoughtDef>
+  
+  <ThoughtDef>
+    <defName>KilledMyRival_Sayers</defName>
+    <thoughtClass>Thought_MemorySocial</thoughtClass>
+    <durationDays>60</durationDays>
+    <stackLimit>300</stackLimit>
+    <stackLimitForSameOtherPawn>10</stackLimitForSameOtherPawn>
+    <stages>
+      <li>
+        <label>杀了我的仇人</label>
+        <baseOpinionOffset>10</baseOpinionOffset>
+      </li>
+    </stages>
+  </ThoughtDef>
+  
+  <ThoughtDef>
+    <defName>KilledMyLover_Sayers</defName>
+    <thoughtClass>Thought_MemorySocial</thoughtClass>
+    <durationDays>120</durationDays>
+    <stackLimit>300</stackLimit>
+    <stackLimitForSameOtherPawn>10</stackLimitForSameOtherPawn>
+    <stages>
+      <li>
+        <label>杀了我的情人</label>
+        <baseOpinionOffset>-100</baseOpinionOffset>
+      </li>
+    </stages>
+  </ThoughtDef>
+  
+  <ThoughtDef>
+    <defName>KilledMyFiance_Sayers</defName>
+    <thoughtClass>Thought_MemorySocial</thoughtClass>
+    <durationDays>120</durationDays>
+    <stackLimit>300</stackLimit>
+    <stackLimitForSameOtherPawn>10</stackLimitForSameOtherPawn>
+    <stages>
+      <li>
+        <label>杀了我的未婚夫/妻</label>
+        <baseOpinionOffset>-130</baseOpinionOffset>
+      </li>
+    </stages>
+  </ThoughtDef>
+  
+  <ThoughtDef>
+    <defName>KilledMySpouse_Sayers</defName>
+    <thoughtClass>Thought_MemorySocial</thoughtClass>
+    <durationDays>120</durationDays>
+    <stackLimit>300</stackLimit>
+    <stackLimitForSameOtherPawn>10</stackLimitForSameOtherPawn>
+    <stages>
+      <li>
+        <label>杀了我的伴侣</label>
+        <baseOpinionOffset>-200</baseOpinionOffset>
+      </li>
+    </stages>
+  </ThoughtDef>
+ 
+  <ThoughtDef>
+    <defName>KilledMyBondedAnimal_Sayers</defName>
+    <thoughtClass>Thought_MemorySocial</thoughtClass>
+    <durationDays>60</durationDays>
+    <stackLimit>300</stackLimit>
+    <stackLimitForSameOtherPawn>10</stackLimitForSameOtherPawn>
+    <stages>
+      <li>
+        <label>杀了我的牵绊动物</label>
+        <baseOpinionOffset>-200</baseOpinionOffset>
+      </li>
+    </stages>
+  </ThoughtDef>
+</Defs>

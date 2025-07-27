@@ -28,7 +28,7 @@ namespace SayersRemake
         {
             float randomValueColorType = Rand.Value;
             int randomColorType = 1;
-            if (randomValueColorType < 0.9f)
+            if (randomValueColorType < 0.95f)
             {
                 //Normal Fur Colors
                 randomColorType = Rand.Range(1, 4);

@@ -38,4 +38,17 @@
 			</li>
 		</stages>
 	</ThoughtDef>
+	
+	<ThoughtDef>
+		<defName>AbandonedSadness_Sayers</defName>
+		<durationDays>10</durationDays>
+		<stackLimit>1</stackLimit>
+		<stages>
+		  <li>
+			<label>遭弃悲哀</label>
+			<description>幼兽迷茫地抬头仰望，于陌生之地长音呼号，但回应唯有失落。</description>
+			<baseMoodEffect>-10</baseMoodEffect>
+		  </li>
+		</stages>
+	</ThoughtDef>
 </Defs>

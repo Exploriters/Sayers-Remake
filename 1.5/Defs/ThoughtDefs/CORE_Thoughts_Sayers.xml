@@ -235,4 +235,119 @@
     </stages>
     <validWhileDespawned>true</validWhileDespawned>
   </ThoughtDef>
+  
+  <!-- ====ROOM STATS(MEMORY)==== -->
+  <ThoughtDef>
+    <defName>SleptInBedroom_Sayers</defName>
+    <durationDays>1</durationDays>
+    <stackLimit>1</stackLimit>
+    <stages>
+      <li>
+        <label>可怕的卧室</label>
+        <description>幼兽蜷缩在混乱之中，咬着自己的皮毛颤栗着，忍受着孤独的痛苦，孤身入眠。</description>
+        <baseMoodEffect>-14</baseMoodEffect>
+      </li>
+      <li>
+        <label>乏味的卧室</label>
+        <description>幼兽蜷缩在乏味之中，咬着自己的皮毛，忍受着孤独的痛苦，孤身入眠。</description>
+        <baseMoodEffect>-10</baseMoodEffect>
+      </li>
+      <li>
+        <label>平庸的卧室</label>
+        <description>幼兽蜷缩在平庸之处，咬着自己的皮毛，忍受着孤独的痛苦，孤身入眠。</description>
+        <baseMoodEffect>-6</baseMoodEffect>
+      </li>
+      <li>
+        <label>体面的卧室</label>
+        <description>幼兽咬着自己的皮毛，蜷缩着，孤身入眠。</description>
+        <baseMoodEffect>-3</baseMoodEffect>
+      </li>
+      <li>
+        <label>令人小有印象的卧室</label>
+        <description>幼兽环顾四周后蜷缩下来，试着驱逐孤独带来的不快，直到入眠。</description>
+        <baseMoodEffect>-2</baseMoodEffect>
+      </li>
+      <li>
+        <label>令人印象深刻的卧室</label>
+        <description>幼兽环顾四周，试图把孤独感抛之脑后，专注于它的睡梦。</description>
+        <baseMoodEffect>-1</baseMoodEffect>
+      </li>
+      <li>
+        <label>令人印象非常深刻的卧室</label>
+        <description>幼兽凝视着它的卧室，印象深刻的装饰勉强驱逐了孤独的折磨，让它得以入眠。</description>
+        <baseMoodEffect>1</baseMoodEffect>
+      </li>
+      <li>
+        <label>令人印象极度深刻的卧室</label>
+        <description>幼兽在卧室里绕圈漫步并最终蜷下，这里已经足够深刻，掩盖了孤独的痛苦，它得以安心入眠。</description>
+        <baseMoodEffect>2</baseMoodEffect>
+      </li>
+      <li>
+        <label>令人难以置信的卧室</label>
+        <description>幼兽在卧室里舒展着身子，又惬意蜷身。这卧室已然成为抵御孤独的庇护所，保卫着它的美梦。</description>
+        <baseMoodEffect>3</baseMoodEffect>
+      </li>
+      <li>
+        <label>奇迹非凡的卧室</label>
+        <description>在仙境般的环境下，幼兽已别无所求，安然入眠。</description>
+        <baseMoodEffect>4</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>SleptInBarracks_Sayers</defName>
+    <durationDays>1</durationDays>
+    <stackLimit>1</stackLimit>
+    <stages>
+      <li IsNull="True" />
+      <li IsNull="True" />
+      <li>
+        <label>平庸的营房</label>
+        <description>幼兽蜷缩在室友附近，安然入眠。</description>
+        <baseMoodEffect>1</baseMoodEffect>
+      </li>
+      <li>
+        <label>体面的营房</label>
+        <description>幼兽惬意地蜷缩在室友附近，安然入眠。</description>
+        <baseMoodEffect>2</baseMoodEffect>
+      </li>
+      <li>
+        <label>令人小有印象的营房</label>
+        <description>幼兽蜷缩在室友附近，发出惬意的呼噜声，安然入眠。</description>
+        <baseMoodEffect>3</baseMoodEffect>
+      </li>
+      <li>
+        <label>令人印象深刻的营房</label>
+        <description>幼兽舒展着自己的身子，随后在舍友附近惬意蜷身，渐入梦乡。</description>
+        <baseMoodEffect>4</baseMoodEffect>
+      </li>
+	  <li IsNull="True" />
+	  <li IsNull="True" />
+	  <li IsNull="True" />
+	  <li IsNull="True" />
+      <!--<li>
+        <label>令人印象非常深刻的营房</label>
+        <description>TODO</description>
+        <baseMoodEffect>5</baseMoodEffect>
+      </li>
+      <li>
+        <label>令人印象极度深刻的营房</label>
+        <description>TODO</description>
+        <baseMoodEffect>6</baseMoodEffect>
+      </li>
+      <li>
+        <label>令人难以置信的营房</label>
+        <description>TODO</description>
+        <baseMoodEffect>7</baseMoodEffect>
+      </li>
+      <li>
+        <label>奇迹非凡的营房</label>
+        <description>TODO</description>
+        <baseMoodEffect>8</baseMoodEffect>
+      </li>-->
+    </stages>
+  </ThoughtDef>
+  
+  
 </Defs>

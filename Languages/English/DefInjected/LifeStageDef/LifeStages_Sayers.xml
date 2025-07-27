@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- ZH: 成体 -->
+  <SayersAdult.label>Adult</SayersAdult.label>
+  
+  <!-- ZH: 幼崽 -->
+  <SayersKit.label>Cub</SayersKit.label>
+  
+</LanguageData>

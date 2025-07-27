@@ -207,7 +207,18 @@
                   <groups>
                     <li>Teeth</li>
                     <li>FullHead</li>
+                    <li>Mouth</li>
                   </groups>
+                  <parts>
+                    <li>
+                      <def>Tongue</def>
+                      <coverage>0.001</coverage>
+                      <depth>Inside</depth>
+                      <groups>
+                        <li>FullHead</li>
+                      </groups>
+                    </li>
+                  </parts>
                 </li>
               </parts>
             </li>

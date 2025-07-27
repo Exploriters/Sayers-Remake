@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- ZH: 眼生花 -->
+  <BorneyeFlowers.label>bornin-eye flowers</BorneyeFlowers.label>
+  
+  <!-- ZH: 喉生花 -->
+  <BornthroatFlowers.label>bornin-throat flowers</BornthroatFlowers.label>
+  
+  <!-- ZH: 赛尔斯耳朵 -->
+  <SayersEar.label>sayers ear</SayersEar.label>
+  
+  <!-- ZH: 尾内骨骼 -->
+  <TailBone.label>tail bone</TailBone.label>
+  
+  <!-- ZH: 尾部覆毛 -->
+  <TailFur.label>tail fur</TailFur.label>
+  
+  <!-- ZH: 触手 -->
+  <Tentacles.label>tentacle</Tentacles.label>
+  
+  <!-- ZH: 触手骨 -->
+  <TentaclesBone.label>tentacle bone</TentaclesBone.label>
+  
+</LanguageData>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+	<SayersRemake_PartReborn>{0}的{1}重新生长出来了！</SayersRemake_PartReborn>
+	<SayersRemake_PartHealing>{0}的{1}迭代了一部分！</SayersRemake_PartHealing>
+	<SayersRemake_StabilityDown>{0}的精神负荷压制程序超载了！</SayersRemake_StabilityDown>
+	<SayersRemake_StabilityBreak>{0}的稳定性因压制精神崩溃而降低了！</SayersRemake_StabilityBreak>
+	<SayersRemake_SayersJoin_Label>加入请求：{0}</SayersRemake_SayersJoin_Label>
+	<SayersRemake_SayersJoin_Text_HasSayers>一只赛尔斯接近了你的殖民地，它试图告诉你它被称为{0}，并表示了对于留下来的渴望：它嗅到了同族的气味，对某些事物的渴望驱使着它来到这里，并试图留下。\n赛尔斯是高度团结的种族，因此它们更容易与同族建立正面关系。\n\n这只赛尔斯的初始属性可能会很低，但是无每日学习上限与更强的学习能力能够让它在短时间内迅速地被专业化。</SayersRemake_SayersJoin_Text_HasSayers>
+	<SayersRemake_SayersJoin_Text_HasntSayers>一只赛尔斯接近了你的殖民地，它试图告诉你它被称为{0}，并表示了对于留下来的渴望：虽然它看起来并不算很友好，甚至是警惕，但有什么更深一层的恐惧迫使了它做出此种决定。\n\n这只赛尔斯的初始属性可能会很低，但是无每日学习上限与更强的学习能力能够让它在短时间内迅速地被专业化。</SayersRemake_SayersJoin_Text_HasntSayers>
+</LanguageData>

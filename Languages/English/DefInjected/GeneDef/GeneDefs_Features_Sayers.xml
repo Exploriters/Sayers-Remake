@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- ZH: 躯干晚礼服白化 -->
+  <Sayers_Albinism_Dress.label>Dress white patch - Body</Sayers_Albinism_Dress.label>
+  <!-- ZH: 让赛尔斯拥有躯干晚礼服白化。 -->
+  <Sayers_Albinism_Dress.description>Make Sayers has dress white patch on its body.</Sayers_Albinism_Dress.description>
+  <!-- ZH: 晚礼服白化 -->
+  <Sayers_Albinism_Dress.labelShortAdj>Dress white patch</Sayers_Albinism_Dress.labelShortAdj>
+  
+  <!-- ZH: 头部骨架白化 -->
+  <Sayers_Albinism_Head_Bone.label>Bone white patch - Head</Sayers_Albinism_Head_Bone.label>
+  <!-- ZH: 让赛尔斯拥有头部骨架白化。 -->
+  <Sayers_Albinism_Head_Bone.description>Make Sayers has bone white patch on its head.</Sayers_Albinism_Head_Bone.description>
+  <!-- ZH: 骨架白化 -->
+  <Sayers_Albinism_Head_Bone.labelShortAdj>Bone white patch</Sayers_Albinism_Head_Bone.labelShortAdj>
+  
+  <!-- ZH: 头部斗篷白化 -->
+  <Sayers_Albinism_Head_Cloak.label>Cloak white patch - Head</Sayers_Albinism_Head_Cloak.label>
+  <!-- ZH: 让赛尔斯拥有头部斗篷白化。 -->
+  <Sayers_Albinism_Head_Cloak.description>Make Sayers has cloak white patch on its head.</Sayers_Albinism_Head_Cloak.description>
+  <!-- ZH: 斗篷白化 -->
+  <Sayers_Albinism_Head_Cloak.labelShortAdj>Cloak white patch</Sayers_Albinism_Head_Cloak.labelShortAdj>
+  
+  <!-- ZH: 头部晚礼服白化 -->
+  <Sayers_Albinism_Head_Dress.label>Dress white patch - Head</Sayers_Albinism_Head_Dress.label>
+  <!-- ZH: 让赛尔斯拥有头部晚礼服白化。 -->
+  <Sayers_Albinism_Head_Dress.description>Make Sayers has dress white patch on its head.</Sayers_Albinism_Head_Dress.description>
+  <!-- ZH: 晚礼服白化 -->
+  <Sayers_Albinism_Head_Dress.labelShortAdj>Dress white patch</Sayers_Albinism_Head_Dress.labelShortAdj>
+  
+  <!-- ZH: 头部左半面白化 -->
+  <Sayers_Albinism_Head_HalfL1.label>Left half white patch - Head</Sayers_Albinism_Head_HalfL1.label>
+  <!-- ZH: 让赛尔斯拥有头部左半面白化。 -->
+  <Sayers_Albinism_Head_HalfL1.description>Make Sayers has left half white patch on its head.</Sayers_Albinism_Head_HalfL1.description>
+  <!-- ZH: 半面白化 -->
+  <Sayers_Albinism_Head_HalfL1.labelShortAdj>Half white patch</Sayers_Albinism_Head_HalfL1.labelShortAdj>
+  
+  <!-- ZH: 头部右半面白化 -->
+  <Sayers_Albinism_Head_HalfR2.label>Right half white patch - Head</Sayers_Albinism_Head_HalfR2.label>
+  <!-- ZH: 让赛尔斯拥有头部右半面白化。 -->
+  <Sayers_Albinism_Head_HalfR2.description>Make Sayers has right half white patch on its head.</Sayers_Albinism_Head_HalfR2.description>
+  <!-- ZH: 半面白化 -->
+  <Sayers_Albinism_Head_HalfR2.labelShortAdj>Half white patch</Sayers_Albinism_Head_HalfR2.labelShortAdj>
+  
+  <!-- ZH: 无头部白化斑块 -->
+  <Sayers_Albinism_Head_None.label>No white patch - Head</Sayers_Albinism_Head_None.label>
+  <!-- ZH: 让赛尔斯没有头部白化斑块。 -->
+  <Sayers_Albinism_Head_None.description>Make Sayers has no white patch on its head.</Sayers_Albinism_Head_None.description>
+  <!-- ZH: 无白化 -->
+  <Sayers_Albinism_Head_None.labelShortAdj>No white patch</Sayers_Albinism_Head_None.labelShortAdj>
+  
+  <!-- ZH: 头部鼻点白化 -->
+  <Sayers_Albinism_Head_Nosepoint.label>Nosepoint white patch - Head</Sayers_Albinism_Head_Nosepoint.label>
+  <!-- ZH: 让赛尔斯拥有头部鼻点白化。 -->
+  <Sayers_Albinism_Head_Nosepoint.description>Make Sayers has nosepoint white patch on its head.</Sayers_Albinism_Head_Nosepoint.description>
+  <!-- ZH: 鼻点白化 -->
+  <Sayers_Albinism_Head_Nosepoint.labelShortAdj>Nosepoint white patch</Sayers_Albinism_Head_Nosepoint.labelShortAdj>
+  
+  <!-- ZH: 头部暹罗深化 -->
+  <Sayers_Albinism_Head_Siamese.label>Siamese deepen - Head</Sayers_Albinism_Head_Siamese.label>
+  <!-- ZH: 让赛尔斯拥有头部暹罗深化。 -->
+  <Sayers_Albinism_Head_Siamese.description>Make Sayers has siamese deepen on its head.</Sayers_Albinism_Head_Siamese.description>
+  <!-- ZH: 暹罗深化 -->
+  <Sayers_Albinism_Head_Siamese.labelShortAdj>Siamese deepen</Sayers_Albinism_Head_Siamese.labelShortAdj>
+  
+  <!-- ZH: 躯干心形白化 -->
+  <Sayers_Albinism_Heart.label>Heart white patch - Body</Sayers_Albinism_Heart.label>
+  <!-- ZH: 让赛尔斯拥有躯干心形白化。 -->
+  <Sayers_Albinism_Heart.description>Make Sayers has heart white patch on its body.</Sayers_Albinism_Heart.description>
+  <!-- ZH: 心形白化 -->
+  <Sayers_Albinism_Heart.labelShortAdj>Heart white patch</Sayers_Albinism_Heart.labelShortAdj>
+  
+  <!-- ZH: 无躯干白化斑块 -->
+  <Sayers_Albinism_None.label>No white patch - Body</Sayers_Albinism_None.label>
+  <!-- ZH: 让赛尔斯没有躯干白化斑块。 -->
+  <Sayers_Albinism_None.description>Make Sayers has no white patch on its body.</Sayers_Albinism_None.description>
+  <!-- ZH: 无白化 -->
+  <Sayers_Albinism_None.labelShortAdj>No white patch</Sayers_Albinism_None.labelShortAdj>
+  
+  <!-- ZH: 躯干暹罗深化 -->
+  <Sayers_Albinism_Siamese.label>Siamese deepen - Body</Sayers_Albinism_Siamese.label>
+  <!-- ZH: 让赛尔斯拥有躯干暹罗深化。 -->
+  <Sayers_Albinism_Siamese.description>Make Sayers has siamese deepen on its body.</Sayers_Albinism_Siamese.description>
+  <!-- ZH: 暹罗深化 -->
+  <Sayers_Albinism_Siamese.labelShortAdj>Siamese deepen</Sayers_Albinism_Siamese.labelShortAdj>
+  
+  <!-- ZH: 圆团花 -->
+  <Sayers_Flowers_Circle.label>Round-bunch flower</Sayers_Flowers_Circle.label>
+  <!-- ZH: 让赛尔斯的花种为圆团花。 -->
+  <Sayers_Flowers_Circle.description>Make Sayers's flower type is Round-bunch flower.</Sayers_Flowers_Circle.description>
+  <!-- ZH: 圆团花 -->
+  <Sayers_Flowers_Circle.labelShortAdj>Round-bunch flower</Sayers_Flowers_Circle.labelShortAdj>
+  
+  <!-- ZH: 五瓣花 -->
+  <Sayers_Flowers_Default.label>Five-petal flower</Sayers_Flowers_Default.label>
+  <!-- ZH: 让赛尔斯的花种为五瓣花。 -->
+  <Sayers_Flowers_Default.description>Make Sayers's flower type is five-petal flower.</Sayers_Flowers_Default.description>
+  <!-- ZH: 五瓣花 -->
+  <Sayers_Flowers_Default.labelShortAdj>Five-petal flower</Sayers_Flowers_Default.labelShortAdj>
+  
+  <!-- ZH: 圆瓣花 -->
+  <Sayers_Flowers_Round.label>Round-petal flower</Sayers_Flowers_Round.label>
+  <!-- ZH: 让赛尔斯的花种为圆瓣花。 -->
+  <Sayers_Flowers_Round.description>Make Sayers's flower type is round-petal flower.</Sayers_Flowers_Round.description>
+  <!-- ZH: 圆瓣花 -->
+  <Sayers_Flowers_Round.labelShortAdj>Round-petal flower</Sayers_Flowers_Round.labelShortAdj>
+  
+  <!-- ZH: 尖瓣花 -->
+  <Sayers_Flowers_Sharp.label>Sharp-petal flower</Sayers_Flowers_Sharp.label>
+  <!-- ZH: 让赛尔斯的花种为尖瓣花。 -->
+  <Sayers_Flowers_Sharp.description>Make Sayers's flower type is sharp-petal flower.</Sayers_Flowers_Sharp.description>
+  <!-- ZH: 尖瓣花 -->
+  <Sayers_Flowers_Sharp.labelShortAdj>Sharp-petal flower</Sayers_Flowers_Sharp.labelShortAdj>
+  
+  <!-- ZH: 簇花 -->
+  <Sayers_Flowers_Triple.label>Triple flower</Sayers_Flowers_Triple.label>
+  <!-- ZH: 让赛尔斯的花种为簇花。 -->
+  <Sayers_Flowers_Triple.description>Make Sayers's flower type is triple flower.</Sayers_Flowers_Triple.description>
+  <!-- ZH: 簇花 -->
+  <Sayers_Flowers_Triple.labelShortAdj>Triple flower</Sayers_Flowers_Triple.labelShortAdj>
+  
+  <!-- ZH: 藤蔓 -->
+  <Sayers_Flowers_Vine.label>Vine</Sayers_Flowers_Vine.label>
+  <!-- ZH: 让赛尔斯的花种为藤蔓。 -->
+  <Sayers_Flowers_Vine.description>Make Sayers's flower type is vine.</Sayers_Flowers_Vine.description>
+  <!-- ZH: 藤蔓 -->
+  <Sayers_Flowers_Vine.labelShortAdj>Vine</Sayers_Flowers_Vine.labelShortAdj>
+  
+  <!-- ZH: 长毛 -->
+  <Sayers_FurLength_Long.label>Long fur</Sayers_FurLength_Long.label>
+  <!-- ZH: 让赛尔斯的皮毛长度偏长。 -->
+  <Sayers_FurLength_Long.description>Make Sayers's fur length seems to be longer.</Sayers_FurLength_Long.description>
+  <!-- ZH: 长毛 -->
+  <Sayers_FurLength_Long.labelShortAdj>Long fur</Sayers_FurLength_Long.labelShortAdj>
+  
+  <!-- ZH: 柔蓬毛 -->
+  <Sayers_FurLength_Round.label>Round fur</Sayers_FurLength_Round.label>
+  <!-- ZH: 让赛尔斯的皮毛柔软蓬松起来。 -->
+  <Sayers_FurLength_Round.description>Make Sayers's fur length seems to be rounder.</Sayers_FurLength_Round.description>
+  <!-- ZH: 柔蓬毛 -->
+  <Sayers_FurLength_Round.labelShortAdj>Round fur</Sayers_FurLength_Round.labelShortAdj>
+  
+  <!-- ZH: 短毛 -->
+  <Sayers_FurLength_Short.label>Short fur</Sayers_FurLength_Short.label>
+  <!-- ZH: 让赛尔斯的皮毛长度偏短。 -->
+  <Sayers_FurLength_Short.description>Make Sayers's fur length seems to be shorter.</Sayers_FurLength_Short.description>
+  <!-- ZH: 短毛 -->
+  <Sayers_FurLength_Short.labelShortAdj>Short fur</Sayers_FurLength_Short.labelShortAdj>
+  
+  <!-- ZH: 无斑纹 -->
+  <Sayers_Pattern_None.label>No pattern</Sayers_Pattern_None.label>
+  <!-- ZH: 让赛尔斯没有斑纹。 -->
+  <Sayers_Pattern_None.description>Make Sayers has no pattern.</Sayers_Pattern_None.description>
+  <!-- ZH: 无斑纹 -->
+  <Sayers_Pattern_None.labelShortAdj>No pattern</Sayers_Pattern_None.labelShortAdj>
+  
+  <!-- ZH: 豹纹 -->
+  <Sayers_Pattern_Rose.label>Rosette</Sayers_Pattern_Rose.label>
+  <!-- ZH: 让赛尔斯拥有豹纹。 -->
+  <Sayers_Pattern_Rose.description>Make Sayers has rosette pattern.</Sayers_Pattern_Rose.description>
+  <!-- ZH: 豹纹 -->
+  <Sayers_Pattern_Rose.labelShortAdj>Rosette</Sayers_Pattern_Rose.labelShortAdj>
+  
+  <!-- ZH: 斑点 -->
+  <Sayers_Pattern_Spot.label>Spotted</Sayers_Pattern_Spot.label>
+  <!-- ZH: 让赛尔斯拥有斑点。 -->
+  <Sayers_Pattern_Spot.description>Make Sayers has spotted pattern.</Sayers_Pattern_Spot.description>
+  <!-- ZH: 斑点 -->
+  <Sayers_Pattern_Spot.labelShortAdj>Spotted</Sayers_Pattern_Spot.labelShortAdj>
+  
+  <!-- ZH: 虎斑 -->
+  <Sayers_Pattern_Tabby.label>Tabby</Sayers_Pattern_Tabby.label>
+  <!-- ZH: 让赛尔斯拥有虎斑。 -->
+  <Sayers_Pattern_Tabby.description>Make Sayers has tabby pattern.</Sayers_Pattern_Tabby.description>
+  <!-- ZH: 虎斑 -->
+  <Sayers_Pattern_Tabby.labelShortAdj>Tabby</Sayers_Pattern_Tabby.labelShortAdj>
+  
+  <!-- ZH: 玳瑁斑块 -->
+  <Sayers_Pattern_Turtle.label>Turtle</Sayers_Pattern_Turtle.label>
+  <!-- ZH: 让赛尔斯拥有玳瑁斑块。 -->
+  <Sayers_Pattern_Turtle.description>Make Sayers has turtle pattern.</Sayers_Pattern_Turtle.description>
+  <!-- ZH: 玳瑁 -->
+  <Sayers_Pattern_Turtle.labelShortAdj>Turtle</Sayers_Pattern_Turtle.labelShortAdj>
+  
+</LanguageData>

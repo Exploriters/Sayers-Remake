@@ -182,18 +182,83 @@
         <li MayRequire="Ludeon.RimWorld.Anomaly">PersonalCharacteristicsCube</li>
       </include>
     </logRulesInitiator>
-  </InteractionDef>
+  </InteractionDef>-->
   
   <InteractionDef>
-    <defName>Insult</defName>
-    <label>insult</label>
-    <workerClass>InteractionWorker_Insult</workerClass>
+    <defName>Threat_Sayers</defName>
+    <label>敌对</label>
+    <workerClass>SayersRemake.InteractionWorker_Insult_Sayers</workerClass>
     <symbol>Things/Mote/SpeechSymbols/Insult</symbol>
-    <socialFightBaseChance>0.04</socialFightBaseChance>
-    <recipientThought>Insulted</recipientThought>
+    <socialFightBaseChance>0.08</socialFightBaseChance>
+    <recipientThought>Threat_Sayers</recipientThought>
     <logRulesInitiator>
       <rulesStrings>
-        <li>r_logentry(p=3)->[INITIATOR_nameDef] [insulted] [target]'s [characteristic].</li>
+		<li>r_logentry->[INITIATOR_nameDef][emotion]向[target][action]。</li>
+		<li>r_logentry->[INITIATOR_nameDef][emotion]示意[target][insulted]。</li>
+		
+		<li>target->[RECIPIENT_nameDef]</li>
+		
+		<li>emotion->愤怒地</li>
+		<li>emotion->可怖地</li>
+		<li>emotion->警惕地</li>
+		<li>emotion->凶狠地</li>
+		<li>emotion->恶毒地</li>
+		<li>emotion->敌视地</li>
+		<li>emotion->疯狂地</li>
+		
+		<li>action->亮出尖刺[threat]</li>
+		<li>action->呲出獠牙[threat]</li>
+		<li>action->亮出利爪[threat]</li>
+		<li>action->发出[soundEmo][sound][threat]</li>
+		<li>action->炸起了毛[threat]</li>
+		<li>action->弓起后背[threat]</li>
+		<li>action->啐出[liquid]</li>
+		
+		<li>soundEmo->凄厉的</li>
+		<li>soundEmo->凶残的</li>
+		<li>soundEmo->吓人的</li>
+		<li>soundEmo->震耳欲聋的</li>
+		<li>soundEmo->低沉的</li>
+		<li>soundEmo->嘶哑的</li>
+		<li>soundEmo->憎恨的</li>
+		
+		<li>sound->咆哮</li>
+		<li>sound->嘶声</li>
+		<li>sound->低吼</li>
+		
+		<li>liquid->毒液</li>
+		<li>liquid->污血</li>
+		<li>liquid->唾液</li>
+		<li>liquid->暗色粘液</li>
+		
+		<li>threat-></li>
+		<li>threat->，并[close]地逼近了[target]</li>
+		<li>threat->，并向[target]挥舞起了它的触手</li>
+		<li>threat->，并险些用它的触手击中[target]</li>
+		<li>threat->，并险些咬了[target]</li>
+		
+		<li>close->气势汹汹地</li>
+		<li>close->可怖地</li>
+		<li>close->愤怒地</li>
+		<li>close->阴暗地</li>
+		<li>close->慢慢地</li>
+		<li>close->迅速地</li>
+		<li>close->攻击般地</li>
+		<li>close->凶狠地</li>
+		<li>close->冷漠地</li>
+		<li>close->诡异地</li>
+		
+		<li>insulted->什么都不是</li>
+		<li>insulted->不过是一只[Animal]</li>
+		<li>insulted->甚至不如一只[Animal]</li>
+		<li>insulted->不如早日死去</li>
+		<li>insulted->的存在毫无意义</li>
+	  </rulesStrings>
+	  <include>
+        <li MayRequire="Ludeon.RimWorld.Anomaly">PersonalCharacteristicsCube</li>
+      </include>
+	</logRulesInitiator>
+        <!--<li>r_logentry(p=3)->[INITIATOR_nameDef] [insulted] [target]'s [characteristic].</li>
         <li>r_logentry->[INITIATOR_nameDef] compared [target] to [insultcomparison].</li>
         <li>r_logentry->[INITIATOR_nameDef] called [target] [insultcomparison].</li>
 
@@ -227,10 +292,10 @@
       <include>
         <li MayRequire="Ludeon.RimWorld.Anomaly">PersonalCharacteristicsCube</li>
       </include>
-    </logRulesInitiator>
+    </logRulesInitiator>-->
   </InteractionDef>
 
-  <RulePackDef>
+  <!--<RulePackDef>
     <defName>Sentence_SocialFightStarted</defName>
     <rulePack>
       <rulesStrings>

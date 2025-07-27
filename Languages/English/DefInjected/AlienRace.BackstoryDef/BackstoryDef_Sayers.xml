@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- ZH: 自[PAWN_nameDef]在培育仓内发育成熟之后，[PAWN_pronoun]就被释放至空置域，被迫以杀戮被投下的其他生物或与同伴相争，以争取活命的口粮。[PAWN_pronoun]的心态也在无休止的杀戮中发生了变化，在[PAWN_pronoun]不再具有观赏性而惨遭遗弃后，仅有脑中低鸣的程序阻止[PAWN_pronoun]走向极端。 -->
+  <Sayers_Backstory_Combative_Childhood.description>Since [PAWN_nameDef] has matured in the breeding barn, [PAWN_pronoun] has been released to the vacant field, and forced to kill other creatures that have been dropped or compete with their companions to get food for survival. [PAWN_possessive] mentality has also changed in the endless killing. After [PAWN_pronoun] was abandoned because [PAWN_pronoun] was no longer ornamental, only the program in the brain kept [PAWN_pronoun] from going to extremes.</Sayers_Backstory_Combative_Childhood.description>
+  <!-- ZH: 斗兽牺牲品 -->
+  <Sayers_Backstory_Combative_Childhood.title>Fighting victim</Sayers_Backstory_Combative_Childhood.title>
+  <!-- ZH: 牺牲品 -->
+  <Sayers_Backstory_Combative_Childhood.titleShort>Victim</Sayers_Backstory_Combative_Childhood.titleShort>
+  
+  <!-- ZH: [PAWN_nameDef]是一只赛尔斯，你怎么把[PAWN_pronoun]养大的？ -->
+  <Sayers_Backstory_Default_Adulthood.description>[PAWN_nameDef]is an Sayers, how did you raise [PAWN_objective]?</Sayers_Backstory_Default_Adulthood.description>
+  <!-- ZH: 赛尔斯 -->
+  <Sayers_Backstory_Default_Adulthood.title>Sayers</Sayers_Backstory_Default_Adulthood.title>
+  <!-- ZH: 赛尔斯 -->
+  <Sayers_Backstory_Default_Adulthood.titleShort>Sayers</Sayers_Backstory_Default_Adulthood.titleShort>
+  
+  <!-- ZH: [PAWN_nameDef]是一只来自实验室的实验体。在某一个寻常的日子中，[PAWN_pronoun]被选中，随后猝不及防地抛弃，被遗弃于对[PAWN_pronoun]来说完全陌生的边缘世界——这就是[PAWN_pronoun]所记得的全部。 -->
+  <Sayers_Backstory_Default_Childhood.description>[PAWN_nameDef] is an experimental body from the laboratory. On an ordinary day, [PAWN_pronoun] was chosen, and then abandoned off guard, abandoned in the rim world that was completely strange to [PAWN_pronoun]-that's all [PAWN_pronoun] remembers.</Sayers_Backstory_Default_Childhood.description>
+  <!-- ZH: 赛尔斯实验体 -->
+  <Sayers_Backstory_Default_Childhood.title>Sayers subject</Sayers_Backstory_Default_Childhood.title>
+  <!-- ZH: 实验体 -->
+  <Sayers_Backstory_Default_Childhood.titleShort>Subject</Sayers_Backstory_Default_Childhood.titleShort>
+  
+  <!-- ZH: [PAWN_nameDef]自从睁开眼睛的那一刻就展现出了淘气的天性，[PAWN_pronoun]总是从规定的区域爬出来，随后满桌子乱爬，有些时候甚至会将实验用具打翻，又被噪音吓得赶紧躲进缝隙。[PAWN_pronoun]的淘气也许很讨人喜欢，但绝对不会被创造者所青睐，有一天，祂们受够了[PAWN_pronoun]，于是[PAWN_pronoun]就这么来到了这个陌生的边缘世界。 -->
+  <Sayers_Backstory_Naughty_Childhood.description>[PAWN_nameDef] has shown naughty nature since the moment [PAWN_pronoun] opened [PAWN_possessive] eyes. [PAWN_pronoun] always crawls out of the specified area, then crawls around the table, sometimes even knocks over the experimental equipment, and is scared by the noise and quickly hides in the gap. [PAWN_possessive] naughty may be very pleasing, but it will never be favored by the creators. One day, they had enough of [PAWN_pronoun], so [PAWN_pronoun] came to this strange rim world.</Sayers_Backstory_Naughty_Childhood.description>
+  <!-- ZH: 淘气的幼兽 -->
+  <Sayers_Backstory_Naughty_Childhood.title>Naughty cubs</Sayers_Backstory_Naughty_Childhood.title>
+  <!-- ZH: 顽兽 -->
+  <Sayers_Backstory_Naughty_Childhood.titleShort>Cub</Sayers_Backstory_Naughty_Childhood.titleShort>
+  
+</LanguageData>

@@ -1,0 +1,481 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- ZH: Sayers -->
+  <NamerFactionSayers.rulePack.rulesStrings.0>Sayers</NamerFactionSayers.rulePack.rulesStrings.0>
+  
+  <!-- ZH:
+    <li>r_name->[Color][Animal]赛尔斯</li>
+  -->
+  <NamerPersonSayers.rulePack.rulesStrings>
+    <li>r_name->[Color][Animal]Sayers</li>
+  </NamerPersonSayers.rulePack.rulesStrings>
+  
+  <!-- ZH: Sayers Group -->
+  <NamerSettlementSayers.rulePack.rulesStrings.0>Sayers Group</NamerSettlementSayers.rulePack.rulesStrings.0>
+  
+  <!-- ZH:
+    <li>name->ID[6digits]</li>
+  -->
+  <SayersFirstName.rulePack.rulesStrings>
+    <li>name->ID[6digits]</li>
+  </SayersFirstName.rulePack.rulesStrings>
+  
+  <!-- ZH: nickname->Alder -->
+  <SayersNickName.rulePack.rulesStrings.0>nickname->Alder</SayersNickName.rulePack.rulesStrings.0>
+  <!-- ZH: nickname->Ash -->
+  <SayersNickName.rulePack.rulesStrings.1>nickname->Ash</SayersNickName.rulePack.rulesStrings.1>
+  <!-- ZH: nickname->Apple -->
+  <SayersNickName.rulePack.rulesStrings.2>nickname->Apple</SayersNickName.rulePack.rulesStrings.2>
+  <!-- ZH: nickname->Aspen -->
+  <SayersNickName.rulePack.rulesStrings.3>nickname->Aspen</SayersNickName.rulePack.rulesStrings.3>
+  <!-- ZH: nickname->Bay -->
+  <SayersNickName.rulePack.rulesStrings.4>nickname->Bay</SayersNickName.rulePack.rulesStrings.4>
+  <!-- ZH: nickname->Beech -->
+  <SayersNickName.rulePack.rulesStrings.5>nickname->Beech</SayersNickName.rulePack.rulesStrings.5>
+  <!-- ZH: nickname->Birch -->
+  <SayersNickName.rulePack.rulesStrings.6>nickname->Birch</SayersNickName.rulePack.rulesStrings.6>
+  <!-- ZH: nickname->Bluebell -->
+  <SayersNickName.rulePack.rulesStrings.7>nickname->Bluebell</SayersNickName.rulePack.rulesStrings.7>
+  <!-- ZH: nickname->Brair -->
+  <SayersNickName.rulePack.rulesStrings.8>nickname->Brair</SayersNickName.rulePack.rulesStrings.8>
+  <!-- ZH: nickname->Cherry -->
+  <SayersNickName.rulePack.rulesStrings.9>nickname->Cherry</SayersNickName.rulePack.rulesStrings.9>
+  <!-- ZH: nickname->Chestnut -->
+  <SayersNickName.rulePack.rulesStrings.10>nickname->Chestnut</SayersNickName.rulePack.rulesStrings.10>
+  <!-- ZH: nickname->Cinnamon -->
+  <SayersNickName.rulePack.rulesStrings.11>nickname->Cinnamon</SayersNickName.rulePack.rulesStrings.11>
+  <!-- ZH: nickname->Clover -->
+  <SayersNickName.rulePack.rulesStrings.12>nickname->Clover</SayersNickName.rulePack.rulesStrings.12>
+  <!-- ZH: nickname->Cranberry -->
+  <SayersNickName.rulePack.rulesStrings.13>nickname->Cranberry</SayersNickName.rulePack.rulesStrings.13>
+  <!-- ZH: nickname->Daisy -->
+  <SayersNickName.rulePack.rulesStrings.14>nickname->Daisy</SayersNickName.rulePack.rulesStrings.14>
+  <!-- ZH: nickname->Dandelion -->
+  <SayersNickName.rulePack.rulesStrings.15>nickname->Dandelion</SayersNickName.rulePack.rulesStrings.15>
+  <!-- ZH: nickname->Ebony -->
+  <SayersNickName.rulePack.rulesStrings.16>nickname->Ebony</SayersNickName.rulePack.rulesStrings.16>
+  <!-- ZH: nickname->Elder -->
+  <SayersNickName.rulePack.rulesStrings.17>nickname->Elder</SayersNickName.rulePack.rulesStrings.17>
+  <!-- ZH: nickname->Fennel -->
+  <SayersNickName.rulePack.rulesStrings.18>nickname->Fennel</SayersNickName.rulePack.rulesStrings.18>
+  <!-- ZH: nickname->Flax -->
+  <SayersNickName.rulePack.rulesStrings.19>nickname->Flax</SayersNickName.rulePack.rulesStrings.19>
+  <!-- ZH: nickname->Furze -->
+  <SayersNickName.rulePack.rulesStrings.20>nickname->Furze</SayersNickName.rulePack.rulesStrings.20>
+  <!-- ZH: nickname->Gooseberry -->
+  <SayersNickName.rulePack.rulesStrings.21>nickname->Gooseberry</SayersNickName.rulePack.rulesStrings.21>
+  <!-- ZH: nickname->Gorse -->
+  <SayersNickName.rulePack.rulesStrings.22>nickname->Gorse</SayersNickName.rulePack.rulesStrings.22>
+  <!-- ZH: nickname->Hazel -->
+  <SayersNickName.rulePack.rulesStrings.23>nickname->Hazel</SayersNickName.rulePack.rulesStrings.23>
+  <!-- ZH: nickname->Heather -->
+  <SayersNickName.rulePack.rulesStrings.24>nickname->Heather</SayersNickName.rulePack.rulesStrings.24>
+  <!-- ZH: nickname->Hickory -->
+  <SayersNickName.rulePack.rulesStrings.25>nickname->Hickory</SayersNickName.rulePack.rulesStrings.25>
+  <!-- ZH: nickname->Holly -->
+  <SayersNickName.rulePack.rulesStrings.26>nickname->Holly</SayersNickName.rulePack.rulesStrings.26>
+  <!-- ZH: nickname->Ivy -->
+  <SayersNickName.rulePack.rulesStrings.27>nickname->Ivy</SayersNickName.rulePack.rulesStrings.27>
+  <!-- ZH: nickname->Lavender -->
+  <SayersNickName.rulePack.rulesStrings.28>nickname->Lavender</SayersNickName.rulePack.rulesStrings.28>
+  <!-- ZH: nickname->Marigold -->
+  <SayersNickName.rulePack.rulesStrings.29>nickname->Marigold</SayersNickName.rulePack.rulesStrings.29>
+  <!-- ZH: nickname->Mallow -->
+  <SayersNickName.rulePack.rulesStrings.30>nickname->Mallow</SayersNickName.rulePack.rulesStrings.30>
+  <!-- ZH: nickname->Maple -->
+  <SayersNickName.rulePack.rulesStrings.31>nickname->Maple</SayersNickName.rulePack.rulesStrings.31>
+  <!-- ZH: nickname->Mint -->
+  <SayersNickName.rulePack.rulesStrings.32>nickname->Mint</SayersNickName.rulePack.rulesStrings.32>
+  <!-- ZH: nickname->Mirtle -->
+  <SayersNickName.rulePack.rulesStrings.33>nickname->Mirtle</SayersNickName.rulePack.rulesStrings.33>
+  <!-- ZH: nickname->Nettle -->
+  <SayersNickName.rulePack.rulesStrings.34>nickname->Nettle</SayersNickName.rulePack.rulesStrings.34>
+  <!-- ZH: nickname->Oak -->
+  <SayersNickName.rulePack.rulesStrings.35>nickname->Oak</SayersNickName.rulePack.rulesStrings.35>
+  <!-- ZH: nickname->Oliver -->
+  <SayersNickName.rulePack.rulesStrings.36>nickname->Oliver</SayersNickName.rulePack.rulesStrings.36>
+  <!-- ZH: nickname->Parsley -->
+  <SayersNickName.rulePack.rulesStrings.37>nickname->Parsley</SayersNickName.rulePack.rulesStrings.37>
+  <!-- ZH: nickname->Pear -->
+  <SayersNickName.rulePack.rulesStrings.38>nickname->Pear</SayersNickName.rulePack.rulesStrings.38>
+  <!-- ZH: nickname->Plum -->
+  <SayersNickName.rulePack.rulesStrings.39>nickname->Plum</SayersNickName.rulePack.rulesStrings.39>
+  <!-- ZH: nickname->Poppy -->
+  <SayersNickName.rulePack.rulesStrings.40>nickname->Poppy</SayersNickName.rulePack.rulesStrings.40>
+  <!-- ZH: nickname->Rose -->
+  <SayersNickName.rulePack.rulesStrings.41>nickname->Rose</SayersNickName.rulePack.rulesStrings.41>
+  <!-- ZH: nickname->Primrose -->
+  <SayersNickName.rulePack.rulesStrings.42>nickname->Primrose</SayersNickName.rulePack.rulesStrings.42>
+  <!-- ZH: nickname->Rowan -->
+  <SayersNickName.rulePack.rulesStrings.43>nickname->Rowan</SayersNickName.rulePack.rulesStrings.43>
+  <!-- ZH: nickname->Sage -->
+  <SayersNickName.rulePack.rulesStrings.44>nickname->Sage</SayersNickName.rulePack.rulesStrings.44>
+  <!-- ZH: nickname->Sloe -->
+  <SayersNickName.rulePack.rulesStrings.45>nickname->Sloe</SayersNickName.rulePack.rulesStrings.45>
+  <!-- ZH: nickname->Sorrel -->
+  <SayersNickName.rulePack.rulesStrings.46>nickname->Sorrel</SayersNickName.rulePack.rulesStrings.46>
+  <!-- ZH: nickname->Tansy -->
+  <SayersNickName.rulePack.rulesStrings.47>nickname->Tansy</SayersNickName.rulePack.rulesStrings.47>
+  <!-- ZH: nickname->Thistle -->
+  <SayersNickName.rulePack.rulesStrings.48>nickname->Thistle</SayersNickName.rulePack.rulesStrings.48>
+  <!-- ZH: nickname->Thrift -->
+  <SayersNickName.rulePack.rulesStrings.49>nickname->Thrift</SayersNickName.rulePack.rulesStrings.49>
+  <!-- ZH: nickname->Violet -->
+  <SayersNickName.rulePack.rulesStrings.50>nickname->Violet</SayersNickName.rulePack.rulesStrings.50>
+  <!-- ZH: nickname->Willow -->
+  <SayersNickName.rulePack.rulesStrings.51>nickname->Willow</SayersNickName.rulePack.rulesStrings.51>
+  <!-- ZH: nickname->Yarrow -->
+  <SayersNickName.rulePack.rulesStrings.52>nickname->Yarrow</SayersNickName.rulePack.rulesStrings.52>
+  <!-- ZH: nickname->Chive -->
+  <SayersNickName.rulePack.rulesStrings.53>nickname->Chive</SayersNickName.rulePack.rulesStrings.53>
+  <!-- ZH: nickname->Oat -->
+  <SayersNickName.rulePack.rulesStrings.54>nickname->Oat</SayersNickName.rulePack.rulesStrings.54>
+  <!-- ZH: nickname->Lily -->
+  <SayersNickName.rulePack.rulesStrings.55>nickname->Lily</SayersNickName.rulePack.rulesStrings.55>
+  <!-- ZH: nickname->Reed -->
+  <SayersNickName.rulePack.rulesStrings.56>nickname->Reed</SayersNickName.rulePack.rulesStrings.56>
+  <!-- ZH: nickname->Rye -->
+  <SayersNickName.rulePack.rulesStrings.57>nickname->Rye</SayersNickName.rulePack.rulesStrings.57>
+  <!-- ZH: nickname->Rush -->
+  <SayersNickName.rulePack.rulesStrings.58>nickname->Rush</SayersNickName.rulePack.rulesStrings.58>
+  <!-- ZH: nickname->Sedge -->
+  <SayersNickName.rulePack.rulesStrings.59>nickname->Sedge</SayersNickName.rulePack.rulesStrings.59>
+  <!-- ZH: nickname->Tulip -->
+  <SayersNickName.rulePack.rulesStrings.60>nickname->Tulip</SayersNickName.rulePack.rulesStrings.60>
+  <!-- ZH: nickname->Cedar -->
+  <SayersNickName.rulePack.rulesStrings.61>nickname->Cedar</SayersNickName.rulePack.rulesStrings.61>
+  <!-- ZH: nickname->Cypress -->
+  <SayersNickName.rulePack.rulesStrings.62>nickname->Cypress</SayersNickName.rulePack.rulesStrings.62>
+  <!-- ZH: nickname->Fir -->
+  <SayersNickName.rulePack.rulesStrings.63>nickname->Fir</SayersNickName.rulePack.rulesStrings.63>
+  <!-- ZH: nickname->Juniper -->
+  <SayersNickName.rulePack.rulesStrings.64>nickname->Juniper</SayersNickName.rulePack.rulesStrings.64>
+  <!-- ZH: nickname->Larch -->
+  <SayersNickName.rulePack.rulesStrings.65>nickname->Larch</SayersNickName.rulePack.rulesStrings.65>
+  <!-- ZH: nickname->Pine -->
+  <SayersNickName.rulePack.rulesStrings.66>nickname->Pine</SayersNickName.rulePack.rulesStrings.66>
+  <!-- ZH: nickname->Spruce -->
+  <SayersNickName.rulePack.rulesStrings.67>nickname->Spruce</SayersNickName.rulePack.rulesStrings.67>
+  <!-- ZH: nickname->Yew -->
+  <SayersNickName.rulePack.rulesStrings.68>nickname->Yew</SayersNickName.rulePack.rulesStrings.68>
+  <!-- ZH: nickname->Bracken -->
+  <SayersNickName.rulePack.rulesStrings.69>nickname->Bracken</SayersNickName.rulePack.rulesStrings.69>
+  <!-- ZH: nickname->Fern -->
+  <SayersNickName.rulePack.rulesStrings.70>nickname->Fern</SayersNickName.rulePack.rulesStrings.70>
+  <!-- ZH: nickname->Moss -->
+  <SayersNickName.rulePack.rulesStrings.71>nickname->Moss</SayersNickName.rulePack.rulesStrings.71>
+  <!-- ZH: nickname->Lichen -->
+  <SayersNickName.rulePack.rulesStrings.72>nickname->Lichen</SayersNickName.rulePack.rulesStrings.72>
+  <!-- ZH: nickname->Epiphyllum -->
+  <SayersNickName.rulePack.rulesStrings.73>nickname->Epiphyllum</SayersNickName.rulePack.rulesStrings.73>
+  <!-- ZH: nickname->Twin -->
+  <SayersNickName.rulePack.rulesStrings.74>nickname->Twin</SayersNickName.rulePack.rulesStrings.74>
+  <!-- ZH: nickname->Forget-Me-Not -->
+  <SayersNickName.rulePack.rulesStrings.75>nickname->Forget-Me-Not</SayersNickName.rulePack.rulesStrings.75>
+  <!-- ZH: nickname->Foxglove -->
+  <SayersNickName.rulePack.rulesStrings.76>nickname->Foxglove</SayersNickName.rulePack.rulesStrings.76>
+  <!-- ZH: nickname->Water Hemlock -->
+  <SayersNickName.rulePack.rulesStrings.77>nickname->Water Hemlock</SayersNickName.rulePack.rulesStrings.77>
+  <!-- ZH: nickname->Borage -->
+  <SayersNickName.rulePack.rulesStrings.78>nickname->Borage</SayersNickName.rulePack.rulesStrings.78>
+  <!-- ZH: nickname->Deadly Nightshade -->
+  <SayersNickName.rulePack.rulesStrings.79>nickname->Deadly Nightshade</SayersNickName.rulePack.rulesStrings.79>
+  <!-- ZH: nickname->Leaf -->
+  <SayersNickName.rulePack.rulesStrings.80>nickname->Leaf</SayersNickName.rulePack.rulesStrings.80>
+  <!-- ZH: nickname->Petal -->
+  <SayersNickName.rulePack.rulesStrings.81>nickname->Petal</SayersNickName.rulePack.rulesStrings.81>
+  <!-- ZH: nickname->Vine -->
+  <SayersNickName.rulePack.rulesStrings.82>nickname->Vine</SayersNickName.rulePack.rulesStrings.82>
+  <!-- ZH: nickname->Stem -->
+  <SayersNickName.rulePack.rulesStrings.83>nickname->Stem</SayersNickName.rulePack.rulesStrings.83>
+  <!-- ZH: nickname->Stalk -->
+  <SayersNickName.rulePack.rulesStrings.84>nickname->Stalk</SayersNickName.rulePack.rulesStrings.84>
+  <!-- ZH: nickname->Acorn -->
+  <SayersNickName.rulePack.rulesStrings.85>nickname->Acorn</SayersNickName.rulePack.rulesStrings.85>
+  <!-- ZH: nickname->Berry -->
+  <SayersNickName.rulePack.rulesStrings.86>nickname->Berry</SayersNickName.rulePack.rulesStrings.86>
+  <!-- ZH: nickname->Bramble -->
+  <SayersNickName.rulePack.rulesStrings.87>nickname->Bramble</SayersNickName.rulePack.rulesStrings.87>
+  <!-- ZH: nickname->Burr -->
+  <SayersNickName.rulePack.rulesStrings.88>nickname->Burr</SayersNickName.rulePack.rulesStrings.88>
+  <!-- ZH: nickname->Cone -->
+  <SayersNickName.rulePack.rulesStrings.89>nickname->Cone</SayersNickName.rulePack.rulesStrings.89>
+  <!-- ZH: nickname->Nut -->
+  <SayersNickName.rulePack.rulesStrings.90>nickname->Nut</SayersNickName.rulePack.rulesStrings.90>
+  <!-- ZH: nickname->Pod -->
+  <SayersNickName.rulePack.rulesStrings.91>nickname->Pod</SayersNickName.rulePack.rulesStrings.91>
+  <!-- ZH: nickname->Seed -->
+  <SayersNickName.rulePack.rulesStrings.92>nickname->Seed</SayersNickName.rulePack.rulesStrings.92>
+  <!-- ZH: nickname->Spike -->
+  <SayersNickName.rulePack.rulesStrings.93>nickname->Spike</SayersNickName.rulePack.rulesStrings.93>
+  <!-- ZH: nickname->Branch -->
+  <SayersNickName.rulePack.rulesStrings.94>nickname->Branch</SayersNickName.rulePack.rulesStrings.94>
+  <!-- ZH: nickname->Brush -->
+  <SayersNickName.rulePack.rulesStrings.95>nickname->Brush</SayersNickName.rulePack.rulesStrings.95>
+  <!-- ZH: nickname->Grass -->
+  <SayersNickName.rulePack.rulesStrings.96>nickname->Grass</SayersNickName.rulePack.rulesStrings.96>
+  <!-- ZH: nickname->Hay -->
+  <SayersNickName.rulePack.rulesStrings.97>nickname->Hay</SayersNickName.rulePack.rulesStrings.97>
+  <!-- ZH: nickname->Log -->
+  <SayersNickName.rulePack.rulesStrings.98>nickname->Log</SayersNickName.rulePack.rulesStrings.98>
+  <!-- ZH: nickname->Root -->
+  <SayersNickName.rulePack.rulesStrings.99>nickname->Root</SayersNickName.rulePack.rulesStrings.99>
+  <!-- ZH: nickname->Wood -->
+  <SayersNickName.rulePack.rulesStrings.100>nickname->Wood</SayersNickName.rulePack.rulesStrings.100>
+  <!-- ZH: nickname->Orchid -->
+  <SayersNickName.rulePack.rulesStrings.101>nickname->Orchid</SayersNickName.rulePack.rulesStrings.101>
+  <!-- ZH: nickname->Bell Orchid -->
+  <SayersNickName.rulePack.rulesStrings.102>nickname->Bell Orchid</SayersNickName.rulePack.rulesStrings.102>
+  <!-- ZH: nickname->Parasol -->
+  <SayersNickName.rulePack.rulesStrings.103>nickname->Parasol</SayersNickName.rulePack.rulesStrings.103>
+  <!-- ZH: nickname->Palm -->
+  <SayersNickName.rulePack.rulesStrings.104>nickname->Palm</SayersNickName.rulePack.rulesStrings.104>
+  <!-- ZH: nickname->Gingkgo -->
+  <SayersNickName.rulePack.rulesStrings.105>nickname->Gingkgo</SayersNickName.rulePack.rulesStrings.105>
+  <!-- ZH: nickname->Peach -->
+  <SayersNickName.rulePack.rulesStrings.106>nickname->Peach</SayersNickName.rulePack.rulesStrings.106>
+  <!-- ZH: nickname->Orange -->
+  <SayersNickName.rulePack.rulesStrings.107>nickname->Orange</SayersNickName.rulePack.rulesStrings.107>
+  <!-- ZH: nickname->Grape -->
+  <SayersNickName.rulePack.rulesStrings.108>nickname->Grape</SayersNickName.rulePack.rulesStrings.108>
+  <!-- ZH: nickname->Bamboo -->
+  <SayersNickName.rulePack.rulesStrings.109>nickname->Bamboo</SayersNickName.rulePack.rulesStrings.109>
+  <!-- ZH: nickname->Sugarcane -->
+  <SayersNickName.rulePack.rulesStrings.110>nickname->Sugarcane</SayersNickName.rulePack.rulesStrings.110>
+  <!-- ZH: nickname->Glutinous Rice -->
+  <SayersNickName.rulePack.rulesStrings.111>nickname->Glutinous Rice</SayersNickName.rulePack.rulesStrings.111>
+  <!-- ZH: nickname->Wheat -->
+  <SayersNickName.rulePack.rulesStrings.112>nickname->Wheat</SayersNickName.rulePack.rulesStrings.112>
+  <!-- ZH: nickname->Potato -->
+  <SayersNickName.rulePack.rulesStrings.113>nickname->Potato</SayersNickName.rulePack.rulesStrings.113>
+  <!-- ZH: nickname->Paddy -->
+  <SayersNickName.rulePack.rulesStrings.114>nickname->Paddy</SayersNickName.rulePack.rulesStrings.114>
+  <!-- ZH: nickname->Herb -->
+  <SayersNickName.rulePack.rulesStrings.115>nickname->Herb</SayersNickName.rulePack.rulesStrings.115>
+  <!-- ZH: nickname->Strawberry -->
+  <SayersNickName.rulePack.rulesStrings.116>nickname->Strawberry</SayersNickName.rulePack.rulesStrings.116>
+  <!-- ZH: nickname->Mushroom -->
+  <SayersNickName.rulePack.rulesStrings.117>nickname->Mushroom</SayersNickName.rulePack.rulesStrings.117>
+  <!-- ZH: nickname->Lime -->
+  <SayersNickName.rulePack.rulesStrings.118>nickname->Lime</SayersNickName.rulePack.rulesStrings.118>
+  <!-- ZH: nickname->Cotton -->
+  <SayersNickName.rulePack.rulesStrings.119>nickname->Cotton</SayersNickName.rulePack.rulesStrings.119>
+  <!-- ZH: nickname->Banana -->
+  <SayersNickName.rulePack.rulesStrings.120>nickname->Banana</SayersNickName.rulePack.rulesStrings.120>
+  <!-- ZH: nickname->Thyme -->
+  <SayersNickName.rulePack.rulesStrings.121>nickname->Thyme</SayersNickName.rulePack.rulesStrings.121>
+  <!-- ZH: nickname->Goatweed -->
+  <SayersNickName.rulePack.rulesStrings.122>nickname->Goatweed</SayersNickName.rulePack.rulesStrings.122>
+  <!-- ZH: nickname->Horsetail -->
+  <SayersNickName.rulePack.rulesStrings.123>nickname->Horsetail</SayersNickName.rulePack.rulesStrings.123>
+  <!-- ZH: nickname->Catchweed -->
+  <SayersNickName.rulePack.rulesStrings.124>nickname->Catchweed</SayersNickName.rulePack.rulesStrings.124>
+  <!-- ZH: nickname->Catmint -->
+  <SayersNickName.rulePack.rulesStrings.125>nickname->Catmint</SayersNickName.rulePack.rulesStrings.125>
+  <!-- ZH: nickname->Bindweed -->
+  <SayersNickName.rulePack.rulesStrings.126>nickname->Bindweed</SayersNickName.rulePack.rulesStrings.126>
+  <!-- ZH: nickname->Burdock -->
+  <SayersNickName.rulePack.rulesStrings.127>nickname->Burdock</SayersNickName.rulePack.rulesStrings.127>
+  <!-- ZH: nickname->Celandine -->
+  <SayersNickName.rulePack.rulesStrings.128>nickname->Celandine</SayersNickName.rulePack.rulesStrings.128>
+  <!-- ZH: nickname->Chamomile -->
+  <SayersNickName.rulePack.rulesStrings.129>nickname->Chamomile</SayersNickName.rulePack.rulesStrings.129>
+  <!-- ZH: nickname->Chervil -->
+  <SayersNickName.rulePack.rulesStrings.130>nickname->Chervil</SayersNickName.rulePack.rulesStrings.130>
+  <!-- ZH: nickname->Chickweed -->
+  <SayersNickName.rulePack.rulesStrings.131>nickname->Chickweed</SayersNickName.rulePack.rulesStrings.131>
+  <!-- ZH: nickname->Coltsfoot -->
+  <SayersNickName.rulePack.rulesStrings.132>nickname->Coltsfoot</SayersNickName.rulePack.rulesStrings.132>
+  <!-- ZH: nickname->Comfrey -->
+  <SayersNickName.rulePack.rulesStrings.133>nickname->Comfrey</SayersNickName.rulePack.rulesStrings.133>
+  <!-- ZH: nickname->Dock -->
+  <SayersNickName.rulePack.rulesStrings.134>nickname->Dock</SayersNickName.rulePack.rulesStrings.134>
+  <!-- ZH: nickname->Feverfew -->
+  <SayersNickName.rulePack.rulesStrings.135>nickname->Feverfew</SayersNickName.rulePack.rulesStrings.135>
+  <!-- ZH: nickname->Goldenrod -->
+  <SayersNickName.rulePack.rulesStrings.136>nickname->Goldenrod</SayersNickName.rulePack.rulesStrings.136>
+  <!-- ZH: nickname->Hawkweed -->
+  <SayersNickName.rulePack.rulesStrings.137>nickname->Hawkweed</SayersNickName.rulePack.rulesStrings.137>
+  <!-- ZH: nickname->Lamb's Ear -->
+  <SayersNickName.rulePack.rulesStrings.138>nickname->Lamb's Ear</SayersNickName.rulePack.rulesStrings.138>
+  <!-- ZH: nickname->Lungwort -->
+  <SayersNickName.rulePack.rulesStrings.139>nickname->Lungwort</SayersNickName.rulePack.rulesStrings.139>
+  <!-- ZH: nickname->Ragwort -->
+  <SayersNickName.rulePack.rulesStrings.140>nickname->Ragwort</SayersNickName.rulePack.rulesStrings.140>
+  <!-- ZH: nickname->Raspberry -->
+  <SayersNickName.rulePack.rulesStrings.141>nickname->Raspberry</SayersNickName.rulePack.rulesStrings.141>
+  <!-- ZH: nickname->Rosemary -->
+  <SayersNickName.rulePack.rulesStrings.142>nickname->Rosemary</SayersNickName.rulePack.rulesStrings.142>
+  <!-- ZH: nickname->Stinging Nettle -->
+  <SayersNickName.rulePack.rulesStrings.143>nickname->Stinging Nettle</SayersNickName.rulePack.rulesStrings.143>
+  <!-- ZH: nickname->Sweet Sedge -->
+  <SayersNickName.rulePack.rulesStrings.144>nickname->Sweet Sedge</SayersNickName.rulePack.rulesStrings.144>
+  <!-- ZH: nickname->Tormentil -->
+  <SayersNickName.rulePack.rulesStrings.145>nickname->Tormentil</SayersNickName.rulePack.rulesStrings.145>
+  <!-- ZH: nickname->Watermint -->
+  <SayersNickName.rulePack.rulesStrings.146>nickname->Watermint</SayersNickName.rulePack.rulesStrings.146>
+  <!-- ZH: nickname->Garlic -->
+  <SayersNickName.rulePack.rulesStrings.147>nickname->Garlic</SayersNickName.rulePack.rulesStrings.147>
+  <!-- ZH: nickname->Willow Herb -->
+  <SayersNickName.rulePack.rulesStrings.148>nickname->Willow Herb</SayersNickName.rulePack.rulesStrings.148>
+  <!-- ZH: nickname->Wintergreen -->
+  <SayersNickName.rulePack.rulesStrings.149>nickname->Wintergreen</SayersNickName.rulePack.rulesStrings.149>
+  <!-- ZH: nickname->Wild Garlic -->
+  <SayersNickName.rulePack.rulesStrings.150>nickname->Wild Garlic</SayersNickName.rulePack.rulesStrings.150>
+  <!-- ZH: nickname->Holly Berries -->
+  <SayersNickName.rulePack.rulesStrings.151>nickname->Holly Berries</SayersNickName.rulePack.rulesStrings.151>
+  <!-- ZH: nickname->Garden Balsam -->
+  <SayersNickName.rulePack.rulesStrings.152>nickname->Garden Balsam</SayersNickName.rulePack.rulesStrings.152>
+  <!-- ZH: nickname->Onion -->
+  <SayersNickName.rulePack.rulesStrings.153>nickname->Onion</SayersNickName.rulePack.rulesStrings.153>
+  <!-- ZH: nickname->Cosmos -->
+  <SayersNickName.rulePack.rulesStrings.154>nickname->Cosmos</SayersNickName.rulePack.rulesStrings.154>
+  <!-- ZH: nickname->Celosia Cristata -->
+  <SayersNickName.rulePack.rulesStrings.155>nickname->Celosia Cristata</SayersNickName.rulePack.rulesStrings.155>
+  <!-- ZH: nickname->Pericallis Hybrida -->
+  <SayersNickName.rulePack.rulesStrings.156>nickname->Pericallis Hybrida</SayersNickName.rulePack.rulesStrings.156>
+  <!-- ZH: nickname->Petunia -->
+  <SayersNickName.rulePack.rulesStrings.157>nickname->Petunia</SayersNickName.rulePack.rulesStrings.157>
+  <!-- ZH: nickname->Tagetes Erecta L -->
+  <SayersNickName.rulePack.rulesStrings.158>nickname->Tagetes Erecta L</SayersNickName.rulePack.rulesStrings.158>
+  <!-- ZH: nickname->Cherry Blossom -->
+  <SayersNickName.rulePack.rulesStrings.159>nickname->Cherry Blossom</SayersNickName.rulePack.rulesStrings.159>
+  <!-- ZH: nickname->Gourd -->
+  <SayersNickName.rulePack.rulesStrings.160>nickname->Gourd</SayersNickName.rulePack.rulesStrings.160>
+  <!-- ZH: nickname->Salvia Splendens -->
+  <SayersNickName.rulePack.rulesStrings.161>nickname->Salvia Splendens</SayersNickName.rulePack.rulesStrings.161>
+  <!-- ZH: nickname->Callistephus Chinensis -->
+  <SayersNickName.rulePack.rulesStrings.162>nickname->Callistephus Chinensis</SayersNickName.rulePack.rulesStrings.162>
+  <!-- ZH: nickname->Dahlia -->
+  <SayersNickName.rulePack.rulesStrings.163>nickname->Dahlia</SayersNickName.rulePack.rulesStrings.163>
+  <!-- ZH: nickname->Lotus -->
+  <SayersNickName.rulePack.rulesStrings.164>nickname->Lotus</SayersNickName.rulePack.rulesStrings.164>
+  <!-- ZH: nickname->Zinnia -->
+  <SayersNickName.rulePack.rulesStrings.165>nickname->Zinnia</SayersNickName.rulePack.rulesStrings.165>
+  <!-- ZH: nickname->Water Lilies -->
+  <SayersNickName.rulePack.rulesStrings.166>nickname->Water Lilies</SayersNickName.rulePack.rulesStrings.166>
+  <!-- ZH: nickname->Tagetes Patula L -->
+  <SayersNickName.rulePack.rulesStrings.167>nickname->Tagetes Patula L</SayersNickName.rulePack.rulesStrings.167>
+  <!-- ZH: nickname->Cilvia -->
+  <SayersNickName.rulePack.rulesStrings.168>nickname->Cilvia</SayersNickName.rulePack.rulesStrings.168>
+  <!-- ZH: nickname->Evergreen -->
+  <SayersNickName.rulePack.rulesStrings.169>nickname->Evergreen</SayersNickName.rulePack.rulesStrings.169>
+  <!-- ZH: nickname->Mirabilis Jalapa -->
+  <SayersNickName.rulePack.rulesStrings.170>nickname->Mirabilis Jalapa</SayersNickName.rulePack.rulesStrings.170>
+  <!-- ZH: nickname->Ophiopogon Japonicus -->
+  <SayersNickName.rulePack.rulesStrings.171>nickname->Ophiopogon Japonicus</SayersNickName.rulePack.rulesStrings.171>
+  <!-- ZH: nickname->Orychophragmus Violaceus -->
+  <SayersNickName.rulePack.rulesStrings.172>nickname->Orychophragmus Violaceus</SayersNickName.rulePack.rulesStrings.172>
+  <!-- ZH: nickname->Sunflower -->
+  <SayersNickName.rulePack.rulesStrings.173>nickname->Sunflower</SayersNickName.rulePack.rulesStrings.173>
+  <!-- ZH: nickname->Green Radish -->
+  <SayersNickName.rulePack.rulesStrings.174>nickname->Green Radish</SayersNickName.rulePack.rulesStrings.174>
+  <!-- ZH: nickname->Witch Hazel -->
+  <SayersNickName.rulePack.rulesStrings.175>nickname->Witch Hazel</SayersNickName.rulePack.rulesStrings.175>
+  <!-- ZH: nickname->Davidia Involucrata -->
+  <SayersNickName.rulePack.rulesStrings.176>nickname->Davidia Involucrata</SayersNickName.rulePack.rulesStrings.176>
+  <!-- ZH: nickname->Gardenia -->
+  <SayersNickName.rulePack.rulesStrings.177>nickname->Gardenia</SayersNickName.rulePack.rulesStrings.177>
+  <!-- ZH: nickname->Tiger Orchid -->
+  <SayersNickName.rulePack.rulesStrings.178>nickname->Tiger Orchid</SayersNickName.rulePack.rulesStrings.178>
+  <!-- ZH: nickname->Daffodil -->
+  <SayersNickName.rulePack.rulesStrings.179>nickname->Daffodil</SayersNickName.rulePack.rulesStrings.179>
+  <!-- ZH: nickname->Gynura Divaricata -->
+  <SayersNickName.rulePack.rulesStrings.180>nickname->Gynura Divaricata</SayersNickName.rulePack.rulesStrings.180>
+  <!-- ZH: nickname->Phoenix Tail -->
+  <SayersNickName.rulePack.rulesStrings.181>nickname->Phoenix Tail</SayersNickName.rulePack.rulesStrings.181>
+  <!-- ZH: nickname->Monstera Deliciosa Liebm -->
+  <SayersNickName.rulePack.rulesStrings.182>nickname->Monstera Deliciosa Liebm</SayersNickName.rulePack.rulesStrings.182>
+  <!-- ZH: nickname->Phoebe bournei -->
+  <SayersNickName.rulePack.rulesStrings.183>nickname->Phoebe bournei</SayersNickName.rulePack.rulesStrings.183>
+  <!-- ZH: nickname->Korean Pine -->
+  <SayersNickName.rulePack.rulesStrings.184>nickname->Korean Pine</SayersNickName.rulePack.rulesStrings.184>
+  <!-- ZH: nickname->Cycas Revoluta Thunb -->
+  <SayersNickName.rulePack.rulesStrings.185>nickname->Cycas Revoluta Thunb</SayersNickName.rulePack.rulesStrings.185>
+  <!-- ZH: nickname->Cycad -->
+  <SayersNickName.rulePack.rulesStrings.186>nickname->Cycad</SayersNickName.rulePack.rulesStrings.186>
+  <!-- ZH: nickname->Pinus Parviflora -->
+  <SayersNickName.rulePack.rulesStrings.187>nickname->Pinus Parviflora</SayersNickName.rulePack.rulesStrings.187>
+  <!-- ZH: nickname->Parthenocissus Tricuspidata -->
+  <SayersNickName.rulePack.rulesStrings.188>nickname->Parthenocissus Tricuspidata</SayersNickName.rulePack.rulesStrings.188>
+  <!-- ZH: nickname->Eyes -->
+  <SayersNickName.rulePack.rulesStrings.189>nickname->Eyes</SayersNickName.rulePack.rulesStrings.189>
+  <!-- ZH: nickname->Tongue -->
+  <SayersNickName.rulePack.rulesStrings.190>nickname->Tongue</SayersNickName.rulePack.rulesStrings.190>
+  <!-- ZH: nickname->Ears -->
+  <SayersNickName.rulePack.rulesStrings.191>nickname->Ears</SayersNickName.rulePack.rulesStrings.191>
+  <!-- ZH: nickname->Canine Teeth -->
+  <SayersNickName.rulePack.rulesStrings.192>nickname->Canine Teeth</SayersNickName.rulePack.rulesStrings.192>
+  <!-- ZH: nickname->Skin -->
+  <SayersNickName.rulePack.rulesStrings.193>nickname->Skin</SayersNickName.rulePack.rulesStrings.193>
+  <!-- ZH: nickname->Villi -->
+  <SayersNickName.rulePack.rulesStrings.194>nickname->Villi</SayersNickName.rulePack.rulesStrings.194>
+  <!-- ZH: nickname->Fibers -->
+  <SayersNickName.rulePack.rulesStrings.195>nickname->Fibers</SayersNickName.rulePack.rulesStrings.195>
+  <!-- ZH: nickname->Nerves -->
+  <SayersNickName.rulePack.rulesStrings.196>nickname->Nerves</SayersNickName.rulePack.rulesStrings.196>
+  <!-- ZH: nickname->Flesh -->
+  <SayersNickName.rulePack.rulesStrings.197>nickname->Flesh</SayersNickName.rulePack.rulesStrings.197>
+  <!-- ZH: nickname->Skull -->
+  <SayersNickName.rulePack.rulesStrings.198>nickname->Skull</SayersNickName.rulePack.rulesStrings.198>
+  <!-- ZH: nickname->Spine -->
+  <SayersNickName.rulePack.rulesStrings.199>nickname->Spine</SayersNickName.rulePack.rulesStrings.199>
+  <!-- ZH: nickname->Ribs -->
+  <SayersNickName.rulePack.rulesStrings.200>nickname->Ribs</SayersNickName.rulePack.rulesStrings.200>
+  <!-- ZH: nickname->Coccyx -->
+  <SayersNickName.rulePack.rulesStrings.201>nickname->Coccyx</SayersNickName.rulePack.rulesStrings.201>
+  <!-- ZH: nickname->Brain -->
+  <SayersNickName.rulePack.rulesStrings.202>nickname->Brain</SayersNickName.rulePack.rulesStrings.202>
+  <!-- ZH: nickname->Throat -->
+  <SayersNickName.rulePack.rulesStrings.203>nickname->Throat</SayersNickName.rulePack.rulesStrings.203>
+  <!-- ZH: nickname->Trachea -->
+  <SayersNickName.rulePack.rulesStrings.204>nickname->Trachea</SayersNickName.rulePack.rulesStrings.204>
+  <!-- ZH: nickname->Heart -->
+  <SayersNickName.rulePack.rulesStrings.205>nickname->Heart</SayersNickName.rulePack.rulesStrings.205>
+  <!-- ZH: nickname->Stomach -->
+  <SayersNickName.rulePack.rulesStrings.206>nickname->Stomach</SayersNickName.rulePack.rulesStrings.206>
+  <!-- ZH: nickname->Kidney -->
+  <SayersNickName.rulePack.rulesStrings.207>nickname->Kidney</SayersNickName.rulePack.rulesStrings.207>
+  <!-- ZH: nickname->Lung -->
+  <SayersNickName.rulePack.rulesStrings.208>nickname->Lung</SayersNickName.rulePack.rulesStrings.208>
+  <!-- ZH: nickname->Intestine -->
+  <SayersNickName.rulePack.rulesStrings.209>nickname->Intestine</SayersNickName.rulePack.rulesStrings.209>
+  <!-- ZH: nickname->Spleen -->
+  <SayersNickName.rulePack.rulesStrings.210>nickname->Spleen</SayersNickName.rulePack.rulesStrings.210>
+  <!-- ZH: nickname->Blood -->
+  <SayersNickName.rulePack.rulesStrings.211>nickname->Blood</SayersNickName.rulePack.rulesStrings.211>
+  <!-- ZH: nickname->Blood Vessels -->
+  <SayersNickName.rulePack.rulesStrings.212>nickname->Blood Vessels</SayersNickName.rulePack.rulesStrings.212>
+  <!-- ZH: nickname->Nails -->
+  <SayersNickName.rulePack.rulesStrings.213>nickname->Nails</SayersNickName.rulePack.rulesStrings.213>
+  <!-- ZH: nickname->Tumors -->
+  <SayersNickName.rulePack.rulesStrings.214>nickname->Tumors</SayersNickName.rulePack.rulesStrings.214>
+  <!-- ZH: nickname->Pads -->
+  <SayersNickName.rulePack.rulesStrings.215>nickname->Pads</SayersNickName.rulePack.rulesStrings.215>
+  <!-- ZH: nickname->Bone Spurs -->
+  <SayersNickName.rulePack.rulesStrings.216>nickname->Bone Spurs</SayersNickName.rulePack.rulesStrings.216>
+  <!-- ZH: nickname->Tissues -->
+  <SayersNickName.rulePack.rulesStrings.217>nickname->Tissues</SayersNickName.rulePack.rulesStrings.217>
+  <!-- ZH: nickname->Organs -->
+  <SayersNickName.rulePack.rulesStrings.218>nickname->Organs</SayersNickName.rulePack.rulesStrings.218>
+  <!-- ZH: nickname->Fat -->
+  <SayersNickName.rulePack.rulesStrings.219>nickname->Fat</SayersNickName.rulePack.rulesStrings.219>
+  <!-- ZH: nickname->Cartilage -->
+  <SayersNickName.rulePack.rulesStrings.220>nickname->Cartilage</SayersNickName.rulePack.rulesStrings.220>
+  <!-- ZH: nickname->Guts -->
+  <SayersNickName.rulePack.rulesStrings.221>nickname->Guts</SayersNickName.rulePack.rulesStrings.221>
+  <!-- ZH: nickname->Markings -->
+  <SayersNickName.rulePack.rulesStrings.222>nickname->Markings</SayersNickName.rulePack.rulesStrings.222>
+  <!-- ZH: nickname->Fur -->
+  <SayersNickName.rulePack.rulesStrings.223>nickname->Fur</SayersNickName.rulePack.rulesStrings.223>
+  <!-- ZH: nickname->White patches -->
+  <SayersNickName.rulePack.rulesStrings.224>nickname->White patches</SayersNickName.rulePack.rulesStrings.224>
+  <!-- ZH: nickname->Tabby -->
+  <SayersNickName.rulePack.rulesStrings.225>nickname->Tabby</SayersNickName.rulePack.rulesStrings.225>
+  <!-- ZH: nickname->Turtle -->
+  <SayersNickName.rulePack.rulesStrings.226>nickname->Turtle</SayersNickName.rulePack.rulesStrings.226>
+  <!-- ZH: nickname->Patches -->
+  <SayersNickName.rulePack.rulesStrings.227>nickname->Patches</SayersNickName.rulePack.rulesStrings.227>
+  
+</LanguageData>

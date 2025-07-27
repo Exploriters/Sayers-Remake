@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- ZH: 躯干白化/深化[赛尔斯] -->
+  <SayersAlbinism_Body.label>Body white/black patches [Sayers]</SayersAlbinism_Body.label>
+  
+  <!-- ZH: 头部白化/深化[赛尔斯] -->
+  <SayersAlbinism_Head.label>Head white/black patches [Sayers]</SayersAlbinism_Head.label>
+  
+  <!-- ZH: 花种[赛尔斯] -->
+  <SayersFlowers.label>Flower type [Sayers]</SayersFlowers.label>
+  
+  <!-- ZH: 毛长[赛尔斯] -->
+  <SayersFurLength.label>Fur length [Sayers]</SayersFurLength.label>
+  
+  <!-- ZH: 斑纹[赛尔斯] -->
+  <SayersPattern.label>Pattern [Sayers]</SayersPattern.label>
+  
+</LanguageData>

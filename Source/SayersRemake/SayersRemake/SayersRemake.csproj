@@ -69,13 +69,21 @@
     <Folder Include="Properties\" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CompPawnEmbeddedWeapons.cs" />
+    <Compile Include="CompSelfhealingByTime_Sayers.cs" />
+    <Compile Include="ITab_Pawn_EmbeddedWeapons.cs" />
+    <Compile Include="Need_Stability_Sayers.cs" />
+    <Compile Include="ScenPart.cs" />
     <Compile Include="ColorGenerators.cs" />
+    <Compile Include="IncidentWorker_WandererJoinSayers.cs" />
+    <Compile Include="IncidentWorker_WildSayersWandersIn.cs" />
     <Compile Include="Patches_PawnApparelPredicate.cs" />
     <Compile Include="InteractionWorker_Sayers.cs" />
     <Compile Include="JobGiver_Nuzzle_Humanoid.cs" />
     <Compile Include="PatchesUtility.cs" />
     <Compile Include="Patches_Misc.cs" />
     <Compile Include="Patches_PawnGenerator.cs" />
+    <Compile Include="QuestNode_Root_WandererJoin_WalkIn_Sayers.cs" />
     <Compile Include="SayersRemakeBase.cs" />
     <Compile Include="SayersRemakeDefof.cs" />
     <Compile Include="ThoughtWorker_Sayers.cs" />

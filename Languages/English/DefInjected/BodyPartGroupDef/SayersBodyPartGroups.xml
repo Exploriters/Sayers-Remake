@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- ZH: 尾巴 -->
+  <Tail.label>tail</Tail.label>
+  
+  <!-- ZH: 最左触手 -->
+  <TentacleLeft1.label>left-most tentacle</TentacleLeft1.label>
+  
+  <!-- ZH: 左中触手 -->
+  <TentacleLeft2.label>left-middle tentacle</TentacleLeft2.label>
+  
+  <!-- ZH: 最右触手 -->
+  <TentacleRight1.label>right-most tentacle</TentacleRight1.label>
+  
+  <!-- ZH: 右中触手 -->
+  <TentacleRight2.label>right-middle tentacle</TentacleRight2.label>
+  
+  <!-- ZH: 触手组 -->
+  <Tentacles.label>tentacles</Tentacles.label>
+  
+</LanguageData>

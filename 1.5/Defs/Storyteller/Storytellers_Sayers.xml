@@ -17,7 +17,7 @@
         <onDays>4.6</onDays>
         <offDays>6.0</offDays>
         <minSpacingDays>0.95</minSpacingDays>
-        <numIncidentsRange>1~2</numIncidentsRange>
+        <numIncidentsRange>2~4</numIncidentsRange>
         <forceRaidEnemyBeforeDaysPassed>10</forceRaidEnemyBeforeDaysPassed>
         <disallowedTargetTags>
           <li>Map_RaidBeacon</li>
@@ -32,7 +32,7 @@
           <onDays>1.0</onDays>
           <offDays>0.5</offDays>
           <minSpacingDays>0.04</minSpacingDays>
-          <numIncidentsRange>1~2</numIncidentsRange>
+          <numIncidentsRange>2~5</numIncidentsRange>
           <minThreatPoints>500</minThreatPoints>
         </parms>
       </li>
@@ -41,7 +41,7 @@
         <minDaysPassed>5.5</minDaysPassed>
         <onDays>2.3</onDays>
         <offDays>3.0</offDays>
-        <numIncidentsRange>0.2~2</numIncidentsRange>
+        <numIncidentsRange>0.2~5</numIncidentsRange>
         <acceptPercentFactorPerThreatPointsCurve>
           <points>
             <li>(800, 1)</li>

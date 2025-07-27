@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!--<IncidentDef>
+		<defName>WildSayersWandersIn</defName>
+		<label>野生赛尔斯接近</label>
+		<category>Misc</category>
+		<targetTags>
+			<li>Map_PlayerHome</li>
+		</targetTags>
+		<workerClass>SayersRemake.IncidentWorker_WildSayersWandersIn</workerClass>
+		<baseChance>1.0</baseChance>
+		<populationEffect>IncreaseMedium</populationEffect>
+		<letterLabel>好奇的{0}</letterLabel>
+		<letterText>一只赛尔斯好奇地接近了你的殖民地！{PAWN_pronoun}被称为{0}。\n\n你可以尝试去驯化或拘捕{PAWN_objective}。</letterText>
+		<letterDef>NeutralEvent</letterDef>
+	</IncidentDef>-->
+	
+	<IncidentDef>
+		<defName>WandererJoin_Sayers</defName>
+		<label>加入请求：赛尔斯</label>
+		<category>Misc</category>
+		<targetTags>
+			<li>Map_PlayerHome</li>
+		</targetTags>
+		<workerClass>SayersRemake.IncidentWorker_WandererJoinSayers</workerClass>
+		<questScriptDef>WandererJoins_Sayers</questScriptDef>
+		<baseChance>1.0</baseChance>
+		<pawnKind>SayersMember</pawnKind>
+	</IncidentDef>
+</Defs>

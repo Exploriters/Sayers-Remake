@@ -9,10 +9,13 @@
     <pawnGeneratorCanAmputate>false</pawnGeneratorCanAmputate>
     <frostbiteVulnerability>8</frostbiteVulnerability>
     <beautyRelated>true</beautyRelated>
+	<solid>true</solid>
     <permanentInjuryChanceFactor>10</permanentInjuryChanceFactor>
     <tags>
       <li>BreathingPathway</li>
+	  <li>SayersPlantTissue</li>
     </tags>
+	<bleedRate>0</bleedRate>
   </BodyPartDef>
   <BodyPartDef>
     <defName>BorneyeFlowers</defName>
@@ -23,11 +26,14 @@
     <pawnGeneratorCanAmputate>true</pawnGeneratorCanAmputate>
     <frostbiteVulnerability>8</frostbiteVulnerability>
     <beautyRelated>true</beautyRelated>
+	<solid>true</solid>
     <permanentInjuryChanceFactor>10</permanentInjuryChanceFactor>
     <tags>
       <li>SightSource</li>
       <li>BreathingPathway</li>
+	  <li>SayersPlantTissue</li>
     </tags>
+	<bleedRate>0</bleedRate>
   </BodyPartDef>
   <BodyPartDef>
     <defName>Tentacles</defName>
@@ -37,12 +43,15 @@
     <canSuggestAmputation>true</canSuggestAmputation>
     <pawnGeneratorCanAmputate>true</pawnGeneratorCanAmputate>
     <beautyRelated>false</beautyRelated>
+	<solid>true</solid>
     <frostbiteVulnerability>6</frostbiteVulnerability>
     <tags>
       <li>ManipulationLimbSegment</li>
       <li>ManipulationLimbCore</li>
       <li>ManipulationLimbDigit</li>
+	  <li>SayersPlantTissue</li>
     </tags>
+	<bleedRate>0</bleedRate>
   </BodyPartDef>
   <BodyPartDef>
     <defName>TentaclesBone</defName>
@@ -55,6 +64,7 @@
       <li>ManipulationLimbSegment</li>
       <li>ManipulationLimbCore</li>
       <li>ManipulationLimbDigit</li>
+	  <li>SayersPlantTissue</li>
     </tags>
     <bleedRate>0</bleedRate>
   </BodyPartDef>
@@ -66,7 +76,11 @@
     <beautyRelated>false</beautyRelated>
     <pawnGeneratorCanAmputate>true</pawnGeneratorCanAmputate>
     <canSuggestAmputation>true</canSuggestAmputation>
+	<tags>
+		<li>SayersPlantTissue</li>
+	</tags>
     <bleedRate>0</bleedRate>
+	<solid>true</solid>
   </BodyPartDef>
   <BodyPartDef>
     <defName>TailBone</defName>
@@ -74,6 +88,9 @@
     <hitPoints>45</hitPoints>
     <skinCovered>false</skinCovered>
     <beautyRelated>false</beautyRelated>
+	<tags>
+		<li>SayersPlantTissue</li>
+	</tags>
     <solid>true</solid>
     <bleedRate>0</bleedRate>
   </BodyPartDef>
@@ -86,6 +103,7 @@
     <pawnGeneratorCanAmputate>true</pawnGeneratorCanAmputate>
     <frostbiteVulnerability>8</frostbiteVulnerability>
     <beautyRelated>false</beautyRelated>
+	<canScarify>true</canScarify>
     <tags>
       <li>HearingSource</li>
     </tags>

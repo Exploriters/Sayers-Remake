@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- ZH: 赛尔斯 -->
+  <SayersMember.label>Sayers</SayersMember.label>
+  
+  <!-- ZH: 野生赛尔斯 -->
+  <WildSayers.label>Wild Sayers</WildSayers.label>
+  
+</LanguageData>

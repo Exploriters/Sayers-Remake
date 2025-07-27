@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- ZH: 杀了我的牵绊动物 -->
+  <KilledMyBondedAnimal_Sayers.stages.0.label>killed my bonded animal</KilledMyBondedAnimal_Sayers.stages.0.label>
+  
+  <!-- ZH: 杀了我的未婚夫/妻 -->
+  <KilledMyFiance_Sayers.stages.0.label>killed my fiance</KilledMyFiance_Sayers.stages.0.label>
+  
+  <!-- ZH: 杀了我的朋友 -->
+  <KilledMyFriend_Sayers.stages.0.label>killed my friend</KilledMyFriend_Sayers.stages.0.label>
+  
+  <!-- ZH: 杀了我的情人 -->
+  <KilledMyLover_Sayers.stages.0.label>killed my lover</KilledMyLover_Sayers.stages.0.label>
+  
+  <!-- ZH: 杀了我的仇人 -->
+  <KilledMyRival_Sayers.stages.0.label>killed my rival</KilledMyRival_Sayers.stages.0.label>
+  
+  <!-- ZH: 杀了我的伴侣 -->
+  <KilledMySpouse_Sayers.stages.0.label>killed my spouse</KilledMySpouse_Sayers.stages.0.label>
+  
+</LanguageData>

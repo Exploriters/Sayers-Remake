@@ -44,4 +44,34 @@ namespace SayersRemake
 			return 0.5f;
 		}
     };
+
+	public class InteractionWorker_Insult_Sayers : InteractionWorker
+    {
+		public override float RandomSelectionWeight(Pawn initiator, Pawn recipient)
+		{
+			if (initiator.Inhumanized() || initiator.def != AlienSayersDef || initiator.kindDef.race != AlienSayersDef)
+			{
+				return 0f;
+			}
+			if (initiator.def == AlienSayersDef && recipient.def == AlienSayersDef)
+            {
+				if(initiator.relations.OpinionOf(recipient) > 30)
+                {
+					return 0f;
+                }
+				return 0.0023f * NegativeInteractionUtility.NegativeInteractionChanceFactor(initiator, recipient);
+            }
+			if(initiator.Position.DistanceTo(recipient.Position) < 5f)
+            {
+				if (initiator.relations.OpinionOf(recipient) < -30)
+				{
+					return 0f;
+				}
+				return 0.005f * NegativeInteractionUtility.NegativeInteractionChanceFactor(initiator, recipient);
+			}
+			return 0f;
+		}
+
+		private const float BaseSelectionWeight = 0.005f;
+	}
 }

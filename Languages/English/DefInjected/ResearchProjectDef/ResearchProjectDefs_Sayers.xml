@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- ZH: 血肉剖析 -->
+  <SayersTech_FleshDissection.label>血肉剖析</SayersTech_FleshDissection.label>
+  <!-- ZH: TODO。 -->
+  <SayersTech_FleshDissection.description>TODO。</SayersTech_FleshDissection.description>
+  
+  <!-- ZH: 植物神经 -->
+  <SayersTech_PlantNerve.label>植物神经</SayersTech_PlantNerve.label>
+  <!-- ZH: TODO。 -->
+  <SayersTech_PlantNerve.description>TODO。</SayersTech_PlantNerve.description>
+  
+  <!-- ZH: 赛尔斯科技树(WIP) -->
+  <SayersTech_RootProject.label>赛尔斯科技树(WIP)</SayersTech_RootProject.label>
+  <!-- ZH: 允许进一步研究赛尔斯相关科技。\n\n<color=#b06868><b>勿视、勿言、勿触\n不闻、不思、不念\n广识招灾、无知是福。</b></color>\n\n未完成，请勿研究。 -->
+  <SayersTech_RootProject.description>允许进一步研究赛尔斯相关科技。
+
+&lt;color=#b06868>&lt;b>勿视、勿言、勿触
+不闻、不思、不念
+广识招灾、无知是福。&lt;/b>&lt;/color>
+
+未完成，请勿研究。</SayersTech_RootProject.description>
+  
+</LanguageData>

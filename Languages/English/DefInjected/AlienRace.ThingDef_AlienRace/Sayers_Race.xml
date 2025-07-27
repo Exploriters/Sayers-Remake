@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- ZH: Sayers -->
+  <Alien_Sayers.label>Sayers</Alien_Sayers.label>
+  <!-- ZH: Two things are certain: First, Sayers is really belongs to mammals. Second, Sayers's flowers and leaves are indeed plant tissues. Sayers is an abnormal creature with mammals as the main body and accomplanied by plant parasitism. They retain the primitive animal calls, seem to have no language ability to human beings, and present the neature of primitive animals in many ways. However, there are many signs that this does not mean that they're mentally retarded. They will use tools, wear equipment and even engage in research, and can learn and understand languages and instructions. For communication, they use different tones of singing and various body languages to express their emotions and ideas, and even use written communication when necessary.\n	\nSayers is obviously not a neaturally evolved species. They're full of experimental traces. Not only are they highly unstable in genes, but the implantation of their plant parts is also somewhat rought, which directly leads to their partial vision loss and temperature sensitivity. They need to take care of their own plant parts more carefully to avoid their own organ failure caused by apoptosis. They were rudely deprived of their forelimbs and replaced by plant tentacles, which may have forced them to learn how to walk only with their hindlimbs and to face some of the tasks that became more difficult after losing their forelimbs.\n	\n\nEven with a high degree of wisdom, regardless of age, Sayers still seems like a cub. After being lost, they're confused about there they belongs and where they can call "home". This highly collective little creature often embarks on an impossible way home after being abandoned. -->
+  <Alien_Sayers.description>Two things are certain: First, Sayers is really belongs to mammals. Second, Sayers's flowers and leaves are indeed plant tissues. Sayers is an abnormal creature with mammals as the main body and accomplanied by plant parasitism. They retain the primitive animal calls, seem to have no language ability to human beings, and present the neature of primitive animals in many ways. However, there are many signs that this does not mean that they're mentally retarded. They will use tools, wear equipment and even engage in research, and can learn and understand languages and instructions. For communication, they use different tones of singing and various body languages to express their emotions and ideas, and even use written communication when necessary.
+	
+Sayers is obviously not a neaturally evolved species. They're full of experimental traces. Not only are they highly unstable in genes, but the implantation of their plant parts is also somewhat rought, which directly leads to their partial vision loss and temperature sensitivity. They need to take care of their own plant parts more carefully to avoid their own organ failure caused by apoptosis. They were rudely deprived of their forelimbs and replaced by plant tentacles, which may have forced them to learn how to walk only with their hindlimbs and to face some of the tasks that became more difficult after losing their forelimbs.
+	
+
+Even with a high degree of wisdom, regardless of age, Sayers still seems like a cub. After being lost, they're confused about there they belongs and where they can call "home". This highly collective little creature often embarks on an impossible way home after being abandoned.</Alien_Sayers.description>
+  <!-- ZH: tentacle -->
+  <Alien_Sayers.tools.0.label>tentacle</Alien_Sayers.tools.0.label>
+  <!-- ZH: tentacle -->
+  <Alien_Sayers.tools.1.label>tentacle</Alien_Sayers.tools.1.label>
+  <!-- ZH: tentacle -->
+  <Alien_Sayers.tools.2.label>tentacle</Alien_Sayers.tools.2.label>
+  <!-- ZH: tentacle -->
+  <Alien_Sayers.tools.3.label>tentacle</Alien_Sayers.tools.3.label>
+  <!-- ZH: fangs -->
+  <Alien_Sayers.tools.4.label>fangs</Alien_Sayers.tools.4.label>
+  <!-- ZH: head -->
+  <Alien_Sayers.tools.5.label>head</Alien_Sayers.tools.5.label>
+  <!-- ZH: tentacle needle -->
+  <Alien_Sayers.tools.6.label>tentacle needle</Alien_Sayers.tools.6.label>
+  <!-- ZH: tentacle needle -->
+  <Alien_Sayers.tools.7.label>tentacle needle</Alien_Sayers.tools.7.label>
+  <!-- ZH: tentacle needle -->
+  <Alien_Sayers.tools.8.label>tentacle needle</Alien_Sayers.tools.8.label>
+  <!-- ZH: tentacle needle -->
+  <Alien_Sayers.tools.9.label>tentacle needle</Alien_Sayers.tools.9.label>
+  
+</LanguageData>

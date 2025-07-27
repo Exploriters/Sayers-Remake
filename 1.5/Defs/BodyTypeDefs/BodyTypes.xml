@@ -2,10 +2,10 @@
 <Defs>
   <BodyTypeDef>
     <defName>Sayers_Prototype_Body</defName>
-    <headOffset>(0.09, 0.1)</headOffset>
+    <headOffset>(0.03,0.2)</headOffset>
     <bodyNakedGraphicPath>Things/Pawn/Sayers/Prototype/Bodies/Naked_Sayers_Prototype_Body</bodyNakedGraphicPath>
     <bodyDessicatedGraphicPath>Things/Pawn/Sayers/Prototype/Bodies/Naked_Sayers_Prototype_Body</bodyDessicatedGraphicPath>
-    <bodyGraphicScale>(0.6, 1)</bodyGraphicScale>
+    <bodyGraphicScale>(0.6, 1.0)</bodyGraphicScale>
     <woundAnchors>
       <li>
         <rotation>South</rotation>

@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
-    <PawnKindDef Name="BasePlayerPawnKind">
+    <PawnKindDef ParentName="BasePlayerPawnKind">
         <defName>SayersMember</defName>
         <label>赛尔斯</label>
         <race>Alien_Sayers</race>
-		<!--<backstoryFiltersOverride>
+		<backstoryFiltersOverride>
 			<li>
 				<categories>
-					<li>SayersBackstory</li>
+					<li>Sayers_Backstories</li>
 				</categories>
 			</li>
-		</backstoryFiltersOverride>-->
+		</backstoryFiltersOverride>
         <xenotypeSet>
             <xenotypeChances>
                 <Sayers_Prototype>99999</Sayers_Prototype>
@@ -22,4 +22,31 @@
         <combatPower>30</combatPower>
         <initialWillRange>0~0</initialWillRange>
     </PawnKindDef>
+	
+	<PawnKindDef>
+    <defName>WildSayers</defName>
+    <label>野生赛尔斯</label>
+    <combatPower>30</combatPower>
+    <race>Alien_Sayers</race>
+    <acceptArrestChanceFactor>0.1</acceptArrestChanceFactor>
+    <backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>Sayers_Backstories</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+    <backstoryCryptosleepCommonality>0.1</backstoryCryptosleepCommonality>
+    <itemQuality>Poor</itemQuality>
+    <chemicalAddictionChance>0.0</chemicalAddictionChance>
+    <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+    <apparelIgnorePollution MayRequire="Ludeon.RimWorld.Biotech">true</apparelIgnorePollution>
+    <techHediffsChance>0.03</techHediffsChance>
+    <techHediffsMoney>50~50</techHediffsMoney>
+    <techHediffsTags>
+      <li>Poor</li>
+    </techHediffsTags>
+    <initialWillRange>2~4</initialWillRange>
+    <initialResistanceRange>28~44</initialResistanceRange>
+  </PawnKindDef>
 </Defs>

@@ -28,7 +28,7 @@
 	<ResearchProjectDef ParentName="SayersTechBase">
 		<defName>SayersTech_FleshDissection</defName>
 		<label>血肉剖析</label>
-		<description>通过一次又一次解剖血肉以增强对其的了解，万物本一致——在构造上。因此你也许可以举一反三，将这血肉变为你所想要的事物。</description>
+		<description>TODO。</description>
 		<baseCost>999999999</baseCost>
 		<techLevel>Neolithic</techLevel>
 		<prerequisites>
@@ -41,7 +41,7 @@
 	<ResearchProjectDef ParentName="SayersTechBase">
 		<defName>SayersTech_PlantNerve</defName>
 		<label>植物神经</label>
-		<description>为什么不用植物来作为你肢体的神经？这听起来很是诡异，但我们已经有了成功的先例。去这么做吧，这会让你生存得更简单，只是外来者也许会为此感到作呕。</description>
+		<description>TODO。</description>
 		<baseCost>999999999</baseCost>
 		<techLevel>Neolithic</techLevel>
 		<prerequisites>
