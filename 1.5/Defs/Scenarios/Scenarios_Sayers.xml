@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<ScenarioDef>
+		<defName>Sayers_Start</defName>
+		<label>弃子</label>
+		<description>一切如常，没有紧急事态时发出的警报，没有被激怒时犬科动物的低吼，在白色、灰色与无色间，没有时光的流逝，仅仅是休息后再次的睁眸。一如既往地，你被比你大出许多倍的生物抱在手里，带去或是危险、或是复杂的房间。
+这是你的每一天，在无数不同的房间中，和你的同伴一起学习新的事物，在极短的时间内掌握自己的身体。诞生几日便学会跑跳，如今几月年龄便已通晓拼写。这就是你，是你们，以异常的速度迅速地成长着。
+只是这一次，你们的终点不是红色，不是白色，而是金属的舱室。你和其他两只赛尔斯被放入了里面，试着等待指令等来的却是舱门的关闭。你用触手疑惑地拂上舱门，但你也已然知晓接下来的一切都由不得你。
+		
+舱门再次打开，映入眼帘的是完全陌生的世界，从诞生之初便埋藏于心的孤独种子在此刻爆发，疯狂且肆意地生长，充满你的胸膛。这悲恸最终化作颤动的气流，令你仰天长啸，但最终也只不过是将声音投入虚无。
+该冷静了，脑中的程序如此说道。在迅速地冷却后，肆意生长的悲恸便被漠然无情剪去。此时此刻，心中所想仅有归家之路漫漫。
+		
+		
+赛尔斯的剧情线任务还在制作当中！这依旧是WIP的！</description>
+		<scenario>
+			<summary>赛尔斯种族的默认剧本。</summary>
+			<playerFaction>
+				<def>PlayerFaction</def>
+				<factionDef>SayersGroup</factionDef>
+			</playerFaction>
+			<parts>
+				<!--== 人数 ==-->
+				<li Class="ScenPart_ConfigPage_ConfigureStartingPawns">
+					<def>ConfigPage_ConfigureStartingPawns</def>
+					<pawnCount>3</pawnCount>
+					<pawnChoiceCount>8</pawnChoiceCount>
+				</li>
+				<!--== 到达方法 ==-->
+				<li Class="ScenPart_PlayerPawnsArriveMethod">
+					<def>PlayerPawnsArriveMethod</def>
+					<method>DropPods</method>
+					<visible>false</visible>
+				</li>
+				<li Class="ScenPart_Naked">
+					<def>Naked</def>
+					<context>PlayerStarter</context>
+					<visible>false</visible>
+				</li>
+				<li Class="ScenPart_DisableIncident">
+					<def>DisableIncident</def>
+					<incident>WandererJoin</incident>
+					<visible>false</visible>
+				</li>
+				<!--== 开场信息 ==-->
+				<li Class="ScenPart_GameStartDialog">
+					<def>GameStartDialog</def>
+					<text>随着舱门开启，陌生的世界呈现在你们眼前，你们颅内的冲动也已被程序的限制抚平，只剩下沉寂的阴郁。
+曾经的课程、训练，求生觅食的本性，逐渐浮现在你们的眼前，带动你们的躯体，去在这个世界上立足。
+					
+遥望归家之途，但此刻先需求生。</text>
+				</li>
+				<!--== 遗弃悲伤 ==-->
+				<!-- BUG -->
+				<!--<li Class="SayersRemake.ScenPart_StartThoughtSadness">
+					<def>ScenPart_StartThoughtSadness</def>
+				</li>-->
+			</parts>
+		</scenario>
+	</ScenarioDef>
+</Defs>

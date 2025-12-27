@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<!-- CATEGORY -->
+	<GeneCategoryDef>
+        <defName>SayersLithogenic</defName>
+        <ignoreIllegalLabelCharacterConfigError>true</ignoreIllegalLabelCharacterConfigError>
+        <label>岩生种[赛尔斯]</label>
+        <displayPriorityInXenotype>-900</displayPriorityInXenotype>
+    </GeneCategoryDef>
+	
+	<!-- DEFAULT GENE -->
+	<GeneDef ParentName="SayersGeneBase" Name="SayersLithogenicGeneBase" Abstract="True">
+		<displayCategory>SayersLithogenic</displayCategory>
+	</GeneDef>
+	
+	<GeneDef ParentName="SayersLithogenicGeneBase">
+		<defName>Sayers_Lithogenic_Solarphobia</defName>
+        <label>惧光症(WIP)</label>
+        <labelShortAdj>惧光症</labelShortAdj>
+        <description>携带这种基因的赛尔斯会因为暴露在强光下而感到痛苦、影响行动。</description>
+		<biostatMet>3</biostatMet>
+		<biostatCpx>1</biostatCpx>
+		<conditionalStatAffecters>
+			<li Class="ConditionalStatAffecter_InSunlight">
+				<statFactors>
+					<MoveSpeed>0.65</MoveSpeed>
+				</statFactors>
+			</li>
+		</conditionalStatAffecters>
+	</GeneDef>	
+	<GeneDef ParentName="SayersLithogenicGeneBase">
+		<defName>Sayers_Lithogenic_MiningTalent</defName>
+        <label>矿生起源(WIP)</label>
+        <labelShortAdj>穴居的</labelShortAdj>
+        <description>携带这种基因的赛尔斯有着更高的挖掘速度与矿产产出。</description>
+		<biostatMet>-1</biostatMet>
+		<biostatCpx>1</biostatCpx>
+	</GeneDef>
+	<GeneDef ParentName="SayersLithogenicGeneBase">
+		<defName>Sayers_Lithogenic_Animismless</defName>
+        <label>封语者(WIP)</label>
+        <labelShortAdj>封语者</labelShortAdj>
+        <description>携带这种基因的赛尔斯因为断绝了与有机物的大部分联系，它们将难以社交、与动物建立联系，甚至是难以完成肢体的语言。</description>
+		<biostatMet>2</biostatMet>
+		<biostatCpx>1</biostatCpx>
+	</GeneDef>
+	<GeneDef ParentName="SayersLithogenicGeneBase">
+		<defName>Sayers_Lithogenic_EdibleMinerals</defName>
+        <label>食矿者(WIP)</label>
+        <labelShortAdj>食矿者</labelShortAdj>
+        <description>携带这种基因的赛尔斯会从无机质中摄入营养并储存起来，当饱食度耗尽时，它能作为临时营养，让赛尔斯在饥荒中支撑更久的时间。</description>
+		<biostatMet>-3</biostatMet>
+		<biostatCpx>2</biostatCpx>
+	</GeneDef>	
+	<GeneDef ParentName="SayersLithogenicGeneBase">
+		<defName>Sayers_Lithogenic_HardenedPland</defName>
+        <label>植纤维硬化(WIP)</label>
+        <labelShortAdj>硬化的</labelShortAdj>
+        <description>携带这种基因的赛尔斯体内的植物更为坚硬，但缺乏柔韧性。这为它们提供了更高的防御力与更低的疼痛感，但也拖慢了它们的行动速度，使其像是被 坚石囚禁。</description>
+		<biostatMet>-1</biostatMet>
+		<biostatCpx>1</biostatCpx>
+		<statFactors>
+			<StaggerDurationFactor>0.5</StaggerDurationFactor>
+		</statFactors>
+		<painFactor>0.5</painFactor>
+		<statOffsets>
+			<MoveSpeed>-3.0</MoveSpeed>
+		</statOffsets>
+	</GeneDef>	
+	
+	<GeneDef ParentName="SayersLithogenicGeneBase">
+		<defName>Sayers_Lithogenic_FaceFlower</defName>
+        <label>覆面花</label>
+        <labelShortAdj>覆面花</labelShortAdj>
+        <description>携带这种基因的赛尔斯的眼生花将覆盖整个上半面，并使其无视黑暗。</description>
+		<ignoreDarkness>true</ignoreDarkness>
+	</GeneDef>
+</Defs>

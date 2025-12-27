@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<AlienRace.AlienBackstoryDef>
+		<defName>Sayers_Backstory_Default_Childhood</defName>
+		<slot>Childhood</slot>
+		<title>赛尔斯实验体</title>
+		<titleShort>实验体</titleShort>
+		<description>[PAWN_nameDef]是一只来自实验室的实验体。在某一个寻常的日子中，[PAWN_pronoun]被选中，随后猝不及防地抛弃，被遗弃于对[PAWN_pronoun]来说完全陌生的边缘世界——这就是[PAWN_pronoun]所记得的全部。</description>
+		<spawnCategories>
+			<li>Sayers_Backstories</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+	
+	<AlienRace.AlienBackstoryDef>
+		<defName>Sayers_Backstory_Naughty_Childhood</defName>
+		<slot>Childhood</slot>
+		<title>淘气的幼兽</title>
+		<titleShort>顽兽</titleShort>
+		<description>[PAWN_nameDef]自从睁开眼睛的那一刻就展现出了淘气的天性，[PAWN_pronoun]总是从规定的区域爬出来，随后满桌子乱爬，有些时候甚至会将实验用具打翻，又被噪音吓得赶紧躲进缝隙。[PAWN_pronoun]的淘气也许很讨人喜欢，但绝对不会被创造者所青睐，有一天，祂们受够了[PAWN_pronoun]，于是[PAWN_pronoun]就这么来到了这个陌生的边缘世界。</description>
+		<spawnCategories>
+			<li>Sayers_Backstories</li>
+		</spawnCategories>
+		<skillGains>
+			<Social>4</Social>
+			<Crafting>2</Crafting>
+			<Plants>-1</Plants>
+			<Construction>-2</Construction>
+		</skillGains>
+	</AlienRace.AlienBackstoryDef>
+	
+	<AlienRace.AlienBackstoryDef>
+		<defName>Sayers_Backstory_Combative_Childhood</defName>
+		<slot>Childhood</slot>
+		<title>斗兽牺牲品</title>
+		<titleShort>牺牲品</titleShort>
+		<description>自[PAWN_nameDef]在培育仓内发育成熟之后，[PAWN_pronoun]就被释放至空置域，被迫以杀戮被投下的其他生物或与同伴相争，以争取活命的口粮。[PAWN_pronoun]的心态也在无休止的杀戮中发生了变化，在[PAWN_pronoun]不再具有观赏性而惨遭遗弃后，仅有脑中低鸣的程序阻止[PAWN_pronoun]走向极端。</description>
+		<spawnCategories>
+			<li>Sayers_Backstories</li>
+		</spawnCategories>
+		<skillGains>
+			<Social>-7</Social>
+			<Intellectual>-2</Intellectual>
+			<Medicine>3</Medicine>
+			<Melee>5</Melee>
+			<Shooting>1</Shooting>
+		</skillGains>
+		<forcedTraits>
+			<Tough>0</Tough>
+		</forcedTraits>
+		<disallowedTraits>
+			<Kind>0</Kind>
+			<Wimp>0</Wimp>
+		</disallowedTraits>
+	</AlienRace.AlienBackstoryDef>
+	
+	
+	
+	<AlienRace.AlienBackstoryDef>
+		<defName>Sayers_Backstory_Default_Adulthood</defName>
+		<slot>Adulthood</slot>
+		<title>赛尔斯</title>
+		<titleShort>赛尔斯</titleShort>
+		<description>[PAWN_nameDef]是一只赛尔斯，你怎么把[PAWN_pronoun]养大的？</description>
+		<spawnCategories>
+			<li>Sayers_Backstories</li>
+		</spawnCategories>
+	</AlienRace.AlienBackstoryDef>
+</Defs>

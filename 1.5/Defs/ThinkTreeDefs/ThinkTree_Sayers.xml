@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThinkTreeDef>
+    <defName>ThinkTree_Sayers</defName>
+    <thinkRoot Class="ThinkNode_Priority">
+      <subNodes>
+        <!-- Tame animal: do useful things for the colony-->
+        <li Class="ThinkNode_ConditionalHasFaction">
+          <subNodes>
+            <!-- Nuzzle randoms -->
+            <li Class="ThinkNode_ChancePerHour_Nuzzle">
+              <subNodes>
+                <li Class="ThinkNode_Tagger">
+                  <tagToGive>Misc</tagToGive>
+                  <subNodes>
+					<li Class="SayersRemake.JobGiver_Nuzzle_Humanoid" />
+                  </subNodes>
+                </li>
+              </subNodes>
+            </li>
+          </subNodes>
+        </li>
+        <li Class="ThinkNode_Subtree">
+          <treeDef>Humanlike</treeDef>
+        </li>
+		<!-- Main wild man behavior core -->
+        <!--<li Class="ThinkNode_ConditionalPawnKind">
+          <pawnKind>WildSayers</pawnKind>
+          <subNodes>
+            <li Class="ThinkNode_Subtree">
+              <treeDef>MainWildSayersBehaviorCore</treeDef>
+              <leaveJoinableLordIfIssuesJob>true</leaveJoinableLordIfIssuesJob>
+            </li>
+          </subNodes>
+        </li>
+        <li Class="ThinkNode_ChancePerHour_Constant">
+          <mtbDays>15</mtbDays>
+          <subNodes>
+            <li Class="ThinkNode_Tagger">
+              <tagToGive>SatisfyingNeeds</tagToGive>
+              <subNodes>
+                <li Class="JobGiver_EatRandom" />
+              </subNodes>
+            </li>
+          </subNodes>
+        </li>-->
+      </subNodes>
+    </thinkRoot>
+  </ThinkTreeDef>
+		
+	<ThinkTreeDef>
+    <defName>MainWildSayersBehaviorCore</defName>
+    <thinkRoot Class="ThinkNode_Priority">
+      <subNodes>
+        <!-- Leave the colony -->
+        <li Class="ThinkNode_ConditionalWildManNeedsToReachOutside">
+          <subNodes>
+            <li Class="JobGiver_ReachOutside" />
+          </subNodes>
+        </li>
+        <!-- Satisfy needs -->
+        <li Class="ThinkNode_Tagger">
+          <tagToGive>SatisfyingNeeds</tagToGive>
+          <subNodes>
+            <li Class="ThinkNode_PrioritySorter">
+              <subNodes>
+                <li Class="JobGiver_GetFood"/>
+                <li Class="JobGiver_GetRest"/>
+                <li Class="JobGiver_SatisfyChemicalNeed"/>
+                <li Class="JobGiver_SatifyChemicalDependency" MayRequire="Ludeon.RimWorld.Biotech" />
+                <li Class="ThinkNode_Priority_GetJoy">
+                  <subNodes>
+                    <li Class="JobGiver_GetJoy"/>
+                  </subNodes>
+                </li>
+              </subNodes>
+            </li>
+          </subNodes>
+        </li>
+      </subNodes>
+    </thinkRoot>
+  </ThinkTreeDef>
+</Defs>

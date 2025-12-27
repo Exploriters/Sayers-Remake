@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <XenotypeDef>
+        <defName>Sayers_Prototype</defName>
+        <label>原型体</label>
+        <description>最早被成功制造出来的赛尔斯个体，作为之后诞生的赛尔斯分化的原型。</description>
+        <iconPath>UI/Icons/Xenotypes/Sayers/Prototype</iconPath>
+		<inheritable>true</inheritable>
+        <genes>
+			<!-- ====FEATURES==== -->
+			<!-- Head Alibinism -->
+			<!--<li>Sayers_Albinism_Head_None</li>
+            <li>Sayers_Albinism_Head_Dress</li>
+            <li>Sayers_Albinism_Head_Siamese</li>
+            <li>Sayers_Albinism_Head_Cloak</li>
+            <li>Sayers_Albinism_Head_HalfL1</li>
+            <li>Sayers_Albinism_Head_HalfR2</li>
+			<li>Sayers_Albinism_Head_Nosepoint</li>-->
+			<!-- Body Alibinism -->
+            <!--<li>Sayers_Albinism_None</li>
+            <li>Sayers_Albinism_Dress</li>
+            <li>Sayers_Albinism_Siamese</li>
+            <li>Sayers_Albinism_Heart</li>-->
+			<!-- Pattern -->
+            <!--<li>Sayers_Pattern_None</li>
+            <li>Sayers_Pattern_Tabby</li>
+            <li>Sayers_Pattern_Rose</li>
+            <li>Sayers_Pattern_Spot</li>
+            <li>Sayers_Pattern_Turtle</li>-->
+			<!-- Fur Length -->
+			<!--<li>Sayers_FurLength_Short</li>
+			<li>Sayers_FurLength_Long</li>
+			<li>Sayers_FurLength_Round</li>-->
+			<!-- Flowers -->
+			<!--<li>Sayers_Flowers_Default</li>
+			<li>Sayers_Flowers_Sharp</li>
+			<li>Sayers_Flowers_Round</li>
+			<li>Sayers_Flowers_Triple</li>-->
+        </genes>
+    </XenotypeDef>
+</Defs>
