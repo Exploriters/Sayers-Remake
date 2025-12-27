@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- ZH: 赛尔斯睡眠点 -->
+  <Sayers_SleepingSpot.label>Sayers sleeping spot</Sayers_SleepingSpot.label>
+  <!-- ZH: 在地板上指定一个给赛尔斯睡觉的位置。 -->
+  <Sayers_SleepingSpot.description>Designate a place on the floor for Sayers to sleep.</Sayers_SleepingSpot.description>
+  
+</LanguageData>

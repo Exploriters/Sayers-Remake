@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThoughtDef>
+		<defName>Threat_Sayers</defName>
+		<thoughtClass>Thought_MemorySocial</thoughtClass>
+		<durationDays>3</durationDays>
+		<stackLimit>30</stackLimit>
+		<stackLimitForSameOtherPawn>5</stackLimitForSameOtherPawn>
+		<stackedEffectMultiplier>0.9</stackedEffectMultiplier>
+		<developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
+		<socialTargetDevelopmentalStageFilter>Baby, Child, Adult</socialTargetDevelopmentalStageFilter>
+		<stages>
+			<li>
+				<label>被威胁</label>
+				<baseOpinionOffset>-2</baseOpinionOffset>
+			</li>
+		</stages>
+		<thoughtToMake>ThreatMood_Sayers</thoughtToMake>
+	</ThoughtDef>
+	
+	<ThoughtDef>
+		<defName>ThreatMood_Sayers</defName>
+		<durationDays>2</durationDays>
+		<stackLimit>10</stackLimit>
+		<stackedEffectMultiplier>0.9</stackedEffectMultiplier>
+		<developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
+		<nullifyingHediffs>
+			<li MayRequire="Ludeon.RimWorld.Anomaly">Inhumanized</li>
+		</nullifyingHediffs>
+		<stages>
+			<li>
+				<label>被威胁</label>
+				<description>一只可怕的动物威胁了我，就像它会伤害我一样！</description>
+				<baseMoodEffect>-2</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+</Defs>

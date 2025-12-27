@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- ZH: 赛尔斯群体 -->
+  <SayersGroup.label>Sayers group</SayersGroup.label>
+  <!-- ZH: 一群赛尔斯，没有什么特别的。 -->
+  <SayersGroup.description>Just a group of Sayers, nothing special.</SayersGroup.description>
+  <!-- ZH: leader -->
+  <SayersGroup.leaderTitle>leader</SayersGroup.leaderTitle>
+  <!-- ZH: 赛尔斯成员 -->
+  <SayersGroup.pawnSingular>Sayers member</SayersGroup.pawnSingular>
+  <!-- ZH: 赛尔斯成员 -->
+  <SayersGroup.pawnsPlural>Sayers members</SayersGroup.pawnsPlural>
+  
+</LanguageData>

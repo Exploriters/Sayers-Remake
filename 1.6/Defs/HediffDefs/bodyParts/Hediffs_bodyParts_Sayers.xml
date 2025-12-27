@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<ThingCategoryDef>
+		<defName>BodyPartsSayers</defName>
+		<label>赛尔斯身体部位</label>
+		<parent>BodyParts</parent>
+	</ThingCategoryDef>
+	
+	<!-- ========复生======== -->
+	<!--<RecipeDef ParentName="SurgeryInstallBodyPartNaturalBase" Name="SurgeryReviveBodypartSayers">
+		<defName>SayersRevivalBase</defName>
+		<workAmount>50</workAmount>
+		<description>利用有机物刺激赛尔斯体内的植物进行生长，并最终修复其缺失的触手部位。</description>
+		<jobString>正在刺激植物生长。</jobString>
+		<anesthetize>false</anesthetize>
+		<surgerySuccessChanceFactor Inherit="False">100</surgerySuccessChanceFactor>
+		<ingredients Inherit="False">
+			 <li>
+				<filter><categories><li>MeatRaw</li></categories></filter>
+				<count>2</count>
+			 </li>
+		</ingredients>
+		<fixedIngredientFilter>
+			 <categories>
+				<li>MeatRaw</li>
+			 </categories>
+		</fixedIngredientFilter>
+		<skillRequirements Inherit="False"></skillRequirements>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="SurgeryReviveBodypartSayers">
+		<defName>SayersRevivalTentacle</defName>
+		<label>触手复生</label>
+		<appliedOnFixedBodyParts>
+			<li>Tentacles</li>
+		</appliedOnFixedBodyParts>
+	</RecipeDef>	
+	<RecipeDef ParentName="SurgeryReviveBodypartSayers">
+		<defName>SayersRevivalBorneyeFlowers</defName>
+		<label>眼生花复生</label>
+		<appliedOnFixedBodyParts>
+			<li>BorneyeFlowers</li>
+		</appliedOnFixedBodyParts>
+	</RecipeDef>	
+	<RecipeDef ParentName="SurgeryReviveBodypartSayers">
+		<defName>SayersRevivalBornthroatFlowers</defName>
+		<label>喉生花复生</label>
+		<appliedOnFixedBodyParts>
+			<li>BornthroatFlowers</li>
+		</appliedOnFixedBodyParts>
+	</RecipeDef>	
+	<RecipeDef ParentName="SurgeryReviveBodypartSayers">
+		<defName>SayersRevivalTail</defName>
+		<label>尾部复生</label>
+		<appliedOnFixedBodyParts>
+			<li>TailFur</li>
+		</appliedOnFixedBodyParts>
+	</RecipeDef>-->
+	
+	<!-- ========血肉肢体======== -->
+	<!--<HediffDef ParentName="AddedBodyPartBase">
+		<defName>FleshTentacle_Tier1</defName>
+		<label>一阶血肉触手</label>
+		<labelNoun>一条一阶血肉触手</labelNoun>
+		<description>一条已安装的一阶血肉触手。</description>
+		<priceImpact>false</priceImpact>
+		<addedPartProps>
+			<solid>true</solid>
+			<partEfficiency>1.1</partEfficiency>
+		</addedPartProps>
+		<spawnThingOnRemoved MayRequire="Ludeon.RimWorld.Anomaly">Meat_Twisted</spawnThingOnRemoved>
+	</HediffDef>
+	<RecipeDef ParentName="SurgeryInstallWoodenPartBase">
+		<defName>InstallWoodenTentacle</defName>
+		<label>刺激生长-血肉触手一阶</label>
+		<description>刺激赛尔斯体内的植物，使其生长出基础地、可完美替代甚至效果更好的血肉触手。</description>
+		<descriptionHyperlinks>
+			<HediffDef>FleshTentacle_Tier1</HediffDef>
+		</descriptionHyperlinks>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>MeatRaw</li>
+					</categories>
+				</filter>
+				<count>5</count>
+			</li>
+		</ingredients>
+		<jobString>正在刺激植物生长。</jobString>
+		<appliedOnFixedBodyParts>
+			<li>Tentacles</li>
+		</appliedOnFixedBodyParts>
+		<addsHediff>FleshTentacle_Tier1</addsHediff>
+	</RecipeDef>-->
+</Defs>

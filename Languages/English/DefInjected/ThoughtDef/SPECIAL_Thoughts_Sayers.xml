@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- ZH: 遭弃悲哀 -->
+  <AbandonedSadness_Sayers.stages.0.label>abandoned sorrow</AbandonedSadness_Sayers.stages.0.label>
+  <!-- ZH: 幼兽迷茫地抬头仰望，于陌生之地长音呼号，但回应唯有失落。 -->
+  <AbandonedSadness_Sayers.stages.0.description>The cub looked up in confusion, calling in a strange place, but the response was only loss.</AbandonedSadness_Sayers.stages.0.description>
+  
+  <!-- ZH: 非同族 -->
+  <AlwaysNegative_Sayers.stages.0.label>not same race</AlwaysNegative_Sayers.stages.0.label>
+  
+  <!-- ZH: 同族 -->
+  <AlwaysPositive_Sayers.stages.0.label>same race</AlwaysPositive_Sayers.stages.0.label>
+  
+  <!-- ZH: 无族孤独 -->
+  <Lonely_Sayers.stages.0.label>no-clan loneiness</Lonely_Sayers.stages.0.label>
+  <!-- ZH: 幼兽环视四周，试图找到与它相似的无害身影，但一无所获。 -->
+  <Lonely_Sayers.stages.0.description>The cub looked around, trying to find a harmless figure similar to it, but found nothing.</Lonely_Sayers.stages.0.description>
+  
+</LanguageData>

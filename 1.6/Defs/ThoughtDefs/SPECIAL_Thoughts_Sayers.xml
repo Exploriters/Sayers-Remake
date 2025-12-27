@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThoughtDef>
+		<defName>AlwaysNegative_Sayers</defName>
+		<thoughtClass>Thought_SituationalSocial</thoughtClass>
+		<workerClass>SayersRemake.ThoughtWorker_AlwaysNegative_Sayers</workerClass>
+		<validWhileDespawned>true</validWhileDespawned>
+		<stages>
+			<li>
+				<label>非同族</label>
+				<baseOpinionOffset>-30</baseOpinionOffset>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+	<ThoughtDef>
+		<defName>AlwaysPositive_Sayers</defName>
+		<thoughtClass>Thought_SituationalSocial</thoughtClass>
+		<workerClass>SayersRemake.ThoughtWorker_AlwaysPositive_Sayers</workerClass>
+		<validWhileDespawned>true</validWhileDespawned>
+		<stages>
+			<li>
+				<label>同族</label>
+				<baseOpinionOffset>+50</baseOpinionOffset>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+	<ThoughtDef>
+		<defName>Lonely_Sayers</defName>
+		<workerClass>SayersRemake.ThoughtWorker_SayersWillFeelLonely</workerClass>
+		<validWhileDespawned>true</validWhileDespawned>
+		<stages>
+			<li>
+				<label>无族孤独</label>
+				<description>幼兽环视四周，试图找到与它相似的无害身影，但一无所获。</description>
+				<baseMoodEffect>-5</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+	<ThoughtDef>
+		<defName>AbandonedSadness_Sayers</defName>
+		<durationDays>10</durationDays>
+		<stackLimit>1</stackLimit>
+		<stages>
+		  <li>
+			<label>遭弃悲哀</label>
+			<description>幼兽迷茫地抬头仰望，于陌生之地长音呼号，但回应唯有失落。</description>
+			<baseMoodEffect>-10</baseMoodEffect>
+		  </li>
+		</stages>
+	</ThoughtDef>
+</Defs>

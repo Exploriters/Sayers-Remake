@@ -1,0 +1,1186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <AlienRace.ThingDef_AlienRace ParentName="BasePawn">
+        <defName>Alien_Sayers</defName>
+        <label>赛尔斯</label>
+        <description>可以确定的有两件事：第一，赛尔斯确实属于哺乳动物。第二，赛尔斯身上的花与叶片确实是植物组织。赛尔斯是一种以哺乳动物为主体、并伴以植物寄生所结合出来的异常生物。祂们保留着原始的动物叫声，似乎没有类似于人类的语言能力，并在多种方面呈现出原始动物的天性。但，多种迹象表明这并不能意味着祂们智力低下，祂们会使用工具、穿着装备甚至从事研究，并能够学习与理解语言和指令。而对于交流，祂们则使用不同语调的鸣叫和各种肢体语言来表达祂们的情绪和想法，在必要时甚至会使用文字交流。
+		\n赛尔斯显然不是自然进化出来的物种，祂们身上到处是实验痕迹，不仅在基因上高度不稳定，其植物部分的植入也显得有些粗暴，直接导致了祂们将面对部分视力丢失和温度敏感，需要更小心的去照料自己的植物部分，避免其凋亡致自身器官衰竭。祂们被粗暴地剥夺了前肢后由植物质的触手取代，这也许逼迫了它们不得不去学习如何只用后肢去行走，被迫去面对失去了前肢之后变得更加困难的部分工作。
+        \n\n即使拥有高度的智慧，且不论年龄，但赛尔斯似乎仍像是幼兽，走失后迷茫的找寻自己归属于何方又能将何处称家。这种高度集体性的小生物在被弃后往往踏上一条不可能的归乡路。</description>
+		<inspectorTabs>
+			<li>SayersRemake.ITab_Pawn_EmbeddedWeapons</li>
+		</inspectorTabs>
+		<statBases>
+			<!-- ====CORE==== -->
+			<!-- base -->
+			<Mass>30</Mass>
+			<Flammability>2.0</Flammability>
+			<!-- general -->
+			<MarketValue>700</MarketValue>
+            <MoveSpeed>13.8</MoveSpeed>
+			<CrawlSpeed>4.6</CrawlSpeed>
+			<MentalBreakThreshold>0.2</MentalBreakThreshold>
+			<ToxicResistance>1.0</ToxicResistance>
+			<GlobalLearningFactor>2.0</GlobalLearningFactor>
+			<BedHungerRateFactor>0.5</BedHungerRateFactor>
+			<EatingSpeed>3</EatingSpeed>
+			<ImmunityGainSpeed>1.2</ImmunityGainSpeed>
+			<InjuryHealingFactor>1.1</InjuryHealingFactor>
+			<MeatAmount>0.5</MeatAmount>
+			<LeatherAmount>0.45</LeatherAmount>
+			<ForagedNutritionPerDay>1.25</ForagedNutritionPerDay>
+			<LifespanFactor>1.0</LifespanFactor>
+			<MeditationFocusGain>1.0</MeditationFocusGain>
+			<ToxicEnvironmentResistance>1.0</ToxicEnvironmentResistance>
+			<RestFallRateFactor>0.25</RestFallRateFactor>
+			<JoyFallRateFactor>0.1</JoyFallRateFactor>
+            <ComfyTemperatureMin>0</ComfyTemperatureMin>
+            <ComfyTemperatureMax>15.0</ComfyTemperatureMax>
+            <MaxHitPoints>150</MaxHitPoints>
+			<!-- combat -->
+			<MeleeHitChance>1.1</MeleeHitChance>
+			<MeleeDodgeChance>1.5</MeleeDodgeChance>
+			<MeleeDamageFactor>1.5</MeleeDamageFactor>
+			<StaggerDurationFactor>0.1</StaggerDurationFactor>
+			<!-- social -->
+			<NegotiationAbility>0.7</NegotiationAbility>
+			<PawnBeauty>1.0</PawnBeauty>
+			<TameAnimalChance>2.0</TameAnimalChance>
+			<TrainAnimalChance>1.5</TrainAnimalChance>
+			<BondAnimalChanceFactor>3.0</BondAnimalChanceFactor>
+			<!-- workGeneral -->
+			<MiningSpeed>0.5</MiningSpeed>
+			<DeepDrillingSpeed>0.9</DeepDrillingSpeed>
+			<SmoothingSpeed>0.25</SmoothingSpeed>
+			<ResearchSpeed>2</ResearchSpeed>
+			<AnimalGatherSpeed>1.5</AnimalGatherSpeed>
+			<PlantWorkSpeed>1.25</PlantWorkSpeed>
+			<PlantHarvestYield>1.5</PlantHarvestYield>
+			<HuntingStealth>2</HuntingStealth>
+			<ConstructSuccessChance>1.1</ConstructSuccessChance>
+			<FixBrokenDownBuildingSuccessChance>1.1</FixBrokenDownBuildingSuccessChance>
+			<ReadingSpeed>1.5</ReadingSpeed>
+			<!-- workMedical -->
+			<MedicalTendSpeed>2.0</MedicalTendSpeed>
+			<MedicalTendQuality>1.25</MedicalTendQuality>
+			<MedicalOperationSpeed>1.5</MedicalOperationSpeed>
+			<MedicalSurgerySuccessChance>1.25</MedicalSurgerySuccessChance>
+			<!-- workRecipes -->
+			<SmeltingSpeed>0.8</SmeltingSpeed>
+			<DrugSynthesisSpeed>1.1</DrugSynthesisSpeed>
+			<FoodPoisonChance>1.5</FoodPoisonChance>
+			<DrugCookingSpeed>1.1</DrugCookingSpeed>
+			<ButcheryFleshSpeed>1.5</ButcheryFleshSpeed>
+			<ButcheryMechanoidSpeed>1.25</ButcheryMechanoidSpeed>
+			<!-- ====BIOTECH==== -->
+			<!-- general -->
+			<Fertility>0</Fertility>
+			<RawNutritionFactor>1.5</RawNutritionFactor>
+			<CancerRate>0.5</CancerRate>
+			<GrowthVatOccupantSpeed>1.5</GrowthVatOccupantSpeed>
+			<!-- workGeneral -->
+			<WorkSpeedGlobalOffsetMech>0.1</WorkSpeedGlobalOffsetMech>
+			<!-- ====ANOMALY==== -->
+			<EntityStudyRate>1.5</EntityStudyRate>
+			<StudyEfficiency>1.5</StudyEfficiency>
+		</statBases>
+		<comps>
+			<li MayRequire="Ludeon.RimWorld.Anomaly" Class="CompProperties_HoldingPlatformTarget">
+				<baseEscapeIntervalMtbDays>120</baseEscapeIntervalMtbDays>
+				<getsColdContainmentBonus>true</getsColdContainmentBonus>
+			</li>
+			<li MayRequire="Ludeon.RimWorld.Anomaly" Class="CompProperties_Studiable">
+				<frequencyTicks>120000</frequencyTicks>
+				<minMonolithLevelForStudy>1</minMonolithLevelForStudy>
+				<requiresImprisonment>true</requiresImprisonment>
+			</li>
+			<li Class="SayersRemake.CompProperties_CompSelfhealingByTime_Sayers" />
+			<li Class="SayersRemake.CompProperties_PawnEmbeddedWeapons" />
+		</comps>
+		<tradeTags>
+			<li>ExDisableThoughtWorkerPreceptHasUncovered</li>
+			<li>ExDisableDailySkillTrainLimit</li>
+			<li>ExDisableSkillsDegrees</li>
+			<li>ExDisableFoodPoisoning</li>
+			<!--<li>ExAutoApparelWhiteList</li>-->
+		</tradeTags>
+        <tools Inherit="False">
+            <li>
+                <label>触手</label>
+                <capacities>
+                <li>Blunt</li>
+                </capacities>
+                <power>16.4</power>
+                <cooldownTime>0.6</cooldownTime>
+                <linkedBodyPartsGroup>TentacleLeft1</linkedBodyPartsGroup>
+                <surpriseAttack>
+                <extraMeleeDamages>
+                    <li>
+                    <def>Stun</def>
+                    <amount>14</amount>
+                    </li>
+                </extraMeleeDamages>
+                </surpriseAttack>
+            </li>
+            <li>
+                <label>触手</label>
+                <capacities>
+                <li>Blunt</li>
+                </capacities>
+                <power>16.4</power>
+                <cooldownTime>0.6</cooldownTime>
+                <linkedBodyPartsGroup>TentacleLeft2</linkedBodyPartsGroup>
+                <surpriseAttack>
+                <extraMeleeDamages>
+                    <li>
+                    <def>Stun</def>
+                    <amount>14</amount>
+                    </li>
+                </extraMeleeDamages>
+                </surpriseAttack>
+            </li>
+            <li>
+                <label>触手</label>
+                <capacities>
+                <li>Blunt</li>
+                </capacities>
+                <power>16.4</power>
+                <cooldownTime>0.6</cooldownTime>
+                <linkedBodyPartsGroup>TentacleRight2</linkedBodyPartsGroup>
+                <surpriseAttack>
+                <extraMeleeDamages>
+                    <li>
+                    <def>Stun</def>
+                    <amount>14</amount>
+                    </li>
+                </extraMeleeDamages>
+                </surpriseAttack>
+            </li>
+            <li>
+                <label>触手</label>
+                <capacities>
+                <li>Blunt</li>
+                </capacities>
+                <power>16.4</power>
+                <cooldownTime>0.6</cooldownTime>
+                <linkedBodyPartsGroup>TentacleRight1</linkedBodyPartsGroup>
+                <surpriseAttack>
+                <extraMeleeDamages>
+                    <li>
+                    <def>Stun</def>
+                    <amount>14</amount>
+                    </li>
+                </extraMeleeDamages>
+                </surpriseAttack>
+            </li>
+            <li>
+                <label>獠牙</label>
+                <capacities>
+                <li>ToxicBite</li>
+                </capacities>
+                <power>20.4</power>
+                <cooldownTime>0.7</cooldownTime>
+                <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+                <soundMeleeHit>Pawn_Melee_HumanBite_Hit</soundMeleeHit>
+                <soundMeleeMiss>Pawn_Melee_HumanBite_Miss</soundMeleeMiss>
+            </li>
+            <li>
+                <label>头</label>
+                <capacities>
+                <li>Blunt</li>
+                </capacities>
+                <power>10</power>
+                <cooldownTime>1</cooldownTime>
+                <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+                <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+                <chanceFactor>0.2</chanceFactor>
+            </li>
+            <li>
+                <label>触手注射头</label>
+                <capacities>
+                <li>Sayers_Injection</li>
+                </capacities>
+                <power>24.6</power>
+                <cooldownTime>0.8</cooldownTime>
+                <linkedBodyPartsGroup>TentacleLeft1</linkedBodyPartsGroup>
+                <chanceFactor>0.6</chanceFactor>
+            </li>
+            <li>
+                <label>触手注射头</label>
+                <capacities>
+                <li>Sayers_Injection</li>
+                </capacities>
+                <power>24.6</power>
+                <cooldownTime>0.8</cooldownTime>
+                <linkedBodyPartsGroup>TentacleLeft2</linkedBodyPartsGroup>
+                <chanceFactor>0.6</chanceFactor>
+            </li>
+            <li>
+                <label>触手注射头</label>
+                <capacities>
+                <li>Sayers_Injection</li>
+                </capacities>
+                <power>24.6</power>
+                <cooldownTime>0.8</cooldownTime>
+                <linkedBodyPartsGroup>TentacleRight2</linkedBodyPartsGroup>
+                <chanceFactor>0.6</chanceFactor>
+            </li>
+            <li>
+                <label>触手注射头</label>
+                <capacities>
+                <li>Sayers_Injection</li>
+                </capacities>
+                <power>24.6</power>
+                <cooldownTime>0.8</cooldownTime>
+                <linkedBodyPartsGroup>TentacleRight1</linkedBodyPartsGroup>
+                <chanceFactor>0.6</chanceFactor>
+            </li>
+        </tools>
+        <race>
+            <thinkTreeMain>ThinkTree_Sayers</thinkTreeMain>
+            <thinkTreeConstant>HumanlikeConstant</thinkTreeConstant>
+            <intelligence>Humanlike</intelligence>
+            <makesFootprints>false</makesFootprints>
+            <hasGenders>false</hasGenders>
+            <lifeExpectancy>40</lifeExpectancy>
+            <leatherDef>Leather_Light</leatherDef>
+			<bloodDef>Filth_Blood</bloodDef>
+			<bloodSmearDef>Filth_BloodSmear</bloodSmearDef>
+            <nameCategory>HumanStandard</nameCategory>
+            <body>Body_Sayers</body>
+			<renderTree>Humanlike</renderTree>
+            <baseBodySize>0.8</baseBodySize>
+            <baseHealthScale>1</baseHealthScale>
+            <predator>true</predator>
+            <foodType>OmnivoreHuman, CarnivoreAnimal, OmnivoreAnimal</foodType>
+            <gestationPeriodDays>45</gestationPeriodDays>
+            <meatMarketValue>0.8</meatMarketValue>
+            <manhunterOnDamageChance>0.20</manhunterOnDamageChance>
+            <manhunterOnTameFailChance>0.02</manhunterOnTameFailChance>
+			<soundCallIntervalRange>2000~5000</soundCallIntervalRange>
+			<knowledgeCategory MayRequire="Ludeon.RimWorld.Anomaly">Basic</knowledgeCategory>
+			<anomalyKnowledge>1</anomalyKnowledge>
+            <canBecomeShambler>false</canBecomeShambler>
+            <hasUnnaturalCorpse>false</hasUnnaturalCorpse>
+            <nuzzleMtbHours>6</nuzzleMtbHours>
+			<litterSizeCurve>
+				<points>
+					<li>(0.5, 0)</li>
+					<li>(1, 1)</li>
+					<li>(1.01, 0.02)</li>
+					<li>(3.5, 0)</li>
+				</points>
+			</litterSizeCurve>
+            <lifeStageAges>
+                <li>
+                    <def>SayersKit</def>
+                    <minAge>0</minAge>
+                    <soundWounded>Pawn_Cat_Injured</soundWounded>
+                    <soundDeath>Pawn_Cat_Death</soundDeath>
+                    <soundCall>Pawn_Cat_Call</soundCall>
+                    <soundAngry>Pawn_Cat_Angry</soundAngry>
+                </li>
+                <li>
+                    <def>SayersAdult</def>
+                    <minAge>1</minAge>
+                    <soundWounded>Pawn_Cat_Injured</soundWounded>
+                    <soundDeath>Pawn_Cat_Death</soundDeath>
+                    <soundCall>Pawn_Cat_Call</soundCall>
+                    <soundAngry>Pawn_Cat_Angry</soundAngry>
+                </li>
+            </lifeStageAges>
+            <lifeStageWorkSettings MayRequire="Ludeon.RimWorld.Biotech">
+                <Firefighter>1</Firefighter>
+                <Patient>0</Patient>
+                <Doctor>1</Doctor>
+                <PatientBedRest>0</PatientBedRest>
+                <Childcare MayRequire="Ludeon.RimWorld.Biotech">0</Childcare>
+                <BasicWorker>1</BasicWorker>
+                <Warden>1</Warden>
+                <Handling>1</Handling>
+                <Cooking>1</Cooking>
+                <Hunting>1</Hunting>
+                <Construction>1</Construction>
+                <Growing>1</Growing>
+                <Mining>1</Mining>
+                <PlantCutting>1</PlantCutting>
+                <Smithing>1</Smithing>
+                <Tailoring>1</Tailoring>
+                <Art>1</Art>
+                <Crafting>1</Crafting>
+                <Hauling>1</Hauling>
+                <Cleaning>1</Cleaning>
+                <Research>1</Research>
+                <DarkStudy MayRequire="Ludeon.RimWorld.Anomaly">1</DarkStudy>
+            </lifeStageWorkSettings>
+			<soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+			<soundEating>PredatorLarge_Eat</soundEating>
+			<specialShadowData>
+				<volume>(0.3, 0.8, 0.4)</volume>
+				<offset>(0,0,-0.3)</offset>
+			</specialShadowData>
+			<ageGenerationCurve>
+				<points>
+					<li>(0,0)</li>
+					<li>(1,50)</li>
+					<li>(2,50)</li>
+					<li>(3,50)</li>
+					<li>(4,25)</li>
+					<li>(10,15)</li>
+					<li>(20,5)</li>
+					<li>(30,0)</li>
+				</points>
+		    </ageGenerationCurve>
+			<hediffGiverSets>
+				<li>OrganicStandard</li>
+				<li>Human</li>
+			</hediffGiverSets>
+		</race>
+		<recipes>
+			<li>ExciseCarcinoma</li>
+			<li>AdministerMechSerumHealer</li>
+			<li>RemoveBodyPart</li>
+			<li>Euthanize</li>
+			<li>Anesthetize</li>
+			<li>CureScaria</li>
+			<li MayRequire="Ludeon.RimWorld.Biotech">Vasectomy</li>
+			<li MayRequire="Ludeon.RimWorld.Biotech">ReverseVasectomy</li>
+			<li MayRequire="Ludeon.RimWorld.Biotech">TubalLigation</li>
+			<li MayRequire="Ludeon.RimWorld.Biotech">ExtractOvum</li>
+			<li MayRequire="Ludeon.RimWorld.Royalty">CureBloodRot</li>
+			<li MayRequire="Ludeon.RimWorld.Royalty">CureAbasia</li>
+			<li MayRequire="Ludeon.RimWorld.Biotech">ExtractHemogenPack</li>
+			<li MayRequire="Ludeon.RimWorld.Biotech">BloodTransfusion</li>
+			<li MayRequire="Ludeon.RimWorld.Biotech">ImplantXenogerm</li>
+			<li MayRequire="Ludeon.RimWorld.Biotech">ImplantIUD</li>
+			<li MayRequire="Ludeon.RimWorld.Biotech">RemoveIUD</li>
+			<li MayRequire="Ludeon.RimWorld.Biotech">TerminatePregnancy</li>
+			<li MayRequire="Ludeon.RimWorld.Anomaly">SurgicalInspection</li>
+			<li MayRequire="Ludeon.RimWorld.Anomaly">BlissLobotomy</li>
+			<li MayRequire="Ludeon.RimWorld.Anomaly">GhoulInfusion</li>
+		</recipes>
+		<ingredient>
+			<mergeCompatibilityTags>
+				<li>HumanMeat</li>
+			</mergeCompatibilityTags>
+		</ingredient>
+        <alienRace>
+            <graphicPaths>
+                <head>
+                    <path>Things/Pawn/Sayers/Prototype/Heads/Sayers_Prototype_Head</path>
+                    <extendedGraphics>
+                        <HeadType For="Sayers_Prototype_Head">
+                            <path>Things/Pawn/Sayers/Prototype/Heads/Sayers_Prototype_Head</path>
+                            <extendedGraphics>
+								<Gene For="Sayers_Albinism_Head_Dress">Things/Pawn/Sayers/Prototype/Heads/Sayers_Prototype_Head</Gene>
+                                <Gene For="Sayers_Albinism_Head_HalfL1">Things/Pawn/Sayers/Prototype/Heads/GeneDiff/Sayers_Prototype_Head_AlbinismHALF</Gene>
+                                <Gene For="Sayers_Albinism_Head_HalfR2">Things/Pawn/Sayers/Prototype/Heads/GeneDiff/Sayers_Prototype_Head_AlbinismHALF2</Gene>
+                                <Gene For="Sayers_Albinism_Head_None">Things/Pawn/Sayers/Prototype/Heads/GeneDiff/Sayers_Prototype_Head_AlbinismNONE</Gene>
+                                <Gene For="Sayers_Albinism_Head_Siamese">Things/Pawn/Sayers/Prototype/Heads/GeneDiff/Sayers_Prototype_Head_AlbinismSIAMESE</Gene>
+                                <Gene For="Sayers_Albinism_Head_Cloak">Things/Pawn/Sayers/Prototype/Heads/GeneDiff/Sayers_Prototype_Head_AlbinismCLOAK</Gene>
+                                <Gene For="Sayers_Albinism_Head_Nosepoint">Things/Pawn/Sayers/Prototype/Heads/GeneDiff/Sayers_Prototype_Head_AlbinismNOSEPOINT</Gene>
+                                <Gene For="Sayers_Albinism_Head_Bone">Things/Pawn/Sayers/Prototype/Heads/GeneDiff/Sayers_Prototype_Head_AlbinismBONE</Gene>
+                            </extendedGraphics>
+                        </HeadType>
+                    </extendedGraphics>
+                </head>
+                <body>
+                    <path>Things/Pawn/Sayers/Prototype/Bodies/Naked_Sayers_Prototype_Body</path>
+                    <extendedGraphics>
+                        <bodyType For="Sayers_Prototype_Body">
+                            <path>Things/Pawn/Sayers/Prototype/Bodies/Naked_Sayers_Prototype_Body</path>
+                            <extendedGraphics>
+                                <Gene For="Sayers_Albinism_Dress">Things/Pawn/Sayers/Prototype/Bodies/Naked_Sayers_Prototype_Body</Gene>
+                                <Gene For="Sayers_Albinism_None">Things/Pawn/Sayers/Prototype/Bodies/GeneDiff/Naked_Sayers_Prototype_Body_AlbinismNONE</Gene>
+								<Gene For="Sayers_Albinism_Heart">Things/Pawn/Sayers/Prototype/Bodies/GeneDiff/Naked_Sayers_Prototype_Body_AlbinismHEART</Gene>
+								<Gene For="Sayers_Albinism_Siamese">Things/Pawn/Sayers/Prototype/Bodies/GeneDiff/Naked_Sayers_Prototype_Body_AlbinismSIAMESE</Gene>
+                            </extendedGraphics>
+                        </bodyType>
+                    </extendedGraphics>
+                </body>
+                <apparel>
+                    <fallbacks>
+                        <li>
+                            <wornGraphicPath>Things/Pawn/Sayers/Public/NoTexture</wornGraphicPath>
+                        </li>
+                    </fallbacks>
+                </apparel>
+                <!--<skeleton>Things/Pawn/Sayers/Bodies/Dessicated/Dessicated_SayersBody</skeleton>-->
+                <!--<skull>Things/Pawn/Sayers/Heads/Skull/Sayers_Head1_Skull</skull>-->
+            </graphicPaths>
+            <generalSettings>
+                <maleGenderProbability>0.5</maleGenderProbability>
+                <growthAges>
+                    <li>0</li>
+                </growthAges>
+                <forcedRaceTraitEntries>
+                <li>
+                    <defName>Asexual</defName>
+                    <chance>98</chance>
+                </li>
+                </forcedRaceTraitEntries>
+				<disallowedTraits>
+					<li>
+						<defName Degree="2">DrugDesire</defName>
+					</li>
+					<li>
+						<defName Degree="1">DrugDesire</defName>
+					</li>
+					<li>
+						<defName>BodyPurist</defName>
+					</li>
+				</disallowedTraits>
+				<additionalTraits>1</additionalTraits>
+                <immuneToAge>true</immuneToAge>
+				<!--<validBeds>
+					<li>Sayers_SleepingSpot</li>
+					<li>Sayers_NestBed</li>
+				</validBeds>-->
+                <maxDamageForSocialfight>5</maxDamageForSocialfight>
+                <minAgeForAdulthood>999</minAgeForAdulthood>
+                <allowHumanBios>true</allowHumanBios>
+                <humanRecipeImport>true</humanRecipeImport>
+                <abilities>
+                    <li>AcidSpray</li>
+                </abilities>
+                <alienPartGenerator>
+                    <colorChannels Inherit="False">
+                        <li>
+                            <name>skin</name>
+                            <first Class="SayersRemake.ColorGenerator_SayersFur"/>
+                            <second Class="SayersRemake.ColorGenerator_SayersFur"/>
+                        </li>
+						<li>
+                            <name>hair</name>
+                            <first Class="SayersRemake.ColorGenerator_SayersFlower"/>
+                            <second Class="SayersRemake.ColorGenerator_SayersFlower"/>
+                        </li>
+                    </colorChannels>
+                    <headTypes Inherit="False">
+                        <li>Sayers_Prototype_Head</li>
+                    </headTypes>
+                    <bodyTypes Inherit="False">
+                        <li>Sayers_Prototype_Body</li>
+                    </bodyTypes>
+					<oldHairAgeRange>999999.0~999999.0</oldHairAgeRange>
+                    <!--<oldHairAgeRange>999.0~999.0</oldHairAgeRange>-->
+                    <!-- BODY ADDONS -->
+                    <bodyAddons>
+                        <li>
+                            <path>Things/Pawn/Sayers/Prototype/Flowers/InEye/Sayers_Prototype_EyeFlower</path>
+							<extendedGraphics>
+                                <HeadType For="Sayers_Prototype_Head">
+                                    <path>Things/Pawn/Sayers/Prototype/Flowers/InEye/Sayers_Prototype_EyeFlower</path>
+                                    <extendedGraphics>
+                                        <Gene For="Sayers_Flowers_Default">Things/Pawn/Sayers/Prototype/Flowers/InEye/Sayers_Prototype_EyeFlower</Gene>
+                                        <Gene For="Sayers_Flowers_Sharp">Things/Pawn/Sayers/Prototype/Flowers/InEye/GeneDiff/Sayers_Prototype_EyeFlowerSHARP</Gene>
+                                        <Gene For="Sayers_Flowers_Round">Things/Pawn/Sayers/Prototype/Flowers/InEye/GeneDiff/Sayers_Prototype_EyeFlowerROUND</Gene>
+                                        <Gene For="Sayers_Flowers_Triple">Things/Pawn/Sayers/Prototype/Flowers/InEye/GeneDiff/Sayers_Prototype_EyeFlowerTRIPLE</Gene>
+                                        <Gene For="Sayers_Flowers_Vine">Things/Pawn/Sayers/Prototype/Flowers/InEye/GeneDiff/Sayers_Prototype_EyeFlowerVINE</Gene>
+                                        <Gene For="Sayers_Flowers_Circle">Things/Pawn/Sayers/Prototype/Flowers/InEye/GeneDiff/Sayers_Prototype_EyeFlowerCIRCLE</Gene>
+                                    </extendedGraphics>
+                                </HeadType>
+                            </extendedGraphics>
+                            <conditions>
+                                <BodyPart>
+                                    <bodyPartLabel>眼生花</bodyPartLabel>
+                                </BodyPart>
+                            </conditions>
+							<offsets>
+								<south>
+									<layerOffset>-0.24</layerOffset>
+								</south>
+								<east>
+									<layerOffset>-0.2</layerOffset>
+								</east>
+							</offsets>
+                            <colorChannel>hair</colorChannel>
+                            <inFrontOfBody>true</inFrontOfBody>
+                            <alignWithHead>true</alignWithHead>
+							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+                            <allowColorOverride>true</allowColorOverride>
+                        </li>
+                        <li>
+                            <path>Things/Pawn/Sayers/Prototype/Flowers/OnNeck/Sayers_Prototype_ThroatFlower</path>
+                            <conditions>
+                                <BodyPart>
+                                    <bodyPartLabel>喉生花</bodyPartLabel>
+                                </BodyPart>
+                            </conditions>
+							<offsets>
+								<south>
+									<layerOffset>-0.24</layerOffset>
+								</south>
+								<east>
+									<layerOffset>-0.279</layerOffset>
+								</east>
+							</offsets>
+                            <layerInvert>false</layerInvert>
+                            <colorChannel>hair</colorChannel>
+                            <inFrontOfBody>true</inFrontOfBody>
+                            <alignWithHead>true</alignWithHead>
+							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+                            <allowColorOverride>true</allowColorOverride>
+                        </li>
+                        <li>
+                            <path>Things/Pawn/Sayers/Prototype/Ears/Sayers_Prototype_DLear</path>
+							<extendedGraphics>
+                                <Gene For="Sayers_Albinism_Head_HalfL1">Things/Pawn/Sayers/Prototype/Ears/GeneDiff/Sayers_Prototype_DLearHALF</Gene>
+								<Gene For="Sayers_Albinism_Head_HalfR2">Things/Pawn/Sayers/Prototype/Ears/Sayers_Prototype_DLear</Gene>
+							</extendedGraphics>
+                            <conditions>
+                                <BodyPart>
+                                    <bodyPartLabel>左下耳</bodyPartLabel>
+                                </BodyPart>
+                            </conditions>
+                            <offsets>
+                                <south>
+                                    <layerOffset>-0.3</layerOffset>
+                                </south>
+                                <north>
+                                    <layerOffset>-0.32</layerOffset>
+                                </north>
+                                <east>
+                                    <layerOffset>-0.2765</layerOffset>
+                                </east>
+								<west>
+                                    <layerOffset>-0.276</layerOffset>
+                                </west>
+                            </offsets>
+                            <colorChannel>skin</colorChannel>
+                            <inFrontOfBody>true</inFrontOfBody>
+                            <alignWithHead>true</alignWithHead>
+							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+                            <allowColorOverride>true</allowColorOverride>
+                        </li>
+                        <li>
+                            <path>Things/Pawn/Sayers/Prototype/Ears/Sayers_Prototype_DRear</path>
+							<extendedGraphics>
+                                <Gene For="Sayers_Albinism_Head_HalfL1">Things/Pawn/Sayers/Prototype/Ears/Sayers_Prototype_DRear</Gene>
+								<Gene For="Sayers_Albinism_Head_HalfR2">Things/Pawn/Sayers/Prototype/Ears/GeneDiff/Sayers_Prototype_DRearHALF2</Gene>
+							</extendedGraphics>
+                            <conditions>
+                                <BodyPart>
+                                    <bodyPartLabel>右下耳</bodyPartLabel>
+                                </BodyPart>
+                            </conditions>
+                            <offsets>
+                                <south>
+                                    <layerOffset>-0.3</layerOffset>
+                                </south>
+                                <north>
+                                    <layerOffset>-0.32</layerOffset>
+                                </north>
+                                <east>
+                                    <layerOffset>-0.276</layerOffset>
+                                </east>
+								<west>
+                                    <layerOffset>-0.2765</layerOffset>
+                                </west>
+                            </offsets>
+                            <colorChannel>skin</colorChannel>
+                            <inFrontOfBody>true</inFrontOfBody>
+                            <alignWithHead>true</alignWithHead>
+							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+                            <allowColorOverride>true</allowColorOverride>
+                        </li>
+                        <li>
+                            <path>Things/Pawn/Sayers/Prototype/Ears/Sayers_Prototype_ULear</path>
+							<extendedGraphics>
+                                <Gene For="Sayers_Albinism_Head_HalfL1">Things/Pawn/Sayers/Prototype/Ears/GeneDiff/Sayers_Prototype_ULearHALF</Gene>
+								<Gene For="Sayers_Albinism_Head_HalfR2">Things/Pawn/Sayers/Prototype/Ears/Sayers_Prototype_ULear</Gene>
+							</extendedGraphics>
+                            <conditions>
+                                <BodyPart>
+                                    <bodyPartLabel>左上耳</bodyPartLabel>
+                                </BodyPart>
+                            </conditions>
+                            <offsets>
+                                <south>
+                                    <layerOffset>-0.275</layerOffset>
+                                </south>
+                                <north>
+                                    <layerOffset>-0.275</layerOffset>
+                                </north>
+                                <east>
+                                    <layerOffset>-0.2755</layerOffset>
+                                </east>
+								<west>
+                                    <layerOffset>-0.275</layerOffset>
+                                </west>
+                            </offsets>
+                            <colorChannel>skin</colorChannel>
+                            <inFrontOfBody>true</inFrontOfBody>
+                            <alignWithHead>true</alignWithHead>
+							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+                            <allowColorOverride>true</allowColorOverride>
+                        </li>
+                        <li>
+                            <path>Things/Pawn/Sayers/Prototype/Ears/Sayers_Prototype_URear</path>
+							<extendedGraphics>
+                                <Gene For="Sayers_Albinism_Head_HalfL1">Things/Pawn/Sayers/Prototype/Ears/Sayers_Prototype_URear</Gene>
+								<Gene For="Sayers_Albinism_Head_HalfR2">Things/Pawn/Sayers/Prototype/Ears/GeneDiff/Sayers_Prototype_URearHALF2</Gene>
+							</extendedGraphics>
+                            <conditions>
+                                <BodyPart>
+                                    <bodyPartLabel>右上耳</bodyPartLabel>
+                                </BodyPart>
+                            </conditions>
+                            <offsets>
+                                <south>
+                                    <layerOffset>-0.275</layerOffset>
+                                </south>
+                                <north>
+                                    <layerOffset>-0.275</layerOffset>
+                                </north>
+                                <east>
+                                    <layerOffset>-0.275</layerOffset>
+                                </east>
+								<west>
+                                    <layerOffset>-0.2755</layerOffset>
+                                </west>
+                            </offsets>
+                            <colorChannel>skin</colorChannel>
+                            <inFrontOfBody>true</inFrontOfBody>
+                            <alignWithHead>true</alignWithHead>
+							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+                            <allowColorOverride>true</allowColorOverride>
+                        </li>
+						<!-- UPPER RIGHT EAR PATTERN -->
+						<li>
+                            <path>Things/Pawn/Sayers/Public/NoTexture</path>
+							<extendedGraphics>
+								<Gene For="Sayers_Pattern_Turtle">Things/Pawn/Sayers/Prototype/Ears/Pattern/Sayers_Prototype_URearTURTLE</Gene>
+							</extendedGraphics>
+                            <conditions>
+                                <BodyPart>
+                                    <bodyPartLabel>右上耳</bodyPartLabel>
+                                </BodyPart>
+                            </conditions>
+                            <offsets>
+                                <south>
+                                    <layerOffset>-0.27495</layerOffset>
+                                </south>
+                                <north>
+                                    <layerOffset>-0.2751</layerOffset>
+                                </north>
+                                <east>
+                                    <layerOffset>-0.2749</layerOffset>
+                                </east>
+								<west>
+                                    <layerOffset>-0.3</layerOffset>
+                                </west>
+                            </offsets>
+                            <colorChannel>skin</colorChannel>
+                            <inFrontOfBody>true</inFrontOfBody>
+                            <alignWithHead>true</alignWithHead>
+							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+                            <allowColorOverride>true</allowColorOverride>
+                        </li>
+                        <li>
+                            <path>Things/Pawn/Sayers/Prototype/Tentacles/Sayers_Prototype_LLtentacles</path>
+                            <conditions>
+                                <BodyPart>
+                                    <bodyPartLabel>最左触手</bodyPartLabel>
+                                </BodyPart>
+                                <Posture>
+                                    <drawnStanding>true</drawnStanding>
+                                    <drawnLaying>true</drawnLaying>
+                                    <drawnInBed>false</drawnInBed>
+                                </Posture>
+                            </conditions>
+                            <offsets>
+                                <south>
+									<layerOffset>-0.241</layerOffset>
+                                    <bodyTypes>
+                                        <Sayers_Prototype_Body>(0, -0.13)</Sayers_Prototype_Body>
+                                    </bodyTypes>
+                                </south>
+                                <north>
+									<layerOffset>-0.241</layerOffset>
+                                    <bodyTypes>
+                                        <Sayers_Prototype_Body>(0, -0.1)</Sayers_Prototype_Body>
+                                    </bodyTypes>
+                                </north>
+                                <east>
+									<layerOffset>-0.241</layerOffset>
+                                    <bodyTypes>
+                                        <Sayers_Prototype_Body>(0, -0.13)</Sayers_Prototype_Body>
+                                    </bodyTypes>
+                                </east>
+                            </offsets>
+                            <colorChannel>hair</colorChannel>
+                            <inFrontOfBody>true</inFrontOfBody>
+							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+                            <allowColorOverride>true</allowColorOverride>
+                        </li>
+                        <li>
+                            <path>Things/Pawn/Sayers/Prototype/Tentacles/Sayers_Prototype_LMtentacles</path>
+                            <conditions>
+                                <BodyPart>
+                                    <bodyPartLabel>左中触手</bodyPartLabel>
+                                </BodyPart>
+                                <Posture>
+                                    <drawnStanding>true</drawnStanding>
+                                    <drawnLaying>true</drawnLaying>
+                                    <drawnInBed>false</drawnInBed>
+                                </Posture>
+                            </conditions>
+                            <offsets>
+                                <south>
+									<layerOffset>-0.241</layerOffset>
+                                    <bodyTypes>
+                                        <Sayers_Prototype_Body>(0, -0.13)</Sayers_Prototype_Body>
+                                    </bodyTypes>
+                                </south>
+                                <north>
+									<layerOffset>-0.241</layerOffset>
+                                    <bodyTypes>
+                                        <Sayers_Prototype_Body>(0, -0.1)</Sayers_Prototype_Body>
+                                    </bodyTypes>
+                                </north>
+                                <east>
+									<layerOffset>-0.241</layerOffset>
+                                    <bodyTypes>
+                                        <Sayers_Prototype_Body>(0, -0.13)</Sayers_Prototype_Body>
+                                    </bodyTypes>
+                                </east>
+                            </offsets>
+                            <colorChannel>hair</colorChannel>
+                            <inFrontOfBody>true</inFrontOfBody>
+							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+                            <allowColorOverride>true</allowColorOverride>
+                        </li>
+                        <li>
+                            <path>Things/Pawn/Sayers/Prototype/Tentacles/Sayers_Prototype_RMtentacles</path>
+                            <conditions>
+                                <BodyPart>
+                                    <bodyPartLabel>右中触手</bodyPartLabel>
+                                </BodyPart>
+                                <Posture>
+                                    <drawnStanding>true</drawnStanding>
+                                    <drawnLaying>true</drawnLaying>
+                                    <drawnInBed>false</drawnInBed>
+                                </Posture>
+                            </conditions>
+                            <offsets>
+                                <south>
+									<layerOffset>-0.241</layerOffset>
+                                    <bodyTypes>
+                                        <Sayers_Prototype_Body>(0, -0.13)</Sayers_Prototype_Body>
+                                    </bodyTypes>
+                                </south>
+                                <north>
+									<layerOffset>-0.241</layerOffset>
+                                    <bodyTypes>
+                                        <Sayers_Prototype_Body>(0, -0.1)</Sayers_Prototype_Body>
+                                    </bodyTypes>
+                                </north>
+                                <east>
+									<layerOffset>-0.241</layerOffset>
+                                    <bodyTypes>
+                                        <Sayers_Prototype_Body>(0, -0.13)</Sayers_Prototype_Body>
+                                    </bodyTypes>
+                                </east>
+                            </offsets>
+                            <colorChannel>hair</colorChannel>
+                            <inFrontOfBody>true</inFrontOfBody>
+							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+                            <allowColorOverride>true</allowColorOverride>
+                        </li>
+                        <li>
+                            <path>Things/Pawn/Sayers/Prototype/Tentacles/Sayers_Prototype_RRtentacles</path>
+                            <conditions>
+                                <BodyPart>
+                                    <bodyPartLabel>最右触手</bodyPartLabel>
+                                </BodyPart>
+                                <Posture>
+                                    <drawnStanding>true</drawnStanding>
+                                    <drawnLaying>true</drawnLaying>
+                                    <drawnInBed>false</drawnInBed>
+                                </Posture>
+                            </conditions>
+                            <offsets>
+                                <south>
+									<layerOffset>-0.241</layerOffset>
+                                    <bodyTypes>
+                                        <Sayers_Prototype_Body>(0, -0.13)</Sayers_Prototype_Body>
+                                    </bodyTypes>
+                                </south>
+                                <north>
+									<layerOffset>-0.241</layerOffset>
+                                    <bodyTypes>
+                                        <Sayers_Prototype_Body>(0, -0.1)</Sayers_Prototype_Body>
+                                    </bodyTypes>
+                                </north>
+                                <east>
+									<layerOffset>-0.241</layerOffset>
+                                    <bodyTypes>
+                                        <Sayers_Prototype_Body>(0, -0.13)</Sayers_Prototype_Body>
+                                    </bodyTypes>
+                                </east>
+                            </offsets>
+                            <colorChannel>hair</colorChannel>
+                            <inFrontOfBody>true</inFrontOfBody>
+							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+                            <allowColorOverride>true</allowColorOverride>
+                        </li>
+                        <li>
+                            <path>Things/Pawn/Sayers/Prototype/Tails/Sayers_Prototype_TailFur</path>
+                            <conditions>
+                                <BodyPart>
+                                    <bodyPartLabel>尾部覆毛</bodyPartLabel>
+                                </BodyPart>
+                                <Posture>
+                                    <drawnStanding>true</drawnStanding>
+                                    <drawnLaying>true</drawnLaying>
+                                    <drawnInBed>false</drawnInBed>
+                                </Posture>
+                            </conditions>
+                            <offsets>
+                                <south>
+                                    <bodyTypes>
+                                        <Sayers_Prototype_Body>(0, 0.45)</Sayers_Prototype_Body>
+                                    </bodyTypes>
+                                </south>
+                                <north>
+                                    <bodyTypes>
+                                        <Sayers_Prototype_Body>(0, 0.45)</Sayers_Prototype_Body>
+                                    </bodyTypes>
+                                </north>
+                                <east>
+                                    <bodyTypes>
+                                        <Sayers_Prototype_Body>(-0.16, 0.2)</Sayers_Prototype_Body>
+                                    </bodyTypes>
+                                </east>
+                            </offsets>
+                            <colorChannel>hair</colorChannel>
+                            <defaultOffset>Tail</defaultOffset>
+							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+                            <allowColorOverride>true</allowColorOverride>
+                        </li>
+                        <li>
+                            <path>Things/Pawn/Sayers/Prototype/Tails/Sayers_Prototype_TailBone</path>
+                            <conditions>
+                                <BodyPart>
+                                    <bodyPartLabel>尾内骨骼</bodyPartLabel>
+                                </BodyPart>
+                                <Posture>
+                                    <drawnStanding>true</drawnStanding>
+                                    <drawnLaying>true</drawnLaying>
+                                    <drawnInBed>false</drawnInBed>
+                                </Posture>
+                            </conditions>
+                            <offsets>
+                                <south>
+                                    <bodyTypes>
+                                        <Sayers_Prototype_Body>(0, 0.45)</Sayers_Prototype_Body>
+                                    </bodyTypes>
+                                </south>
+                                <north>
+									<layerOffset>-0.2</layerOffset>
+                                    <bodyTypes>
+                                        <Sayers_Prototype_Body>(0, 0.45)</Sayers_Prototype_Body>
+                                    </bodyTypes>
+                                </north>
+                                <east>
+									<layerOffset>0.2</layerOffset>
+                                    <bodyTypes>
+                                        <Sayers_Prototype_Body>(-0.16, 0.2)</Sayers_Prototype_Body>
+                                    </bodyTypes>
+                                </east>
+                            </offsets>
+                            <colorChannel>skin</colorChannel>
+                            <defaultOffset>Tail</defaultOffset>
+							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+                            <allowColorOverride>true</allowColorOverride>
+                        </li>
+						<!-- ==================BODY PATTERN================== -->
+                        <li>
+                            <path>Things/Pawn/Sayers/Prototype/Bodies/Pattern/Naked_Sayers_Prototype_Body_patternTABBY</path>
+                            <conditions>
+                                <BodyPart>
+                                    <bodyPart>Torso</bodyPart>
+                                </BodyPart>
+                            </conditions>
+                            <offsets>
+                                <south>
+                                    <layerOffset>-0.21</layerOffset>
+                                </south>
+                                <north>
+                                    <layerOffset>-0.21</layerOffset>
+                                </north>
+                                <east>
+                                    <layerOffset>-0.21</layerOffset>
+                                </east>
+                            </offsets>
+                            <layerInvert>false</layerInvert>
+                            <colorChannel>skin</colorChannel>
+                            <inFrontOfBody>true</inFrontOfBody>
+							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+                        </li>
+						<!-- ==================HEAD PATTERN================== -->
+                        <li>
+                            <path>Things/Pawn/Sayers/Prototype/Heads/Pattern/Sayers_Prototype_Head_patternTABBY</path>
+                            <extendedGraphics>
+                                <HeadType For="Sayers_Prototype_Head">
+                                    <path>Things/Pawn/Sayers/Prototype/Heads/Pattern/Sayers_Prototype_Head_patternTABBY</path>
+                                    <extendedGraphics>
+                                        <Gene For="Sayers_Pattern_Tabby">Things/Pawn/Sayers/Prototype/Heads/Pattern/Sayers_Prototype_Head_patternTABBY</Gene>
+                                        <Gene For="Sayers_Pattern_Spot">Things/Pawn/Sayers/Prototype/Heads/Pattern/Sayers_Prototype_Head_patternSPOT</Gene>
+                                        <Gene For="Sayers_Pattern_Rose">Things/Pawn/Sayers/Prototype/Heads/Pattern/Sayers_Prototype_Head_patternROSE</Gene>
+                                        <Gene For="Sayers_Pattern_Turtle">Things/Pawn/Sayers/Prototype/Heads/Pattern/Sayers_Prototype_Head_patternTURTLE</Gene>
+                                        <Gene For="Sayers_Pattern_None">Things/Pawn/Sayers/Public/NoTexture</Gene>
+                                    </extendedGraphics>
+                                </HeadType>
+                            </extendedGraphics>
+                            <conditions>
+                                <BodyPart>
+                                    <bodyPart>Head</bodyPart>
+                                </BodyPart>
+                            </conditions>
+                            <offsets>
+                                <south>
+                                    <layerOffset>-0.2751</layerOffset>
+                                </south>
+                                <north>
+                                    <layerOffset>-0.2751</layerOffset>
+                                </north>
+                                <east>
+                                    <layerOffset>-0.276</layerOffset>
+                                </east>
+                            </offsets>
+                            <layerInvert>false</layerInvert>
+                            <colorChannel>skin</colorChannel>
+                            <inFrontOfBody>true</inFrontOfBody>
+							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+                            <alignWithHead>true</alignWithHead>
+                        </li>
+						<!-- ==================FACE FUR================== -->
+						<li>
+                            <path>Things/Pawn/Sayers/Public/NoTexture</path>
+                            <extendedGraphics>
+                                <HeadType For="Sayers_Prototype_Head">
+                                    <path>Things/Pawn/Sayers/Public/NoTexture</path>
+                                    <extendedGraphics>
+                                        <Gene For="Sayers_FurLength_Long">
+											<path>Things/Pawn/Sayers/Prototype/Heads/geneAddtional/Sayers_Prototype_Head_LongFaceFur</path>
+											<extendedGraphics>
+												<Gene For="Sayers_Albinism_Head_HalfL1">Things/Pawn/Sayers/Prototype/Heads/geneAddtional/GeneDiff/Sayers_Prototype_Head_LongFaceFurHALF</Gene>
+												<Gene For="Sayers_Albinism_Head_HalfR2">Things/Pawn/Sayers/Prototype/Heads/geneAddtional/GeneDiff/Sayers_Prototype_Head_LongFaceFurHALF2</Gene>
+											</extendedGraphics>
+										</Gene>
+										<Gene For="Sayers_FurLength_Round">
+											<path>Things/Pawn/Sayers/Prototype/Heads/geneAddtional/Sayers_Prototype_Head_RoundFaceFur</path>
+											<extendedGraphics>
+											<Gene For="Sayers_Albinism_Head_HalfL1">Things/Pawn/Sayers/Prototype/Heads/geneAddtional/GeneDiff/Sayers_Prototype_Head_RoundFaceFurHALF</Gene>
+											<Gene For="Sayers_Albinism_Head_HalfR2">Things/Pawn/Sayers/Prototype/Heads/geneAddtional/GeneDiff/Sayers_Prototype_Head_RoundFaceFurHALF2</Gene>
+											</extendedGraphics>
+										</Gene>
+                                        <Gene For="Sayers_FurLength_Short">Things/Pawn/Sayers/Public/NoTexture</Gene>
+                                    </extendedGraphics>
+                                </HeadType>
+                            </extendedGraphics>
+                            <conditions>
+                                <BodyPart>
+                                    <bodyPart>Head</bodyPart>
+                                </BodyPart>
+                            </conditions>
+                            <offsets>
+                                <south>
+                                    <layerOffset>-0.275</layerOffset>
+                                </south>
+                                <north>
+                                    <layerOffset>-0.27499</layerOffset>
+                                </north>
+                                <east>
+                                    <layerOffset>-0.27499</layerOffset>
+                                </east>
+                            </offsets>
+                            <layerInvert>false</layerInvert>
+                            <colorChannel>skin</colorChannel>
+                            <inFrontOfBody>true</inFrontOfBody>
+							<scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
+                            <alignWithHead>true</alignWithHead>
+                        </li>
+                    </bodyAddons>
+                </alienPartGenerator>
+            </generalSettings>
+            <raceRestriction>
+				<researchList>
+					<li>
+						<projects>
+							<li>SayersTech_RootProject</li>
+							<li>SayersTech_FleshDissection</li>
+							<li>SayersTech_PlantNerve</li>
+						</projects>
+					</li>
+				</researchList>
+				<buildingList>
+					<li>Sayers_SleepingSpot</li>
+					<!--<li>Sayers_NestBed</li>-->
+				</buildingList>
+                <!--<onlyUseRaceRestrictedApparel>true</onlyUseRaceRestrictedApparel>-->
+                <onlyUseRaceRestrictedWeapons>true</onlyUseRaceRestrictedWeapons>
+                <!-- BIOTECH -->
+                <blackGeneTags>
+                    <li>SkinColorOverride</li>
+                    <li>SkinColor</li>
+                    <li>HairColor</li>
+                </blackGeneTags>
+                <blackEndoCategories>
+                    <li>Hands</li>
+                    <li>Ears</li>
+                    <li>Voice</li>
+                </blackEndoCategories>
+                <xenotypeList>
+                    <li>Sayers_Prototype</li>
+                    <!--<li>Sayers_Lithogenic</li>-->
+                </xenotypeList>
+                <onlyUseRaceRestrictedXenotypes>true</onlyUseRaceRestrictedXenotypes>
+                <canReproduce>false</canReproduce>
+            </raceRestriction>
+            <thoughtSettings>
+                <replacerList>
+                    <li>
+                        <original>BondedAnimalDied</original>
+                        <replacer>BondedAnimalDied_Sayers</replacer> 
+                    </li>
+                    <li>
+                        <original>PawnWithGoodOpinionDied</original>
+                        <replacer>PawnWithGoodOpinionDied_Sayers</replacer> 
+                    </li>
+                    <li>
+                        <original>PawnWithBadOpinionDied</original>
+                        <replacer>PawnWithBadOpinionDied_Sayers</replacer> 
+                    </li>
+                    <li>
+                        <original>AteCorpse</original>
+                        <replacer>AteCorpse_Sayers</replacer> 
+                    </li>
+                    <li>
+                        <original>AteHumanlikeMeatDirect</original>
+                        <replacer>AteHumanlikeMeatDirect_Sayers</replacer> 
+                    </li>
+                    <li>
+                        <original>AteHumanlikeMeatDirectCannibal</original>
+                        <replacer>AteHumanlikeMeatDirectCannibal_Sayers</replacer> 
+                    </li>
+                    <li>
+                        <original>AteHumanlikeMeatAsIngredient</original>
+                        <replacer>AteHumanlikeMeatAsIngredient_Sayers</replacer> 
+                    </li>
+                    <li>
+                        <original>AteHumanlikeMeatAsIngredientCannibal</original>
+                        <replacer>AteHumanlikeMeatAsIngredientCannibal_Sayers</replacer> 
+                    </li>
+                    <li>
+                        <original>AteInsectMeatDirect</original>
+                        <replacer>AteInsectMeatDirect_Sayers</replacer> 
+                    </li>
+                    <li>
+                        <original>AteInsectMeatAsIngredient</original>
+                        <replacer>AteInsectMeatAsIngredient_Sayers</replacer> 
+                    </li>
+                    <li>
+                        <original>AteRottenFood</original>
+                        <replacer>AteRottenFood_Sayers</replacer> 
+                    </li>
+					<li>
+                        <original>SleptInBedroom</original>
+                        <replacer>SleptInBedroom_Sayers</replacer> 
+                    </li>
+					<li>
+                        <original>SleptInBarracks</original>
+                        <replacer>SleptInBarracks_Sayers</replacer> 
+                    </li>
+                </replacerList>
+				<restrictedThoughts>
+					<li>Expectations_Sayers</li>
+					<li>KilledMyFriend_Sayers</li>
+					<li>KilledMyRival_Sayers</li>
+					<li>KilledMyLover_Sayers</li>
+					<li>KilledMyFiance_Sayers</li>
+					<li>KilledMySpouse_Sayers</li>
+					<li>KilledMyBondedAnimal_Sayers</li>
+					<li>AlwaysNegative_Sayers</li>
+					<li>AlwaysPositive_Sayers</li>
+					<li>Lonely_Sayers</li>
+				</restrictedThoughts>
+                <canStillReceiveThoughts>
+					<!-- ==== SPECIAL ====-->
+					<li>AlwaysNegative_Sayers</li>
+					<li>AlwaysPositive_Sayers</li>
+					<li>Lonely_Sayers</li>
+					<li>AbandonedSadness_Sayers</li>
+					<!-- ==== PERSONAL ==== -->
+					<!-- MEMORIES -->
+                    <li>BondedAnimalDied_Sayers</li>
+                    <li>PawnWithGoodOpinionDied_Sayers</li>
+                    <li>PawnWithBadOpinionDied_Sayers</li>
+                    <li>AteCorpse_Sayers</li>
+                    <li>AteHumanlikeMeatDirect_Sayers</li>
+                    <li>AteHumanlikeMeatDirectCannibal_Sayers</li>
+                    <li>AteHumanlikeMeatAsIngredient_Sayers</li>
+                    <li>AteHumanlikeMeatAsIngredientCannibal_Sayers</li>
+                    <li>AteInsectMeatDirect_Sayers</li>
+                    <li>AteInsectMeatAsIngredient_Sayers</li>
+                    <li>AteRottenFood_Sayers</li>
+					<!--<li>SleptInBedroom_Sayers</li>
+					<li>SleptInBarracks_Sayers</li>-->
+					<!-- SITUATION -->
+                    <li>Expectations_Sayers</li>
+					<!-- ==== SOCIAL ==== -->
+					<!-- MEMORIES -->
+					<!-- core -->
+					<li>Chitchat</li>
+					<li>DeepTalk</li>
+					<li>Slighted</li>
+					<li>Insulted</li>
+					<li>HarmedMe</li>
+					<li>RescuedMe</li>
+					<li>RecruitedMe</li>
+					<li>CrashedTogether</li>
+					<!-- anomaly -->
+					<li>DrainedMySkills</li>
+					<li>UsedMeForPsychicRitual</li>
+					<!-- SITUATION -->
+					<!-- anomaly -->
+					<li>Joyous</li>
+                </canStillReceiveThoughts>
+                <cannotReceiveThoughtsAtAll>true</cannotReceiveThoughtsAtAll>
+            </thoughtSettings>
+            <relationSettings>
+                <relationChanceModifierLover>0</relationChanceModifierLover>
+                <relationChanceModifierExLover>0</relationChanceModifierExLover>
+                <relationChanceModifierFiance>0</relationChanceModifierFiance>
+                <relationChanceModifierSpouse>0</relationChanceModifierSpouse>
+                <relationChanceModifierExSpouse>0</relationChanceModifierExSpouse>
+                <relationChanceModifierParent>0</relationChanceModifierParent>
+                <relationChanceModifierChild>0</relationChanceModifierChild>
+                <relationChanceModifierSibling>0</relationChanceModifierSibling>
+            </relationSettings>
+            <styleSettings>
+                <li>
+                    <key>HairDef</key>
+                    <value>
+                        <hasStyle>false</hasStyle>
+                    </value>
+                </li>
+                <li>
+                    <key>BeardDef</key>
+                    <value>
+                        <hasStyle>false</hasStyle>
+                    </value>
+                </li>
+                <li>
+                    <key>TattooDef</key>
+                    <value>
+                        <hasStyle>false</hasStyle>
+                    </value>
+                </li>
+            </styleSettings>
+        </alienRace>
+    </AlienRace.ThingDef_AlienRace>
+</Defs>

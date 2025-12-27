@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- ZH: 弃子 -->
+  <Sayers_Start.label>Abandoned</Sayers_Start.label>
+  <!-- ZH: 一切如常，没有紧急事态时发出的警报，没有被激怒时犬科动物的低吼，在白色、灰色与无色间，没有时光的流逝，仅仅是休息后再次的睁眸。一如既往地，你被比你大出许多倍的生物抱在手里，带去或是危险、或是复杂的房间。\n这是你的每一天，在无数不同的房间中，和你的同伴一起学习新的事物，在极短的时间内掌握自己的身体。诞生几日便学会跑跳，如今几月年龄便已通晓拼写。这就是你，是你们，以异常的速度迅速地成长着。\n只是这一次，你们的终点不是红色，不是白色，而是金属的舱室。你和其他两只赛尔斯被放入了里面，试着等待指令等来的却是舱门的关闭。你用触手疑惑地拂上舱门，但你也已然知晓接下来的一切都由不得你。\n\n舱门再次打开，映入眼帘的是完全陌生的世界，从诞生之初便埋藏于心的孤独种子在此刻爆发，疯狂且肆意地生长，充满你的胸膛。这悲恸最终化作颤动的气流，令你仰天长啸，但最终也只不过是将声音投入虚无。\n该冷静了，脑中的程序如此说道。在迅速地冷却后，肆意生长的悲恸便被漠然无情剪去。此时此刻，心中所想仅有归家之路漫漫。\n\n		\n\n		\n\n		赛尔斯的剧情线任务还在制作当中！这依旧是WIP的！ -->
+  <Sayers_Start.description>Everything is as usual, there is no alarm in case of emergency, no growl of canines when they're provoked, no time passes between white, gray and colorless, just open your eyes again after a rest. As always, you are held in your hands by creatures many times bigger than you and taken to dangerous or complicated rooms.
+This is your day, in countless different rooms, learning new things with your partner and mastering your body in a very short time. You learned to run and jump a few days after you was born, and now you're familiar with spelling at the age of a few months. This is you, you, growing up at an abnormal speed.
+Only this time, your destination is not red, not white, but a metal cabin. You and the other two Sayers were put inside, trying to wait for instructions, but the door was closed. You brushed the hatch with your tentacle in doubt, but you already know that everything is not up to you.
+
+When the hatch is opened again, you will see a completely strange world. The lonely seeds buried in your heart from the beginning of your birth erupt at this moment, growing wildly and wantonly, filling your chest. This grief eventually turns into a trembling airflow, which makes you scream at the sky, but in the end it just throws your voice into nothingness.
+It's time to calm down, the program in your brain says. After rapid cooling, the grief of wanton growth was cut off by indifference and ruthlessness. At this moment, all you can think about is the long way home.
+
+
+Sayers's plot line task is still in production! This is still WIP!</Sayers_Start.description>
+  <!-- ZH: 一切如常，没有紧急事态时发出的警报，没有被激怒时犬科动物的低吼，在白色、灰色与无色间，没有时光的流逝，仅仅是休息后再次的睁眸。一如既往地，你被比你大出许多倍的生物抱在手里，带去或是危险、或是复杂的房间。\n这是你的每一天，在无数不同的房间中，和你的同伴一起学习新的事物，在极短的时间内掌握自己的身体。诞生几日便学会跑跳，如今几月年龄便已通晓拼写。这就是你，是你们，以异常的速度迅速地成长着。\n只是这一次，你们的终点不是红色，不是白色，而是金属的舱室。你和其他两只赛尔斯被放入了里面，试着等待指令等来的却是舱门的关闭。你用触手疑惑地拂上舱门，但你也已然知晓接下来的一切都由不得你。\n\n舱门再次打开，映入眼帘的是完全陌生的世界，从诞生之初便埋藏于心的孤独种子在此刻爆发，疯狂且肆意地生长，充满你的胸膛。这悲恸最终化作颤动的气流，令你仰天长啸，但最终也只不过是将声音投入虚无。\n该冷静了，脑中的程序如此说道。在迅速地冷却后，肆意生长的悲恸便被漠然无情剪去。此时此刻，心中所想仅有归家之路漫漫。\n\n		\n\n		\n\n		赛尔斯的剧情线任务还在制作当中！这依旧是WIP的！ -->
+  <Sayers_Start.scenario.description>Everything is as usual, there is no alarm in case of emergency, no growl of canines when they're provoked, no time passes between white, gray and colorless, just open your eyes again after a rest. As always, you are held in your hands by creatures many times bigger than you and taken to dangerous or complicated rooms.
+This is your day, in countless different rooms, learning new things with your partner and mastering your body in a very short time. You learned to run and jump a few days after you was born, and now you're familiar with spelling at the age of a few months. This is you, you, growing up at an abnormal speed.
+Only this time, your destination is not red, not white, but a metal cabin. You and the other two Sayers were put inside, trying to wait for instructions, but the door was closed. You brushed the hatch with your tentacle in doubt, but you already know that everything is not up to you.
+
+When the hatch is opened again, you will see a completely strange world. The lonely seeds buried in your heart from the beginning of your birth erupt at this moment, growing wildly and wantonly, filling your chest. This grief eventually turns into a trembling airflow, which makes you scream at the sky, but in the end it just throws your voice into nothingness.
+It's time to calm down, the program in your brain says. After rapid cooling, the grief of wanton growth was cut off by indifference and ruthlessness. At this moment, all you can think about is the long way home.
+
+
+Sayers's plot line task is still in production! This is still WIP!</Sayers_Start.scenario.description>
+  <!-- ZH: 弃子 -->
+  <Sayers_Start.scenario.name>Abandoned</Sayers_Start.scenario.name>
+  <!-- ZH: 赛尔斯种族的默认剧本。 -->
+  <Sayers_Start.scenario.summary>Sayers race's default scenario.</Sayers_Start.scenario.summary>
+  
+  
+  <Sayers_Start.scenario.parts.4.text>As the hatch opens, the strange world appears before your eyes, and the impulse in your brain has been smoothed away by the restrictions of the program, leaving only the silent gloom.
+Once the course, training, the nature of survival and foraging, gradually emerged in front of your eyes, driving your body to stand in this world.
+
+Looking forward to the way home, but at the moment you need to be survive first.</Sayers_Start.scenario.parts.4.text>
+</LanguageData>

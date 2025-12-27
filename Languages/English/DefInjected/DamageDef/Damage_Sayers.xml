@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- ZH: 毒素注射 -->
+  <Sayers_Injection.label>Phytotoxin injection</Sayers_Injection.label>
+  <!-- ZH: {0}因植物毒素积累而去世 -->
+  <Sayers_Injection.deathMessage>{0} died of phytotoxin accumulation.</Sayers_Injection.deathMessage>
+  
+</LanguageData>

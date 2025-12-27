@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- ZH: 吃了尸体 -->
+  <AteCorpse_Sayers.stages.0.label>ate corpse</AteCorpse_Sayers.stages.0.label>
+  <!-- ZH: 幼兽享受着撕扯尸骸时的感受，与血肉在口中的滋味。它嗜血，且渴望更多。 -->
+  <AteCorpse_Sayers.stages.0.description>The cub enjoy the feeling of tearing the remains and the taste of flesh and blood in their mouths. It's bloodthirsty, and craves more.</AteCorpse_Sayers.stages.0.description>
+  
+  <!-- ZH: 吃了烹饪过的人肉 -->
+  <AteHumanlikeMeatAsIngredient_Sayers.stages.0.label>cooked cannibalism</AteHumanlikeMeatAsIngredient_Sayers.stages.0.label>
+  <!-- ZH: 烹饪过的血肉除去了部分原始的风味，但幼兽依旧满足于此。 -->
+  <AteHumanlikeMeatAsIngredient_Sayers.stages.0.description>The cooked flesh and blood has removed some of its original flavor, but the cub is still satisfied with it.</AteHumanlikeMeatAsIngredient_Sayers.stages.0.description>
+  
+  <!-- ZH: 吃了烹饪过的人肉 -->
+  <AteHumanlikeMeatAsIngredientCannibal_Sayers.stages.0.label>cooked cannibalism</AteHumanlikeMeatAsIngredientCannibal_Sayers.stages.0.label>
+  <!-- ZH: 烹饪过的血肉除去了部分原始的风味，幼兽对此略有失望，低声咕叫似是抱怨。但，它依旧美味，幼兽无法否认这点。 -->
+  <AteHumanlikeMeatAsIngredientCannibal_Sayers.stages.0.description>The cooked flesh and blood removed part of the original flavor, and the cub were slightly disappointed, muttering as if complaining. However, it is still delicious, and the cub can't deny it.</AteHumanlikeMeatAsIngredientCannibal_Sayers.stages.0.description>
+  
+  <!-- ZH: 吃了生的人肉 -->
+  <AteHumanlikeMeatDirect_Sayers.stages.0.label>raw cannibalism</AteHumanlikeMeatDirect_Sayers.stages.0.label>
+  <!-- ZH: 幼兽为原始肉食性的盛宴而满足着。 -->
+  <AteHumanlikeMeatDirect_Sayers.stages.0.description>The cub is satisfied with the feast of primitive carnivores.</AteHumanlikeMeatDirect_Sayers.stages.0.description>
+  
+  <!-- ZH: 吃了生的人肉 -->
+  <AteHumanlikeMeatDirectCannibal_Sayers.stages.0.label>raw cannibalism</AteHumanlikeMeatDirectCannibal_Sayers.stages.0.label>
+  <!-- ZH: 幼兽为原始肉食性的盛宴而兴奋，它的脊毛颤栗并竖起，獠牙已然就绪：它并不满足，渴望更多。 -->
+  <AteHumanlikeMeatDirectCannibal_Sayers.stages.0.description>The cub is excited about the primitive carnivorous feast, its spine fur is trembling and erect, and its fangs are ready: it's not satisfied and longs for more.</AteHumanlikeMeatDirectCannibal_Sayers.stages.0.description>
+  
+  <!-- ZH: 吃了烹饪过的虫肉 -->
+  <AteInsectMeatAsIngredient_Sayers.stages.0.label>ate cooked insect meat</AteInsectMeatAsIngredient_Sayers.stages.0.label>
+  <!-- ZH: 幼兽咬了烹饪过的虫肉，鼻子因为嫌恶而皱成一团，喉中的低鸣表示着抗拒。 -->
+  <AteInsectMeatAsIngredient_Sayers.stages.0.description>The cub bit the cooked insect meat, and its nose was wrinkled with disgust, and the low sound in its throat indicated resistance.</AteInsectMeatAsIngredient_Sayers.stages.0.description>
+  
+  <!-- ZH: 吃了生的虫肉 -->
+  <AteInsectMeatDirect_Sayers.stages.0.label>ate insect meat</AteInsectMeatDirect_Sayers.stages.0.label>
+  <!-- ZH: 幼兽咬了虫肉，随后它的鼻子痛苦地皱了起来，以嘶哑的低嚎声表示抗拒。 -->
+  <AteInsectMeatDirect_Sayers.stages.0.description>The cub bit the insect meat, and then its nose wrinkled in pain, expressing its resistance with a hoarse growl.</AteInsectMeatDirect_Sayers.stages.0.description>
+  
+  <!-- ZH: 吃了腐烂的食物 -->
+  <AteRottenFood_Sayers.stages.0.label>ate rotten food</AteRottenFood_Sayers.stages.0.label>
+  <!-- ZH: 幼兽吃下腐烂的食物，口感是令人作呕的黏腻。它做到了，只是在那之后心有余悸地吐舌甩头，想去除掉舌尖恶心的味道。 -->
+  <AteRottenFood_Sayers.stages.0.description>Cub eat rotten food, and the taste is disgusting and sticky. It did, but after that, it shook its head and threw out its tongue, trying to get rid of the disgusting smell on the tip of its tongue.</AteRottenFood_Sayers.stages.0.description>
+  
+  <!-- ZH: 牵绊动物{0}死亡 -->
+  <BondedAnimalDied_Sayers.stages.0.label>牵绊动物{0}死亡</BondedAnimalDied_Sayers.stages.0.label>
+  <!-- ZH: 幼兽的身躯颤栗，为牵绊动物的去世而悲咽，以鼻触地自喉中发出呼唤般的低音。 -->
+  <BondedAnimalDied_Sayers.stages.0.description>幼兽的身躯颤栗，为牵绊动物的去世而悲咽，以鼻触地自喉中发出呼唤般的低音。</BondedAnimalDied_Sayers.stages.0.description>
+  
+  <!-- ZH: 合理的期望 -->
+  <Expectations_Sayers.stages.0.label>合理的期望</Expectations_Sayers.stages.0.label>
+  <!-- ZH: 幼兽平静地看着四周，等待着生存对它的考验。 -->
+  <Expectations_Sayers.stages.0.description>幼兽平静地看着四周，等待着生存对它的考验。</Expectations_Sayers.stages.0.description>
+  <!-- ZH: 合理的期望 -->
+  <Expectations_Sayers.stages.1.label>合理的期望</Expectations_Sayers.stages.1.label>
+  <!-- ZH: 幼兽平静地看着四周，等待着生存对它的考验。 -->
+  <Expectations_Sayers.stages.1.description>幼兽平静地看着四周，等待着生存对它的考验。</Expectations_Sayers.stages.1.description>
+  <!-- ZH: 合理的期望 -->
+  <Expectations_Sayers.stages.2.label>合理的期望</Expectations_Sayers.stages.2.label>
+  <!-- ZH: 幼兽平静地看着四周，等待着生存对它的考验。 -->
+  <Expectations_Sayers.stages.2.description>幼兽平静地看着四周，等待着生存对它的考验。</Expectations_Sayers.stages.2.description>
+  <!-- ZH: 较低的期望 -->
+  <Expectations_Sayers.stages.3.label>较低的期望</Expectations_Sayers.stages.3.label>
+  <!-- ZH: 幼兽舔舐自己的皮毛，不适已然可以忍受，生活也已步入它所期望的正轨。 -->
+  <Expectations_Sayers.stages.3.description>幼兽舔舐自己的皮毛，不适已然可以忍受，生活也已步入它所期望的正轨。</Expectations_Sayers.stages.3.description>
+  <!-- ZH: 很低的期望 -->
+  <Expectations_Sayers.stages.4.label>很低的期望</Expectations_Sayers.stages.4.label>
+  <!-- ZH: 幼兽用触手抚摸自己的皮毛，以获取些许慰藉。它知道为了生存它必须坚强起来。 -->
+  <Expectations_Sayers.stages.4.description>幼兽用触手抚摸自己的皮毛，以获取些许慰藉。它知道为了生存它必须坚强起来。</Expectations_Sayers.stages.4.description>
+  <!-- ZH: 极低的期望 -->
+  <Expectations_Sayers.stages.5.label>极低的期望</Expectations_Sayers.stages.5.label>
+  <!-- ZH: 幼兽咬住自己的皮毛，以舒缓心境的痛苦。它知道自己必须如钢铁般坚强才能得以生存。 -->
+  <Expectations_Sayers.stages.5.description>幼兽咬住自己的皮毛，以舒缓心境的痛苦。它知道自己必须如钢铁般坚强才能得以生存。</Expectations_Sayers.stages.5.description>
+  <!-- ZH: 合理的期望 -->
+  <Expectations_Sayers.stages.6.label>合理的期望</Expectations_Sayers.stages.6.label>
+  <!-- ZH: 幼兽平静地看着四周，等待着生存对它的考验。 -->
+  <Expectations_Sayers.stages.6.description>幼兽平静地看着四周，等待着生存对它的考验。</Expectations_Sayers.stages.6.description>
+  <!-- ZH: 合理的期望 -->
+  <Expectations_Sayers.stages.7.label>合理的期望</Expectations_Sayers.stages.7.label>
+  <!-- ZH: 幼兽平静地看着四周，等待着生存对它的考验。 -->
+  <Expectations_Sayers.stages.7.description>幼兽平静地看着四周，等待着生存对它的考验。</Expectations_Sayers.stages.7.description>
+  <!-- ZH: 合理的期望 -->
+  <Expectations_Sayers.stages.8.label>合理的期望</Expectations_Sayers.stages.8.label>
+  <!-- ZH: 幼兽平静地看着四周，等待着生存对它的考验。 -->
+  <Expectations_Sayers.stages.8.description>幼兽平静地看着四周，等待着生存对它的考验。</Expectations_Sayers.stages.8.description>
+  <!-- ZH: 合理的期望 -->
+  <Expectations_Sayers.stages.9.label>合理的期望</Expectations_Sayers.stages.9.label>
+  <!-- ZH: 幼兽平静地看着四周，等待着生存对它的考验。 -->
+  <Expectations_Sayers.stages.9.description>幼兽平静地看着四周，等待着生存对它的考验。</Expectations_Sayers.stages.9.description>
+  
+  <!-- ZH: 仇人{0}死亡 -->
+  <PawnWithBadOpinionDied_Sayers.stages.0.label>仇人{0}死亡</PawnWithBadOpinionDied_Sayers.stages.0.label>
+  <!-- ZH: 幼兽微微仰头，像是在持久博弈中取得了最终胜利般有所满足。 -->
+  <PawnWithBadOpinionDied_Sayers.stages.0.description>幼兽微微仰头，像是在持久博弈中取得了最终胜利般有所满足。</PawnWithBadOpinionDied_Sayers.stages.0.description>
+  
+  <!-- ZH: 朋友{0}死亡 -->
+  <PawnWithGoodOpinionDied_Sayers.stages.0.label>朋友{0}死亡</PawnWithGoodOpinionDied_Sayers.stages.0.label>
+  <!-- ZH: 幼兽固执地以鼻触地，意图感受好友的生活气息仍在身周。但它知晓残酷的时间终究会将其抹去。 -->
+  <PawnWithGoodOpinionDied_Sayers.stages.0.description>幼兽固执地以鼻触地，意图感受好友的生活气息仍在身周。但它知晓残酷的时间终究会将其抹去。</PawnWithGoodOpinionDied_Sayers.stages.0.description>
+  
+  <!-- ZH: 平庸的营房 -->
+  <SleptInBarracks_Sayers.stages.2.label>平庸的营房</SleptInBarracks_Sayers.stages.2.label>
+  <!-- ZH: 幼兽蜷缩在室友附近，安然入眠。 -->
+  <SleptInBarracks_Sayers.stages.2.description>幼兽蜷缩在室友附近，安然入眠。</SleptInBarracks_Sayers.stages.2.description>
+  <!-- ZH: 体面的营房 -->
+  <SleptInBarracks_Sayers.stages.3.label>体面的营房</SleptInBarracks_Sayers.stages.3.label>
+  <!-- ZH: 幼兽惬意地蜷缩在室友附近，安然入眠。 -->
+  <SleptInBarracks_Sayers.stages.3.description>幼兽惬意地蜷缩在室友附近，安然入眠。</SleptInBarracks_Sayers.stages.3.description>
+  <!-- ZH: 令人小有印象的营房 -->
+  <SleptInBarracks_Sayers.stages.4.label>令人小有印象的营房</SleptInBarracks_Sayers.stages.4.label>
+  <!-- ZH: 幼兽蜷缩在室友附近，发出惬意的呼噜声，安然入眠。 -->
+  <SleptInBarracks_Sayers.stages.4.description>幼兽蜷缩在室友附近，发出惬意的呼噜声，安然入眠。</SleptInBarracks_Sayers.stages.4.description>
+  <!-- ZH: 令人印象深刻的营房 -->
+  <SleptInBarracks_Sayers.stages.5.label>令人印象深刻的营房</SleptInBarracks_Sayers.stages.5.label>
+  <!-- ZH: 幼兽舒展着自己的身子，随后在舍友附近惬意蜷身，渐入梦乡。 -->
+  <SleptInBarracks_Sayers.stages.5.description>幼兽舒展着自己的身子，随后在舍友附近惬意蜷身，渐入梦乡。</SleptInBarracks_Sayers.stages.5.description>
+  
+  <!-- ZH: 可怕的卧室 -->
+  <SleptInBedroom_Sayers.stages.0.label>可怕的卧室</SleptInBedroom_Sayers.stages.0.label>
+  <!-- ZH: 幼兽蜷缩在混乱之中，咬着自己的皮毛颤栗着，忍受着孤独的痛苦，孤身入眠。 -->
+  <SleptInBedroom_Sayers.stages.0.description>幼兽蜷缩在混乱之中，咬着自己的皮毛颤栗着，忍受着孤独的痛苦，孤身入眠。</SleptInBedroom_Sayers.stages.0.description>
+  <!-- ZH: 乏味的卧室 -->
+  <SleptInBedroom_Sayers.stages.1.label>乏味的卧室</SleptInBedroom_Sayers.stages.1.label>
+  <!-- ZH: 幼兽蜷缩在乏味之中，咬着自己的皮毛，忍受着孤独的痛苦，孤身入眠。 -->
+  <SleptInBedroom_Sayers.stages.1.description>幼兽蜷缩在乏味之中，咬着自己的皮毛，忍受着孤独的痛苦，孤身入眠。</SleptInBedroom_Sayers.stages.1.description>
+  <!-- ZH: 平庸的卧室 -->
+  <SleptInBedroom_Sayers.stages.2.label>平庸的卧室</SleptInBedroom_Sayers.stages.2.label>
+  <!-- ZH: 幼兽蜷缩在平庸之处，咬着自己的皮毛，忍受着孤独的痛苦，孤身入眠。 -->
+  <SleptInBedroom_Sayers.stages.2.description>幼兽蜷缩在平庸之处，咬着自己的皮毛，忍受着孤独的痛苦，孤身入眠。</SleptInBedroom_Sayers.stages.2.description>
+  <!-- ZH: 体面的卧室 -->
+  <SleptInBedroom_Sayers.stages.3.label>体面的卧室</SleptInBedroom_Sayers.stages.3.label>
+  <!-- ZH: 幼兽咬着自己的皮毛，蜷缩着，孤身入眠。 -->
+  <SleptInBedroom_Sayers.stages.3.description>幼兽咬着自己的皮毛，蜷缩着，孤身入眠。</SleptInBedroom_Sayers.stages.3.description>
+  <!-- ZH: 令人小有印象的卧室 -->
+  <SleptInBedroom_Sayers.stages.4.label>令人小有印象的卧室</SleptInBedroom_Sayers.stages.4.label>
+  <!-- ZH: 幼兽环顾四周后蜷缩下来，试着驱逐孤独带来的不快，直到入眠。 -->
+  <SleptInBedroom_Sayers.stages.4.description>幼兽环顾四周后蜷缩下来，试着驱逐孤独带来的不快，直到入眠。</SleptInBedroom_Sayers.stages.4.description>
+  <!-- ZH: 令人印象深刻的卧室 -->
+  <SleptInBedroom_Sayers.stages.5.label>令人印象深刻的卧室</SleptInBedroom_Sayers.stages.5.label>
+  <!-- ZH: 幼兽环顾四周，试图把孤独感抛之脑后，专注于它的睡梦。 -->
+  <SleptInBedroom_Sayers.stages.5.description>幼兽环顾四周，试图把孤独感抛之脑后，专注于它的睡梦。</SleptInBedroom_Sayers.stages.5.description>
+  <!-- ZH: 令人印象非常深刻的卧室 -->
+  <SleptInBedroom_Sayers.stages.6.label>令人印象非常深刻的卧室</SleptInBedroom_Sayers.stages.6.label>
+  <!-- ZH: 幼兽凝视着它的卧室，印象深刻的装饰勉强驱逐了孤独的折磨，让它得以入眠。 -->
+  <SleptInBedroom_Sayers.stages.6.description>幼兽凝视着它的卧室，印象深刻的装饰勉强驱逐了孤独的折磨，让它得以入眠。</SleptInBedroom_Sayers.stages.6.description>
+  <!-- ZH: 令人印象极度深刻的卧室 -->
+  <SleptInBedroom_Sayers.stages.7.label>令人印象极度深刻的卧室</SleptInBedroom_Sayers.stages.7.label>
+  <!-- ZH: 幼兽在卧室里绕圈漫步并最终蜷下，这里已经足够深刻，掩盖了孤独的痛苦，它得以安心入眠。 -->
+  <SleptInBedroom_Sayers.stages.7.description>幼兽在卧室里绕圈漫步并最终蜷下，这里已经足够深刻，掩盖了孤独的痛苦，它得以安心入眠。</SleptInBedroom_Sayers.stages.7.description>
+  <!-- ZH: 令人难以置信的卧室 -->
+  <SleptInBedroom_Sayers.stages.8.label>令人难以置信的卧室</SleptInBedroom_Sayers.stages.8.label>
+  <!-- ZH: 幼兽在卧室里舒展着身子，又惬意蜷身。这卧室已然成为抵御孤独的庇护所，保卫着它的美梦。 -->
+  <SleptInBedroom_Sayers.stages.8.description>幼兽在卧室里舒展着身子，又惬意蜷身。这卧室已然成为抵御孤独的庇护所，保卫着它的美梦。</SleptInBedroom_Sayers.stages.8.description>
+  <!-- ZH: 奇迹非凡的卧室 -->
+  <SleptInBedroom_Sayers.stages.9.label>奇迹非凡的卧室</SleptInBedroom_Sayers.stages.9.label>
+  <!-- ZH: 在仙境般的环境下，幼兽已别无所求，安然入眠。 -->
+  <SleptInBedroom_Sayers.stages.9.description>在仙境般的环境下，幼兽已别无所求，安然入眠。</SleptInBedroom_Sayers.stages.9.description>
+  
+</LanguageData>

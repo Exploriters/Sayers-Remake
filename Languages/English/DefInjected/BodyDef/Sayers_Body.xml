@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- ZH: 赛尔斯 -->
+  <Body_Sayers.label>Sayers</Body_Sayers.label>
+  <!-- ZH: 左肺 -->
+  <Body_Sayers.corePart.parts.6.customLabel>left lung</Body_Sayers.corePart.parts.6.customLabel>
+  <!-- ZH: 右肺 -->
+  <Body_Sayers.corePart.parts.7.customLabel>right lung</Body_Sayers.corePart.parts.7.customLabel>
+  <!-- ZH: 左肾 -->
+  <Body_Sayers.corePart.parts.8.customLabel>left kidney</Body_Sayers.corePart.parts.8.customLabel>
+  <!-- ZH: 右肾 -->
+  <Body_Sayers.corePart.parts.9.customLabel>right kidney</Body_Sayers.corePart.parts.9.customLabel>
+  <!-- ZH: 右眼 -->
+  <Body_Sayers.corePart.parts.Neck.parts.Head.parts.1.customLabel>left eye</Body_Sayers.corePart.parts.Neck.parts.Head.parts.1.customLabel>
+  <!-- ZH: 眼生花 -->
+  <Body_Sayers.corePart.parts.Neck.parts.Head.parts.2.customLabel>bornin-eye flowers</Body_Sayers.corePart.parts.Neck.parts.Head.parts.2.customLabel>
+  <!-- ZH: 左上耳 -->
+  <Body_Sayers.corePart.parts.Neck.parts.Head.parts.3.customLabel>left upper ear</Body_Sayers.corePart.parts.Neck.parts.Head.parts.3.customLabel>
+  <!-- ZH: 右上耳 -->
+  <Body_Sayers.corePart.parts.Neck.parts.Head.parts.4.customLabel>right upper ear</Body_Sayers.corePart.parts.Neck.parts.Head.parts.4.customLabel>
+  <!-- ZH: 左下耳 -->
+  <Body_Sayers.corePart.parts.Neck.parts.Head.parts.5.customLabel>left lower ear</Body_Sayers.corePart.parts.Neck.parts.Head.parts.5.customLabel>
+  <!-- ZH: 右下耳 -->
+  <Body_Sayers.corePart.parts.Neck.parts.Head.parts.6.customLabel>right lower ear</Body_Sayers.corePart.parts.Neck.parts.Head.parts.6.customLabel>
+  <!-- ZH: 喉生花 -->
+  <Body_Sayers.corePart.parts.Neck.parts.1.customLabel>bornin-throat flowers</Body_Sayers.corePart.parts.Neck.parts.1.customLabel>
+  <!-- ZH: 最左触手 -->
+  <Body_Sayers.corePart.parts.Neck.parts.1.parts.0.customLabel>left-most tentacle</Body_Sayers.corePart.parts.Neck.parts.1.parts.0.customLabel>
+  <!-- ZH: 最左触手骨 -->
+  <Body_Sayers.corePart.parts.Neck.parts.1.parts.0.parts.0.customLabel>left-most tentacle bone</Body_Sayers.corePart.parts.Neck.parts.1.parts.0.parts.0.customLabel>
+  <!-- ZH: 左中触手 -->
+  <Body_Sayers.corePart.parts.Neck.parts.1.parts.1.customLabel>left-middle tentacle</Body_Sayers.corePart.parts.Neck.parts.1.parts.1.customLabel>
+  <!-- ZH: 左中触手骨 -->
+  <Body_Sayers.corePart.parts.Neck.parts.1.parts.1.parts.0.customLabel>left-middle tentacle bone</Body_Sayers.corePart.parts.Neck.parts.1.parts.1.parts.0.customLabel>
+  <!-- ZH: 右中触手 -->
+  <Body_Sayers.corePart.parts.Neck.parts.1.parts.2.customLabel>right-most tentacle</Body_Sayers.corePart.parts.Neck.parts.1.parts.2.customLabel>
+  <!-- ZH: 右中触手骨 -->
+  <Body_Sayers.corePart.parts.Neck.parts.1.parts.2.parts.0.customLabel>right-most tentacle bone</Body_Sayers.corePart.parts.Neck.parts.1.parts.2.parts.0.customLabel>
+  <!-- ZH: 最右触手 -->
+  <Body_Sayers.corePart.parts.Neck.parts.1.parts.3.customLabel>right-middle tentacle</Body_Sayers.corePart.parts.Neck.parts.1.parts.3.customLabel>
+  <!-- ZH: 最右触手骨 -->
+  <Body_Sayers.corePart.parts.Neck.parts.1.parts.3.parts.0.customLabel>right-middle tentacle bone</Body_Sayers.corePart.parts.Neck.parts.1.parts.3.parts.0.customLabel>
+  <!-- ZH: 左腿 -->
+  <Body_Sayers.corePart.parts.13.customLabel>left leg</Body_Sayers.corePart.parts.13.customLabel>
+  <!-- ZH: 左股骨 -->
+  <Body_Sayers.corePart.parts.13.parts.0.customLabel>left femur</Body_Sayers.corePart.parts.13.parts.0.customLabel>
+  <!-- ZH: 左胫骨 -->
+  <Body_Sayers.corePart.parts.13.parts.1.customLabel>left tibia</Body_Sayers.corePart.parts.13.parts.1.customLabel>
+  <!-- ZH: 左爪 -->
+  <Body_Sayers.corePart.parts.13.parts.2.customLabel>left paw</Body_Sayers.corePart.parts.13.parts.2.customLabel>
+  <!-- ZH: 左小趾 -->
+  <Body_Sayers.corePart.parts.13.parts.2.parts.0.customLabel>left little toe</Body_Sayers.corePart.parts.13.parts.2.parts.0.customLabel>
+  <!-- ZH: 左中趾 -->
+  <Body_Sayers.corePart.parts.13.parts.2.parts.1.customLabel>left middle toe</Body_Sayers.corePart.parts.13.parts.2.parts.1.customLabel>
+  <!-- ZH: 左二趾 -->
+  <Body_Sayers.corePart.parts.13.parts.2.parts.2.customLabel>left second toe</Body_Sayers.corePart.parts.13.parts.2.parts.2.customLabel>
+  <!-- ZH: 左大趾 -->
+  <Body_Sayers.corePart.parts.13.parts.2.parts.3.customLabel>left big toe</Body_Sayers.corePart.parts.13.parts.2.parts.3.customLabel>
+  <!-- ZH: 右腿 -->
+  <Body_Sayers.corePart.parts.14.customLabel>right leg</Body_Sayers.corePart.parts.14.customLabel>
+  <!-- ZH: 右股骨 -->
+  <Body_Sayers.corePart.parts.14.parts.0.customLabel>right femur</Body_Sayers.corePart.parts.14.parts.0.customLabel>
+  <!-- ZH: 右胫骨 -->
+  <Body_Sayers.corePart.parts.14.parts.1.customLabel>right tibia</Body_Sayers.corePart.parts.14.parts.1.customLabel>
+  <!-- ZH: 右爪 -->
+  <Body_Sayers.corePart.parts.14.parts.2.customLabel>right paw</Body_Sayers.corePart.parts.14.parts.2.customLabel>
+  <!-- ZH: 右小趾 -->
+  <Body_Sayers.corePart.parts.14.parts.2.parts.0.customLabel>right little toe</Body_Sayers.corePart.parts.14.parts.2.parts.0.customLabel>
+  <!-- ZH: 右中趾 -->
+  <Body_Sayers.corePart.parts.14.parts.2.parts.1.customLabel>right middle toe</Body_Sayers.corePart.parts.14.parts.2.parts.1.customLabel>
+  <!-- ZH: 右二趾 -->
+  <Body_Sayers.corePart.parts.14.parts.2.parts.2.customLabel>right second toe</Body_Sayers.corePart.parts.14.parts.2.parts.2.customLabel>
+  <!-- ZH: 右大趾 -->
+  <Body_Sayers.corePart.parts.14.parts.2.parts.3.customLabel>right big toe</Body_Sayers.corePart.parts.14.parts.2.parts.3.customLabel>
+  <!-- ZH: 尾部覆毛 -->
+  <Body_Sayers.corePart.parts.15.customLabel>tail fur</Body_Sayers.corePart.parts.15.customLabel>
+  <!-- ZH: 尾内骨骼 -->
+  <Body_Sayers.corePart.parts.15.parts.0.customLabel>tail bone</Body_Sayers.corePart.parts.15.parts.0.customLabel>
+  
+</LanguageData>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- ZH: 被威胁 -->
+  <Threat_Sayers.stages.0.label>be threatened</Threat_Sayers.stages.0.label>
+  
+  <!-- ZH: 被威胁 -->
+  <ThreatMood_Sayers.stages.0.label>be threatened</ThreatMood_Sayers.stages.0.label>
+  <!-- ZH: 一只可怕的动物威胁了我，就像它会伤害我一样！ -->
+  <ThreatMood_Sayers.stages.0.description>A terrible animal threatened me as if it would hurt me!</ThreatMood_Sayers.stages.0.description>
+  
+</LanguageData>

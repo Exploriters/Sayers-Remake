@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- ZH: 注射 -->
+  <Sayers_Injection.label>Injection</Sayers_Injection.label>
+  <!-- ZH: 一处注射遗留伤口 -->
+  <Sayers_Injection.description>An injection wound</Sayers_Injection.description>
+  <!-- ZH: 注射遗留疤痕 -->
+  <Sayers_Injection.comps.HediffComp_GetsPermanent.permanentLabel>An injection scar</Sayers_Injection.comps.HediffComp_GetsPermanent.permanentLabel>
+  <!-- ZH: 一处注射遗留伤口 -->
+  <Sayers_Injection.labelNoun>An injection wound</Sayers_Injection.labelNoun>
+  <!-- ZH: {0} in the {1} -->
+  <Sayers_Injection.labelNounPretty>{0} in the {1}</Sayers_Injection.labelNounPretty>
+  
+</LanguageData>

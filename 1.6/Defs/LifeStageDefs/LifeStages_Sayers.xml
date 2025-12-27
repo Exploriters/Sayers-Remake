@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <LifeStageDef>
+        <defName>SayersKit</defName>
+        <label>幼崽</label>
+        <workerClass MayRequire="Ludeon.RimWorld.Biotech">LifeStageWorker_HumanlikeChild</workerClass>
+        <bodySizeFactor>0.35</bodySizeFactor>
+        <bodyWidth>1.125</bodyWidth>
+        <bodyDrawOffset>(0, 0, -0.3)</bodyDrawOffset>
+        <voxPitch>1.2</voxPitch>
+        <headSizeFactor>0.75</headSizeFactor>
+        <eyeSizeFactor>0.85</eyeSizeFactor>
+        <healthScaleFactor>0.5</healthScaleFactor>
+        <foodMaxFactor>2.286</foodMaxFactor> <!-- bodySizeFactor * foodMaxFactor = maxFood = 0.8 -->
+        <hungerRateFactor>0.8</hungerRateFactor>
+        <marketValueFactor>0.9</marketValueFactor>
+        <meleeDamageFactor>0.7</meleeDamageFactor>
+        <developmentalStage>Child</developmentalStage>
+        <equipmentDrawDistanceFactor>0.55</equipmentDrawDistanceFactor>
+        <sittingOffset>0.3</sittingOffset>
+        <silhouetteGraphicData>
+            <texPath>Things/Pawn/Humanlike/Silhouettes/Silhouette_HumanChild</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>1</drawSize>
+        </silhouetteGraphicData>
+        <statFactors>
+            <MoveSpeed>0.75</MoveSpeed>
+        </statFactors>
+    </LifeStageDef>
+
+    <LifeStageDef>
+        <defName>SayersAdult</defName>
+        <label>成体</label>
+        <workerClass MayRequire="Ludeon.RimWorld.Biotech">LifeStageWorker_HumanlikeAdult</workerClass>
+        <visible>false</visible>
+        <bodyDrawOffset>(0, 0, -0.05)</bodyDrawOffset>
+        <reproductive>true</reproductive>
+        <sittingOffset>0.18</sittingOffset>
+		<headSizeFactor>0.5</headSizeFactor>
+		<bodyWidth>0.8</bodyWidth>
+        <silhouetteGraphicData>
+            <texPath>Things/Pawn/Humanlike/Silhouettes/Silhouette_HumanAdult</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>1</drawSize>
+        </silhouetteGraphicData>
+    </LifeStageDef>
+</Defs>

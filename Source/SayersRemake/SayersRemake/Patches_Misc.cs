@@ -4,6 +4,7 @@
  */
 using HarmonyLib;
 using RimWorld;
+using RimWorld.Planet;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -14,6 +15,7 @@ using System.Text;
 using UnityEngine;
 using Verse;
 using Verse.AI;
+using Verse.AI.Group;
 using static SayersRemake.SayersRemakeBase;
 using static Verse.DamageInfo;
 using static Verse.PawnCapacityUtility;
@@ -76,6 +78,12 @@ namespace SayersRemake
 					prefix: new HarmonyMethod(patchType, nameof(StatPartAgeOffsetPrefix)));
 				Patch(AccessTools.Method(typeof(LovePartnerRelationUtility), "LovinMtbSinglePawnFactor"),
 					prefix: new HarmonyMethod(patchType, nameof(LovinMtbSinglePawnFactorPrefix)));
+				//Patch(AccessTools.Method(typeof(WildManUtility), "IsWildMan"),
+				//	prefix: new HarmonyMethod(patchType, nameof(IsWildManPrefix)));
+				Patch(AccessTools.Method(typeof(MentalBreaker), "TryDoMentalBreak"),
+					prefix: new HarmonyMethod(patchType, nameof(TryDoMentalBreakPrefix)));
+				Patch(AccessTools.Method(typeof(Pawn_AgeTracker), "get_BiologicalTicksPerTick"),
+					postfix: new HarmonyMethod(patchType, nameof(get_BiologicalTicksPerTickPostfix)));
 			}
 			catch (Exception e)
 			{
@@ -121,7 +129,7 @@ namespace SayersRemake
 		{
 			return def?.tradeTags?.Contains("ExDisableStatFactorSightPsychicSenstivityOffset") ?? false;
 		}
-		///<summary>使Sayers优先选择尸体作为食物。</summary>
+		///<summary>使Sayers优先选择尸体和生肉、生食作为食物。</summary>
 		[HarmonyPostfix] public static void GetFoodTryGiveJobPostfix(JobGiver_GetFood __instance, ref Job __result, Pawn pawn)
 		{
 			if (pawn?.def != AlienSayersDef)
@@ -153,10 +161,18 @@ namespace SayersRemake
 				maxDistance: 9999f,
 				validator: delegate (Thing t)
 				{
-					if (!(t is Corpse) || (t.def.ingestible.foodType & FoodTypeFlags.Meat) != 0)
+					/*if (!(t is Corpse) && !t.def.IsRawFood() && (t.def.ingestible.foodType & FoodTypeFlags.Meat) != 0)
+                    {
+						return false;
+                    }*/
+					if (!(t is Corpse) & !t.def.IsRawFood() & (t.def.ingestible.foodType & FoodTypeFlags.Meat) != 0)
 					{
 						return false;
 					}
+					if ((t.def.ingestible.foodType & FoodTypeFlags.Meal) != 0)
+                    {
+						return false;
+                    }
 					if (t.IsForbidden(pawn))
 					{
 						return false;
@@ -341,5 +357,62 @@ namespace SayersRemake
 				__result = 0f;
 			}
 		}
+		[HarmonyPostfix] public static void get_BiologicalTicksPerTickPostfix(Pawn_AgeTracker __instance, ref float __result)
+        {
+			if (__instance.GetType().GetField("pawn", BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance).GetValue(__instance) is Pawn pawn && pawn?.def == AlienSayersDef)
+			{
+				__result = 1f;
+			}
+		}
+		///<summary>Sayers怎么不是野生的呢</summary>
+		[HarmonyPrefix] public static bool IsWildManPrefix(Pawn p, ref bool __result)
+		{
+			return (p.kindDef == PawnkindDef_WildSayers || p.kindDef == PawnKindDefOf.WildMan) && !p.IsMutant;
+		}
+
+		///<summary>用稳定度阻止Sayers精神崩溃</summary>
+		[HarmonyPrefix] public static bool TryDoMentalBreakPrefix(MentalBreaker __instance, string reason, MentalBreakDef breakDef, ref bool __result)
+        {
+			if (__instance.GetType().GetField("pawn", BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance).GetValue(__instance) is Pawn pawn && pawn?.def == AlienSayersDef)
+            {
+				Pawn_NeedsTracker needs = pawn.needs;
+				Need_Stability_Sayers need_stability = (needs != null) ? needs.TryGetNeed<Need_Stability_Sayers>() : null;
+				if (need_stability == null)
+                {
+					return __result;
+				}
+				if (breakDef.intensity == MentalBreakIntensity.Extreme)
+				{
+					return StabilityPreventMentalbreak(pawn, 0.2f, reason, breakDef);
+				}
+				else if (breakDef.intensity == MentalBreakIntensity.Major)
+				{
+					return StabilityPreventMentalbreak(pawn, 0.1f, reason, breakDef);
+				}
+                else
+                {
+					return false;
+				}
+			}
+			return __result;
+		}
+
+		public static bool StabilityPreventMentalbreak(Pawn pawn, float request, string reason, MentalBreakDef breakDef)
+        {
+			Need_Stability_Sayers need_stability = (pawn.needs != null) ? pawn.needs.TryGetNeed<Need_Stability_Sayers>() : null;
+			if(need_stability.CurLevelPercentage <= request)
+            {
+				need_stability.CurLevelPercentage = 0f;
+				Messages.Message("SayersRemake_StabilityDown".Translate(pawn.Name.ToStringShort), pawn, MessageTypeDefOf.ThreatSmall, true);
+				pawn.TakeDamage(new DamageInfo(DamageDefOf.ElectricalBurn, 5f, 0f, -1f, null, pawn.health.hediffSet.GetBrain()));
+				return breakDef.Worker.TryStart(pawn, reason, true);
+			}
+            else
+            {
+				need_stability.CurLevelPercentage -= request;
+				Messages.Message("SayersRemake_StabilityBreak".Translate(pawn.Name.ToStringShort), pawn, MessageTypeDefOf.NegativeEvent, true);
+				return false;
+			}
+        }
 	}
 }

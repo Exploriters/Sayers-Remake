@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+	<SayersRemake_PartReborn>{0}'s {1} are growing again!</SayersRemake_PartReborn>
+	<SayersRemake_PartHealing>Part of the {0}'s {1} has regrown!</SayersRemake_PartHealing>
+	<SayersRemake_StabilityDown>{0}'s MBSP is overloaded!</SayersRemake_StabilityDown>
+	<SayersRemake_StabilityBreak>The stability of {0} is reduced by suppressing mental break!</SayersRemake_StabilityBreak>
+	<SayersRemake_SayersJoin_Label>Sayers join: {0}</SayersRemake_SayersJoin_Label>
+	<SayersRemake_SayersJoin_Text_HasSayers>An Sayers approached your colony, trying to tell you that it was called {0} and expressed its desire to stay: It smelled the smell of its companion, and its desire for something drove it here and tried to stay.\nSayers is a highly united races, so it is easier for them to establish positive relations with same race as them.\n\nThe initial attribute of this Sayers may be very low, but there is no daily learning limit and stronger learning ability to make it specialized quickly in a short time.</SayersRemake_SayersJoin_Text_HasSayers>
+	<SayersRemake_SayersJoin_Text_HasntSayers>An Sayers approached your colony, trying to tell you that it was called {0} and expressed its desire to stay: Altought it doesn't look friendly or ever wary, what deeper fear forced it to make such a decision.\n\nThe initial attribute of this Sayers may be very low, but there is no daily learning limit and stronger learning ability to make it specialized quickly in a short time.</SayersRemake_SayersJoin_Text_HasntSayers>
+</LanguageData>

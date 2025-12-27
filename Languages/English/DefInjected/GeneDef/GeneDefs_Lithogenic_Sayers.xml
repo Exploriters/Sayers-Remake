@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- ZH: 封语者(WIP) -->
+  <Sayers_Lithogenic_Animismless.label>封语者(WIP)</Sayers_Lithogenic_Animismless.label>
+  <!-- ZH: 携带这种基因的赛尔斯因为断绝了与有机物的大部分联系，它们将难以社交、与动物建立联系，甚至是难以完成肢体的语言。 -->
+  <Sayers_Lithogenic_Animismless.description>携带这种基因的赛尔斯因为断绝了与有机物的大部分联系，它们将难以社交、与动物建立联系，甚至是难以完成肢体的语言。</Sayers_Lithogenic_Animismless.description>
+  <!-- ZH: 封语者 -->
+  <Sayers_Lithogenic_Animismless.labelShortAdj>封语者</Sayers_Lithogenic_Animismless.labelShortAdj>
+  
+  <!-- ZH: 食矿者(WIP) -->
+  <Sayers_Lithogenic_EdibleMinerals.label>食矿者(WIP)</Sayers_Lithogenic_EdibleMinerals.label>
+  <!-- ZH: 携带这种基因的赛尔斯会从无机质中摄入营养并储存起来，当饱食度耗尽时，它能作为临时营养，让赛尔斯在饥荒中支撑更久的时间。 -->
+  <Sayers_Lithogenic_EdibleMinerals.description>携带这种基因的赛尔斯会从无机质中摄入营养并储存起来，当饱食度耗尽时，它能作为临时营养，让赛尔斯在饥荒中支撑更久的时间。</Sayers_Lithogenic_EdibleMinerals.description>
+  <!-- ZH: 食矿者 -->
+  <Sayers_Lithogenic_EdibleMinerals.labelShortAdj>食矿者</Sayers_Lithogenic_EdibleMinerals.labelShortAdj>
+  
+  <!-- ZH: 覆面花 -->
+  <Sayers_Lithogenic_FaceFlower.label>覆面花</Sayers_Lithogenic_FaceFlower.label>
+  <!-- ZH: 携带这种基因的赛尔斯的眼生花将覆盖整个上半面，并使其无视黑暗。 -->
+  <Sayers_Lithogenic_FaceFlower.description>携带这种基因的赛尔斯的眼生花将覆盖整个上半面，并使其无视黑暗。</Sayers_Lithogenic_FaceFlower.description>
+  <!-- ZH: 覆面花 -->
+  <Sayers_Lithogenic_FaceFlower.labelShortAdj>覆面花</Sayers_Lithogenic_FaceFlower.labelShortAdj>
+  
+  <!-- ZH: 植纤维硬化(WIP) -->
+  <Sayers_Lithogenic_HardenedPland.label>植纤维硬化(WIP)</Sayers_Lithogenic_HardenedPland.label>
+  <!-- ZH: 携带这种基因的赛尔斯体内的植物更为坚硬，但缺乏柔韧性。这为它们提供了更高的防御力与更低的疼痛感，但也拖慢了它们的行动速度，使其像是被 坚石囚禁。 -->
+  <Sayers_Lithogenic_HardenedPland.description>携带这种基因的赛尔斯体内的植物更为坚硬，但缺乏柔韧性。这为它们提供了更高的防御力与更低的疼痛感，但也拖慢了它们的行动速度，使其像是被 坚石囚禁。</Sayers_Lithogenic_HardenedPland.description>
+  <!-- ZH: 硬化的 -->
+  <Sayers_Lithogenic_HardenedPland.labelShortAdj>硬化的</Sayers_Lithogenic_HardenedPland.labelShortAdj>
+  
+  <!-- ZH: 矿生起源(WIP) -->
+  <Sayers_Lithogenic_MiningTalent.label>矿生起源(WIP)</Sayers_Lithogenic_MiningTalent.label>
+  <!-- ZH: 携带这种基因的赛尔斯有着更高的挖掘速度与矿产产出。 -->
+  <Sayers_Lithogenic_MiningTalent.description>携带这种基因的赛尔斯有着更高的挖掘速度与矿产产出。</Sayers_Lithogenic_MiningTalent.description>
+  <!-- ZH: 穴居的 -->
+  <Sayers_Lithogenic_MiningTalent.labelShortAdj>穴居的</Sayers_Lithogenic_MiningTalent.labelShortAdj>
+  
+  <!-- ZH: 惧光症(WIP) -->
+  <Sayers_Lithogenic_Solarphobia.label>惧光症(WIP)</Sayers_Lithogenic_Solarphobia.label>
+  <!-- ZH: 携带这种基因的赛尔斯会因为暴露在强光下而感到痛苦、影响行动。 -->
+  <Sayers_Lithogenic_Solarphobia.description>携带这种基因的赛尔斯会因为暴露在强光下而感到痛苦、影响行动。</Sayers_Lithogenic_Solarphobia.description>
+  <!-- ZH: 惧光症 -->
+  <Sayers_Lithogenic_Solarphobia.labelShortAdj>惧光症</Sayers_Lithogenic_Solarphobia.labelShortAdj>
+  
+</LanguageData>
