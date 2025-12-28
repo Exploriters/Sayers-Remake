@@ -61,7 +61,7 @@ namespace SayersRemake
 		// Token: 0x06006505 RID: 25861 RVA: 0x0021BE3F File Offset: 0x0021A03F
 		private bool TryFindFormerFaction(out Faction formerFaction)
 		{
-			return Find.FactionManager.TryGetRandomNonColonyHumanlikeFaction(out formerFaction, false, true, TechLevel.Undefined, false);
+			return Find.FactionManager.TryGetRandomNonColonyHumanlikeFaction(out formerFaction, false, true, TechLevel.Undefined);
 		}
 	}
 }

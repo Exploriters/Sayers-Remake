@@ -1,8 +1,9 @@
-﻿using Verse;
-using RimWorld;
-using UnityEngine;
-using System;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
+using UnityEngine;
+using Verse;
+using RimWorld;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -40,7 +41,7 @@ namespace SayersRemake
 			}
         }
 
-        public ITab_Pawn_EmbeddedWeapons()
+		public ITab_Pawn_EmbeddedWeapons()
         {
 			labelKey = "嵌入式武器";
 			this.size = new Vector2(400f, 400f);

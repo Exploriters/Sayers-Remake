@@ -161,14 +161,14 @@ namespace SayersRemake
 				maxDistance: 9999f,
 				validator: delegate (Thing t)
 				{
-					/*if (!(t is Corpse) && !t.def.IsRawFood() && (t.def.ingestible.foodType & FoodTypeFlags.Meat) != 0)
+					if (!(t is Corpse) && !t.def.IsRawHumanFood() && (t.def.ingestible.foodType & FoodTypeFlags.Meat) != 0)
                     {
 						return false;
-                    }*/
-					if (!(t is Corpse) & !t.def.IsRawFood() & (t.def.ingestible.foodType & FoodTypeFlags.Meat) != 0)
+                    }
+					/*if (!(t is Corpse) & !t.def.IsRawHumanFood() & (t.def.ingestible.foodType & FoodTypeFlags.Meat) != 0)
 					{
 						return false;
-					}
+					}*/
 					if ((t.def.ingestible.foodType & FoodTypeFlags.Meal) != 0)
                     {
 						return false;
@@ -177,10 +177,11 @@ namespace SayersRemake
 					{
 						return false;
 					}
-					/*if (!pawn.foodRestriction.CurrentFoodRestriction.Allows(t))
+					FoodPolicy restriction = pawn.foodRestriction.GetCurrentRespectedRestriction(pawn);
+					if (!restriction.Allows(t))
 					{
 						return false;
-					}*/
+					}
 					if (!t.IngestibleNow)
 					{
 						return false;
