@@ -2,7 +2,7 @@
 <Defs>
 	<ResearchProjectDef Name="SayersTechBase" Abstract="True">
 		<tab>ResearchTabs_Sayers</tab>
-		<description>TODO。</description>
+		<description>塞尔斯的科技树。</description>
 		<baseCost>100</baseCost>
 		<techLevel>Neolithic</techLevel>
 		<prerequisites></prerequisites>
@@ -15,8 +15,8 @@
 		<defName>SayersTech_RootProject</defName>
 		<label>赛尔斯科技树(WIP)</label>
 		<tab>ResearchTabs_Sayers</tab>
-		<description>允许进一步研究赛尔斯相关科技。\n\n&lt;color=#b06868&gt;&lt;b&gt;勿视、勿言、勿触\n不闻、不思、不念\n广识招灾、无知是福。&lt;/b&gt;&lt;/color&gt;\n\n未完成，请勿研究。</description>
-		<baseCost>999999999</baseCost>
+		<description>允许进一步研究赛尔斯相关科技。\n\n&lt;color=#b06868&gt;&lt;b&gt;勿视、勿言、勿触\n不闻、不思、不念\n广识招灾、无知是福。&lt;/b&gt;&lt;/color&gt;</description>
+		<baseCost>10</baseCost>
 		<techLevel>Neolithic</techLevel>
 		<prerequisites></prerequisites>
 		<hiddenPrerequisites></hiddenPrerequisites>
@@ -28,7 +28,7 @@
 	<ResearchProjectDef ParentName="SayersTechBase">
 		<defName>SayersTech_FleshDissection</defName>
 		<label>血肉剖析</label>
-		<description>TODO。</description>
+		<description>将血肉变成可以任人摆布的原材料，用任何肉糜混合成的肮脏造物。由于其扭曲的不稳定性，它迫切的需要冷藏，否则很快就会腐烂发臭。</description>
 		<baseCost>999999999</baseCost>
 		<techLevel>Neolithic</techLevel>
 		<prerequisites>

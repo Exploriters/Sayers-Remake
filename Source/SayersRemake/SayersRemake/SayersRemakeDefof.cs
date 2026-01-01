@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using Verse;
+using UnityEngine;
 
 namespace SayersRemake
 {
@@ -83,5 +84,11 @@ namespace SayersRemake
 
 		public static readonly RulePackDef RulePack_SayersNickName = GetModDef<RulePackDef>(InstelledMods.Sayers, "SayersNickName");
 		public static readonly RulePackDef RulePack_SayersFirstName = GetModDef<RulePackDef>(InstelledMods.Sayers, "SayersFirstName");
+
+		public static readonly ToolCapacityDef Capacity_Sayers_Injection = GetModDef<ToolCapacityDef>(InstelledMods.Sayers, "Sayers_Injection");
+
+		public static readonly JobDef Job_HaulToJuicer_Sayers = GetModDef<JobDef>(InstelledMods.Sayers, "HaulToJuicer");
+
+		public static readonly Texture2D StopPoisoningIcon = ContentFinder<Texture2D>.Get("UI/Commands/StopPoisoning", true);
 	};
 }

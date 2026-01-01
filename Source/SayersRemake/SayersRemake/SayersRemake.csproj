@@ -73,6 +73,8 @@
   <ItemGroup>
     <Compile Include="CompPawnEmbeddedWeapons.cs" />
     <Compile Include="CompSelfhealingByTime_Sayers.cs" />
+    <Compile Include="CreatureJuicer.cs" />
+    <Compile Include="Gizmos_Sayers.cs" />
     <Compile Include="ITab_Pawn_EmbeddedWeapons.cs" />
     <Compile Include="Need_Stability_Sayers.cs" />
     <Compile Include="ScenPart.cs" />

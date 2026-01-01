@@ -5,7 +5,7 @@
         <label>赛尔斯</label>
         <description>可以确定的有两件事：第一，赛尔斯确实属于哺乳动物。第二，赛尔斯身上的花与叶片确实是植物组织。赛尔斯是一种以哺乳动物为主体、并伴以植物寄生所结合出来的异常生物。祂们保留着原始的动物叫声，似乎没有类似于人类的语言能力，并在多种方面呈现出原始动物的天性。但，多种迹象表明这并不能意味着祂们智力低下，祂们会使用工具、穿着装备甚至从事研究，并能够学习与理解语言和指令。而对于交流，祂们则使用不同语调的鸣叫和各种肢体语言来表达祂们的情绪和想法，在必要时甚至会使用文字交流。
 		\n赛尔斯显然不是自然进化出来的物种，祂们身上到处是实验痕迹，不仅在基因上高度不稳定，其植物部分的植入也显得有些粗暴，直接导致了祂们将面对部分视力丢失和温度敏感，需要更小心的去照料自己的植物部分，避免其凋亡致自身器官衰竭。祂们被粗暴地剥夺了前肢后由植物质的触手取代，这也许逼迫了它们不得不去学习如何只用后肢去行走，被迫去面对失去了前肢之后变得更加困难的部分工作。
-        \n\n即使拥有高度的智慧，且不论年龄，但赛尔斯似乎仍像是幼兽，走失后迷茫的找寻自己归属于何方又能将何处称家。这种高度集体性的小生物在被弃后往往踏上一条不可能的归乡路。</description>
+        \n\n即使拥有高度的智慧，但赛尔斯似乎仍像是幼兽，不论年龄，走失后迷茫的找寻自己归属于何方又能将何处称家。这种高度集体性的小生物在被弃后往往踏上一条不可能的归乡路。</description>
 		<inspectorTabs>
 			<li>SayersRemake.ITab_Pawn_EmbeddedWeapons</li>
 		</inspectorTabs>
@@ -95,6 +95,7 @@
 			</li>
 			<li Class="SayersRemake.CompProperties_CompSelfhealingByTime_Sayers" />
 			<li Class="SayersRemake.CompProperties_PawnEmbeddedWeapons" />
+			<li Class="SayersRemake.CompProperties_StopPoisioningGizmo" />
 		</comps>
 		<tradeTags>
 			<li>ExDisableThoughtWorkerPreceptHasUncovered</li>

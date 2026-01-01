@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef ParentName="BuildingBase">
+		<canOverlapZones>false</canOverlapZones>
+		<defName>CreatureJuicer_Sayers</defName>
+		<label>生物榨汁机</label>
+		<description>榨汁机~uwu</description>
+		<thingClass>Building_WorkTable</thingClass>
+		<graphicData>
+			<texPath>Things/Building/Production/CreatureJuicer</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(5,5)</drawSize>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<altitudeLayer>Building</altitudeLayer>
+		<containedPawnsSelectable>true</containedPawnsSelectable>
+		<statBases>
+			<WorkToBuild>0</WorkToBuild>
+			<WorkTableWorkSpeedFactor>0.5</WorkTableWorkSpeedFactor>
+		</statBases>
+		<scatterableOnMapGen>false</scatterableOnMapGen>
+		<useHitPoints>false</useHitPoints>
+		<size>(3,3)</size>
+		<designationCategory>Production</designationCategory>
+		<uiIconScale>0.7</uiIconScale>
+		<uiIconOffset>(0, 0.02)</uiIconOffset>
+		<uiOrder>2000</uiOrder>
+		<passability>PassThroughOnly</passability>
+		<hasInteractionCell>True</hasInteractionCell>
+		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
+		<building>
+			<buildingTags>
+				<li>Production</li>
+			</buildingTags>
+		</building>
+		<comps>
+			<li Class="SayersRemake.CompProperties_CompCreatureJuicer" />
+		</comps>
+	</ThingDef>
+</Defs>
