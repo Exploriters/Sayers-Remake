@@ -10,8 +10,9 @@
 			<texPath>Things/Building/Production/CreatureJuicer</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(5,5)</drawSize>
+    		<drawRotated>false</drawRotated>
 		</graphicData>
-		<rotatable>false</rotatable>
+		<rotatable>true</rotatable>
 		<altitudeLayer>Building</altitudeLayer>
 		<containedPawnsSelectable>true</containedPawnsSelectable>
 		<statBases>
@@ -29,12 +30,25 @@
 		<hasInteractionCell>True</hasInteractionCell>
 		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
 		<building>
+			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+			<forceShowRoomStats>true</forceShowRoomStats>
 			<buildingTags>
 				<li>Production</li>
 			</buildingTags>
 		</building>
+		<recipes>
+			<li>CremateCorpse</li>
+		</recipes>
+		<inspectorTabs>
+			<li>ITab_Bills</li>
+		</inspectorTabs>
+		<placeWorkers>
+			<li>PlaceWorker_PreventInteractionSpotOverlap</li>
+		</placeWorkers>
 		<comps>
+			<!--
 			<li Class="SayersRemake.CompProperties_CompCreatureJuicer" />
+			-->
 		</comps>
 	</ThingDef>
 </Defs>
