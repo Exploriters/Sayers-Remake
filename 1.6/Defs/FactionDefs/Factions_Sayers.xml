@@ -14,7 +14,7 @@
         <factionNameMaker>NamerFactionSayers</factionNameMaker>
         <settlementNameMaker>NamerSettlementSayers</settlementNameMaker>
         <isPlayer>true</isPlayer>
-        <factionIconPath>World/WorldObjects/Expanding/Town</factionIconPath>
+        <factionIconPath>World/WorldObjects/Expanding/SayersFaction</factionIconPath>
         <techLevel>Industrial</techLevel>
         <backstoryFilters>
             <li>

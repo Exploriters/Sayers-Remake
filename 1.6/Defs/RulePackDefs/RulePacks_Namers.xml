@@ -269,7 +269,35 @@
     <defName>NamerFactionSayers</defName>
     <rulePack>
       <rulesStrings>
-        <li>r_name->赛尔斯</li>
+        <li>r_name->[type]</li>
+        <li>type->[plant][part]</li>
+        <li>type->[plant][shape]</li>
+        <li>type->[part][liquid]</li>
+        <li>plant->花</li>
+        <li>plant->叶</li>
+        <li>plant->果</li>
+        <li>plant->茎</li>
+        <li>plant->种</li>
+        <li>plant->枝</li>
+        <li>plant->根</li>
+        <li>plant->草</li>
+		<li>part->目</li>
+		<li>part->牙</li>
+		<li>part->耳</li>
+		<li>part->爪</li>
+		<li>part->尾</li>
+		<li>part->垫</li>
+		<li>part->骨</li>
+		<li>shape->簇</li>
+		<li>shape->团</li>
+		<li>shape->丛</li>
+		<li>shape->毯</li>
+		<li>liquid->血</li>
+		<li>liquid->水</li>
+		<li>liquid->海</li>
+		<li>liquid->泊</li>
+		<li>liquid->溪</li>
+		<li>liquid->池</li>
       </rulesStrings>
     </rulePack>
   </RulePackDef>
@@ -278,7 +306,20 @@
     <defName>NamerSettlementSayers</defName>
     <rulePack>
       <rulesStrings>
-        <li>r_name->赛尔斯群体</li>
+        <li>r_name->[element][type]</li>
+		<li>element->花</li>
+        <li>element->叶</li>
+        <li>element->果</li>
+        <li>element->茎</li>
+        <li>element->种</li>
+        <li>element->枝</li>
+        <li>element->根</li>
+        <li>element->草</li>
+		<li>type->巢</li>
+		<li>type->窝</li>
+		<li>type->屋</li>
+		<li>type->腔</li>
+		<li>type->皿</li>
       </rulesStrings>
     </rulePack>
   </RulePackDef>

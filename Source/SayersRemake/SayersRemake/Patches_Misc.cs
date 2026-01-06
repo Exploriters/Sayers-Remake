@@ -80,6 +80,8 @@ namespace SayersRemake
 					prefix: new HarmonyMethod(patchType, nameof(LovinMtbSinglePawnFactorPrefix)));
 				//Patch(AccessTools.Method(typeof(WildManUtility), "IsWildMan"),
 				//	prefix: new HarmonyMethod(patchType, nameof(IsWildManPrefix)));
+				Patch(AccessTools.Method(typeof(MentalStateHandler), "TryStartMentalState"),
+					prefix: new HarmonyMethod(patchType, nameof(TryStartMentalStatePrefix)));
 				Patch(AccessTools.Method(typeof(MentalBreaker), "TryDoMentalBreak"),
 					prefix: new HarmonyMethod(patchType, nameof(TryDoMentalBreakPrefix)));
 				Patch(AccessTools.Method(typeof(Pawn_AgeTracker), "get_BiologicalTicksPerTick"),
@@ -372,6 +374,50 @@ namespace SayersRemake
 		}
 
 		///<summary>用稳定度阻止Sayers精神崩溃</summary>
+		[HarmonyPrefix]
+		public static bool TryStartMentalStatePrefix(MentalStateHandler __instance, ref bool __result, MentalStateDef stateDef, string reason = null, bool forced = false, bool forceWake = false, bool causedByMood = false, Pawn otherPawn = null, bool transitionSilently = false, bool causedByDamage = false, bool causedByPsycast = false)
+        {
+			if (__instance.GetType().GetField("pawn", BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance).GetValue(__instance) is Pawn pawn && pawn?.def == AlienSayersDef)
+			{
+				Pawn_NeedsTracker needs = pawn.needs;
+				Need_Stability_Sayers need_stability = (needs != null) ? needs.TryGetNeed<Need_Stability_Sayers>() : null;
+				if (need_stability == null)
+				{
+					return __result;
+				}
+				if (stateDef.IsExtreme)
+				{
+					if (need_stability.CurLevelPercentage <= 0.2f)
+					{
+						need_stability.CurLevelPercentage = 0f;
+						Messages.Message("SayersRemake_StabilityDown".Translate(pawn.Name.ToStringShort), pawn, MessageTypeDefOf.ThreatSmall, true);
+						pawn.TakeDamage(new DamageInfo(DamageDefOf.ElectricalBurn, 5f, 0f, -1f, null, pawn.health.hediffSet.GetBrain()));
+					}
+                    else
+                    {
+						need_stability.CurLevelPercentage -= 0.2f;
+						Messages.Message("SayersRemake_StabilityBreak".Translate(pawn.Name.ToStringShort), pawn, MessageTypeDefOf.NegativeEvent, true);
+						return false;
+					}
+				}
+				else
+				{
+					if (need_stability.CurLevelPercentage <= 0.1f)
+					{
+						need_stability.CurLevelPercentage = 0f;
+						Messages.Message("SayersRemake_StabilityDown".Translate(pawn.Name.ToStringShort), pawn, MessageTypeDefOf.ThreatSmall, true);
+						pawn.TakeDamage(new DamageInfo(DamageDefOf.ElectricalBurn, 5f, 0f, -1f, null, pawn.health.hediffSet.GetBrain()));
+					}
+					else
+					{
+						need_stability.CurLevelPercentage -= 0.1f;
+						Messages.Message("SayersRemake_StabilityBreak".Translate(pawn.Name.ToStringShort), pawn, MessageTypeDefOf.NegativeEvent, true);
+						return false;
+					}
+				}
+			}
+			return __result;
+		}
 		[HarmonyPrefix] public static bool TryDoMentalBreakPrefix(MentalBreaker __instance, string reason, MentalBreakDef breakDef, ref bool __result)
         {
 			if (__instance.GetType().GetField("pawn", BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance).GetValue(__instance) is Pawn pawn && pawn?.def == AlienSayersDef)

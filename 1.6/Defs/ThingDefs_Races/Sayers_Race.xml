@@ -23,7 +23,7 @@
 			<GlobalLearningFactor>2.0</GlobalLearningFactor>
 			<BedHungerRateFactor>0.5</BedHungerRateFactor>
 			<EatingSpeed>3</EatingSpeed>
-			<ImmunityGainSpeed>1.2</ImmunityGainSpeed>
+			<ImmunityGainSpeed>0.8</ImmunityGainSpeed>
 			<InjuryHealingFactor>1.1</InjuryHealingFactor>
 			<MeatAmount>0.5</MeatAmount>
 			<LeatherAmount>0.45</LeatherAmount>
@@ -42,7 +42,7 @@
 			<MeleeDamageFactor>1.5</MeleeDamageFactor>
 			<StaggerDurationFactor>0.1</StaggerDurationFactor>
 			<!-- social -->
-			<NegotiationAbility>0.7</NegotiationAbility>
+			<NegotiationAbility>0.6</NegotiationAbility>
 			<PawnBeauty>1.0</PawnBeauty>
 			<TameAnimalChance>2.0</TameAnimalChance>
 			<TrainAnimalChance>1.5</TrainAnimalChance>
@@ -1013,8 +1013,6 @@
 					<li>
 						<projects>
 							<li>SayersTech_RootProject</li>
-							<li>SayersTech_FleshDissection</li>
-							<li>SayersTech_PlantNerve</li>
 						</projects>
 					</li>
 				</researchList>
@@ -1131,7 +1129,7 @@
 					<!--<li>SleptInBedroom_Sayers</li>
 					<li>SleptInBarracks_Sayers</li>-->
 					<!-- SITUATION -->
-                    <li>Expectations_Sayers</li>
+                    <!-- <li>Expectations_Sayers</li> -->
 					<!-- ==== SOCIAL ==== -->
 					<!-- MEMORIES -->
 					<!-- core -->

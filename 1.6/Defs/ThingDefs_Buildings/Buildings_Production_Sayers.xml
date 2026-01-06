@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	<ThingDef ParentName="BuildingBase">
+	<!--<ThingDef ParentName="BuildingBase">
 		<canOverlapZones>false</canOverlapZones>
 		<defName>CreatureJuicer_Sayers</defName>
 		<label>生物榨汁机</label>
@@ -36,5 +36,5 @@
 		<comps>
 			<li Class="SayersRemake.CompProperties_CompCreatureJuicer" />
 		</comps>
-	</ThingDef>
+	</ThingDef>-->
 </Defs>

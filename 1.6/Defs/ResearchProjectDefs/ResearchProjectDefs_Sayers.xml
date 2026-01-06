@@ -2,8 +2,8 @@
 <Defs>
 	<ResearchProjectDef Name="SayersTechBase" Abstract="True">
 		<tab>ResearchTabs_Sayers</tab>
-		<description>塞尔斯的科技树。</description>
-		<baseCost>100</baseCost>
+		<description>TODO.</description>
+		<baseCost>10</baseCost>
 		<techLevel>Neolithic</techLevel>
 		<prerequisites></prerequisites>
 		<hiddenPrerequisites></hiddenPrerequisites>
@@ -20,34 +20,30 @@
 		<techLevel>Neolithic</techLevel>
 		<prerequisites></prerequisites>
 		<hiddenPrerequisites></hiddenPrerequisites>
-		<researchViewY>0.7</researchViewY>
+		<researchViewY>3.0</researchViewY>
 		<researchViewX>0.0</researchViewX>
 	</ResearchProjectDef>
 	
 	<!-- 列2 0.7 -->
 	<ResearchProjectDef ParentName="SayersTechBase">
-		<defName>SayersTech_FleshDissection</defName>
-		<label>血肉剖析</label>
-		<description>将血肉变成可以任人摆布的原材料，用任何肉糜混合成的肮脏造物。由于其扭曲的不稳定性，它迫切的需要冷藏，否则很快就会腐烂发臭。</description>
-		<baseCost>999999999</baseCost>
-		<techLevel>Neolithic</techLevel>
+		<defName>SayersTech_PrivatePrefix</defName>
+		<label>塞尔斯本族科技前置</label>
+		<description>一切塞尔斯本族科技的根节点。\n此节点后的科技树均适用于塞尔斯本族的增强与拓展。</description>
 		<prerequisites>
 			<li>SayersTech_RootProject</li>
 		</prerequisites>
-		<researchViewY>0.7</researchViewY>
+		<researchViewY>2.0</researchViewY>
 		<researchViewX>1.0</researchViewX>
 	</ResearchProjectDef>
 	<!-- 列3 0.7 -->
 	<ResearchProjectDef ParentName="SayersTechBase">
-		<defName>SayersTech_PlantNerve</defName>
-		<label>植物神经</label>
-		<description>TODO。</description>
-		<baseCost>999999999</baseCost>
-		<techLevel>Neolithic</techLevel>
+		<defName>SayersTech_PublicPrefix</defName>
+		<label>塞尔斯通用科技前置</label>
+		<description>一切塞尔斯通用科技的根节点。\n此节点后的科技树适用于所有种族，即使他们不是塞尔斯。</description>
 		<prerequisites>
-			<li>SayersTech_FleshDissection</li>
+			<li>SayersTech_RootProject</li>
 		</prerequisites>
-		<researchViewY>0.7</researchViewY>
-		<researchViewX>2.0</researchViewX>
+		<researchViewY>4.0</researchViewY>
+		<researchViewX>1.0</researchViewX>
 	</ResearchProjectDef>
 </Defs>

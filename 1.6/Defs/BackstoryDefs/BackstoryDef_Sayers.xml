@@ -12,6 +12,31 @@
 	</AlienRace.AlienBackstoryDef>
 	
 	<AlienRace.AlienBackstoryDef>
+		<defName>Sayers_Backstory_Monstor_Childhood</defName>
+		<slot>Childhood</slot>
+		<title>逃脱的怪物</title>
+		<titleShort>怪物</titleShort>
+		<description>[PAWN_nameDef]是一个彻头彻尾的怪物，在[PAWN_pronoun]拥有自我意识后，[PAWN_pronoun]就无时无刻不在尝试突破收容。某一天，[PAWN_pronoun]成功了，并以可怕的袭击换来了自己的“自由”。</description>
+		<spawnCategories>
+			<li>Sayers_Backstories</li>
+		</spawnCategories>
+		<skillGains>
+			<Intellectual>-2</Intellectual>
+			<Melee>7</Melee>
+		</skillGains>
+		<forcedTraits>
+			<Tough>0</Tough>
+		</forcedTraits>
+		<workDisables>
+			<li>Social</li>
+		</workDisables>
+		<disallowedTraits>
+			<Kind>0</Kind>
+			<Wimp>0</Wimp>
+		</disallowedTraits>
+	</AlienRace.AlienBackstoryDef>
+	
+	<AlienRace.AlienBackstoryDef>
 		<defName>Sayers_Backstory_Naughty_Childhood</defName>
 		<slot>Childhood</slot>
 		<title>淘气的幼兽</title>
@@ -33,7 +58,7 @@
 		<slot>Childhood</slot>
 		<title>斗兽牺牲品</title>
 		<titleShort>牺牲品</titleShort>
-		<description>自[PAWN_nameDef]在培育仓内发育成熟之后，[PAWN_pronoun]就被释放至空置域，被迫以杀戮被投下的其他生物或与同伴相争，以争取活命的口粮。[PAWN_pronoun]的心态也在无休止的杀戮中发生了变化，在[PAWN_pronoun]不再具有观赏性而惨遭遗弃后，仅有脑中低鸣的程序阻止[PAWN_pronoun]走向极端。</description>
+		<description>自[PAWN_nameDef]在培育仓内发育成熟之后，[PAWN_pronoun]就被释放至空置域，被迫杀戮被投下的其他生物或与同伴相争，以争取活命的口粮。[PAWN_pronoun]的心态也在无休止的杀戮中发生了变化，在[PAWN_pronoun]因不再具有观赏性而惨遭遗弃后，仅有脑中低鸣的程序阻止[PAWN_pronoun]走向极端。</description>
 		<spawnCategories>
 			<li>Sayers_Backstories</li>
 		</spawnCategories>
