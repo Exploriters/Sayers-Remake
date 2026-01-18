@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<TraitDef>
+		<defName>trait_vigilant_Sayers</defName>
+		<commonality>2</commonality>
+		<degreeDatas>
+			<li>
+				<label>恶兽</label>
+				<description>[PAWN_nameDef]被强烈的不信任感支配，[PAWN_pronoun]无法信任除了同伴之外的任何生物，并一口咬定他们都将会伤害[PAWN_pronoun]。因此，[PAWN_pronoun]用更凶猛的姿态武装自己，把其他生物一而再三的推的更远。[PAWN_pronoun]也不会亲昵除了同族之外的任何生物，哪怕[PAWN_pronoun]已经对他们有所信任。</description>
+				<degree>-1</degree>
+			</li>
+			<li>
+				<label>温顺</label>
+				<description>[PAWN_nameDef]的性子温顺随和，[PAWN_pronoun]就像未被污染的温顺幼崽，不仅不对他人设防反而还乐于主动亲昵。[PAWN_pronoun]除非真的对某人有深仇大恨，否则不会对他们显露敌意。同时，[PAWN_pronoun]也会更频繁和条件更宽容地去亲昵其他人，无论他们是什么种族。</description>
+				<degree>1</degree>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+	
+	<!-- <TraitDef>
+		<defName>trait_mentalIssues_Sayers</defName>
+		<commonality>1</commonality>
+		<degreeDatas>
+			<li>
+				<label>孤独症</label>
+				<description>TODO</description>
+				<degree>-1</degree>
+			</li>
+			<li>
+				<label>创伤后应激障碍</label>
+				<description>TODO</description>
+				<degree>1</degree>
+			</li>
+			<li>
+				<label>爱丽丝综合症</label>
+				<description>TODO</description>
+				<degree>2</degree>
+			</li>
+			<li>
+				<label>科塔尔综合症</label>
+				<description>TODO</description>
+				<degree>3</degree>
+			</li>
+			<li>
+				<label>阿斯伯格综合症</label>
+				<description>TODO</description>
+				<degree>4</degree>
+			</li>
+			<li>
+				<label>多动症</label>
+				<description>TODO</description>
+				<degree>5</degree>
+			</li>
+		</degreeDatas>
+	</TraitDef> -->
+</Defs>

@@ -25,6 +25,7 @@
 			<Melee>7</Melee>
 		</skillGains>
 		<forcedTraits>
+			<trait_vigilant_Sayers>-1</trait_vigilant_Sayers>
 			<Tough>0</Tough>
 		</forcedTraits>
 		<workDisables>
@@ -45,6 +46,9 @@
 		<spawnCategories>
 			<li>Sayers_Backstories</li>
 		</spawnCategories>
+		<forcedTraits>
+			<trait_vigilant_Sayers>1</trait_vigilant_Sayers>
+		</forcedTraits>
 		<skillGains>
 			<Social>4</Social>
 			<Crafting>2</Crafting>

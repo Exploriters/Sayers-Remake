@@ -368,6 +368,7 @@
 		</ingredient>
         <alienRace>
             <graphicPaths>
+				<skinShader>Cutout</skinShader>
                 <head>
                     <path>Things/Pawn/Sayers/Prototype/Heads/Sayers_Prototype_Head</path>
                     <extendedGraphics>
@@ -1016,6 +1017,9 @@
 						</projects>
 					</li>
 				</researchList>
+				<traitList>
+					<li>trait_vigilant_Sayers</li>
+				</traitList>
 				<buildingList>
 					<li>Sayers_SleepingSpot</li>
 					<!--<li>Sayers_NestBed</li>-->

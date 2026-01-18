@@ -88,6 +88,11 @@ namespace SayersRemake
 		public static readonly ToolCapacityDef Capacity_Sayers_Injection = GetModDef<ToolCapacityDef>(InstelledMods.Sayers, "Sayers_Injection");
 
 		public static readonly JobDef Job_HaulToJuicer_Sayers = GetModDef<JobDef>(InstelledMods.Sayers, "HaulToJuicer");
+		
+		public static readonly TraitDef trait_vigilant_Sayers = GetModDef<TraitDef>(InstelledMods.Sayers, "trait_vigilant_Sayers");
+
+
+		public static readonly ThingCategoryDef EW_category = GetModDef<ThingCategoryDef>(InstelledMods.Sayers, "EW_category");
 
 		public static readonly Texture2D StopPoisoningIcon = ContentFinder<Texture2D>.Get("UI/Commands/StopPoisoning", true);
 	};

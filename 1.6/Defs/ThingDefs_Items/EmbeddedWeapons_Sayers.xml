@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingCategoryDef>
+		<defName>EW_category</defName>
+		<label>嵌入式武器</label>
+		<parent>Root</parent>
+	</ThingCategoryDef>
+	
+	<InventoryStockGroupDef>
+	<defName>EW_InventoryStock</defName>
+	<thingDefs>
+		<li>EW_test</li>
+	</thingDefs>
+	<defaultThingDef>EW_test</defaultThingDef>
+	</InventoryStockGroupDef>
+	
+	<OrderedTakeGroupDef>
+		<defName>EW_OrderedTakeGroup</defName>
+		<label>嵌入式武器</label>
+	</OrderedTakeGroupDef>
+
+	<ThingDef ParentName="ResourceBase">
+		<defName>EW_test</defName>
+		<label>测试用嵌武</label>
+		<thingClass>ThingWithComps</thingClass>
+		<category>Item</category>
+		<altitudeLayer>Item</altitudeLayer>
+		<uiIconForStackCount>1</uiIconForStackCount>
+		<description>测试用的嵌入式武器</description>
+		<graphicData>
+			<texPath>Things/Item/Equipment/WeaponMelee/Knife</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>Metal_Drop</soundInteract>
+		<soundDrop>Metal_Drop</soundDrop>
+		<stackLimit>1</stackLimit>
+		<useHitPoints>true</useHitPoints>
+		<selectable>true</selectable>
+		<alwaysHaulable>true</alwaysHaulable>
+		<statBases>
+			<MarketValue>10</MarketValue>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Mass>0.01</Mass>
+			<Flammability>0</Flammability>
+		</statBases>
+		<thingCategories>
+			<li>ItemsMisc</li>
+			<li>EW_category</li>
+		</thingCategories>
+		<drawGUIOverlay>true</drawGUIOverlay>
+		<tradeability>Sellable</tradeability>
+		<techLevel>Ultra</techLevel>
+		<tradeTags>
+			<li>ExoticMisc</li>
+		</tradeTags>
+		<possessionCount>1</possessionCount>
+		<allowedArchonexusCount>1</allowedArchonexusCount>
+		<orderedTakeGroup>EW_OrderedTakeGroup</orderedTakeGroup>
+	</ThingDef>
+</Defs>

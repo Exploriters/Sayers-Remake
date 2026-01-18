@@ -53,7 +53,7 @@ namespace SayersRemake
 			{
 				return 0f;
 			}
-			if (initiator.def == AlienSayersDef && recipient.def == AlienSayersDef)
+			if (recipient.def == AlienSayersDef)
             {
 				if(initiator.relations.OpinionOf(recipient) > 30)
                 {
@@ -63,7 +63,22 @@ namespace SayersRemake
             }
 			if(initiator.Position.DistanceTo(recipient.Position) < 5f)
             {
-				if (initiator.relations.OpinionOf(recipient) < -30)
+				if(initiator.story.traits.HasTrait(trait_vigilant_Sayers, 1) && initiator.relations.OpinionOf(recipient) > -50)
+                {
+					return 0f;
+				}
+				if(initiator.story.traits.HasTrait(trait_vigilant_Sayers, -1))
+                {
+					if(initiator.relations.OpinionOf(recipient) > 30)
+                    {
+						return 0f;
+					}
+                    else
+                    {
+						return 0.01f * NegativeInteractionUtility.NegativeInteractionChanceFactor(initiator, recipient);
+					}
+				}
+				if (initiator.relations.OpinionOf(recipient) > -30)
 				{
 					return 0f;
 				}

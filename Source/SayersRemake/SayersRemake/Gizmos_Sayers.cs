@@ -43,7 +43,7 @@ namespace SayersRemake
                     }
                 }
             }
-            if(parent is Pawn p && p.def == AlienSayersDef)
+            if(parent is Pawn p && p.def == AlienSayersDef && p.IsColonistPlayerControlled)
             {
                 yield return new Command_Toggle
                 {

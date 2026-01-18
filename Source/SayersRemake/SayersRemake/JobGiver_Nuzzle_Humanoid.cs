@@ -7,6 +7,7 @@ using RimWorld;
 using System.Linq;
 using Verse;
 using Verse.AI;
+using static SayersRemake.SayersRemakeBase;
 
 namespace SayersRemake
 {
@@ -40,6 +41,7 @@ namespace SayersRemake
 				   && pawn.GetRoom() == p.GetRoom()
 				   && !p.Position.IsForbidden(pawn)
 				   && p.CanCasuallyInteractNow()
+				   && !(pawn.story.traits.HasTrait(trait_vigilant_Sayers, -1) && p.def != AlienSayersDef)
 				select p)
 				.TryRandomElementByWeight(p => pawn.relations.OpinionOf(p) + 40, out Pawn result))
 			{
@@ -47,7 +49,14 @@ namespace SayersRemake
 			}
 			Job job = JobMaker.MakeJob(JobDefOf.Nuzzle, result);
 			job.locomotionUrgency = LocomotionUrgency.Sprint;
-			job.expiryInterval = 3000;
+            if (pawn.story.traits.HasTrait(trait_vigilant_Sayers, 1))
+            {
+				job.expiryInterval = 1500;
+			}
+            else
+            {
+				job.expiryInterval = 3000;
+			}
 			return job;
 		}
 	}

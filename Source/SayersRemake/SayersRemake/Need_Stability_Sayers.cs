@@ -86,16 +86,41 @@ namespace SayersRemake
         {
             if (!this.IsFrozen && this.pawn.def == AlienSayersDef)
             {
-                if(this.pawn.needs.mood.CurLevel > this.pawn.GetStatValue(StatDefOf.MentalBreakThreshold, true, -1))
+                if(Find.CurrentMap != null)
                 {
-                    Need_Stability_Sayers stability = (this.pawn.needs != null) ? this.pawn.needs.TryGetNeed<Need_Stability_Sayers>() : null;
-                    if (stability.CurCategory == StabilityCategory.Stable)
+                    bool droneing = false;
+                    foreach(GameCondition condition in Find.CurrentMap.gameConditionManager.ActiveConditions)
                     {
-                        this.CurLevel += 0.05f;
+                        if(condition is GameCondition_PsychicEmanation con && con.gender == Gender.None)
+                        {
+                            droneing = true;
+                            switch (con.level) {
+                                case PsychicDroneLevel.BadLow:
+                                    this.CurLevel = Clamp(this.CurLevel - 0.005f,0f, 1f);
+                                    break;
+                                case PsychicDroneLevel.BadMedium:
+                                    this.CurLevel = Clamp(this.CurLevel - 0.01f,0f, 1f);
+                                    break;
+                                case PsychicDroneLevel.BadHigh:
+                                    this.CurLevel = Clamp(this.CurLevel - 0.05f,0f, 1f);
+                                    break;
+                                case PsychicDroneLevel.BadExtreme:
+                                    this.CurLevel = Clamp(this.CurLevel - 0.1f,0f, 1f);
+                                    break;
+                            }
+                        }
                     }
-                    else
+                    if (!droneing && this.pawn.needs.mood.CurLevel > this.pawn.GetStatValue(StatDefOf.MentalBreakThreshold, true, -1))
                     {
-                        this.CurLevel += 0.01f;
+                        Need_Stability_Sayers stability = (this.pawn.needs != null) ? this.pawn.needs.TryGetNeed<Need_Stability_Sayers>() : null;
+                        if (stability.CurCategory == StabilityCategory.Stable)
+                        {
+                            this.CurLevel = Clamp(this.CurLevel + 0.05f, 0f, 1f);
+                        }
+                        else
+                        {
+                            this.CurLevel = Clamp(this.CurLevel + 0.01f, 0f, 1f);
+                        }
                     }
                 }
             }

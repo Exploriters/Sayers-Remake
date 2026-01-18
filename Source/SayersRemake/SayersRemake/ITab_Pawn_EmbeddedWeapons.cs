@@ -65,7 +65,7 @@ namespace SayersRemake
 			listing.Label("嵌入式武器管理");
 			listing.GapLine();
 			Text.Font = GameFont.Small;
-			Rect viewRect = new Rect(0f, 0f, this.size.x - 16f, this.scrollHeight);
+			Rect viewRect = new Rect(0f, 22f, this.size.x - 16f, this.scrollHeight - 22f);
 			Widgets.BeginScrollView(rect, ref this.scrollPosition, viewRect) ;
 			float curY = 50f;
 			foreach (BodyPartRecord EPR in embedableParts)
@@ -75,10 +75,24 @@ namespace SayersRemake
 				Widgets.ListSeparator(ref curY, viewRect.width, "部位：" + EPR.Label);
 				GUI.color = Color.white;
 				Rect rect1 = new Rect(0f, curY, viewRect.width, 22f);
-				Rect rect2 = new Rect(0f, curY + 22f, viewRect.width, 44f);
-				Widgets.Label(rect1, "此部位还没有被嵌入武器……");
+				Rect rect2 = new Rect(0f, curY + 22f, viewRect.width, 22f);
+				Rect rect3 = new Rect(0f, curY + 44f, viewRect.width / 2, 22f);
+				Widgets.Label(rect1, "此部位暂无嵌入式武器");
 				Text.Font = GameFont.Tiny;
-				Widgets.Label(rect2, "Placeholder info\nLine 2");
+				Widgets.Label(rect2, "暂无信息");
+				if(Widgets.ButtonText(rect3, "管理"))
+                {
+					List<FloatMenuOption> options = new List<FloatMenuOption>();
+					options.Add(new FloatMenuOption("卸载", () => uninstallWeapon(EPR), MenuOptionPriority.Default));
+					foreach (Thing thing in Pawn.inventory.innerContainer)
+					{
+						if (thing.HasThingCategory(EW_category))
+						{
+							options.Add(new FloatMenuOption(thing.LabelCap, () => installWeapon(EPR, thing), MenuOptionPriority.Default));
+						}
+					}
+					Find.WindowStack.Add(new FloatMenu(options));
+				}
 				curY += 66f;
 				scrollHeight = curY;
 				/*Text.Font = GameFont.Small;
@@ -94,6 +108,15 @@ namespace SayersRemake
 			listing.End();
 			Widgets.EndScrollView();
 		}
+
+		public void uninstallWeapon(BodyPartRecord EPR)
+        {
+
+        }
+		public void installWeapon(BodyPartRecord EPR, Thing thing)
+        {
+
+        }
 
 		private Vector2 scrollPosition = new Vector2(0f, 50f);
 		private float scrollHeight = 0f;

@@ -30,6 +30,10 @@ namespace SayersRemake
                 {
 					return false;
                 }
+                if (p.story.traits.HasTrait(trait_vigilant_Sayers, 1))
+                {
+					return false;
+                }
 				return true;
 			}
 			else

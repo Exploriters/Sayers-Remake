@@ -46,9 +46,7 @@
 			<li>PlaceWorker_PreventInteractionSpotOverlap</li>
 		</placeWorkers>
 		<comps>
-			<!--
 			<li Class="SayersRemake.CompProperties_CompCreatureJuicer" />
-			-->
 		</comps>
 	</ThingDef>-->
 </Defs>
