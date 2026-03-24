@@ -78,18 +78,27 @@ namespace SayersRemake
 			PawnRelationUtility.TryAppendRelationsWithColonistsInfo(ref taggedString, ref label, pawn);
 			if (pawn.def == AlienSayersDef)
 			{
+				var illnesses = GetAllIllnesses();
+				List<String> pawnIllnesses = new List<String>();
+				foreach(var i in pawn.story.traits.allTraits)
+                {
+					if (illnesses.Contains(i.def))
+                    {
+						pawnIllnesses.Add(i.def.degreeDatas[0].LabelCap);
+					}
+				}
 				int count = PawnsFinder.HomeMaps_FreeColonistsSpawned.Count;
 				for (int i = 0; i < count; i++)
 				{
 					Pawn existPawn = PawnsFinder.HomeMaps_FreeColonistsSpawned[i];
 					if (existPawn.def == AlienSayersDef)
 					{
-						taggedString = "SayersRemake_SayersJoin_Text_HasSayers".Translate(pawn.Name.ToStringShort);
+						taggedString = "SayersRemake_SayersJoin_Text_HasSayers".Translate(pawn.Name.ToStringShort, String.Join(",", pawnIllnesses));
 						break;
 					}
 					else
 					{
-						taggedString = "SayersRemake_SayersJoin_Text_HasntSayers".Translate(pawn.Name.ToStringShort);
+						taggedString = "SayersRemake_SayersJoin_Text_HasntSayers".Translate(pawn.Name.ToStringShort, String.Join(",", pawnIllnesses));
 					}
 				}
 			}

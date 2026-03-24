@@ -56,5 +56,13 @@
 		<possessionCount>1</possessionCount>
 		<allowedArchonexusCount>1</allowedArchonexusCount>
 		<orderedTakeGroup>EW_OrderedTakeGroup</orderedTakeGroup>
+		<comps>
+			<li Class="SayersRemake.CompProperties_CompEmbeddedWeapon">
+				<damage>6.5</damage>
+				<installableParts>
+					<li>Tentacles</li>
+				</installableParts>
+			</li>
+		</comps>
 	</ThingDef>
 </Defs>

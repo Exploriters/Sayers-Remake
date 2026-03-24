@@ -86,8 +86,38 @@ namespace SayersRemake
 				matchError = true;
 				return false;
 			}
+			//死物给予的特殊效果
+			if(hasBackstory(pawn, "Sayers_Backstory_Deadbody_Childhood"))
+            {
+				List<BodyPartRecord> AllBodyPart = pawn.RaceProps.body.AllParts;
+				AllBodyPart.Remove(pawn.RaceProps.body.GetPartsWithTag(BodyPartTagDefOf.ConsciousnessSource)[0]);
+				List<BodyPartRecord> ScarablePart = new List<BodyPartRecord>();
+				List<HediffDef> ProbobalyScar = new List<HediffDef>
+				{
+					HediffDefOf.Cut,
+					HediffDefOf.SurgicalCut,
+					HediffDefOf.Scarification
+				};
+				foreach (var part in AllBodyPart)
+                {
+					if (part.def.IsSkinCovered(part, pawn.health.hediffSet))
+                    {
+						ScarablePart.Add(part);
+                    }
+                }
+				for (var i = 0; i < 3; i++)
+                {
+					var part = ScarablePart.RandomElement();
+					Hediff scar = HediffMaker.MakeHediff(ProbobalyScar.RandomElement(), pawn, part);
+					HediffComp_GetsPermanent scarComp = scar.TryGetComp<HediffComp_GetsPermanent>();
+					scarComp.IsPermanent = true;
+					scarComp.SetPainCategory(PainCategory.Painless);
+					pawn.health.AddHediff(scar, part);
+				}
+				pawn.health.AddHediff(HediffDefOf.DeathRefusal);
+			}
 			//限制Sayers的生物年龄是1到3岁，且实际年龄等于生物年龄
-			pawn.ageTracker.AgeBiologicalTicks = Clamp(pawn.ageTracker.AgeBiologicalTicks / 10, 3600000, 10800000);
+			pawn.ageTracker.AgeBiologicalTicks = Rand.Range(3600000, 10800000);
 			pawn.ageTracker.AgeChronologicalTicks = pawn.ageTracker.AgeBiologicalTicks;
 			//确认Sayers命名规范
 			if (pawn.Name is NameTriple name)
@@ -111,6 +141,14 @@ namespace SayersRemake
 			pawn.genes.AddGene(getRandomSayersGene(GeneCategory_SayersFurLength), false);
 			pawn.genes.AddGene(getRandomSayersGene(GeneCategory_SayersFlowers), false);
 			pawn.genes.AddGene(getRandomSayersGene(GeneCategory_SayersPattern), false);
+
+			//随机抽取疾病
+			var illnesses = GetAllIllnesses();
+			if (!pawn.story.traits.allTraits.Any(t => illnesses.Contains(t.def)))
+			{
+				pawn.story.traits.GainTrait(new Trait(illnesses.RandomElement()));
+			}
+
 			return true;
 		}
 

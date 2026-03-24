@@ -4,6 +4,18 @@ using static SayersRemake.SayersRemakeBase;
 
 namespace SayersRemake
 {
+	/// <summary>猫猫和鹿狐之间始终存在正面评价。</summary>
+    public class ThoughtWorker_AlwaysPositive_DeerFox_Sayers : ThoughtWorker
+	{
+		protected override ThoughtState CurrentSocialStateInternal(Pawn p, Pawn otherPawn)
+		{
+			if (InstelledMods.DeerFox && otherPawn.def == DefDatabase<AlienRace.ThingDef_AlienRace>.GetNamed("DeerFox_Race"))
+			{
+				return true;
+			}
+			return false;
+		}
+    }
 	/// <summary>猫猫之间始终存在正面评价。(来自半人马！)</summary>
     public class ThoughtWorker_AlwaysPositive_Sayers : ThoughtWorker
     {
@@ -34,6 +46,11 @@ namespace SayersRemake
                 {
 					return false;
                 }
+				// 鹿狐除外
+				if (InstelledMods.DeerFox && otherPawn.def == DefDatabase<AlienRace.ThingDef_AlienRace>.GetNamed("DeerFox_Race"))
+                {
+					return false;
+                }
 				return true;
 			}
 			else
@@ -55,6 +72,32 @@ namespace SayersRemake
 			{
 				return false;
 			}
+        }
+	}
+
+	/// <summary>科塔尔猫猫的心情惩罚</summary>
+	public class ThoughtWorker_CotardSyndrome : ThoughtWorker
+	{
+		protected override ThoughtState CurrentStateInternal(Pawn p)
+		{
+			if(hasTrait(p, "Trait_CotardSyndrome"))
+            {
+				return true;
+            }
+			return false;
+		}
+	}
+
+    /// <summary>患有自闭症/科塔尔的猫猫会受到他人的负面评价</summary>
+    public class ThoughtWorker_Other_Autism : ThoughtWorker
+	{
+		protected override ThoughtState CurrentSocialStateInternal(Pawn p, Pawn otherPawn)
+		{
+			if (p != otherPawn && ((hasTrait(otherPawn, "Trait_Autism") || hasTrait(otherPawn, "Trait_CotardSyndrome"))))
+			{
+				return true;
+            }
+			return false;
 		}
 	}
 }

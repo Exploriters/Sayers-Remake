@@ -126,4 +126,72 @@ namespace SayersRemake
             }
         }
     }
+
+    public class StatPart_Stability_PsychicSensitivity : StatPart
+    {
+        public override void TransformValue(StatRequest req, ref float val)
+        {
+            float num;
+            if (this.TryGetStability(req, out num))
+            {
+                val *= num;
+            }
+        }
+
+        public override string ExplanationPart(StatRequest req)
+        {
+            float f;
+            Pawn pawn = req.Thing as Pawn;
+            Need stability = pawn.needs?.TryGetNeed<Need_Stability_Sayers>();
+            if (this.TryGetStability(req, out f))
+            {
+                if (hasTrait(pawn, "Trait_Autism"))
+                {
+                    return $"稳定度: 禁用(自闭症)";
+                }
+                return $"稳定度: {stability.CurLevelPercentage.ToStringPercent()} -> x{f}";
+            }
+            return null;
+        }
+
+        private bool TryGetStability(StatRequest req, out float Stability)
+        {
+            if (req.Thing == null)
+            {
+                Stability = 1f;
+                return false;
+            }
+            else
+            {
+                if(!(req.Thing is Pawn))
+                {
+                    Stability = 1f;
+                    return false;
+                }
+            }
+            Pawn pawn = req.Thing as Pawn;
+            Need stability = pawn.needs?.TryGetNeed<Need_Stability_Sayers>();
+            if (pawn.def == AlienSayersDef && stability != null && !hasTrait(pawn, "Trait_Autism"))
+            {
+                float value = stability.CurLevelPercentage;
+                Stability = 1f - value + 0.05f;
+                return true;
+            }
+            Stability = 1f;
+            return false;
+        }
+    }
+
+    public class CompProperties_CompStability : CompProperties
+    {
+        public CompProperties_CompStability()
+        {
+            compClass = typeof(Comp_CompStability);
+        }
+    }
+    public class Comp_CompStability : ThingComp
+    {
+        public Pawn pawn => (Pawn)parent;
+        // Unfinished
+    }
 }

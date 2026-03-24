@@ -16,7 +16,7 @@ namespace SayersRemake
                 Pawn pawn = PawnsFinder.HomeMaps_FreeColonistsSpawned[i];
                 if (pawn.def == AlienSayersDef)
                 {
-                    result = 1.5f;
+                    result = 1.0f;
                     break;
                 }
                 else

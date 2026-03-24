@@ -12,6 +12,63 @@
 	</AlienRace.AlienBackstoryDef>
 	
 	<AlienRace.AlienBackstoryDef>
+		<defName>Sayers_Backstory_MeatLivestock_Childhood</defName>
+		<slot>Childhood</slot>
+		<title>肉畜</title>
+		<titleShort>肉畜</titleShort>
+		<description>[PAWN_nameDef]以被食用为目的而被创造出来，[PAWN_pronoun]圆润、敦实且闻起来无比诱人，即使[PAWN_pronoun]对自己的悲惨命运并不知情。</description>
+		<spawnCategories>
+			<li>Sayers_Backstories</li>
+		</spawnCategories>
+		<forcedTraits>
+			<Trait_MeatLivestock>0</Trait_MeatLivestock>
+		</forcedTraits>
+		<skillGains>
+			<Melee>-5</Melee>
+			<Shooting>-5</Shooting>
+			<Artistic>-2</Artistic>
+			<Animals>2</Animals>
+			<Social>1</Social>
+		</skillGains>
+	</AlienRace.AlienBackstoryDef>
+	
+	<AlienRace.AlienBackstoryDef>
+		<defName>Sayers_Backstory_Deadbody_Childhood</defName>
+		<slot>Childhood</slot>
+		<title>死物</title>
+		<titleShort>死物</titleShort>
+		<description>[PAWN_nameDef]承受着各种惨无人道的实验，直到某一天，[PAWN_pronoun]在一场实验中最终没能挺过去。[PAWN_pronoun]的创造者将[PAWN_pronoun]和其他尸体一起放进了空投仓里，随后发射到了这个边缘世界。尽管本应该已经身死，但某种实验的残留物让[PAWN_pronoun]再一次站了起来。</description>
+		<spawnCategories>
+			<li>Sayers_Backstories</li>
+		</spawnCategories>
+		<skillGains>
+			<Medicine>2</Medicine>
+		</skillGains>
+		<forcedTraits>
+			<Trait_CotardSyndrome>0</Trait_CotardSyndrome>
+		</forcedTraits>
+	</AlienRace.AlienBackstoryDef>
+	
+	<AlienRace.AlienBackstoryDef>
+		<defName>Sayers_Backstory_Forgotten_Childhood</defName>
+		<slot>Childhood</slot>
+		<title>被遗忘者</title>
+		<titleShort>被遗忘者</titleShort>
+		<description>[PAWN_nameDef]在被创造出来后似乎就被遗忘了。[PAWN_pronoun]在无人在意的角落日益成熟，直到某天偶然被想起后便被随手处理。</description>
+		<spawnCategories>
+			<li>Sayers_Backstories</li>
+		</spawnCategories>
+		<skillGains>
+			<Social>-10</Social>
+			<Artistic>-10</Artistic>
+			<Animals>-3</Animals>
+		</skillGains>
+		<forcedTraits>
+			<Trait_Autism>0</Trait_Autism>
+		</forcedTraits>
+	</AlienRace.AlienBackstoryDef>
+	
+	<AlienRace.AlienBackstoryDef>
 		<defName>Sayers_Backstory_Monstor_Childhood</defName>
 		<slot>Childhood</slot>
 		<title>逃脱的怪物</title>
@@ -40,7 +97,7 @@
 	<AlienRace.AlienBackstoryDef>
 		<defName>Sayers_Backstory_Naughty_Childhood</defName>
 		<slot>Childhood</slot>
-		<title>淘气的幼兽</title>
+		<title>淘气的猫</title>
 		<titleShort>顽兽</titleShort>
 		<description>[PAWN_nameDef]自从睁开眼睛的那一刻就展现出了淘气的天性，[PAWN_pronoun]总是从规定的区域爬出来，随后满桌子乱爬，有些时候甚至会将实验用具打翻，又被噪音吓得赶紧躲进缝隙。[PAWN_pronoun]的淘气也许很讨人喜欢，但绝对不会被创造者所青睐，有一天，祂们受够了[PAWN_pronoun]，于是[PAWN_pronoun]就这么来到了这个陌生的边缘世界。</description>
 		<spawnCategories>

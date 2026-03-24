@@ -77,10 +77,12 @@
   <ItemGroup>
     <Compile Include="CompGraphicsByGenes_Sayers.cs" />
     <Compile Include="CompPawnEmbeddedWeapons.cs" />
+    <Compile Include="CompIllnesses.cs" />
     <Compile Include="CompSelfhealingByTime_Sayers.cs" />
     <Compile Include="CreatureJuicer.cs" />
     <Compile Include="Gizmos_Sayers.cs" />
     <Compile Include="ITab_Pawn_EmbeddedWeapons.cs" />
+    <Compile Include="Need_PhysiologicalCycle_Sayers.cs" />
     <Compile Include="Need_Stability_Sayers.cs" />
     <Compile Include="ScenPart.cs" />
     <Compile Include="ColorGenerators.cs" />
@@ -97,6 +99,7 @@
     <Compile Include="SayersRemakeDefof.cs" />
     <Compile Include="ThoughtWorker_Sayers.cs" />
     <Compile Include="CompAssignableToPawn_Bed.cs" />
+    <Compile Include="Windows_ForceIllness.cs" />
     <Compile Include="_AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

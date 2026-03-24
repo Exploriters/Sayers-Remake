@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
+	<!-- ============================ Singular ============================ -->
+	<TraitDef>
+		<defName>Trait_MeatLivestock</defName>
+		<commonality>0</commonality>
+		<degreeDatas>
+			<li>
+				<label>&lt;color=#44ff44&gt;&lt;b&gt;肉畜&lt;/b&gt;&lt;/color&gt;</label>
+				<description>{PAWN_nameDef}天生就是一顿美食。</description>
+				<statFactors>
+					<IncomingDamageFactor>0.8</IncomingDamageFactor>
+					<MaxHitPoints>1.2</MaxHitPoints>
+					<MoveSpeed>0.9</MoveSpeed>
+					<MeatAmount>1.5</MeatAmount>
+				</statFactors>
+			</li>
+		</degreeDatas>
+	</TraitDef>
+	<!-- ============================ Spectrum ============================ -->
 	<TraitDef>
 		<defName>trait_vigilant_Sayers</defName>
 		<commonality>2</commonality>

@@ -13,6 +13,19 @@
 		</stages>
 	</ThoughtDef>
 	
+	<ThoughtDef MayRequire="Exploriters.Lowsen.DeerFox.REMAKE">
+		<defName>AlwaysPositive_DeerFox_Sayers</defName>
+		<thoughtClass>Thought_SituationalSocial</thoughtClass>
+		<workerClass>SayersRemake.ThoughtWorker_AlwaysPositive_DeerFox_Sayers</workerClass>
+		<validWhileDespawned>true</validWhileDespawned>
+		<stages>
+			<li>
+				<label>近亲依赖</label>
+				<baseOpinionOffset>+10</baseOpinionOffset>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
 	<ThoughtDef>
 		<defName>AlwaysPositive_Sayers</defName>
 		<thoughtClass>Thought_SituationalSocial</thoughtClass>
@@ -33,7 +46,7 @@
 		<stages>
 			<li>
 				<label>无族孤独</label>
-				<description>幼兽环视四周，试图找到与它相似的无害身影，但一无所获。</description>
+				<description>猫环视四周，试图找到与它相似的无害身影，但一无所获。</description>
 				<baseMoodEffect>-5</baseMoodEffect>
 			</li>
 		</stages>
@@ -46,7 +59,7 @@
 		<stages>
 		  <li>
 			<label>遭弃悲哀</label>
-			<description>幼兽迷茫地抬头仰望，于陌生之地长音呼号，但回应唯有失落。</description>
+			<description>猫迷茫地抬头仰望，于陌生之地长音呼号，但回应唯有失落。</description>
 			<baseMoodEffect>-10</baseMoodEffect>
 		  </li>
 		</stages>

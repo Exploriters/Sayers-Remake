@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThinkTreeDef>
+		<defName>Hallucily_ThinkTree</defName>
+		<thinkRoot Class="ThinkNode_Priority">
+			<subNodes>
+				<li Class="JobGiver_AIFightEnemies">
+					<chaseTarget>true</chaseTarget>
+					<targetAcquireRadius>70</targetAcquireRadius>
+					<targetKeepRadius>70</targetKeepRadius>
+				</li>
+			
+				<!-- React to close melee threat -->
+				<li Class="JobGiver_ReactToCloseMeleeThreat"/>
+				
+				<li Class="JobGiver_AIGotoNearestHostile"/>
+				
+				<!-- Do a queued job -->
+				<li Class="ThinkNode_QueuedJob"/>
+				
+				<!-- Lord directives -->
+				<li Class="ThinkNode_Subtree">
+					<treeDef>LordDuty</treeDef>
+				</li>
+
+			</subNodes>
+		</thinkRoot>
+	</ThinkTreeDef>
+	
+	<ThinkTreeDef>
+		<defName>Hallucily_ThinkTree_Constant</defName>
+		<thinkRoot Class="ThinkNode_Priority">
+			<subNodes>
+				<li Class="JobGiver_ReactToCloseMeleeThreat"/>
+			
+				<li Class="ThinkNode_ConditionalCanDoConstantThinkTreeJobNow">
+					<subNodes>
+						<li Class="ThinkNode_Subtree">
+							<treeDef>JoinAutoJoinableCaravan</treeDef>
+						</li>
+					
+						<li Class="JobGiver_ConfigurableHostilityResponse" />
+					</subNodes>
+				</li>
+				<li Class="ThinkNode_ConditionalCanDoLordJobNow">
+					<subNodes>
+						<!-- Lord directives -->
+						<li Class="ThinkNode_Subtree">
+							<treeDef>LordDutyConstant</treeDef>
+						</li>
+					</subNodes>
+				</li>
+			</subNodes>
+		</thinkRoot>
+	</ThinkTreeDef>
+</Defs>

@@ -4,7 +4,22 @@
 		<defName>sayers_stability</defName>
 		<needClass>SayersRemake.Need_Stability_Sayers</needClass>
 		<label>稳定度</label>
-		<description>稳定度代表着这只赛尔斯精神负荷压制程序运行的稳定程度，它不会自然降低，但会在每次精神崩溃发生时阻止精神崩溃并随之降低。若余量不足，则可能导致比普通精神崩溃更为严重的后果。它会随着情绪正常化而得到恢复。</description>
+		<description>稳定度代表着这只赛尔斯精神负荷压制程序运行的稳定程度，它不会自然降低，但会在每次精神崩溃发生时阻止精神崩溃并随之降低。若余量不足，则可能导致比普通精神崩溃更为严重的后果。它会随着情绪正常化而得到恢复。\n更高的稳定度意味着更稳定的工作效率但更低的心灵敏感度，低稳定度反之。</description>
+		<minIntelligence>Humanlike</minIntelligence>
+		<baseLevel>1.0</baseLevel>
+		<seekerRisePerHour>0</seekerRisePerHour>
+		<seekerFallPerHour>0</seekerFallPerHour>
+		<listPriority>1000</listPriority>
+		<major>true</major>
+		<freezeWhileSleeping>true</freezeWhileSleeping>
+		<showForCaravanMembers>true</showForCaravanMembers>
+		<developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
+	</NeedDef>
+	<NeedDef>
+		<defName>sayers_PhysiologicalCycle</defName>
+		<needClass>SayersRemake.Need_PhysiologicalCycle_Sayers</needClass>
+		<label>生理循环</label>
+		<description>生理循环代表着这只塞尔斯的器官及植物的健康情况，当生理循环过低时，塞尔斯将更容易患上衰竭性疾病，甚至是枯萎病。</description>
 		<minIntelligence>Humanlike</minIntelligence>
 		<baseLevel>1.0</baseLevel>
 		<seekerRisePerHour>0</seekerRisePerHour>

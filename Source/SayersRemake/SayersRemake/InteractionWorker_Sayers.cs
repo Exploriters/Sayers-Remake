@@ -17,6 +17,7 @@ namespace SayersRemake
 			{
 				return 0f;
 			}
+			if (hasTrait(initiator, "Trait_Autism")) return 0f;
 			if (initiator.relations.OpinionOf(recipient) < -20)
 			{
 				return 0f;
@@ -33,7 +34,8 @@ namespace SayersRemake
 			{
 				return 0f;
 			}
-			if(initiator.relations.OpinionOf(recipient) < 0)
+			if (hasTrait(initiator, "Trait_Autism")) return 0f;
+			if (initiator.relations.OpinionOf(recipient) < 0)
             {
 				return 0f;
             }
@@ -53,6 +55,7 @@ namespace SayersRemake
 			{
 				return 0f;
 			}
+			if (hasTrait(initiator, "Trait_Autism")) return 0f;
 			if (recipient.def == AlienSayersDef)
             {
 				if(initiator.relations.OpinionOf(recipient) > 30)

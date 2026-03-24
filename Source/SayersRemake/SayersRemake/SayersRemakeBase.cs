@@ -1,19 +1,43 @@
-﻿using Verse;
-using System;
-using UnityEngine;
+﻿using HarmonyLib;
 using RimWorld;
-using HarmonyLib;
+using System;
+using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Reflection;
+using System.Reflection.Emit;
+using System.Text;
+using UnityEngine;
+using Verse;
+using Verse.AI;
 
 namespace SayersRemake
 {
-    ///<summary>核心函数集，参考于siiftun1857的Explorite Core（等待更新……！）。</summary>
-    public static partial class SayersRemakeBase
+	///<summary>核心函数集，参考于siiftun1857的Explorite Core（等待更新……！）。</summary>
+	public static partial class SayersRemakeBase
     {
+		public class SayersRemakes: Mod
+        {
+			public SayersRemakes(ModContentPack content) : base(content)
+            {
+				LongEventHandler.ExecuteWhenFinished(delegate
+				{
+					if(Current.Game != null)
+                    {
+						var comp = Current.Game.GetComponent<GameComponent_ForceIllness>();
+						if(comp == null)
+                        {
+							Current.Game.components.Add(new GameComponent_ForceIllness(Current.Game));
+                        }
+                    }
+				});
+            }
+		}
+
         public static class InstelledMods
         {
             public static bool Sayers => ModLister.GetActiveModWithIdentifier("Exploriters.Abrel.Sayers.REMAKE") != null;
+            public static bool DeerFox => ModLister.GetActiveModWithIdentifier("Exploriters.Lowsen.DeerFox.REMAKE") != null;
 			public static bool Core => ModLister.GetActiveModWithIdentifier("Ludeon.RimWorld") != null;
 			public static bool Royalty => ModLister.GetActiveModWithIdentifier("Ludeon.RimWorld.Royalty") != null;
 			public static bool Ideology => ModLister.GetActiveModWithIdentifier("Ludeon.RimWorld.Ideology") != null;
@@ -48,5 +72,31 @@ namespace SayersRemake
 		{
 			return Rand.Value * (max - min) + min;
 		}
+
+		///<summary>获取Trait，主要用在疾病中</summary>
+		public static bool hasTrait(Pawn pawn, string trait)
+		{
+			return pawn.story.traits.HasTrait(DefDatabase<TraitDef>.GetNamedSilentFail(trait));
+		}
+		///<summary>获取Backstory，主要用在疾病中</summary>
+		public static bool hasBackstory(Pawn pawn, string backstory)
+		{
+			return pawn.story.Childhood.defName == backstory;
+		}
+		///<summary>获取所有疾病</summary>
+		public static List<TraitDef> GetAllIllnesses()
+        {
+			string[] illnesses = new string[]
+			{
+				"Trait_Autism",
+				"Trait_Narcolepsy",
+				"Trait_SleepParalysis",
+				"Trait_CotardSyndrome"
+			};
+			return illnesses
+				.Select(name => DefDatabase<TraitDef>.GetNamedSilentFail(name))
+				.Where(def => def != null)
+				.ToList();
+        } 
 	};
 }

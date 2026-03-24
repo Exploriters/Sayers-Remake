@@ -8,6 +8,7 @@ using UnityEngine;
 
 namespace SayersRemake
 {
+	[StaticConstructorOnStartup]
     public static partial class SayersRemakeBase
     {
 		//惨绝人寰的尖叫
